@@ -1,5 +1,11 @@
 # Lab Handbook
 
+## Draft Structure:
+
+![alt text](diagrams/handbook_overview.drawio.png)
+
+Edit this diagram using drawio or vscode drawio extension:  `./diagrams/handbook_overview.drawio`
+
 ## Table of Contents
 - [Development](#development)
   - [Installing Pixi](#installing-pixi)
