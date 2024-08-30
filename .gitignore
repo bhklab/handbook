@@ -1,3 +1,13 @@
 # pixi environments
 .pixi
 *.egg-info
+
+site
+
+.DS_Store
+*.pyc
+*.pyo
+
+__pycache__
+
+**/__pycache__/*

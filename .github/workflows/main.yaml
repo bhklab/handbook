@@ -1,0 +1,49 @@
+name: CI-CD
+
+# run on any push to any directory and a pull to main or development
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - main
+      - development
+
+jobs:
+  ################################################################################################
+  # Docs: Build and deploy mkdocs documentation
+  ################################################################################################
+  Docs:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Need to give the action permission to write to the repository to deploy the docs
+      contents: write
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+
+    steps:
+      - name: Check-out repository
+        uses: actions/checkout@v4
+
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+
+      - name: Install Pixi
+        uses: prefix-dev/setup-pixi@v0.8.0
+        with:
+          pixi-version: v0.23.0
+          cache: true
+          locked: false
+
+      - name: Build documentation
+        run: pixi run build
+
+      - name: Build and deploy documentation
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: pixi run deploy
