@@ -1,0 +1,18 @@
+site_name: My Docs
+
+plugins:
+  - search # necessary for search functionality to work
+  - git-authors # adds authors to pages using git history
+theme:
+  name: material
+  icon:
+    annotation: material/plus-circle
+  font:
+    text: Red Hat Text
+    code: JetBrains Mono
+
+nav:
+  - Home:
+      - Welcome: index.md
+  - Onboarding:
+      - Introduction: onboarding/introduction.md

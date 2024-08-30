@@ -1,0 +1,31 @@
+[project]
+name = "bhklab-handbook"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Jermiah Joseph <jermiahjoseph98@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "osx-64", "linux-64"]
+
+
+[dependencies]
+mkdocs = ">=1.6.0,<1.7"
+mkdocs-material = ">=9.5.24,<9.6"
+mkdocs-macros-plugin = ">=1.0.5,<1.1"
+mkdocs-glightbox = ">=0.4.0,<0.5"
+mkdocs-autorefs = ">=1.0.1,<1.1"
+mkdocs-git-authors-plugin = ">=0.9.0,<0.10"
+
+[tasks]
+build.cmd = "mkdocs build -f mkdocs.yml"
+build.inputs = ["docs", "mkdocs.yml"]
+build.outputs = ["site"]
+
+serve.cmd = "mkdocs serve -f mkdocs.yml"
+serve.inputs = ["docs", "mkdocs.yml"]
+serve.outputs = ["site"]
+
+deploy.cmd = "mkdocs gh-deploy -f mkdocs.yml --force"
+deploy.inputs = ["docs", "mkdocs.yml"]
+deploy.outputs = ["site"]
+
+
