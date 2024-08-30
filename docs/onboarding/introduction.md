@@ -1,5 +1,4 @@
 # Onboarding Introduction
-{{ git_page_authors }}
 
 ## What is the handbook?
 
