@@ -1,5 +1,16 @@
 # Lab Handbook
 
+## Table of Contents
+- [Development](#development)
+  - [Installing Pixi](#installing-pixi)
+  - [Cloning the repository](#cloning-the-repository)
+  - [Installing dependencies](#installing-dependencies)
+  - [Building the documentation](#building-the-documentation)
+  - [Previewing the documentation](#previewing-the-documentation)
+  - [Adding Content to the Documentation](#adding-content-to-the-documentation)
+
+
+
 ## Development
 
 ### Installing Pixi
@@ -88,15 +99,4 @@ Here are the steps to add new content to the documentation:
 6. Create a pull request to merge your changes into the main branch.
 
   - Request a review from a maintainer.
-
-OLD 
-You can add new content to the documentation by creating a new Markdown file in the `docs` directory. 
-
-For example, to add a new page called "Getting Started", create a new Markdown file called `getting_started.md` in the `docs` directory.
-
-Next, update the `nav` section in the `mkdocs.yml` file to include the new page.
-
-Run `pixi run serve` to preview the changes.
-
-### Submitting a Pull Request
 
