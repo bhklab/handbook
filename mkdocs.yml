@@ -1,4 +1,5 @@
 site_name: My Docs
+site_url: 'https://bhklab.github.io/handbook/'  # Trailing slash is recommended
 
 plugins:
   - search # necessary for search functionality to work
@@ -16,3 +17,10 @@ nav:
       - Welcome: index.md
   - Onboarding:
       - Introduction: onboarding/introduction.md
+
+extra:
+  version:
+    provider: mike
+    default: latest
+
+

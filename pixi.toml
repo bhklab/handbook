@@ -14,6 +14,7 @@ mkdocs-macros-plugin = ">=1.0.5,<1.1"
 mkdocs-glightbox = ">=0.4.0,<0.5"
 mkdocs-autorefs = ">=1.0.1,<1.1"
 mkdocs-git-authors-plugin = ">=0.9.0,<0.10"
+mike = ">=2.1.2,<2.2"
 
 [tasks]
 build.cmd = "mkdocs build -f mkdocs.yml"
