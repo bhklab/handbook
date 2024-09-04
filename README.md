@@ -2,9 +2,17 @@
 
 ## Draft Structure:
 
-![alt text](diagrams/handbook_overview.drawio.png)
+![alt text](docs/diagrams/handbook_overview.drawio.png)
 
-Edit this diagram using drawio or vscode drawio extension:  `./diagrams/handbook_overview.drawio`
+Edit this diagram using drawio or vscode drawio extension:  `docs/diagrams/handbook_overview.drawio.png`
+
+Insipiration: 
+
+  - [Koesterlab Handbook](https://koesterlab.github.io/data-science-for-bioinfo/)
+  - [Candice Morey Lab Handbook](https://ccmorey.github.io/labHandbook/)
+  - [Baby Lab Handbook](https://mcmaster-baby-lab.github.io/handbook/)
+  - [Lowe Power Lab Handbook](https://github.com/lowepowerlab/lab_handbook) 
+  - [Vortex Lab Handbook](https://github.com/uw-vortex/VORTEX-handbook)
 
 ## Table of Contents
 - [Development](#development)

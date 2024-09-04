@@ -2,6 +2,10 @@
 
 ## Welcome to the BHK Lab Handbook!
 
+Draft structure:
+
+![alttext](diagrams/handbook_overview.drawio.png)
+
 Insipiration: 
 
   - [Koesterlab Handbook](https://koesterlab.github.io/data-science-for-bioinfo/)
