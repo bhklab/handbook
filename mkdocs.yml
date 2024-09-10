@@ -1,9 +1,21 @@
 site_name: My Docs
-site_url: 'https://bhklab.github.io/handbook/'  # Trailing slash is recommended
+site_url: "https://bhklab.github.io/handbook/" # Trailing slash is recommended
+
+markdown_extensions:
+  - toc:
+      permalink: 🔗
+  - admonition
+  - pymdownx.details
 
 plugins:
   - search # necessary for search functionality to work
   - git-authors # adds authors to pages using git history
+
+extra:
+  version:
+    provider: mike
+    default: latest
+
 theme:
   name: material
   icon:
@@ -11,16 +23,52 @@ theme:
   font:
     text: Red Hat Text
     code: JetBrains Mono
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - search.suggest
+    - search.highlight
+    - navigation.indexes
+    - navigation.path
+    - navigation.tabs
 
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
 nav:
   - Home:
       - Welcome: index.md
   - Onboarding:
       - Introduction: onboarding/introduction.md
+  - Disciplines: disciplines/temp.md
+  - Languages: languages/temp.md
+  - Development: development/temp.md
 
-extra:
-  version:
-    provider: mike
-    default: latest
-
-
+DATASET_CONFIG:
+  - RADCURE:
+      - Collection: RADCURE
+      - READII-ROI-REGEX: gtv*

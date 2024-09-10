@@ -2,6 +2,9 @@
 
 ## Welcome to the BHK Lab Handbook!
 
+The handbook is a collection of resources for the BHK Lab. It is intended to be a resource for all BHK Lab members to learn about the lab, its projects, and how to get involved.
+
+
 Draft structure:
 
 ![alttext](diagrams/handbook_overview.drawio.png)
@@ -14,20 +17,3 @@ Insipiration:
   - [Lowe Power Lab Handbook](https://github.com/lowepowerlab/lab_handbook) 
   - [Vortex Lab Handbook](https://github.com/uw-vortex/VORTEX-handbook)
   
-## This handbook is built using MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-### Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-### Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
