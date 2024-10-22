@@ -59,16 +59,4 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to system preference
-nav:
-  - Home:
-      - Welcome: index.md
-  - Onboarding:
-      - Introduction: onboarding/introduction.md
-  - Disciplines: disciplines/temp.md
-  - Languages: languages/temp.md
-  - Development: development/temp.md
 
-DATASET_CONFIG:
-  - RADCURE:
-      - Collection: RADCURE
-      - READII-ROI-REGEX: gtv*
