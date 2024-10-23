@@ -22,6 +22,7 @@ git clone https://github.com/bhklab/handbook.git
 ```
 
 ## Installing Dependencies
+
 Once you have cloned the repository, navigate to the project directory and
 install the dependencies:
 

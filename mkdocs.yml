@@ -1,5 +1,6 @@
 site_name: BHKLab Handbook
 site_url: "https://bhklab.github.io/handbook/" # Trailing slash is recommended
+repo_url: https://github.com/bhklab/handbook
 
 markdown_extensions:
   - toc:
@@ -8,13 +9,27 @@ markdown_extensions:
   - pymdownx.details
 
 plugins:
-  - autorefs:
-      resolve_closest: true
   # necessary for search functionality to work
   - search
   # adds authors to pages using git history
   - git-authors
   # Automatically link to another page's ref
+  - autorefs:
+      resolve_closest: true
+  # Adds a date to the bottom of each page
+  - git-revision-date-localized:
+      enable_creation_date: true
+  # Allows for including Markdown files into another Markdown file
+  - include-markdown
+  - mike:
+      # These fields are all optional; the defaults are as below...
+      alias_type: symlink
+      redirect_template: null
+      deploy_prefix: ''
+      canonical_version: null
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
 
 extra:
   version:

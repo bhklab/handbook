@@ -1,5 +1,6 @@
 # Lab Handbook
 
+<!--intro-start-->
 ## Draft Structure:
 
 ![alt text](docs/diagrams/handbook_overview.drawio.png)
@@ -15,17 +16,26 @@ Insipiration:
   - [Vortex Lab Handbook](https://github.com/uw-vortex/VORTEX-handbook)
 
 ## Table of Contents
-- [Development](#development)
-  - [Installing Pixi](#installing-pixi)
-  - [Cloning the repository](#cloning-the-repository)
-  - [Installing dependencies](#installing-dependencies)
-  - [Building the documentation](#building-the-documentation)
-  - [Previewing the documentation](#previewing-the-documentation)
-  - [Adding Content to the Documentation](#adding-content-to-the-documentation)
+- [Lab Handbook](#lab-handbook)
+  - [Draft Structure:](#draft-structure)
+  - [Table of Contents](#table-of-contents)
+  - [Development Documentation](#development-documentation)
+  - [Development (for now)](#development-for-now)
+    - [Installing Pixi](#installing-pixi)
+    - [Cloning the repository](#cloning-the-repository)
+    - [Installing dependencies](#installing-dependencies)
+    - [Building the documentation](#building-the-documentation)
+    - [Previewing the documentation](#previewing-the-documentation)
+    - [Adding Content to the Documentation](#adding-content-to-the-documentation)
+
+## Development Documentation
+
+See [Contributing to the Lab Handbook][contributing-to-the-lab-handbook] for more information.
 
 
+## Development (for now)
 
-## Development
+TODO::Add this stuff to the proper section under `Contributing`
 
 ### Installing Pixi
 

@@ -1,4 +1,4 @@
-# Contributing to the Lab Handbook
+# [Contributing to the Lab Handbook](#contributing-to-the-lab-handbook)
 
 Thank you for your interest in contributing to the Lab Handbook! This section will guide you through the process of setting up your development environment, installing dependencies, and building the documentation.
 
