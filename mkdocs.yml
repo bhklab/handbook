@@ -9,6 +9,9 @@ markdown_extensions:
   - pymdownx.details
 
 plugins:
+  - redirects:
+      redirect_maps:
+          'index.md': '0_General/index.md'
   # simplifies configuring page titles and their order
   - awesome-pages
   # necessary for search functionality to work
