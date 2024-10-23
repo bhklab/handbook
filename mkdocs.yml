@@ -41,6 +41,9 @@ extra:
     provider: mike
     default: latest
 
+extra_css:
+  - assets/css/custom.css
+
 theme:
   name: material
   icon:
