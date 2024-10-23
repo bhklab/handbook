@@ -41,3 +41,6 @@ jobs:
             - build: Changes that affect the build system or external dependencies (example: Adding a dependency to Pixi)
             - ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
             - chore: Other changes that don't modify src or test files
+
+            Format using your PR title:
+              <prefix>: ${{ github.event.pull_request.title }}
