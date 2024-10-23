@@ -48,3 +48,6 @@ pre-commit-install.inputs = [".pre-commit-config.yaml"]
 lint.description = "Run pre-commit hooks"
 lint.cmd = "pre-commit run --all-files --hook-stage=manual"
 lint.depends-on = ["pre-commit-install"]
+
+[pypi-dependencies]
+mkdocs-awesome-pages-plugin = ">=2.9.3, <3"

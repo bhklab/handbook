@@ -38,3 +38,13 @@ A review has three possible statuses:
 > specific team to review your changes.
 
 [Official Github Documentation on Requesting a Pull Request Review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/requesting-a-pull-request-review)
+
+If a doc exists and you want to add to it, look at the bottom of page for
+any authors.
+
+## Review Workflow
+
+...
+...
+
+eventually delete the branch

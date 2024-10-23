@@ -9,6 +9,8 @@ markdown_extensions:
   - pymdownx.details
 
 plugins:
+  # simplifies configuring page titles and their order
+  - awesome-pages
   # necessary for search functionality to work
   - search
   # adds authors to pages using git history

@@ -2,8 +2,8 @@
 
 <!--intro-start-->
 ## Draft Structure:
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKwSe31w=/?moveToViewport=-3635,688,2780,1134&embedId=279072143427" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
-![alt text](docs/diagrams/handbook_overview.drawio.png)
 
 Edit this diagram using drawio or vscode drawio extension:  `docs/diagrams/handbook_overview.drawio.png`
 
