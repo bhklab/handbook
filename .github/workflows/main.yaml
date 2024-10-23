@@ -3,8 +3,6 @@ name: CI-CD
 # run on any push to any directory and a pull to main or development
 on:
   push:
-    branches:
-      - '*'
   pull_request:
     branches:
       - main
@@ -44,6 +42,6 @@ jobs:
       - name: Build documentation
         run: pixi run build
 
-      - name: Build and deploy documentation
+      - name: Build and deploy documentation (only on push to main)
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: pixi run deploy

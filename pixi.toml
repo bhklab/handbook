@@ -11,7 +11,7 @@ mkdocs = ">=1.6.0,<1.7"
 mkdocs-material = ">=9.5.24,<9.6"
 mkdocs-macros-plugin = ">=1.0.5,<1.1"
 mkdocs-glightbox = ">=0.4.0,<0.5"
-mkdocs-autorefs = ">=1.0.1,<1.1"
+mkdocs-autorefs = ">=1.2.0,<2"
 mkdocs-git-authors-plugin = ">=0.9.0,<0.10"
 mike = ">=2.1.2,<2.2"
 
@@ -28,5 +28,21 @@ deploy.cmd = "mkdocs gh-deploy -f mkdocs.yml --force"
 deploy.inputs = ["docs", "mkdocs.yml"]
 deploy.outputs = ["site"]
 
-[pypi-dependencies]
-mkdocs-autorefs = "*"
+[environments]
+lint = { features = ["lint"] }
+
+[feature.lint.dependencies]
+pre-commit = ">=3.7.1,<4"
+pre-commit-hooks = ">=4.6.0,<5"
+ruff = ">=0.4.8,<0.5"
+taplo = ">=0.9.1,<0.10"
+typos = ">=1.23.1,<2"
+
+[feature.lint.tasks]
+pre-commit-install.description = "Install pre-commit hooks"
+pre-commit-install.cmd = "pre-commit install --install-hooks -t=pre-commit -t=pre-push"
+pre-commit-install.inputs = [".pre-commit-config.yaml"]
+
+lint.description = "Run pre-commit hooks"
+lint.cmd = "pre-commit run --all-files --hook-stage=manual"
+lint.depends-on = ["pre-commit-install"]

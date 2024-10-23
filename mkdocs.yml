@@ -9,13 +9,13 @@ markdown_extensions:
 
 plugins:
   - autorefs:
-      resolve_closest: true 
+      resolve_closest: true
   # necessary for search functionality to work
-  - search      
-  # adds authors to pages using git history  
-  - git-authors   
-  # Automatically link to another page's ref 
-  
+  - search
+  # adds authors to pages using git history
+  - git-authors
+  # Automatically link to another page's ref
+
 extra:
   version:
     provider: mike
@@ -64,4 +64,3 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to system preference
-

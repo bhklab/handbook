@@ -8,6 +8,3 @@
   - Memory
   - Storage
   - Networking
-
-
-

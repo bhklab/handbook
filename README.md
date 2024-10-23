@@ -6,12 +6,12 @@
 
 Edit this diagram using drawio or vscode drawio extension:  `docs/diagrams/handbook_overview.drawio.png`
 
-Insipiration: 
+Insipiration:
 
   - [Koesterlab Handbook](https://koesterlab.github.io/data-science-for-bioinfo/)
   - [Candice Morey Lab Handbook](https://ccmorey.github.io/labHandbook/)
   - [Baby Lab Handbook](https://mcmaster-baby-lab.github.io/handbook/)
-  - [Lowe Power Lab Handbook](https://github.com/lowepowerlab/lab_handbook) 
+  - [Lowe Power Lab Handbook](https://github.com/lowepowerlab/lab_handbook)
   - [Vortex Lab Handbook](https://github.com/uw-vortex/VORTEX-handbook)
 
 ## Table of Contents
@@ -29,7 +29,7 @@ Insipiration:
 
 ### Installing Pixi
 
-Pixi is a tool for managing conda environments and managing dependencies. 
+Pixi is a tool for managing conda environments and managing dependencies.
 
 To install pixi, visit the [pixi website](https://pixi.sh/) and follow the instructions for your operating system.
 
@@ -73,7 +73,7 @@ This will start a local server and preview the documentation at `http://localhos
 
 ### Adding Content to the Documentation
 
-The documentation is written in Markdown and can be found in the `docs` directory. 
+The documentation is written in Markdown and can be found in the `docs` directory.
 
 Here are the steps to add new content to the documentation:
 
@@ -113,4 +113,3 @@ Here are the steps to add new content to the documentation:
 6. Create a pull request to merge your changes into the main branch.
 
   - Request a review from a maintainer.
-
