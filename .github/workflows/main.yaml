@@ -33,9 +33,9 @@ jobs:
           git config user.email github-actions[bot]@users.noreply.github.com
 
       - name: Install Pixi
-        uses: prefix-dev/setup-pixi@v0.8.0
+        uses: prefix-dev/setup-pixi@v0.8.1
         with:
-          pixi-version: v0.23.0
+          pixi-version: v0.34.0
           cache: true
           locked: false
 
