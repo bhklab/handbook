@@ -8,34 +8,38 @@ on:
       - edited
       - synchronize
 
-permissions:
-  contents: read
-
 jobs:
   title-format:
     permissions:
-      pull-requests: read  # for amannn/action-semantic-pull-request to analyze PRs
-      statuses: write  # for amannn/action-semantic-pull-request to mark status of analyzed PR
+      pull-requests: write # for amannn/action-semantic-pull-request to analyze PRs
+      statuses: write # for amannn/action-semantic-pull-request to mark status of analyzed PR
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: amannn/action-semantic-pull-request@v5.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    # This step will run only if the previous step fails
-      - name: Comment on PR if Title Check Fails
-        if: failure()  # Ensures this runs only if the previous step fails
+      - name: Create comment
+        # Ensures this runs only if the previous step fails AND only when opening a PR (not when editing a PR)
+        if: failure() && (github.event_name == 'pull_request' && github.event.action == 'opened')
         uses: peter-evans/create-or-update-comment@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
           body: |
-            :warning: The title of this PR does not follow the conventional commit guidelines. Please update the title to match the required format.
+            Hi there @${{ github.event.pull_request.user.login }}! :wave:
 
-            Ensure your PR title follows the pattern:
-            - `fix: ...` for bug fixes
-            - `feat: ...` for new features
-            - `chore: ...` for general maintenance
-            - etc.
+            This PR Title does not meet the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
 
-            For more information, refer to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
+            Add a prefix to indicate what kind of release this pull request corresponds to.
+            Common Types:
+            - `feat`: A new feature | Adding a Page/Section to the Handbook
+            - `fix`: A bug fix | Fixing a typo in the Handbook
+            - `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+            - `perf`: A code change that improves performance
+            - `build`: Changes that affect the build system or external dependencies (example: Adding a dependency to Pixi)
+            - `ci`: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+            - `chore`: Other changes that don't modify src or test files
+
+            Please Edit the PR Title to prepend the prefix to your PR:
+              `[prefix]: ${{ github.event.pull_request.title }}`

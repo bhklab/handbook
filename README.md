@@ -6,7 +6,6 @@ Visit the [Lab Handbook](https://bhklab.github.io/handbook/) to see
 what the handbook is about.
 
 
-
 <!--intro-start-->
 Insipiration:
 
