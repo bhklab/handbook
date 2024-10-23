@@ -1,7 +1,7 @@
 name: Conventional PR Title
 
 on:
-  pull_request:
+  pull_request_target:
     types:
       - opened
       - reopened
@@ -9,15 +9,15 @@ on:
       - synchronize
 
 permissions:
-  contents: read
+  pull-requests: write  # for amannn/action-semantic-pull-request to analyze PRs
+  statuses: write  # for amannn/action-semantic-pull-request to mark status of analyzed PR
+  contents: write
+  repository-projects: write
+
 
 jobs:
   title-format:
-    permissions:
-      pull-requests: write  # for amannn/action-semantic-pull-request to analyze PRs
-      statuses: write  # for amannn/action-semantic-pull-request to mark status of analyzed PR
-      contents: write
-      repository-projects: write
+
     runs-on: ubuntu-latest
     steps:
       - name: Create comment
