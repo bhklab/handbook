@@ -21,7 +21,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create comment
-        if: failure() # Ensures this runs only if the previous step fails
+        # Ensures this runs only if the previous step fails AND only when opening a PR (not when editing a PR)
+        if: failure() && (github.event_name == 'pull_request' && github.event.action == 'opened')
         uses: peter-evans/create-or-update-comment@v4
         with:
           issue-number: ${{ github.event.pull_request.number }}
@@ -31,16 +32,14 @@ jobs:
             This PR Title does not meet the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
 
             Add a prefix to indicate what kind of release this pull request corresponds to.
-            For reference, see https://www.conventionalcommits.org/
-
             Common Types:
-            - feat: A new feature | Adding a Page/Section to the Handbook
-            - fix: A bug fix | Fixing a typo in the Handbook
-            - style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-            - perf: A code change that improves performance
-            - build: Changes that affect the build system or external dependencies (example: Adding a dependency to Pixi)
-            - ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
-            - chore: Other changes that don't modify src or test files
+            - `feat`: A new feature | Adding a Page/Section to the Handbook
+            - `fix`: A bug fix | Fixing a typo in the Handbook
+            - `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+            - `perf`: A code change that improves performance
+            - `build`: Changes that affect the build system or external dependencies (example: Adding a dependency to Pixi)
+            - `ci`: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+            - `chore`: Other changes that don't modify src or test files
 
-            Format using your PR title:
+            Please Edit the PR Title to prepend the prefix to your PR:
               `[prefix]: ${{ github.event.pull_request.title }}`
