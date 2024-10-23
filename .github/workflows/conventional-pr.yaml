@@ -43,4 +43,4 @@ jobs:
             - chore: Other changes that don't modify src or test files
 
             Format using your PR title:
-              <prefix>: ${{ github.event.pull_request.title }}
+              [prefix]: ${{ github.event.pull_request.title }}
