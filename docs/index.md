@@ -1,4 +1,4 @@
-# Handbook
+# Home
 
 ## Welcome to the BHK Lab Handbook!
 
@@ -16,4 +16,3 @@ Insipiration:
   - [Baby Lab Handbook](https://mcmaster-baby-lab.github.io/handbook/)
   - [Lowe Power Lab Handbook](https://github.com/lowepowerlab/lab_handbook) 
   - [Vortex Lab Handbook](https://github.com/uw-vortex/VORTEX-handbook)
-  
