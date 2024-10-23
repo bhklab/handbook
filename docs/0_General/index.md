@@ -8,3 +8,7 @@
     start="<!--intro-start-->"
     end="<!--intro-end-->"
 %}
+
+## Development Documentation
+
+See [Contributing to the Lab Handbook][contributing-to-the-lab-handbook] for more information.
