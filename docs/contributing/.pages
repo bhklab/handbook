@@ -5,4 +5,6 @@ nav:
     - 1_prerequisites.md
     - adding_content.md
     - ...
+    - reviews.md
+    - merging_pr.md
     - submitting_issues.md

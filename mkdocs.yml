@@ -16,6 +16,8 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.details
+  - attr_list
+  - md_in_html
 
 plugins:
   - redirects:

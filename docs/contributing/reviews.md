@@ -48,10 +48,3 @@ If a document already exists, you can add to it. Check the bottom of the page fo
 ## Conclusion
 
 Effective reviews help ensure that contributions meet project standards, improve code quality, and facilitate knowledge sharing within the team. Whether you're an author, reviewer, or maintainer, understanding the review process is essential to contributing successfully.
-
-## Review Workflow
-
-...
-...
-
-eventually delete the branch
