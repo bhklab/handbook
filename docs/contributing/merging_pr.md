@@ -30,4 +30,4 @@ This has a few benefits:
 
 To merge a pull request, follow these steps:
 
-1. Click on the "Merge pull request" button.
+1. Click on the "Squash and merge" button.
