@@ -6,12 +6,21 @@ markdown_extensions:
   - toc:
       permalink: 🔗
   - admonition
+  # From https://squidfunk.github.io/mkdocs-material/reference/code-blocks/
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      use_pygments: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - pymdownx.details
 
 plugins:
   - redirects:
       redirect_maps:
-          'index.md': '0_General/index.md'
+          'index.md': 'General/index.md'
   # simplifies configuring page titles and their order
   - awesome-pages
   # necessary for search functionality to work
@@ -44,21 +53,33 @@ extra:
 extra_css:
   - assets/css/custom.css
 
+extra_javascript:
+  - assets/js/extra.js
+
 theme:
   name: material
   icon:
     annotation: material/plus-circle
+    admonition:
+
   font:
     text: Red Hat Text
     code: JetBrains Mono
   features:
-    - content.code.copy
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
     - content.code.annotate
-    - content.code.select
+    - toc.integrate
+    - toc.follow
+    - navigation.path
+    - navigation.top
+    - content.code.copy
     - content.tabs.link
-    - content.tooltips
-    - search.suggest
-    - search.highlight
+    - content.code.select
+    # - content.tooltips
+    # - search.suggest
+    # - search.highlight
     - navigation.indexes
     - navigation.path
     - navigation.tabs
