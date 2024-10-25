@@ -29,6 +29,7 @@ serve.cmd = "mkdocs serve -f mkdocs.yml"
 
 [environments]
 lint = { features = ["lint"] }
+dev = { features = ["tui", "lint"] }
 
 [feature.lint.dependencies]
 pre-commit = ">=3.7.1,<4"
@@ -46,6 +47,9 @@ pre-commit-install.inputs = [".pre-commit-config.yaml"]
 lint.description = "Run pre-commit hooks"
 lint.cmd = "pre-commit run --all-files --hook-stage=manual"
 lint.depends-on = ["pre-commit-install"]
+
+[feature.tui.dependencies]
+textual = "*"
 
 [pypi-dependencies]
 mkdocs-awesome-pages-plugin = ">=2.9.3, <3"
