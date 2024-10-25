@@ -6,5 +6,5 @@ nav:
     - adding_content.md
     - ...
     - reviews.md
-    - merging_pr.md
+  - merging_pr.md
     - submitting_issues.md
