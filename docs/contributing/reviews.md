@@ -19,9 +19,10 @@ Once a contribution is submitted, a Pull Request (PR) must be created. Before me
 Reviews are discussions around the changes proposed in a PR. They allow for collaborative feedback, ensuring code quality and alignment with project standards.
 
 !!! tip
-Anyone can review a PR, including those who are not maintainers!
-If you see a PR from another author, and have suggestions for improvement,
-feel free to leave a review.
+
+    Anyone can review a PR, including those who are not maintainers!
+    If you see a PR from another author, and have suggestions for improvement,
+    feel free to leave a review.
 
 For further reading, refer to the [Official GitHub Documentation on PR Reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews).
 
