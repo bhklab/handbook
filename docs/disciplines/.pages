@@ -1,1 +1,11 @@
 title: Disciplines
+
+nav:
+    - index.md
+    - Data_Science
+    - Machine_Learning
+    - Bioinformatics
+    - Pharmacogenomics
+    - Imaging
+    - Radiomics
+    - ...
