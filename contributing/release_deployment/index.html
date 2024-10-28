@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://bhklab.github.io/handbook/contributing/merging_pr/">
+        <link rel="canonical" href="https://bhklab.github.io/handbook/contributing/release_deployment/">
       
       
-        <link rel="prev" href="../reviews/">
+        <link rel="prev" href="../merging_pr/">
       
       
-        <link rel="next" href="../release_deployment/">
+        <link rel="next" href="../submitting_issues/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Merging Pull Requests - BHKLab Handbook</title>
+        <title>Release and Deployment - BHKLab Handbook</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#merging-pull-requests" class="md-skip">
+        <a href="#release-and-deployment" class="md-skip">
           Skip to content
         </a>
       
@@ -120,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Merging Pull Requests
+              Release and Deployment
             
           </span>
         </div>
@@ -2345,6 +2345,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../merging_pr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Merging Pull Requests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -2361,7 +2382,7 @@
           
   
   <span class="md-ellipsis">
-    Merging Pull Requests
+    Release and Deployment
   </span>
   
 
@@ -2372,7 +2393,7 @@
         
   
   <span class="md-ellipsis">
-    Merging Pull Requests
+    Release and Deployment
   </span>
   
 
@@ -2394,64 +2415,52 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#validating-the-pull-request" class="md-nav__link">
+  <a href="#introduction" class="md-nav__link">
     <span class="md-ellipsis">
-      Validating the Pull Request
+      Introduction
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#merge-strategy" class="md-nav__link">
+  <a href="#github-pages" class="md-nav__link">
     <span class="md-ellipsis">
-      Merge Strategy
+      GitHub Pages
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#merging-a-pull-request" class="md-nav__link">
-    <span class="md-ellipsis">
-      Merging a Pull Request
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Merging a Pull Request">
+    <nav class="md-nav" aria-label="GitHub Pages">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#click-on-the-squash-and-merge-button" class="md-nav__link">
+  <a href="#how-it-works" class="md-nav__link">
     <span class="md-ellipsis">
-      Click on the "Squash and merge" button.
+      How It Works
     </span>
   </a>
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#modify-the-commit-message-as-needed" class="md-nav__link">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#releases" class="md-nav__link">
     <span class="md-ellipsis">
-      Modify the commit message as needed.
+      Releases
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="Releases">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#verify-github-pages-deployment" class="md-nav__link">
+  <a href="#how-it-works_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Verify GitHub Pages Deployment
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#delete-the-branch" class="md-nav__link">
-    <span class="md-ellipsis">
-      Delete the branch
+      How It Works
     </span>
   </a>
   
@@ -2466,27 +2475,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../release_deployment/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Release and Deployment
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -2538,67 +2526,58 @@
   
 
 
-<h1 id="merging-pull-requests">Merging Pull Requests<a class="headerlink" href="#merging-pull-requests" title="Permanent link">🔗</a></h1>
-<div class="admonition note">
-<p class="admonition-title">For Maintainers</p>
-<p>Only a subset of members of the BHK Lab organization can merge pull requests.
-If you are a maintainer, you can merge a pull request by following the steps below.</p>
-</div>
-<h2 id="validating-the-pull-request">Validating the Pull Request<a class="headerlink" href="#validating-the-pull-request" title="Permanent link">🔗</a></h2>
-<p>Before merging a pull request, it is important to validate the following:</p>
+<h1 id="release-and-deployment">Release and Deployment<a class="headerlink" href="#release-and-deployment" title="Permanent link">🔗</a></h1>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">🔗</a></h2>
+<p>The handbook website is hosted on <a href="https://pages.github.com/">GitHub Pages</a>.
+This document provides a detailed overview of how the deployment and release
+processes work, ensuring a smooth and automated workflow.</p>
+<h2 id="github-pages">GitHub Pages<a class="headerlink" href="#github-pages" title="Permanent link">🔗</a></h2>
+<p>GitHub Pages is a service that allows you to host static websites directly
+from your GitHub repository.</p>
+<h3 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Permanent link">🔗</a></h3>
+<p>Whenever changes are pushed to the <code>main</code> branch, a
+<a href="https://github.com/features/actions">GitHub Action</a> is triggered to
+automatically build and deploy the website.</p>
+<p>You can view the build and deployment action at
+<a href="https://github.com/bhklab/handbook/actions/workflows/main.yaml">this link</a>.</p>
+<p>The automated workflow includes the following steps:</p>
 <ol>
-<li>Does the pull request have a title that is descriptive and concise?</li>
-<li>Do all the Github Actions pass?</li>
-<li>Has the pull request been reviewed by at least one member of the lab?</li>
-<li>Are there any merge conflicts?</li>
-<li>Does the PR add files that should not be added or mistakes? (i.e <code>.DS_Store</code>)</li>
+<li><strong>Check Out the Repository</strong>: The GitHub Action checks out the latest code
+   from the <code>main</code> branch.</li>
+<li><strong>Install Dependencies</strong>: Dependencies specified in the <code>pixi.toml</code> file
+   are installed.</li>
+<li><strong>Build the Documentation</strong>: The action builds the site using MkDocs and
+   the configurations defined in your project.</li>
+<li><strong>Deploy to GitHub Pages</strong>: The compiled site is deployed to the <code>gh-pages</code>
+   branch.</li>
 </ol>
-<h2 id="merge-strategy">Merge Strategy<a class="headerlink" href="#merge-strategy" title="Permanent link">🔗</a></h2>
-<p>Traditionally, when merging a pull request, all the commits from the
-pull request are added to the main branch as individual commits along with a
-merge commit (usually like <code>Merge pull request #123 from user/branch</code>).</p>
-<p>This is called a <strong>Merge Commit</strong>.</p>
-<figure width="100%">
-  <img alt="merge_commits" src="../images/merge_commit.png" />
-  <figcaption>Merge commit example</figcaption>
-</figure>
-<p>We will be using the <strong>Squash Merge</strong> strategy for merging pull requests.</p>
-<p>Squash merges are a way to combine multiple commits into a single commit.
-Instead of seeing all the author's individual commits in the main branch's
-commit history, you can see a single commit summarizing all the changes.</p>
-<figure>
-  <img alt="squash-merge" src="../images/squash-merge.png" />
-  <figcaption>Squash merge example</figcaption>
-</figure>
-<p>More information on squash merges can be found in the <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-pull-request-commits">GitHub Docs on Squash Merges</a></p>
-<p>This has a few benefits:</p>
-<ol>
-<li>It keeps the commit history clean and organized.</li>
-<li>It reduces the number of commits in the main branch, making it easier to manage.</li>
-<li>Avoids the <code>Merge branch 'main' into main</code> commit that is created when merging
-   a pull request in favor of using the <code>PR</code> title as the commit message.</li>
-</ol>
-<h2 id="merging-a-pull-request">Merging a Pull Request<a class="headerlink" href="#merging-a-pull-request" title="Permanent link">🔗</a></h2>
-<p>To merge a pull request, follow these steps:</p>
-<h3 id="click-on-the-squash-and-merge-button">Click on the "Squash and merge" button.<a class="headerlink" href="#click-on-the-squash-and-merge-button" title="Permanent link">🔗</a></h3>
-<p><img alt="image" src="../images/squash_merge.png" style="height:50%;width:50%" /></p>
-<h3 id="modify-the-commit-message-as-needed">Modify the commit message as needed.<a class="headerlink" href="#modify-the-commit-message-as-needed" title="Permanent link">🔗</a></h3>
-<p>By default, the commit message will be the title of the pull request.
-The body of the commit message will include all the commits from the pull request.</p>
-<p><img alt="update_pr" src="../images/update_pr_info.png" style="height:100%;width:100%" /></p>
-<p>As you can see, there may be some commits that are not relevant to the pull request.</p>
-<p>Feel free to modify the body of the commit message to include only the relevant commits.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Only the PR Title needs to follow the <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits</a> specification.
-The commit message body can be modified to include any relevant commits.</p>
-</div>
-<p><img alt="better_pr" src="../images/better_pr_body.png" style="height:100%;width:100%" /></p>
-<h3 id="verify-github-pages-deployment">Verify GitHub Pages Deployment<a class="headerlink" href="#verify-github-pages-deployment" title="Permanent link">🔗</a></h3>
-<p>After merging the pull request, the changes will be deployed to GitHub Pages.
-Check the website at <code>https://bhklab.github.io/handbook/</code> to verify that the changes are correct.</p>
-<h3 id="delete-the-branch">Delete the branch<a class="headerlink" href="#delete-the-branch" title="Permanent link">🔗</a></h3>
-<p>Once the pull request is merged, delete the branch.</p>
+<p>Once the <code>gh-pages</code> branch is updated, GitHub Pages will automatically publish
+the latest version of the website.</p>
+<h2 id="releases">Releases<a class="headerlink" href="#releases" title="Permanent link">🔗</a></h2>
+<p>Even though this project primarily uses MkDocs, we leverage
+<a href="https://github.com/googleapis/release-please">release-please</a> to automate the
+release process, making it easier to maintain version control and changelogs.</p>
+<h3 id="how-it-works_1">How It Works<a class="headerlink" href="#how-it-works_1" title="Permanent link">🔗</a></h3>
+<p>When a pull request is merged into the <code>main</code> branch, a
+<a href="https://github.com/features/actions">GitHub Action</a> triggers the release
+process.</p>
+<p>You can view the release automation action at
+<a href="https://github.com/bhklab/handbook/actions/workflows/release-please.yaml">this link</a>.</p>
+<p>Key benefits of using <code>release-please</code> include:</p>
+<ul>
+<li><strong>Automated Release Creation</strong>: The tool automatically generates a release
+  with changelogs and updates the version number based on the changes merged
+  into <code>main</code>.</li>
+<li><strong>Dynamic Pull Request Updates</strong>: If additional changes are pushed to the
+  <code>main</code> branch after a pull request is created, the release PR will update to
+  include those changes, ensuring that the release captures all intended
+  updates.</li>
+<li><strong>Controlled Release Process</strong>: Maintainers can merge changes into the
+  release PR only when they are ready to publish a new version, giving them
+  full control over the timing of each release.</li>
+</ul>
+<p>This automated approach ensures consistency and reduces the manual effort
+required to manage releases.</p>
 
 
 
@@ -2621,7 +2600,7 @@ Check the website at <code>https://bhklab.github.io/handbook/</code> to verify t
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 25, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 28, 2024</span>
   </span>
 
     
@@ -2631,7 +2610,7 @@ Check the website at <code>https://bhklab.github.io/handbook/</code> to verify t
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 25, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 28, 2024</span>
   </span>
 
     
@@ -2646,7 +2625,7 @@ Check the website at <code>https://bhklab.github.io/handbook/</code> to verify t
     </span>
     <nav>
       
-        <a href="mailto:44614774+jjjermiah@users.noreply.github.com">Jermiah Joseph</a>
+        <a href="mailto:jermiahjoseph98@gmail.com">Jermiah Joseph</a>
     </nav>
   </span>
 
