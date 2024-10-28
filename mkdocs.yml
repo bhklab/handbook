@@ -48,18 +48,22 @@ plugins:
   #     css_dir: css
   #     javascript_dir: js
 
+
 extra:
+  homepage: https://bhklab.github.io/handbook/
   version:
     provider: mike
     default: latest
 
 extra_css:
   - assets/css/custom.css
+  - assets/css/stylesheet.css
 
 extra_javascript:
   - assets/js/extra.js
 
 theme:
+  # logo: assets/bhklab_logo.png
   name: material
   icon:
     annotation: material/plus-circle
@@ -88,17 +92,15 @@ theme:
     - navigation.tabs
 
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
+    # # Palette toggle for automatic mode
+    # - media: "(prefers-color-scheme)"
+    #   toggle:
+    #     icon: material/brightness-auto
+    #     name: Switch to light mode
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: white
-      accent: deep orange
+      scheme: bhklab
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -106,8 +108,6 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep orange
-      accent: blue
       toggle:
         icon: material/weather-sunny
         name: Switch to system preference
