@@ -7,4 +7,5 @@ nav:
     - ...
     - reviews.md
     - merging_pr.md
+    - release_deployment.md
     - submitting_issues.md
