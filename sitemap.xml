@@ -5,7 +5,7 @@
          <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://bhklab.github.io/handbook/General/01_Lab_Mission/</loc>
+         <loc>https://bhklab.github.io/handbook/General/lab_mission/</loc>
          <lastmod>2024-10-28</lastmod>
     </url>
     <url>
@@ -21,11 +21,7 @@
          <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://bhklab.github.io/handbook/contributing/0_getting-started/</loc>
-         <lastmod>2024-10-28</lastmod>
-    </url>
-    <url>
-         <loc>https://bhklab.github.io/handbook/contributing/1_prerequisites/</loc>
+         <loc>https://bhklab.github.io/handbook/contributing/</loc>
          <lastmod>2024-10-28</lastmod>
     </url>
     <url>
@@ -34,6 +30,10 @@
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/contributing/merging_pr/</loc>
+         <lastmod>2024-10-28</lastmod>
+    </url>
+    <url>
+         <loc>https://bhklab.github.io/handbook/contributing/prerequisites/</loc>
          <lastmod>2024-10-28</lastmod>
     </url>
     <url>
