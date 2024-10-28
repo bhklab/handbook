@@ -138,7 +138,7 @@ On the Space Tools page, click and drag your most recent SOW and move it so it i
 
 Click on the latest SOW to confirm it’s been properly moved.
 
-You’ve written your SOW for the week\! :confetti_ball:  
+You have now completed your SOW for the week\!
 
 ## **Draft SOW**
 
