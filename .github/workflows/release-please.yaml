@@ -12,8 +12,27 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-
       - uses: GoogleCloudPlatform/release-please-action@v4
         id: release
         with:
           release-type: simple
+
+      - uses: actions/checkout@v4
+        if: ${{ steps.release.outputs.release_created }}
+        with:
+          fetch-depth: 0
+
+      - name: Install Pixi
+        if: ${{ steps.release.outputs.release_created }}
+        uses: prefix-dev/setup-pixi@v0.8.1
+        with:
+          pixi-version: v0.34.0
+          cache: true
+          locked: false
+
+      - name: Deploy Documentation Using Mike and Released Version
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          VERSION=$(echo ${{ steps.release.outputs.tag_name }} | sed 's/v//')
+          echo "Deploying version $VERSION"
+          pixi run mike deploy --push --update-aliases $VERSION latest
