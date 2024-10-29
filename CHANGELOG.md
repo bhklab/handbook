@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/bhklab/handbook/compare/v0.3.0...v0.3.1) (2024-10-29)
+
+
+### Bug Fixes
+
+* use github action for deployment ([f48ce66](https://github.com/bhklab/handbook/commit/f48ce661cac602a5f4cd6affd67deaf5bd8b3c57))
+
 ## [0.3.0](https://github.com/bhklab/handbook/compare/v0.2.0...v0.3.0) (2024-10-29)
 
 
