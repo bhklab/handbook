@@ -2,18 +2,12 @@
 
 Ideas for a breakdown:
 
-## Introduction to Programming Languages
+## Programming Languages
 
-- What is a Programming Language?
-- Importance of Programming Languages
-
-## High-level Programming Languages
-
-- Features and Examples
-  - R
-  - Python
-  - JavaScript/Typescript
-  - Rust
+- R
+- Python
+- JavaScript/Typescript
+- Rust
 
 ## Scripting Languages
 
