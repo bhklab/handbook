@@ -49,7 +49,7 @@ plugins:
   #     javascript_dir: js
 
 extra:
-  homepage: https://bhklab.github.io/handbook/
+  homepage: https://bhklab.github.io/handbook/latest
   version:
     provider: mike
     default: latest
