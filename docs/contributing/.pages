@@ -1,8 +1,8 @@
 title: Contributing
 
 nav:
-    - 0_getting-started.md
-    - 1_prerequisites.md
+    - index.md
+    - prerequisites.md
     - adding_content.md
     - ...
     - reviews.md
