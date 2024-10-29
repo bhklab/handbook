@@ -1,6 +1,6 @@
 # Presentation Standards
 
-TODO::
+TODO: #35 Add Presentation Standards
 
 ## Poster Standards
 

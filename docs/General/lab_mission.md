@@ -1,3 +1,3 @@
 # Mission Statement
 
-TODO::Add this
+TODO: Add Mission Statement
