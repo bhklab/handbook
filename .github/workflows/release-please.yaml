@@ -29,6 +29,11 @@ jobs:
           pixi-version: v0.34.0
           cache: true
           locked: false
+      
+      - name: Configure Git user
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
 
       - name: Deploy Documentation Using Mike and Released Version
         if: ${{ steps.release.outputs.release_created }}
