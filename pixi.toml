@@ -27,9 +27,6 @@ build.outputs = ["site"]
 serve.description = "Serve the documentation to http://localhost:8000/"
 serve.cmd = "mkdocs serve -f mkdocs.yml"
 
-deploy.description = "Deploy the documentation to GitHub Pages (ONLY FOR MAINTAINERS)"
-deploy.cmd = "mkdocs gh-deploy -f mkdocs.yml --force"
-
 [environments]
 lint = { features = ["lint"] }
 
