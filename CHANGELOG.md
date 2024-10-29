@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.3.0](https://github.com/bhklab/handbook/compare/v0.2.0...v0.3.0) (2024-10-29)
+
+
+### Features
+
+* enhance release workflow to publish version of docs using mike after PR release ([72345a7](https://github.com/bhklab/handbook/commit/72345a7c500430c46b8aa158b29c471f648d3dbb))
+* use mike ([ec14831](https://github.com/bhklab/handbook/commit/ec148315f13432d19e08eb6b9b2fd50dadd4a25b))
+
+
+### Bug Fixes
+
+* rename redirect ([252f3e2](https://github.com/bhklab/handbook/commit/252f3e2a2bff2aa8791fe401eb0a83fc1642f76b))
+* update docs to explain mike ([72345a7](https://github.com/bhklab/handbook/commit/72345a7c500430c46b8aa158b29c471f648d3dbb))
+
 ## [0.2.0](https://github.com/bhklab/handbook/compare/v0.1.0...v0.2.0) (2024-10-29)
 
 
