@@ -1,1 +1,8 @@
 title: Software Development
+
+nav:
+    - index.md
+    - Development_Environment
+    - Languages
+    - Version_Control
+    - Cloud
