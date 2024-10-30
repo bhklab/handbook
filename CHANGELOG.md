@@ -1,5 +1,45 @@
 # Changelog
 
+## [0.3.1](https://github.com/bhklab/handbook/compare/v0.3.0...v0.3.1) (2024-10-29)
+
+
+### Bug Fixes
+
+* use github action for deployment ([f48ce66](https://github.com/bhklab/handbook/commit/f48ce661cac602a5f4cd6affd67deaf5bd8b3c57))
+
+## [0.3.0](https://github.com/bhklab/handbook/compare/v0.2.0...v0.3.0) (2024-10-29)
+
+
+### Features
+
+* enhance release workflow to publish version of docs using mike after PR release ([72345a7](https://github.com/bhklab/handbook/commit/72345a7c500430c46b8aa158b29c471f648d3dbb))
+* use mike ([ec14831](https://github.com/bhklab/handbook/commit/ec148315f13432d19e08eb6b9b2fd50dadd4a25b))
+
+
+### Bug Fixes
+
+* rename redirect ([252f3e2](https://github.com/bhklab/handbook/commit/252f3e2a2bff2aa8791fe401eb0a83fc1642f76b))
+* update docs to explain mike ([72345a7](https://github.com/bhklab/handbook/commit/72345a7c500430c46b8aa158b29c471f648d3dbb))
+
+## [0.2.0](https://github.com/bhklab/handbook/compare/v0.1.0...v0.2.0) (2024-10-29)
+
+
+### Features
+
+* Add issue templates ([#28](https://github.com/bhklab/handbook/issues/28)) ([0a2c861](https://github.com/bhklab/handbook/commit/0a2c861da93f455467fd8cb4720cded5c75aa67a))
+* Add release and deployment documentation; update pixi.lock for dependencies and versions ([27bd2fd](https://github.com/bhklab/handbook/commit/27bd2fd7d1d93c26f7a8873842400b65c9a1a2ff))
+* Create detailed guide for submitting issues, including templates and tips for effective reporting ([ac69542](https://github.com/bhklab/handbook/commit/ac69542cf8673599731d1dfa1e0e40d17c7aec06))
+* replace discipline temp files with index.md pages, organize disciplines ([ae1bb27](https://github.com/bhklab/handbook/commit/ae1bb2709ba1b03f7034b25cfd5c07d73342f2d5))
+* Update issue templates for bug reports, content updates, documentation questions, and enhancements ([30ee8d5](https://github.com/bhklab/handbook/commit/30ee8d5b0a8bcad08d3de24f1dd97173eff41ea2))
+
+
+### Bug Fixes
+
+* broken links in disciplines home tab ([9393314](https://github.com/bhklab/handbook/commit/9393314e911d6fddc5c8b566df5ccfe35ce7d032))
+* CI to fetch from depth 0 ([dbcae75](https://github.com/bhklab/handbook/commit/dbcae75984ff7df40ff8da25bd64294dab1cd37b))
+* remove deploy task so users dont mess it up ([92fb375](https://github.com/bhklab/handbook/commit/92fb375dbf88810ebb3470e20e39452f136f65a7))
+* update git push command in adding_content.md to set upstream for new branch; fixes [#30](https://github.com/bhklab/handbook/issues/30) ([df76944](https://github.com/bhklab/handbook/commit/df769445a18f8fc29c0477615c91ce23bce1a8dd))
+
 ## 0.1.0 (2024-10-25)
 
 

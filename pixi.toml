@@ -19,17 +19,13 @@ mkdocs-include-markdown-plugin = ">=7.0.0,<8"
 mkdocs-redirects = ">=1.2.1,<2"
 
 [tasks]
+build.description = "Build the documentation using MkDocs"
 build.cmd = "mkdocs build -f mkdocs.yml"
 build.inputs = ["docs", "mkdocs.yml"]
 build.outputs = ["site"]
 
+serve.description = "Serve the documentation to http://localhost:8000/"
 serve.cmd = "mkdocs serve -f mkdocs.yml"
-serve.inputs = ["docs", "mkdocs.yml"]
-serve.outputs = ["site"]
-
-deploy.cmd = "mkdocs gh-deploy -f mkdocs.yml --force"
-deploy.inputs = ["docs", "mkdocs.yml"]
-deploy.outputs = ["site"]
 
 [environments]
 lint = { features = ["lint"] }

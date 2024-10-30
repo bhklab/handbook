@@ -34,11 +34,12 @@ The automated workflow includes the following steps:
 Once the `gh-pages` branch is updated, GitHub Pages will automatically publish
 the latest version of the website.
 
-## Releases
+## Releases and Versioned Documentation
 
-Even though this project primarily uses MkDocs, we leverage
-[release-please](https://github.com/googleapis/release-please) to automate the
-release process, making it easier to maintain version control and changelogs.
+We leverage both [release-please](https://github.com/googleapis/release-please)
+and `mike` to automate the release process and manage versioned documentation,
+making it easier to maintain version control, changelogs, and multiple
+documentation versions.
 
 ### How It Works
 
@@ -49,11 +50,11 @@ process.
 You can view the release automation action at
 [this link](https://github.com/bhklab/handbook/actions/workflows/release-please.yaml).
 
-Key benefits of using `release-please` include:
+Key aspects of this combined approach include:
 
-- **Automated Release Creation**: The tool automatically generates a release
-  with changelogs and updates the version number based on the changes merged
-  into `main`.
+- **Automated Release Creation with release-please**: The tool automatically
+   generates a release with changelogs and updates the version number based
+   on the changes merged into `main`.
 - **Dynamic Pull Request Updates**: If additional changes are pushed to the
   `main` branch after a pull request is created, the release PR will update to
   include those changes, ensuring that the release captures all intended
@@ -61,6 +62,10 @@ Key benefits of using `release-please` include:
 - **Controlled Release Process**: Maintainers can merge changes into the
   release PR only when they are ready to publish a new version, giving them
   full control over the timing of each release.
+- **Versioned Documentation with mike**: Once a new release is prepared,
+  `mike` is used to manage and deploy versioned documentation. This allows us
+  to provide a separate set of documentation for each release, maintaining
+  historical versions accessible on the website.
 
-This automated approach ensures consistency and reduces the manual effort
+This automated approach ensures consistency, reduces manual effort, and allows users to access documentation relevant to any specific version of the project.
 required to manage releases.

@@ -2,7 +2,7 @@ title: General
 
 nav:
     - Home: index.md
-    - Mission Statement: 01_Lab_Mission.md
+    - lab_mission.md
     - ...
     - Summary_Of_Work
     - Manuscripts
