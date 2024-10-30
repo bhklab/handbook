@@ -93,15 +93,27 @@
          <lastmod>2024-10-30</lastmod>
     </url>
     <url>
-         <loc>https://bhklab.github.io/handbook/dev/software_development/Environment_Management/Containerization/</loc>
+         <loc>https://bhklab.github.io/handbook/dev/software_development/Development_Environment/</loc>
          <lastmod>2024-10-30</lastmod>
     </url>
     <url>
-         <loc>https://bhklab.github.io/handbook/dev/software_development/Environment_Management/Package_Managers/</loc>
+         <loc>https://bhklab.github.io/handbook/dev/software_development/Development_Environment/CLI_Tools/</loc>
          <lastmod>2024-10-30</lastmod>
     </url>
     <url>
-         <loc>https://bhklab.github.io/handbook/dev/software_development/Integrated_Development_Environments/</loc>
+         <loc>https://bhklab.github.io/handbook/dev/software_development/Development_Environment/Containerization/</loc>
+         <lastmod>2024-10-30</lastmod>
+    </url>
+    <url>
+         <loc>https://bhklab.github.io/handbook/dev/software_development/Development_Environment/Integrated_Development_Environments/</loc>
+         <lastmod>2024-10-30</lastmod>
+    </url>
+    <url>
+         <loc>https://bhklab.github.io/handbook/dev/software_development/Development_Environment/Package_Managers/</loc>
+         <lastmod>2024-10-30</lastmod>
+    </url>
+    <url>
+         <loc>https://bhklab.github.io/handbook/dev/software_development/Development_Environment/Shells/</loc>
          <lastmod>2024-10-30</lastmod>
     </url>
     <url>
