@@ -1,6 +1,7 @@
 site_name: BHKLab Handbook
 site_url: "https://bhklab.github.io/handbook/" # Trailing slash is recommended
 repo_url: https://github.com/bhklab/handbook
+repo_name: bhklab/handbook
 
 markdown_extensions:
   - toc:
@@ -56,7 +57,7 @@ theme:
   name: material
   icon:
     annotation: material/plus-circle
-    admonition:
+    repo: fontawesome/brands/github
   features:
     - content.code.annotate            # adds annotations to code blocks
     - content.code.copy                # adds a copy button to code blocks
