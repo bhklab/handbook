@@ -17,7 +17,7 @@ additional features that can be used to enhance the look and feel of your docume
 
 Material for MkDocs is a theme for MkDocs that provides a modern and customizable look and feel.
 
-It provides an easy-to-use interface for creating documentation. 
+It provides an easy-to-use interface for creating documentation.
 
 Visit the [Material for MkDocs Formatting](https://squidfunk.github.io/mkdocs-material/reference/formatting/) page
 for more information on adding extra flavor to your Markdown files.

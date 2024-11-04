@@ -71,7 +71,7 @@ $ touch docs/onboarding/my_new_page.md
 
 This will create an empty Markdown file called `my_new_page.md` in the `docs/onboarding` directory.
 
-!!! note 
+!!! note
     For more information on Markdown syntax, see the [Markdown page][markdown].
 
 ### 3. Preview your changes
