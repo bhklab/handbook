@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.4.0](https://github.com/bhklab/handbook/compare/v0.3.1...v0.4.0) (2024-11-04)
+
+
+### Features
+
+* add Markdown and MkDocs documentation sections for improved clarity and guidance ([90d0e7e](https://github.com/bhklab/handbook/commit/90d0e7ee111cab3377dede84e48030b3b7da05e9))
+* add repository name to mkdocs configuration and update icon reference ([6bc7cd1](https://github.com/bhklab/handbook/commit/6bc7cd1fababa5ed91bcb29b5b87f978f4a5550b))
+* improve clarity in contributing guide by refining section headings and adding notes ([f8b37f1](https://github.com/bhklab/handbook/commit/f8b37f1d40603913dcbf477b1c62fd9523e5d725))
+* refactor software development documentation structure with new sections on development environment and related tools ([05eb33b](https://github.com/bhklab/handbook/commit/05eb33b978c1a833c30e71124eb7b66def66709d))
+
+
+### Bug Fixes
+
+* formatting ([5c25c0e](https://github.com/bhklab/handbook/commit/5c25c0e1e23c46e1a7f502507de5cc5c3dd29d14))
+* formatting ([5c25c0e](https://github.com/bhklab/handbook/commit/5c25c0e1e23c46e1a7f502507de5cc5c3dd29d14))
+* git config --local only if we checkout ([f819f89](https://github.com/bhklab/handbook/commit/f819f89926aff0671f57f466eaa576a9e57363c0))
+* lint files ([2c958fb](https://github.com/bhklab/handbook/commit/2c958fb02dc0c813729c1f8a77b4df776c6f1f76))
+* revise handbook introduction and contribute guidelines for clarity and better onboarding experience ([2c958fb](https://github.com/bhklab/handbook/commit/2c958fb02dc0c813729c1f8a77b4df776c6f1f76))
+
 ## [0.3.1](https://github.com/bhklab/handbook/compare/v0.3.0...v0.3.1) (2024-10-29)
 
 
