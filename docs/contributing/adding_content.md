@@ -23,7 +23,7 @@ The documentation is written in Markdown and can be found in the `docs` director
 
 Here are the steps to add new content to the documentation:
 
-### 1. Create a branch for your changes.
+### 1. Create a branch for your changes
 
 ??? note "Note: Naming your branch"
     A branch is a way to work on a new feature or bug fix without affecting the main branch.
@@ -48,6 +48,7 @@ Here are the steps to add new content to the documentation:
     ```
 
 To **create a new branch and switch to it**, run the following command:
+
 ```console
 git checkout -b <branch-name>
 $ git checkout -b jjjermiah/adding-getting-started-page
@@ -59,7 +60,7 @@ If you already have a named branch, you can switch to it with the following comm
 $ git switch jjjermiah/adding-getting-started-page
 ```
 
-### 2. Add your new content to the `docs` directory.
+### 2. Add your new content to the `docs` directory
 
 Let's say you want to add a new page to the `Onboarding` section.
 You would add a new file to the `docs/onboarding` directory.
@@ -68,7 +69,12 @@ You would add a new file to the `docs/onboarding` directory.
 $ touch docs/onboarding/my_new_page.md
 ```
 
-### 3. Preview your changes.
+This will create an empty Markdown file called `my_new_page.md` in the `docs/onboarding` directory.
+
+!!! note 
+    For more information on Markdown syntax, see the [Markdown page][markdown].
+
+### 3. Preview your changes
 
 The following is a [`pixi task`](https://pixi.sh/latest/features/advanced_tasks/)
 that will start a local server and preview the documentation at `http://localhost:8000`.
@@ -79,7 +85,7 @@ $ pixi run serve
 
 You should see your changes appear at `http://127.0.0.1:8000/handbook/onboarding/my_new_page/`
 
-### 4. Commit and push your changes to your branch.
+### 4. Commit and push your changes to your branch
 
 ```console
 $ git add .
