@@ -22,6 +22,7 @@ markdown_extensions:
       alternate_style: true
   - attr_list
   - md_in_html
+  - footnotes
 
 plugins:
   - redirects:                        # handles URL redirects for moved pages
@@ -35,21 +36,23 @@ plugins:
   - git-revision-date-localized:      # adds a date to the bottom of each page
       enable_creation_date: true
   - include-markdown                  # allows for including Markdown files into another Markdown file
-  - mike:                             # mike handles versioned documentation
-  #     # These fields are all optional; the defaults are as below...
-  #     alias_type: symlink
-  #     redirect_template: null
-  #     deploy_prefix: ''
-  #     canonical_version: null
-  #     version_selector: true
-  #     css_dir: css
-  #     javascript_dir: js
+  - mike                              # mike handles versioned documentation
 
 extra:
   homepage: https://bhklab.github.io/handbook/latest
+  social:
+    #######################################################################################
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
+    - icon: fontawesome/brands/github
+      link: https://github.com/bhklab/
+      name: Check out our GitHub!
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/bhklab/
+      name: Connect with us on LinkedIn!
   version:
     provider: mike
     default: latest
+  generator: false                     # disable 'built with MkDocs' footer
 
 extra_javascript:
   - assets/js/extra.js
@@ -61,11 +64,13 @@ theme:
     annotation: material/plus-circle
     repo: fontawesome/brands/github
   features:
+    ###########################################################################
     - content.code.annotate            # adds annotations to code blocks
     - content.code.copy                # adds a copy button to code blocks
     - content.code.select              # allows selecting text in code blocks
     - content.tabs.link                # links between tabbed content
     - content.tooltips                 # enables tooltips for additional info
+    ###########################################################################
     - navigation.indexes               # provides index pages for navigation
     - navigation.instant               # instant loading of pages
     - navigation.instant.prefetch      # prefetches pages for instant navigation
@@ -73,9 +78,12 @@ theme:
     - navigation.tabs                  # adds tab navigation support
     - navigation.top                   # back to top navigation button
     - navigation.tracking              # tracks page navigation statistics
+    - navigation.footer                # adds a footer to the bottom of the page
+    ###########################################################################
     - search.highlight                 # highlights search terms
     - search.suggest                   # suggests search query completions
     - search.share                     # adds a share button to search results
+    ###########################################################################
     - toc.follow                       # keeps track of the current table of contents entry
   font:
     text: Red Hat Text
