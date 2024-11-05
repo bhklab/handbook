@@ -21,11 +21,7 @@ Whether you're looking to [report an issue][submitting-issues],
 the resources you need to get started. Your contributions help make this
 handbook a valuable tool for the entire lab community!
 
-!!! warning "This handbook is under active development and open-source!"
+!!! tip "This handbook is under active development and open-source!"
 
     Visit the [GitHub repository](https://github.com/bhklab/handbook) to
     see the latest updates and contribute to the project.
-
-## Miro Board:
-
-<iframe src="https://miro.com/app/live-embed/uXjVKwSe31w=/?moveToViewport=-3635,688,2780,1134&embedId=279072143427" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
