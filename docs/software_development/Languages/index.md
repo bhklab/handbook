@@ -13,16 +13,16 @@ Ideas for a breakdown:
 
 - Purpose and Usage
 - Examples
-  - Bash
-  - Perl
-  - Ruby
+    - Bash
+    - Perl
+    - Ruby
 
 ## Domain-Specific Languages
 
 - Definition
 - Examples
-  - SQL
-  - HTML
+    - SQL
+    - HTML
 
 ## Compiled vs. Interpreted Languages
 

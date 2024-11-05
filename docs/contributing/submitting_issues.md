@@ -1,4 +1,4 @@
-# Submitting Issues
+# [Submitting Issues](#submitting-issues)
 
 ## Introduction
 
@@ -14,7 +14,6 @@ link: [Submit and view issues](https://github.com/bhklab/handbook/issues)
 When creating a new issue, you will be presented with the following options:
 
   ![submitting-issues](images/submitting-issues.png)
-
 
 1. **Documentation Bug Report**
 

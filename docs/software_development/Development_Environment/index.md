@@ -10,6 +10,7 @@ This includes:
     - `PowerShell` for most Windows users
     - `Windows Subsystem for Linux` (WSL)
     - `Zsh` (commonly installed for macOS users) but can be used on Linux!
+
 - Integrated Development Environments (IDEs)
     - VS Code
     - PyCharm

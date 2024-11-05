@@ -9,7 +9,6 @@ The `tabbed` extension allows you to create tabbed code/content blocks.
 
 See reference [here](https://squidfunk.github.io/mkdocs-material/reference/content-tabs/).
 
-
 === "Tabbed Code Blocks"
 
     Click on either `C` or `C++` to view the code specific to that language.

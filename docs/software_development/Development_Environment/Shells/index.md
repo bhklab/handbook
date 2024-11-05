@@ -1,6 +1,6 @@
 # Shells
 
-# What is a Shell?
+## What is a Shell?
 
 A shell is a user interface that provides access to the operating system's
 services. Typically, it functions as a command-line interface (CLI), where

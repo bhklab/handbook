@@ -17,7 +17,7 @@ you to check out our **[Contributing Section][contributing-to-the-lab-handbook]*
 
 Whether you're looking to [report an issue][submitting-issues],
 [add new content][adding-content], or
-[suggest an enhancement][submitting-issues], the [Contributing Section][contributing-to-the-lab-handbook] has all
+[suggest an enhancement](#submitting-issues), the [Contributing Section](#contributing-to-the-lab-handbook) has all
 the resources you need to get started. Your contributions help make this
 handbook a valuable tool for the entire lab community!
 
