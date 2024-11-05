@@ -1,0 +1,8 @@
+{
+  "line-length": false,
+  "no-inline-html": false,
+  "reference-links-images": false,
+  "link-fragments": false,
+  "MD007": { "indent": 4 },
+  "code-block-style": false
+}
