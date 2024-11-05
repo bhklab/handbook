@@ -5,17 +5,12 @@
 > This document will guide you through the process of adding a new page to the
 > handbook.
 
-!!! note
+!!! tip
 
-    This section assumes you have already completed the
-    [Prerequisites][prerequisites] section.
+    The handbook is built using [MkDocs](https://www.mkdocs.org/) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+    These tools also have extensive documentation and guides for contributing to a Mkdocs project.
 
-## MkDocs
-
-The handbook is built using [MkDocs](https://www.mkdocs.org/) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
-These tools also have extensive documentation and guides for contributing to a Mkdocs project.
-
-Please refer to their respective documentation *first* for any questions you might have.
+    Please refer to their respective documentation **first** for any questions you might have.
 
 ## Adding Content to the Documentation
 
@@ -57,22 +52,27 @@ $ git checkout -b jjjermiah/adding-getting-started-page
 If you already have a named branch, you can switch to it with the following command:
 
 ```console
-$ git switch jjjermiah/adding-getting-started-page
+git switch jjjermiah/adding-getting-started-page
 ```
 
 ### 2. Add your new content to the `docs` directory
+
+??? question "How do I know where to create my file?"
+
+    This will create an empty Markdown file called `my_new_page.md` in the `docs/onboarding` directory.
+    The relative path to the `docs` directory, will be the link to your new page. <br>
+    i.e the link to your new page will be `<website-url>/handbook/onboarding/my_new_page/`
 
 Let's say you want to add a new page to the `Onboarding` section.
 You would add a new file to the `docs/onboarding` directory.
 
 ```console
 $ touch docs/onboarding/my_new_page.md
+You should now see a new file at `docs/onboarding/my_new_page.md`.
 ```
 
-This will create an empty Markdown file called `my_new_page.md` in the `docs/onboarding` directory.
-
-!!! note
-    For more information on Markdown syntax, see the [Markdown page][markdown].
+To learn more about how to actually write content, see the [HandBook MkDocs Page][mkdocs] and
+[Handbook Markdown page][markdown].
 
 ### 3. Preview your changes
 
@@ -81,6 +81,10 @@ that will start a local server and preview the documentation at `http://localhos
 
 ```console
 $ pixi run serve
+INFO    -  Building documentation...
+INFO    -  Cleaning site directory
+...
+INFO    -  [08:55:05] Serving on http://127.0.0.1:8000/handbook/
 ```
 
 You should see your changes appear at `http://127.0.0.1:8000/handbook/onboarding/my_new_page/`
@@ -88,9 +92,9 @@ You should see your changes appear at `http://127.0.0.1:8000/handbook/onboarding
 ### 4. Commit and push your changes to your branch
 
 ```console
-$ git add .
-$ git commit -m "Add new getting started page"
-$ git push --set-upstream origin jjjermiah/adding-getting-started-page
+git add .
+git commit -m "Add new getting started page"
+git push --set-upstream origin jjjermiah/adding-getting-started-page
 ```
 
 ### 5. Create a PR

@@ -41,7 +41,7 @@ and `mike` to automate the release process and manage versioned documentation,
 making it easier to maintain version control, changelogs, and multiple
 documentation versions.
 
-### How It Works
+### How Releases Work
 
 When a pull request is merged into the `main` branch, a
 [GitHub Action](https://github.com/features/actions) triggers the release
@@ -67,5 +67,45 @@ Key aspects of this combined approach include:
   to provide a separate set of documentation for each release, maintaining
   historical versions accessible on the website.
 
-This automated approach ensures consistency, reduces manual effort, and allows users to access documentation relevant to any specific version of the project.
+This automated approach ensures consistency, reduces manual effort, and allows
+users to access documentation relevant to any specific version of the project.
 required to manage releases.
+
+### Manual Release Process
+
+If you need to release a new version of the documentation manually, you can follow these steps:
+
+1. Pull either the `main` branch or a specific release branch (e.g., `v0.1.0`) to your local machine.
+
+=== "Releasing a `main` branch as `dev`"
+
+      ```console
+      $ git pull origin main
+      From https://github.com/bhklab/handbook
+      * branch            main       -> FETCH_HEAD
+      Already up to date.
+      ```
+
+=== "Release a specific version branch"
+
+      ```console
+      $ VERSION=v0.1.0
+      $ git pull origin v$VERSION
+      From https://github.com/bhklab/handbook
+      * branch            v0.1.0     -> FETCH_HEAD
+      Already up to date.
+      ```
+
+2. Use the `mike` command to deploy the documentation to the `gh-pages` branch.
+
+=== "Releasing a `main` branch as `dev`"
+
+      ```console
+      $ pixi run mike deploy --push dev devel
+      ```
+
+=== "Release a specific version branch"
+
+      ```console
+      $ pixi run mike deploy --push --update-aliases $VERSION latest
+      ```
