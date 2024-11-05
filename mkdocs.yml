@@ -9,15 +9,16 @@ markdown_extensions:
       permalink_title: Anchor link to this section for reference
       toc_depth: 3
   - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.keys
   - pymdownx.highlight:               # from https://squidfunk.github.io/mkdocs-material/reference/code-blocks/
       anchor_linenums: true
       line_spans: __span
       use_pygments: true
       pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
@@ -64,6 +65,7 @@ theme:
     annotation: material/plus-circle
     repo: fontawesome/brands/github
   features:
+    - header.autohide                  # hides header when scrolling down
     ###########################################################################
     - content.code.annotate            # adds annotations to code blocks
     - content.code.copy                # adds a copy button to code blocks
