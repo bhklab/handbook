@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.5.0](https://github.com/bhklab/handbook/compare/v0.4.0...v0.5.0) (2024-11-06)
+
+
+### Features
+
+* add footnotes support and enhance social links in MkDocs configuration ([1a4dd35](https://github.com/bhklab/handbook/commit/1a4dd35df64827f485d349802d051a51a55a0b1a))
+* add guiding principles for contributing to the handbook ([#52](https://github.com/bhklab/handbook/issues/52)) ([31e196e](https://github.com/bhklab/handbook/commit/31e196ea5dcfaa840395e7964975d2cfdac61b9c))
+* add header autohide feature, reorganize markdown extensions ([fc994d8](https://github.com/bhklab/handbook/commit/fc994d8310e16f761940a5df11170197795baf61))
+* add markdownlint configuration and ignore rules for improved linting ([0fe0d8a](https://github.com/bhklab/handbook/commit/0fe0d8a74c40dc49cb3a733bc55a4ba4aeac48a9))
+* enhance contributing documentation with clearer instructions and new examples ([6d7cc6b](https://github.com/bhklab/handbook/commit/6d7cc6b19e68ef1bbb0006b039f501016a2edc80))
+* link hpc4health site under software development ([#51](https://github.com/bhklab/handbook/issues/51)) ([f7361aa](https://github.com/bhklab/handbook/commit/f7361aaa8de36788b63ecd1251166b2a66003f92))
+* update onboarding / offboarding section ([#53](https://github.com/bhklab/handbook/issues/53)) ([3c86b05](https://github.com/bhklab/handbook/commit/3c86b05db63b51ca21defbb636a6b3b0c509a5c7))
+
 ## [0.4.0](https://github.com/bhklab/handbook/compare/v0.3.1...v0.4.0) (2024-11-04)
 
 
