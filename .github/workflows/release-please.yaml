@@ -1,3 +1,5 @@
+name: Release-Please
+
 on:
   push:
     branches:
@@ -11,6 +13,10 @@ permissions:
 jobs:
   release-please:
     runs-on: ubuntu-latest
+
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+
     steps:
       - uses: GoogleCloudPlatform/release-please-action@v4
         id: release

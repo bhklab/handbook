@@ -15,6 +15,9 @@ jobs:
   Docs:
     runs-on: ubuntu-latest
 
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+
     permissions:
       # Need to give the action permission to write to the repository to deploy the docs
       contents: write
