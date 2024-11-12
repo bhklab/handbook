@@ -1,6 +1,5 @@
 # [Prerequisites](#prerequisites)
 
-
 ## [Installing Pixi](#installing-pixi)
 
 Pixi is a tool for managing conda environments and dependencies.
@@ -10,6 +9,7 @@ The [Pixi documentation](https://pixi.sh/latest/) is an extensive resource for
 learning how to use Pixi.
 
 Running the following command in your terminal should verify installation.
+
 ```console
 $pixi --version
 pixi 0.34.0
@@ -40,6 +40,5 @@ $ pixi install
 ```
 
 This will install the dependencies specified in the `pixi.toml` file.
-
 
 To add content to the handbook, see the [Adding Content][adding-content] section.

@@ -4,7 +4,6 @@
     Only a subset of members of the BHK Lab organization can merge pull requests.
     If you are a maintainer, you can merge a pull request by following the steps below.
 
-
 ## Validating the Pull Request
 
 Before merging a pull request, it is important to validate the following:
@@ -14,7 +13,6 @@ Before merging a pull request, it is important to validate the following:
 3. Has the pull request been reviewed by at least one member of the lab?
 4. Are there any merge conflicts?
 5. Does the PR add files that should not be added or mistakes? (i.e `.DS_Store`)
-
 
 ## Merge Strategy
 
@@ -53,12 +51,11 @@ This has a few benefits:
 
 To merge a pull request, follow these steps:
 
-### Click on the "Squash and merge" button.
+### Click on the "Squash and merge" button
 
 ![image](images/squash_merge.png){: style="height:50%;width:50%"}
 
-
-### Modify the commit message as needed.
+### Modify the commit message as needed
 
 By default, the commit message will be the title of the pull request.
 The body of the commit message will include all the commits from the pull request.
@@ -75,7 +72,6 @@ Feel free to modify the body of the commit message to include only the relevant 
     The commit message body can be modified to include any relevant commits.
 
 ![better_pr](images/better_pr_body.png){: style="height:100%;width:100%"}
-
 
 ### Verify GitHub Pages Deployment
 

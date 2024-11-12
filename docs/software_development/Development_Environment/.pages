@@ -1,0 +1,7 @@
+nav:
+    -  index.md
+    -  Shells
+    -  Integrated_Development_Environments
+    -  Package_Managers
+    -  CLI_Tools
+    -  Containerization

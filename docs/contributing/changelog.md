@@ -1,5 +1,5 @@
+# Handbook Changes Over Time
+
 {%
     include-markdown "../../CHANGELOG.md"
-    start="<!--intro-start-->"
-    end="<!--intro-end-->"
 %}

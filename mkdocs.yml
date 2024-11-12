@@ -1,58 +1,59 @@
 site_name: BHKLab Handbook
 site_url: "https://bhklab.github.io/handbook/" # Trailing slash is recommended
 repo_url: https://github.com/bhklab/handbook
+repo_name: bhklab/handbook
 
 markdown_extensions:
   - toc:
-      permalink: 🔗
+      permalink: '#'
+      permalink_title: Anchor link to this section for reference
+      toc_depth: 3
   - admonition
-  # From https://squidfunk.github.io/mkdocs-material/reference/code-blocks/
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      use_pygments: true
-      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.highlight:               # from https://squidfunk.github.io/mkdocs-material/reference/code-blocks/
+      anchor_linenums: true
+      line_spans: __span
+      use_pygments: true
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
   - attr_list
   - md_in_html
+  - footnotes
 
 plugins:
-  - redirects:
+  - redirects:                        # handles URL redirects for moved pages
       redirect_maps:
         "index.md": "General/index.md"
-  # simplifies configuring page titles and their order
-  - awesome-pages
-  # necessary for search functionality to work
-  - search
-  # adds authors to pages using git history
-  - git-authors
-  # Automatically link to another page's ref
-  - autorefs:
+  - awesome-pages                     # simplifies configuring page titles and their order
+  - search                            # necessary for search functionality to work
+  - git-authors                       # adds authors to pages using git history
+  - autorefs:                         # automatically link to another page's ref
       resolve_closest: true
-  # Adds a date to the bottom of each page
-  - git-revision-date-localized:
+  - git-revision-date-localized:      # adds a date to the bottom of each page
       enable_creation_date: true
-  # Allows for including Markdown files into another Markdown file
-  - include-markdown
-  # Mike not implemented yet
-  # - mike:
-  #     # These fields are all optional; the defaults are as below...
-  #     alias_type: symlink
-  #     redirect_template: null
-  #     deploy_prefix: ''
-  #     canonical_version: null
-  #     version_selector: true
-  #     css_dir: css
-  #     javascript_dir: js
+  - include-markdown                  # allows for including Markdown files into another Markdown file
+  - mike                              # mike handles versioned documentation
 
 extra:
   homepage: https://bhklab.github.io/handbook/latest
+  social:
+    #######################################################################################
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
+    - icon: fontawesome/brands/github
+      link: https://github.com/bhklab/
+      name: Check out our GitHub!
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/bhklab/
+      name: Connect with us on LinkedIn!
   version:
     provider: mike
     default: latest
+  generator: false                     # disable 'built with MkDocs' footer
 
 extra_javascript:
   - assets/js/extra.js
@@ -62,34 +63,34 @@ theme:
   name: material
   icon:
     annotation: material/plus-circle
-    admonition:
+    repo: fontawesome/brands/github
   features:
-    - content.code.annotate # Adds annotations to code blocks
-    - content.code.copy # Adds a copy button to code blocks
-    - content.code.select # Allows selecting text in code blocks
-    - content.tabs.link # Links between tabbed content
-    - content.tooltips # Enables tooltips for additional info
-    - navigation.indexes # Provides index pages for navigation
-    - navigation.instant # Instant loading of pages
-    - navigation.instant.prefetch # Prefetches pages for instant navigation
-    - navigation.path # Displays path navigation
-    - navigation.tabs # Adds tab navigation support
-    - navigation.top # Back to top navigation button
-    - navigation.tracking # Tracks page navigation statistics
-    - search.highlight # Highlights search terms
-    - search.suggest # Suggests search query completions
-    - toc.follow # Keeps track of the current table of contents entry
-    - toc.integrate # Integrates the table of contents
+    - header.autohide                  # hides header when scrolling down
+    ###########################################################################
+    - content.code.annotate            # adds annotations to code blocks
+    - content.code.copy                # adds a copy button to code blocks
+    - content.code.select              # allows selecting text in code blocks
+    - content.tabs.link                # links between tabbed content
+    - content.tooltips                 # enables tooltips for additional info
+    ###########################################################################
+    - navigation.indexes               # provides index pages for navigation
+    - navigation.instant               # instant loading of pages
+    - navigation.instant.prefetch      # prefetches pages for instant navigation
+    - navigation.path                  # displays path navigation
+    - navigation.tabs                  # adds tab navigation support
+    - navigation.top                   # back to top navigation button
+    - navigation.tracking              # tracks page navigation statistics
+    - navigation.footer                # adds a footer to the bottom of the page
+    ###########################################################################
+    - search.highlight                 # highlights search terms
+    - search.suggest                   # suggests search query completions
+    - search.share                     # adds a share button to search results
+    ###########################################################################
+    - toc.follow                       # keeps track of the current table of contents entry
   font:
     text: Red Hat Text
     code: JetBrains Mono
   palette:
-    # # Palette toggle for automatic mode
-    # - media: "(prefers-color-scheme")"
-    #   toggle:
-    #     icon: material/brightness-auto
-    #     name: Switch to light mode
-
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default

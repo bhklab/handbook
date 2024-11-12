@@ -3,10 +3,10 @@ title: Contributing
 nav:
     - index.md
     - prerequisites.md
+    - submitting_issues.md
     - adding_content.md
     - ...
     - reviews.md
     - merging_pr.md
     - release_deployment.md
-    - submitting_issues.md
     - changelog.md
