@@ -18,8 +18,19 @@ Several slide templates have already been developed for the lab:
 
 
 
-### Things to Add
-- Miro
-- Flaticon
-- Biorender
-- Slido
+**Miro**
+
+[Miro](https://miro.com/login/) is a collaborative white board platform that enables simple diagram and multi-figure panel creation for presentations and/or manuscripts. For major diagrams (e.g. to be used and updated by the lab), please request a Miro Board be created via the BHK Lab Miro account.
+
+
+**Flaticon**
+
+TODO: Get BHKLab flat icon account?
+
+**Biorender**
+
+TODO: BHKLab biorender accout needs to be created
+
+**Slido**
+
+[Slido](https://www.slido.com/) is an interactive polling platform that can be easily integrated into Google Sheets. We recommend using this platform to improve engagement in presentations, particularly workshops or other relevant use cases.
