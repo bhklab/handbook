@@ -78,7 +78,7 @@ Navigate to the page under your name with the current year and your initials. Th
 !!! note
     If this is your first ever SOW, follow [From Create template](#from-create-template)
 
-### **From Create template**
+### From Create template
 
 1. Click on the blue ellipses (...) button next to Create at the top of the page.
 
@@ -87,7 +87,7 @@ Navigate to the page under your name with the current year and your initials. Th
     a. Select this and click Create on the bottom right of the pop-up.  
     ![](img/confluence_sowtemplatecreate.png){width=60%}
 
-### **From previous week’s SOW**
+### From previous week’s SOW
 
 1. In the page tree, click on your last published SOW
 
@@ -124,7 +124,7 @@ Once completed, hit the blue Publish button in the bottom right or use `Ctrl + S
 
 
 
-## **Reordering your SOW pages**
+## Reordering your SOW pages
 
 Navigate to Space Tools by either: 
 
@@ -140,7 +140,7 @@ Click on the latest SOW to confirm it’s been properly moved.
 
 You have now completed your SOW for the week\!
 
-## **Draft SOW**
+## Draft SOW
 
 If your SOW page is not showing up in the PAGE TREE, it has likely been saved to your page drafts.
 
