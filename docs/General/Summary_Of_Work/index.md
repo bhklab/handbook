@@ -1,8 +1,8 @@
-# **Confluence SOW Tutorial**
+# [Confluence SOW Tutorial](#confluence-sow-tutorial)
 
 This tutorial will walk you through how to access Confluence, set up your Page Tree, and to write your weekly Summary of Work (SOW). 
 
-# Logging on to Confluence
+## Logging on to Confluence
 
 Make sure you are connected to either  
 
@@ -17,7 +17,7 @@ Head to this link: [BHKLab SOW Confluence Space](https://collaborate.uhnresearch
 Log in using your UHN username (usually your TID) and your UHN password.
 
 
-# Navigating to the BHKLab-SOW Space
+## Navigating to the BHKLab-SOW Space
 
 The [link](https://collaborate.uhnresearch.ca/confluence/login.action?os_destination=%2Fpages%2Fviewpage.action%3FspaceKey%3DBHKLabSOW%26title%3DBHKLab-SOW&permissionViolation=true) from step 2 should take you directly to the BHKLab-SOW space once you’re logged in that looks like this: ![](img/confluence_bhklabsowhome.png)
 
@@ -26,7 +26,7 @@ If you end up on a different page, navigate to the **Spaces** dropdown and selec
 
    
 
-# Finding your section in the Page Tree
+## Finding your section in the Page Tree
 ![](img/confluence_sidebar.png){: align=right height=25% width=25% }
 On the left side of the BHKLab-SOW page, find the PAGE TREE section and find the position name that you fall under. 
 
@@ -48,7 +48,7 @@ You should now see a page like this with your name as the title.
 ![](img/confluence_yournamesection.png){: height=70% width=70% }
 
 
-# Setting up the year page for your SOWs
+## Setting up the year page for your SOWs
 
 While on the page with Your Name on it, click the blue Create button at the top of the screen.
 
@@ -72,7 +72,7 @@ You should now see the page you just published listed under Your Name on the Pag
     ![](img/confluence_yearinitialssection.png){width=80%}  
     
 
-# Creating your SOW Page
+## Creating your SOW Page
 
 Navigate to the page under your name with the current year and your initials. There are two options to create this week’s SOW:    
 !!! note
@@ -97,7 +97,7 @@ Navigate to the page under your name with the current year and your initials. Th
 3. In the Copy page menu, make sure the parent page is set to the right year and click the blue Copy button  
    ![](img/confluence_copypagemenu.png){width=45%}
 
-# Writing your SOW
+## Writing your SOW
 
 **Date**: Set the dates in the yellow box to the first and last day of the current week (usually Monday and Friday)
 
