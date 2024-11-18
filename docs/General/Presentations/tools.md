@@ -6,7 +6,7 @@ This page describes standards, tools, and resources for creating presentations f
 
 All external presentations (conferences, workshops, external working groups), should be created on Google Sheets directly by or shared to the `bhklab.research@gmail.com` account.
 
-Internal presentations, such as journal clubs, should also be created on Google Sheets and shared to the [JC Slide List](https://docs.google.com/spreadsheets/d/17j4Pzs24Vkem04yUdMgydnpDWQEGwLaPxVF7j7PFapE/edit?gid=0#gid=0)
+Internal presentations, such as journal clubs, should also be created on Google Sheets. *Link Lab Meeting and Journal Club pages here.
 
 
 **Templates**
@@ -20,16 +20,18 @@ Several slide templates have already been developed for the lab:
 
 **Miro**
 
-[Miro](https://miro.com/login/) is a collaborative white board platform that enables simple diagram and multi-figure panel creation for presentations and/or manuscripts. For major diagrams (e.g. to be used and updated by the lab), please request a Miro Board be created via the BHK Lab Miro account.
+[Miro](https://miro.com/login/) is a collaborative white board platform that enables simple diagram and multi-figure panel creation for presentations and/or manuscripts. For diagrams that will be used and updated by others in the lab, please request a Miro Board be created via the BHK Lab Miro account.
 
 
-**Flaticon**
+**Images and Icons**
 
-TODO: Get BHKLab flat icon account?
+The following are open-source biological imaging databases and platforms. The BHK Lab holds a premium Flaticon account (*do I provide login details?*). If Biorender and/or BioArt are used, please remember to add them to the acknowledgements.
 
-**Biorender**
+- [Flaticon](https://www.flaticon.com/)
+- [Biorender](https://www.biorender.com/)
+- [BioArt](https://bioart.niaid.nih.gov/)
 
-TODO: BHKLab biorender accout needs to be created
+
 
 **Slido**
 
