@@ -32,13 +32,13 @@ ML integrates concepts from these fields to solve diverse problems in areas like
 ## When Should We Use Machine Learning?
 
 ### Appropriate Use Cases
-- When there’s a need to analyze large datasets for complex patterns.
+- When there's a need to analyze large datasets for complex patterns.
 - When the problem requires automation or decision-making without explicit programming.
 
 ### When We Should Avoid Machine Learning
 - When data is insufficient or of poor quality.
 - When simpler, rule-based systems can solve the problem more effectively.
-- When interpretability is critical, and black-box methods aren’t acceptable.
+- When interpretability is critical, and black-box methods arenï¿½t acceptable.
 
 ## Categories and Branches of Machine Learning
 
