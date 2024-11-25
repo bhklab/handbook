@@ -46,13 +46,19 @@ Google Cloud Platform is a suite of cloud computing services offered by Google, 
 **Step 1**: Initialize Google Cloud SDK
 
 - Install the Google Cloud SDK on your machine by following the official installation guide (https://cloud.google.com/sdk/docs/install).
-  `gcloud init`
+
+  ```
+  gcloud init
+  ```
+
 - Follow the prompts to authenticate, select your project, and configure the settings.
 
 **Step 2:** Authenticate Your Terminal
 
 - Run the following command to authenticate:
-  `gcloud auth login`
+  ```
+  gcloud auth login
+  ```
 - This opens a browser window asking you to log in with your Google account.
 - After login, your terminal will be authenticated, and you’ll see a confirmation message.
 
@@ -60,11 +66,15 @@ Google Cloud Platform is a suite of cloud computing services offered by Google, 
 
 - Ensure the correct project is set as the active one.
 
-`gcloud config set project <PROJECT_ID>`
+```
+gcloud config set project <PROJECT_ID>
+```
 
 - Replace <PROJECT_ID> with your GCP project ID (e.g., bhklabproject-123).
 - Verify the active project:
-  `gcloud config list project`
+  ```
+  gcloud config list project
+  ```
 
 ## Essential and Most Used GCP Services You May Use for Your Project
 
@@ -112,9 +122,13 @@ Below are some key Google Cloud Platform (GCP) services that can be used for you
 
 - **_Transfer Data:_**
   _From Local to GCS:_
-  `gsutil cp <local_file> gs://<bucket_name>`
+  ```
+  gsutil cp <local_file> gs://<bucket_name>
+  ```
   _From GCS to Local:_
-  `gsutil cp gs://<bucket_name>/<file_name> <local_destination>`
+  ```
+  gsutil cp gs://<bucket_name>/<file_name> <local_destination>
+  ```
 
 ## **2. BigQuery**
 
@@ -133,13 +147,17 @@ It is a SQL-based data warehouse that allows you to process, load, and analyze d
 
 1. **Load Data into BigQuery**:  
    From GCS:
-   `bq load --source_format=CSV <DATASET_NAME>.<TABLE_NAME> gs://<BUCKET_NAME>/<FILE_NAME>`
+   ```
+   bq load --source_format=CSV <DATASET_NAME>.<TABLE_NAME> gs://<BUCKET_NAME>/<FILE_NAME>
+   ```
 2. **Query Data**:  
    Use BigQuery's web interface or CLI to run SQL queries for data cleaning, feature engineering, and exploratory analysis.
    Example:
-   `SELECT * FROM `project_id.dataset_name.table_name` LIMIT 10;`
+   ````
+   SELECT * FROM `project_id.dataset_name.table_name` LIMIT 10;```
+   ````
 
-** Follow the instructions in this [document](#https://cloud.google.com/bigquery/docs) to learn more about BigQuery **
+**Follow the instructions in this [document](#https://cloud.google.com/bigquery/docs) to learn more about BigQuery**
 
 ## 3. Cloud SQL for MySQL, PostgreSQL, and Microsoft SQL Server
 
@@ -159,12 +177,19 @@ Ensure that you have completed [How to Use GCP](#3-how-to-use-gcp) before starti
 
 #### **Step 1: Enable the Cloud SQL API**
 
-`gcloud services enable sqladmin.googleapis.com`
+```
+gcloud services enable sqladmin.googleapis.com
+```
 
 #### **Step 2: Create a Cloud SQL Instance**
 
 **MySQL Example**:
-`	gcloud sql instances create [INSTANCE_NAME] \ --database-version=MYSQL_8_0 \ --cpu=[CPU_COUNT] \ --memory=[MEMORY_SIZE] \ --region=[REGION]`
+
+```
+gcloud sql instances create [INSTANCE_NAME] \ --database-version=MYSQL_8_0 \ --cpu=[CPU_COUNT] \ --memory=[MEMORY_SIZE] \ --region=[REGION]
+
+```
+
 **PostgreSQL Example**:
 `gcloud sql instances create [INSTANCE_NAME] \
     --database-version=POSTGRES_14 \
@@ -181,12 +206,18 @@ Ensure that you have completed [How to Use GCP](#3-how-to-use-gcp) before starti
 #### Step 3: Configure Users and Databases
 
 **Create a Database**:
-`gcloud sql databases create [DATABASE_NAME] --instance=[INSTANCE_NAME]  `
+
+```
+gcloud sql databases create [DATABASE_NAME] --instance=[INSTANCE_NAME]
+```
 
 **Add a User**:
-`gcloud sql users create [USERNAME] --password=[PASSWORD] --instance=[INSTANCE_NAME]`
 
-** For a detailed guide on using client services, please refer to this [link](#https://cloud.google.com/sql/docs) **
+```
+gcloud sql users create [USERNAME] --password=[PASSWORD] --instance=[INSTANCE_NAME]
+```
+
+**For a detailed guide on using client services, please refer to this [link](#https://cloud.google.com/sql/docs)**
 
 ### **3. Virtual Machines (VMs)**
 
@@ -245,30 +276,47 @@ Google Cloud Artifact Registry is a fully-managed service for storing and managi
 
 #### **Step 1: Enable Artifact Registry API**
 
-`gcloud services enable artifactregistry.googleapis.com`
+```
+gcloud services enable artifactregistry.googleapis.com
+```
 
 #### **Step 2: Create an Artifact Repository**
 
 **Command**:
-`gcloud artifacts repositories create [REPOSITORY_NAME] \
+
+```
+gcloud artifacts repositories create [REPOSITORY_NAME] \
     --repository-format=docker \
     --location=[REGION] \
-    --description="Repository for storing Docker images" `
+    --description="Repository for storing Docker images"
+```
 
 #### **Step 3: Authenticate Docker with Artifact Registry**
 
 Run the following command to configure Docker to authenticate with your Artifact Registry:
-`gcloud auth configure-docker [REGION]-docker.pkg.dev`
+
+```
+gcloud auth configure-docker [REGION]-docker.pkg.dev
+```
 
 #### **Step 4: Push Images to Artifact Registry**
 
 1. Tag your Docker image for Artifact Registry:
-   `docker tag [IMAGE_NAME] [REGION]-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG]  
-`
+
+```
+   docker tag [IMAGE_NAME] [REGION]-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG]
+```
+
 2. Push the image:
-   `docker push [REGION]-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG]`
+
+```
+  docker push [REGION]-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG]
+```
 
 #### **Step 5: Pull Images from Artifact Registry**
 
 To pull an image from your repository:
-`docker pull [REGION]-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG]`
+
+```
+docker pull [REGION]-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG]
+```
