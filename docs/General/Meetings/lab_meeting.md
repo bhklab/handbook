@@ -7,7 +7,11 @@
 
 **Presenter(s)**: One. 
 
-## Objective
+## Lab Meeting Status Updates
+
+Every lab meeting begins with a 15-20 minute status update. See [Pre lab meeting catchup slides](https://docs.google.com/presentation/d/1Gk5uMTpn8XCMvXmoP8AWjW3x-QM0mHfPB1BfteBfqK8/edit#slide=id.g2684830fade_0_0) for a list of status update materials.
+
+## Lab Meeting Objective
 
 During lab meetings, you may present the research idea and feasibility, preliminary analyses, progress of your work, or any topics that require feedback from the lab.
 
@@ -15,10 +19,10 @@ You will be sent an email notifying you of the date of presentation as per the l
 
 ### Slides
 
-It is best to follow a slide format:
+It is best to follow a standard slide format:
 
-* Agenda: list of topics that you will cover
-* Introduction: background to your research or project
+* Agenda
+* Introduction
 * Methods
 * Results
 * Challenges
@@ -27,7 +31,7 @@ It is best to follow a slide format:
 
 !!! tip
 
-    Feel free to use BHK lab wide templates for slides:
+    Feel free to use the BHK lab-wide templates for the slide deck:
 
     * [BHKLab External Presentation Template](https://docs.google.com/presentation/d/1B-iTfzHvVSOD9fW80NZz14ct6HENHWOgTxU8C673TmY/edit#slide=id.g855186e73f_0_44)
 
