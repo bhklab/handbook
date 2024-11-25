@@ -1,6 +1,9 @@
 # Reviewing a Contribution
 
-> **Note**: This document assumes there is an open Pull Request (PR) awaiting review.
+!!! note
+
+    This document provides an overview of the review process for contributions to the BHK Lab repositories.
+    See the [Code Review][introduction-to-code-reviews] section for more information on code reviews.
 
 For more details, see the [GitHub Docs on Pull Requests with Required Reviews](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews).
 
