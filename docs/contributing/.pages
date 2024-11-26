@@ -8,5 +8,6 @@ nav:
     - ...
     - reviews.md
     - merging_pr.md
+    - conventional_commits.md
     - release_deployment.md
     - changelog.md
