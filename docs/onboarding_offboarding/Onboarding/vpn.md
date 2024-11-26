@@ -58,7 +58,7 @@ Now that you have your laptop configured for the VPN, don't forget connecting ev
 
     globalprotect
 
-An then running in the prompt:
+And then running in the prompt:
 
     connect -portal connect2.uhn.ca
 
