@@ -5,7 +5,7 @@
 This documentation goes over the clinical trial data curation process in detail, using immunotherapy data.
 
 ### Objective
-The objective is to curate a clinical dataset into R's [MultiAssayExperiment](https://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html) object. An example of a clinical data MultiAssayExperiment (MAE) object can be found in [ORCESTRA](https://www.orcestra.ca/clinical_icb/10.5281/zenodo.7004828). 
+The objective is to curate a clinical dataset into R's [MultiAssayExperiment](https://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html) object. An example of a clinical data MultiAssayExperiment (MAE) object can be found in [ORCESTRA](https://zenodo.org/records/7332074). 
 
 Currently, a clinical data object contains the following data parts:
 
@@ -29,10 +29,10 @@ An example of clinical data processing pipeline can be found here as [a Snakemak
 Generally, an overall process of the curation follows the steps outlined below:
 
 1. **Download source data**: Download data from publications or data repositories. The source data can be in various formats such as an Excel file, CSV or TXT. 
-2. **Process raw molecular data, if available**: The RNA-seq processing from raw FASTQ is outlined on the [RNAseq raw processing page].
+2. **Process raw molecular data, if available**: The RNA-seq processing from raw FASTQ is outlined on the [RNAseq raw processing page](https://collaborate.uhnresearch.ca/confluence/display/BHKLabPRC/RNA+seq+raw+processing).
 3. **Add annotations**: Ensure that genes, tissues and treatments are annotated with metadata available from external source and lab standardized columns.
 4. **Create RangedSummarizedExperiment or SummarizedExperiment (SE) object**: For the molecular data, we prefer RangedSummarizedExperiment as it is compatible with [GenomicRanges R package](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html).
-6. **Create MAE object**: Format downloaded data to the layout and structure that is favourable to creating a MAE object. Through this process, the source data is extracted from the source data format and formatted into a CSV or TSV file. Integrate molecular data to MAE. 
+5. **Create MAE object**: Format downloaded data to the layout and structure that is favourable to creating a MAE object. Through this process, the source data is extracted from the source data format and formatted into a CSV or TSV file. Integrate molecular data to MAE. 
 
 ### Processing Clinical Metadata
 The clinical data should be formatted into patient/sample ids as rows and attributes as column data. This will be added as `colData` of the SE or MAE object.
@@ -117,7 +117,7 @@ Lab standardized annotation data are stored in BHKLab-Pachyderm's Annotation rep
 #### Gene Annotations
 Gene metadata is obtained from Gencode annotations. We have a few versions of Gencode annotation data available in .RData files. An .RData file includes data frames that contains gene and transcript information such as features_gene, features_transcript and tx2gene. Some of the available gene annotations include:
 
-- [Gencode v19(https://github.com/BHKLAB-Pachyderm/Annotations/blob/master/Gencode.v19.annotation.RData)]
+- [Gencode v19](https://github.com/BHKLAB-Pachyderm/Annotations/blob/master/Gencode.v19.annotation.RData)
 - [Gencode v40](https://github.com/BHKLAB-Pachyderm/Annotations/blob/master/Gencode.v40.annotation.RData)
 
 !!!note
