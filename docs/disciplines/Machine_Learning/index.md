@@ -22,6 +22,7 @@ Before ML, we relied on statistical methods, manual rule-based algorithms, or hu
 ## Where Does Machine Learning Fit in Science?
 
 Machine Learning is an interdisciplinary field at the intersection of:
+
 - **Computer Science**: Provides algorithms and computational power.
 - **Statistics**: Forms the mathematical foundation for analyzing and interpreting data.
 - **Artificial Intelligence (AI)**: ML is a subset of AI focused on learning from data.
