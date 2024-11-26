@@ -173,7 +173,7 @@ Google Cloud SQL is a fully-managed relational database service for MySQL, Postg
 
 ### **Setting Up Cloud SQL**
 
-Ensure that you have completed [How to Use GCP](#3-how-to-use-gcp) before starting this process.\_
+Ensure that you have completed [How to Use GCP](#3-how-to-use-gcp) before starting this process.\
 
 #### **Step 1: Enable the Cloud SQL API**
 
