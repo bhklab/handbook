@@ -56,6 +56,7 @@ ML is broadly divided into three main categories:
     - Examples: Clustering (e.g., k-means), dimensionality reduction (e.g., PCA).
 
 3. **Reinforcement Learning**:
-   - Models learn by interacting with an environment and receiving rewards or penalties.
+
+    - Models learn by interacting with an environment and receiving rewards or penalties.
    - Examples: Markov decision process (MDP), Deep Q Networks (DQN).
 
