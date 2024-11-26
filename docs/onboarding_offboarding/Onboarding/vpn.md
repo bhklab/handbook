@@ -52,7 +52,7 @@ After contacting Helpdesk a few times, I finally got an email with the downloadi
 
 > Type quit to exit the prompt.
 
-## That's it - just remember connecting and disconnecting the VPN every time you neet it
+## That's it - just remember connecting and disconnecting the VPN every time you need it
 
 Now that you have your laptop configured for the VPN, don't forget connecting every time you want to use it, running the following command:
 
