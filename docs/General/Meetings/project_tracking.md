@@ -22,6 +22,7 @@ The following are the columns in the spreadsheet:
 ### Manuscript Progress
 If you have any updates on the progress of your manuscript, [this spreadsheet](https://docs.google.com/spreadsheets/d/1dZcNEmIGCdFthwj5cskuATfDTJ-7Mup8D5gO_HrmIPE/edit?usp=sharing) is where you add your updates.
 The following are the columns in the spreadsheet:
+
 - **Lead Author (Mandatory)**: Add the name of the lead author of the manuscript. There can be multiple names if there are multiple lead authors working on this manuscript.
 - **Paper (Mandatory)**: Add the title of the manuscript.
 - **URL to the Folder (Mandatory)**: Add the URL to the folder where the manuscript and relevant files, such as figures, are stored.
