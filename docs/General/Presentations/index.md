@@ -2,7 +2,7 @@
 
 ## Talk Standards
 
-**Key Slides**
+### Key Slides
 
 - **Title slide**: Include your name, date, affiliation, event/conference, and contact information (e.g. email). Optional: include the BHK Lab logo and others (e.g. UHN, University of Toronto, etc)
 - **Acknowledgements slide**: Include names of lab members (or can reference 'BHK Lab') and other collaborators along with your institutional affilications/funding sources (e.g. UHN, CIHR, NSERC)
