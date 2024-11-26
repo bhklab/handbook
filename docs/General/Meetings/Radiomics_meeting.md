@@ -13,4 +13,4 @@ Grant updates
 Attendance is mandatory for Radiomics lab members.
 
 ## Resources
-The meeting notes need to be filled out for every meeting at [Radiomics meeting - coverage](https://docs.google.com/document/d/1zlbdjlhEnUrWQExUBrYL56z_FiCE_Dd6nHSAHpGnk5o/edit?usp=sharing)
+The meeting notes need to be filled out for every meeting in the [Radiomics meeting - coverage](https://docs.google.com/document/d/1zlbdjlhEnUrWQExUBrYL56z_FiCE_Dd6nHSAHpGnk5o/edit?usp=sharing) document.
