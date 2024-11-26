@@ -26,7 +26,7 @@
 - **Discussion**: Address results and describe relevance to objective(s) and hypothesis(es).
 - **Conclusions**: Stated clearly and concisely, addressing project objectives and stating overall significance. 
 - **References**: All references (publications)
-- **Acknowledgements**: Any key lab memebers, collaborators, and funding sources.
+- **Acknowledgements**: Any key lab members, collaborators, and funding sources.
 
 **Text Sizing**
 
