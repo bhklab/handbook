@@ -32,54 +32,63 @@
     science. All packages share an underlying design philosophy, grammar, and data
     structures."
 
-The concept of the tidyverse originated from a paper by Hadley Wickham in 2014,
-titled "Tidy Data", in which he describes the aforementioned design philosophy.
-(For those interested, you can read the paper here:
-[10.18637/jss.v059.i10](https://doi.org/10.18637/jss.v059.i10).)
+The origins of the Tidyverse began from a paper written by Hadley Wickham in
+2014, titled "Tidy Data", in which he describes the aforementioned
+design philosophy. (For those interested, you can read the paper here:
+[10.18637/jss.v059.i10](https://doi.org/10.18637/jss.v059.i10).) The Tidyverse
+package was subsequently [released in 2016](https://posit.co/blog/tidyverse-1-0-0/),
+containing packages revolving around piping, and an alternative to the
+dataframe, now called a "tibble". A more recent documentation of the underlying
+principles guiding Tidyverse packages can be found in
+[the tidy tools manifesto](https://tidyverse.tidyverse.org/articles/manifesto.html)
+as well as the [Tidy design principles book](https://design.tidyverse.org/).
 
-The tidyverse package itself can be thought of as a collection of several "core"
+The Tidyverse package itself can be thought of as a collection of several "core"
 packages. When you load the package with `library(tidyverse)`, you are just
 loading all of these core packages (eight of them, as of writing this) along
 with their dependencies together in a single line. Alternatively, you can load
-individual packages within the tidyverse, such as `library(ggplot2)`.
+individual packages within the Tidyverse, such as `library(ggplot2)`.
 
-You can see a list of the core packages on their site
+You can see a list of the eight core packages on their site
 [here](https://www.tidyverse.org/packages/), and further details within their
-respective documentation pages.
+respective documentation pages. For a quick visual overview of a specific
+package, you can also find its respective cheatsheet on
+[this page](https://posit.co/resources/cheatsheets/).
 
 ## Why use the Tidyverse?
 
-As mentioned in the definition, the tidyverse is an _opinionated_ collection of
+As mentioned in the definition, the Tidyverse is an _opinionated_ collection of
 packages. This means that while the packages all cohesively follow the same
 design philosophy, they may not work well with how you prefer to program or for
 your specific use case. You may choose to use only certain packages from the
-tidyverse, or you may choose to only use baseR and other alternatives.
+Tidyverse, or you may choose to only use base R and other alternatives.
 
-The main advantages of using the tidyverse are:
+Some advantages of using the Tidyverse are:
 
--   **Consistency**: All packages in the tidyverse follow the same design
+-   **Consistency**: All packages in the Tidyverse follow the same design
     philosophy, making it easier to learn and use multiple packages. They also
     mesh well with one another, making it easier to use multiple packages
     together.
--   **Piping**: Most of the tidyverse is designed to be used together with
-    pipes. The `|>` operator from base R works well for this, or you can use the
-    `magrittr` package and `%>%` pipe for more advanced piping options.
--   **Readability**: Often tidyverse code is more human-readable than more
+-   **Piping**: Most of the Tidyverse is designed to be used together with
+    pipes. The `|>` operator from base R >=4.1 works well for this, or you can
+    use the `%>%` pipe from the `magrittr` package for more advanced piping
+    options.
+-   **Readability**: Often Tidyverse code is more human-readable than more
     complex R alternatives, especially when using long pipe chains.
 
-Some disadvantages of using the tidyverse are:
+Some disadvantages of using the Tidyverse are:
 
--   **Learning curve**: The tidyverse has a steep learning curve, especially if
-    you are new to R or programming in general. If switching over from baseR,
-    there might also a learning curve to relearn how to do things you are
-    already familiar with.
--   **Stability**: The tidyverse is constantly evolving, and packages may be
-    updated or deprecated. While baseR tries to emphasize stability across
-    updates, the tidyverse prefers to optimize functionality. This may lead to
-    breaking changes in your code across updates.
--   **Compatibility**: The tidyverse is not the only way to do things in R, and
+-   **Learning curve**: The Tidyverse has a learning curve, especially if you
+    are new to R or programming in general. If switching over from base R,
+    there might also be a learning curve to relearn how to do things you are
+    already familiar with because of how differently things are designed.
+-   **Stability**: The Tidyverse is constantly evolving, and packages may be
+    updated or deprecated. While base R tries to emphasize stability across
+    updates, the Tidyverse packages are actively developed, and updates may
+    introduce changes that improve functionality but could impact existing code.
+-   **Compatibility**: The Tidyverse is not the only way to do things in R, and
     as well, there are countless other packages that may not play nicely with
-    tidyverse-oriented data structures or tibbles. In these cases you may have
+    Tidyverse-oriented data structures or tibbles. In these cases you may have
     to convert back and forth between tibbles and data frames, which can be
     cumbersome.
 
