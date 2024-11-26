@@ -38,12 +38,3 @@ treatment efficacy and minimizes adverse effects.
 [Imaging](Imaging/index.md) is the science of capturing and representing visual information
 for medical and scientific purposes. This discipline supports diagnostics,
 research, and data visualization through advanced imaging technologies.
-
----
-
-## [Radiomics](Radiomics/index.md)
-
-[Radiomics](Radiomics/index.md) is the study of the interaction between radiation and
-support diagnosis, prognosis, and treatment planning. It bridges radiology
-and data science, allowing for a more detailed understanding of disease
-characteristics.
