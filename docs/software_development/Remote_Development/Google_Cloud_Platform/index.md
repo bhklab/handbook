@@ -217,7 +217,7 @@ gcloud sql databases create [DATABASE_NAME] --instance=[INSTANCE_NAME]
 gcloud sql users create [USERNAME] --password=[PASSWORD] --instance=[INSTANCE_NAME]
 ```
 
-**For a detailed guide on using client services, please refer to this [link](#https://cloud.google.com/sql/docs)**
+**For a detailed guide on using client services, please refer to this [link](https://cloud.google.com/sql/docs)**
 
 ### **3. Virtual Machines (VMs)**
 
