@@ -11,7 +11,7 @@
 
 - All slides should include slide numbers
 - Slide headings should be short (1-2 lines max) and descriptive
-- Use visuals whenever possible (feel free to take from existing presentations *Link database page)
+- Use visuals whenever possible (feel free to take from existing presentations in the [database](database))
 
 
 ## Poster Standards
