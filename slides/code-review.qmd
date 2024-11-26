@@ -158,6 +158,11 @@ Code Review >> Peer Review
 
 ## 
 ::: {style="text-align:center;"}
-
 ![](images/code-review-art.png){.center height="50%" width="50%"}
+:::
+
+
+::: {style="text-align:center;"}
+## Tutorial Review Time!
+![](images/tutorial-review-assignments.png){.center height="70%" width="70%"}
 :::
