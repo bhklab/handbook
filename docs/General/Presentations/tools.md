@@ -25,7 +25,7 @@ Several slide templates have already been developed for the lab:
 
 **Images and Icons**
 
-The following are open-source biological imaging databases and platforms. The BHK Lab holds a premium Flaticon account (*do I provide login details?*). If Biorender and/or BioArt are used, please remember to add them to the acknowledgements.
+The following are open-source biological imaging databases and platforms. The BHK Lab holds a premium Flaticon account. If Biorender and/or BioArt are used, please remember to add them to the acknowledgements.
 
 - [Flaticon](https://www.flaticon.com/)
 - [Biorender](https://www.biorender.com/)
