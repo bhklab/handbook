@@ -38,7 +38,7 @@ ML integrates concepts from these fields to solve diverse problems in areas like
 ### When We Should Avoid Machine Learning
 - When data is insufficient or of poor quality.
 - When simpler, rule-based systems can solve the problem more effectively.
-- When interpretability is critical, and black-box methods aren�t acceptable.
+- When interpretability is critical, and black-box methods aren't acceptable.
 
 ## Categories and Branches of Machine Learning
 
