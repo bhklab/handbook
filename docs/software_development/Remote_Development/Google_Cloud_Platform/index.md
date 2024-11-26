@@ -36,7 +36,7 @@ Google Cloud Platform is a suite of cloud computing services offered by Google, 
 
 #### Accessing GCP via the Console
 
-- Visit the [Google Cloud Console](#https://console.cloud.google.com/) .
+- Visit the [Google Cloud Console](https://console.cloud.google.com/).
 
 - Explore the dashboard to view, manage, and configure services, projects, and resources.
 
