@@ -1,6 +1,6 @@
 # Radiomics Meeting
 ## Time and Room
-Radiomics meeting happens every 2 weeks on Tuesday, 2:00 - 3:00pm at PMCRT 11-710
+Radiomics meeting happens every 2 weeks on Tuesday, 2:00 - 3:00pm at PMCRT 11-710.
 
 ## Agenda
 Flash updates - 5-10 minutes/person on what they’re working on  
