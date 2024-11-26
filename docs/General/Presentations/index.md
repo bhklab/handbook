@@ -20,7 +20,7 @@
 
 - **Heading**: Include title, author(s) name, supervisor name (if student poster) across the top border
 - **Abstract** (optional): Brief paragraph (~250 words) outlining purpose, methods, results, and conclusions
-- **Introduction**: Background information pertinent to your project to help audience understand motivation. Outline the goal, objective(s), and hypotheseis(es) of your research.
+- **Introduction**: Background information pertinent to your project to help audience understand motivation. Outline the goal, objective(s), and hypothesis(es) of your research.
 - **Materials and Methods**: Brief outline of materials and methods used in your work, listed clearly and logically.
 - **Results**: Present data in photographic, graphical, or tabular form. Include descriptive figure titles and avoid lengthy captions. Be sure to not include abbreviations not explained in the text. 
 - **Discussion**: Address results and describe relevance to objective(s) and hypothesis(es).
