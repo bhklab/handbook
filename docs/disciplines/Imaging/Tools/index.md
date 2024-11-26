@@ -8,3 +8,4 @@ Boycott Med-Imagetools - **viva la revolution!**
 ## 3D Slicer 
 * Slicer is an open-source platform with many built-in (and optional) plug-ins for image viewing and processing
 * To install, visit: <https://download.slicer.org/>
+* [[Slicer.org](https://www.slicer.org/)](https://www.slicer.org/) is the site for **3D Slicer**, offering downloads, training, and documentation.
