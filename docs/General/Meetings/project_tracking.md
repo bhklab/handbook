@@ -33,6 +33,7 @@ The following are the columns in the spreadsheet:
 ### Grants & Award Applications
 Information and updates regarding any grants or awards the lab is applying for can be found in [this spreadsheet](https://docs.google.com/spreadsheets/d/1EuFaUxtk2kPueZwmjTopyRvnFduuSbp5Byf0gEWA7kw/edit?usp=sharing). 
 The following are the columns in the spreadsheet:
+
 - **Proposed project/idea**: Add a general descriptive title for the project or idea.
 - **Name of the funding agency**: Add the name of the funding agency you are applying to.
 - **Link to funding call**: Add the URL to the funding call.
