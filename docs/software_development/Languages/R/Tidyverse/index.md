@@ -26,11 +26,11 @@
 
 ## What is the Tidyverse?
 
-From their [website](https://www.tidyverse.org/):
+!!! quote "From the [Tidyverse website](https://www.tidyverse.org/):"
 
-> "The tidyverse is an opinionated collection of R packages designed for data
-> science. All packages share an underlying design philosophy, grammar, and data
-> structures."
+    "The Tidyverse is an opinionated collection of R packages designed for data
+    science. All packages share an underlying design philosophy, grammar, and data
+    structures."
 
 The concept of the tidyverse originated from a paper by Hadley Wickham in 2014,
 titled "Tidy Data", in which he describes the aforementioned design philosophy.
