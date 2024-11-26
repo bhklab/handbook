@@ -14,7 +14,7 @@ Most likely you will need to configure the VPN on your personal device. The pers
 
 IT will generally accept the request quickly, and send instructions to your corporate email on the steps to follow to install and configure the VPN.
 
-If you are a Windows or Mac user, that's it. The manual is pretty good, simple and straightfordward. Follow the steps and you've got this. Easy.
+If you are a Windows or Mac user, that's it. The manual is pretty good, simple and straightforward. Follow the steps and you've got this. Easy.
 
 If you are on Ubuntu... There's no downloading link or steps. You get stuck on the very first step. Don't worry, you don't have to open a ticket on Helpdesk and wait for them to respond... The next section will make things easier for you.
 
