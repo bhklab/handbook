@@ -48,7 +48,7 @@ ML is broadly divided into three main categories:
 1. **Supervised Learning**:
 
     - Models are trained on labeled data (input-output pairs).
-   - Examples: Linear regression, support vector machines (SVMs).
+    - Examples: Linear regression, support vector machines (SVMs).
 
 2. **Unsupervised Learning**:
    - Models learn patterns from unlabeled data.
