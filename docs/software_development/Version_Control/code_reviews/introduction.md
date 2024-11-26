@@ -2,7 +2,7 @@
 
 Code reviews are a critical practice in software development where developers
 **collaboratively examine** each other’s code to **identify issues**, **ensure adherence
- to coding standards,** and **improve overall quality** ***before*** changes are integrated
+ to coding standards** and **improve overall quality** ***before*** changes are integrated
  into the main codebase.
 
 ## Objectives
