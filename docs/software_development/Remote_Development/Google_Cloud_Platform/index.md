@@ -45,7 +45,7 @@ Google Cloud Platform is a suite of cloud computing services offered by Google, 
 **To interact with GCP directly from your terminal:**
 **Step 1**: Initialize Google Cloud SDK
 
-- Install the Google Cloud SDK on your machine by following the official installation guide (https://cloud.google.com/sdk/docs/install).
+- Install the Google Cloud SDK on your machine by following the official [installation guide] (https://cloud.google.com/sdk/docs/install).
 
   ```
   gcloud init
