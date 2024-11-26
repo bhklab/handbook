@@ -58,5 +58,5 @@ ML is broadly divided into three main categories:
 3. **Reinforcement Learning**:
 
     - Models learn by interacting with an environment and receiving rewards or penalties.
-   - Examples: Markov decision process (MDP), Deep Q Networks (DQN).
+    - Examples: Markov decision process (MDP), Deep Q Networks (DQN).
 
