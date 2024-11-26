@@ -10,7 +10,7 @@ Data update: New ORCESTRA announcements for datasets, dataset suggestions etc.
 Grant updates
 
 ## Attendees
-The attendance 
+The attendance is mandatory for Radiomics people
 
-Resources
-Radiomics meeting - coverage
+## Resources
+The meeting notes need to be filled out for every meeting at [Radiomics meeting - coverage](https://docs.google.com/document/d/1zlbdjlhEnUrWQExUBrYL56z_FiCE_Dd6nHSAHpGnk5o/edit?usp=sharing)
