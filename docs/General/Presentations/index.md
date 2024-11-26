@@ -39,4 +39,4 @@ Size of lettering must be large enough to be legible from approximately 2m. Use 
 **Suggestions**
 
 - Avoid overloading with text, use bullet points where possible
-- Whenever appropriate, use clear diagrams, figures, and table (e.g. materials and methods)
+- Whenever appropriate, use clear diagrams, figures, and tables (e.g. materials and methods)
