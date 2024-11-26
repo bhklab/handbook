@@ -9,6 +9,7 @@ format:
     center: true
     preview-links: auto
     scroll-view: true
+    incremental: true
 ---
 
 # What are Code Reviews?
@@ -28,25 +29,25 @@ Code reviews are a critical practice in software development where developers:
 
 # Objectives of a Code Review
 
-## **Ensure Code Quality**:
+## **Ensure Code Quality**
 
 - Identify and fix bugs early.
 - Maintain consistent coding standards.
 - Improve code readability and maintainability.
 
-## **Facilitate Knowledge Sharing**:
+## **Facilitate Knowledge Sharing**
 
 - Expose team members to different parts of the codebase.
 - Share insights on best practices and new techniques.
 - Encourage collaboration and mentoring.
 
-## **Enhance Team Productivity**:
+## **Enhance Team Productivity**
 
 - Reduce technical debt through proactive feedback.
 - Enable informed decision-making with diverse perspectives.
 - Prevent knowledge silos by decentralizing expertise.
 
-## **Support Team Collaboration**:
+## **Support Team Collaboration**
 
 - Build trust and positive relationships among team members.
 - Encourage open communication and constructive feedback.
@@ -54,7 +55,7 @@ Code reviews are a critical practice in software development where developers:
 
 # Common Challenges in Code Reviews
 
-## Time Constraints
+## Time Constraints {.smaller}
 
 **Problem**: Developers often feel overwhelmed with their workload, making it difficult to dedicate enough
 time for thorough code reviews.  
@@ -63,13 +64,13 @@ time for thorough code reviews.
 
 . . .
 
-**Solution**:  
+**Solution**:
 
 - Encourage small, focused pull requests to make reviews more manageable.  
 - Allocate dedicated time for reviews during the workday to prioritize them effectively.  
 - Use automation tools to handle repetitive checks (e.g., style or formatting issues).  
 
-## Adversarial Dynamics
+## Adversarial Dynamics {.smaller}
 
 **Problem**: Code reviews can sometimes feel confrontational, with reviewers focusing on criticizing rather
 than improving the code.  
@@ -78,13 +79,13 @@ than improving the code.
 
 . . .
 
-**Solution**:  
+**Solution**:
 
 - Promote a positive mindset by framing feedback as an opportunity for learning and improvement.  
 - Encourage respectful, constructive comments that focus on the code, not the person.  
 - Provide training on effective communication for both authors and reviewers.  
 
-## Large or Complex Changes
+## Large or Complex Changes {.smaller}
 
 **Problem**: Reviews of extensive or overly complex changes can be overwhelming and time-consuming.  
 
@@ -97,7 +98,7 @@ than improving the code.
 - Request authors to split large changes into smaller, self-contained pull requests.  
 - Use feature flags or staged development to integrate large changes incrementally.  
 
-## Lack of Clear Standards
+## Lack of Clear Standards {.smaller}
 
 **Problem**: Without a defined set of coding standards, reviews can become subjective and inconsistent.  
 
@@ -111,7 +112,7 @@ than improving the code.
 - Leverage linters and automated tools to enforce standards consistently.  
 - Regularly review and update standards to align with team goals and best practices.  
 
-## Inadequate Feedback
+## Inadequate Feedback {.smaller}
 
 **Problem**: Reviewers may provide vague or unhelpful comments, leaving the author unsure of how to proceed.  
 
