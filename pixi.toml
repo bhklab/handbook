@@ -29,6 +29,14 @@ serve.cmd = "mkdocs serve -f mkdocs.yml"
 
 [environments]
 lint = { features = ["lint"] }
+dev = { features = ["lint", "dev"] }
+
+[feature.dev.target.osx.dependencies]
+tree = "*"
+
+[feature.dev.target.osx.tasks]
+tree.cmd = "tree -F -P '*.md' -C docs"
+tree.description = "List the markdown files in the docs directory"
 
 [feature.lint.dependencies]
 pre-commit = ">=3.7.1,<4"
@@ -39,11 +47,9 @@ typos = ">=1.23.1,<2"
 markdownlint-cli = ">=0.42.0,<0.43"
 
 [feature.lint.tasks]
-pre-commit-install.description = "Install pre-commit hooks"
 pre-commit-install.cmd = "pre-commit install --install-hooks -t=pre-commit -t=pre-push"
 pre-commit-install.inputs = [".pre-commit-config.yaml"]
 
-lint.description = "Run pre-commit hooks"
 lint.cmd = "pre-commit run --all-files --hook-stage=manual"
 lint.depends-on = ["pre-commit-install"]
 
