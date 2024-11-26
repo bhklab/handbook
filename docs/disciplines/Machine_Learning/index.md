@@ -46,7 +46,8 @@ ML integrates concepts from these fields to solve diverse problems in areas like
 ML is broadly divided into three main categories:
 
 1. **Supervised Learning**:
-   - Models are trained on labeled data (input-output pairs).
+
+    - Models are trained on labeled data (input-output pairs).
    - Examples: Linear regression, support vector machines (SVMs).
 
 2. **Unsupervised Learning**:
