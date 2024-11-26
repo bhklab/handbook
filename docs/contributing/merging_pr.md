@@ -1,4 +1,4 @@
-# Merging Pull Requests
+# [Merging Pull Requests](#merging-pull-requests)
 
 !!! note "For Maintainers"
     Only a subset of members of the BHK Lab organization can merge pull requests.
@@ -55,7 +55,7 @@ To merge a pull request, follow these steps:
 
 ![image](images/squash_merge.png){: style="height:50%;width:50%"}
 
-### Modify the commit message as needed
+### [Modify the commit message as needed](#modify-the-commit-message-as-needed)
 
 By default, the commit message will be the title of the pull request.
 The body of the commit message will include all the commits from the pull request.
@@ -68,7 +68,7 @@ Feel free to modify the body of the commit message to include only the relevant 
 
 !!! note
 
-    Only the PR Title needs to follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
+    Only the PR Title needs to follow the [Conventional Commits][convential-commits] specification.
     The commit message body can be modified to include any relevant commits.
 
 ![better_pr](images/better_pr_body.png){: style="height:100%;width:100%"}
