@@ -18,7 +18,7 @@ It’s all about **learning**, **critiquing**, and **getting inspired**.
 ## **When and Where?**
 
 - **Day**: Wednesdays  
-- **Time**: 1:00–2:00 PM  
+- **Time**: 12:00–1:00 PM  
 - **Location**: PMCRT 11-710  
 - **Format**: Two presenters (30 minutes each)  
 
