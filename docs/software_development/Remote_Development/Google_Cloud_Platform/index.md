@@ -157,7 +157,7 @@ It is a SQL-based data warehouse that allows you to process, load, and analyze d
    SELECT * FROM `project_id.dataset_name.table_name` LIMIT 10;```
    ````
 
-**Follow the instructions in this [document](#https://cloud.google.com/bigquery/docs) to learn more about BigQuery**
+**Follow the instructions in this [document](https://cloud.google.com/bigquery/docs) to learn more about BigQuery**
 
 ## 3. Cloud SQL for MySQL, PostgreSQL, and Microsoft SQL Server
 
