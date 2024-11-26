@@ -53,6 +53,7 @@ The following are the columns in the spreadsheet:
 ### Data Access Status
 Throughout your time in the lab, you may want to request access to additional datasets. [This spreadsheet](https://docs.google.com/spreadsheets/d/1j4umcD30PE8DM6LPCrkTUeKV3jUgaaPSUBis964FdrQ/edit?usp=sharing) is where you can track the status of your data access requests.
 The following are the columns in the spreadsheet:
+
 - **Dataset Name**: Add the name of the dataset you are requesting access to.
 - **Request Link**: Add the URL to the request form or page, or where you can find more information on how to request access.
 - **Data Type**: Add the type of data you are requesting access to; for example: RNA-seq, clinical data, etc.
