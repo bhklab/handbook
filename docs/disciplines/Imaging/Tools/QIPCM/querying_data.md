@@ -36,7 +36,7 @@ After you have downloaded, installed, and launched Horos, you will need to confi
 
 ![](img/horos_preference_menu.jpg){width=70%}
 
-### [The Locations Menu](#horos-locations-menu)
+### The Locations Menu {#horos-locations-menu}
 Click the "Add new node" button to create a node for QIPCM data.
 
 ![Screenshot of the Horos Preferences: Locations menu](img/horos_locations_menu.jpg){width=70%}
@@ -54,7 +54,7 @@ Set the following values for the new node:
 
 Make sure you have checked the lefthand box so the location is active.
 
-### [The Listener Menu](#horos-listener-menu)
+### The Listener Menu {#horos-listener-menu}
 ![Screenshot of the Horos Preferences: Listener menu](img/horos_listener_menu.jpg){width=70%}
 
 From Listener menu, copy the values for:
