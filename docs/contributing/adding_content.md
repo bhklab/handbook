@@ -60,7 +60,7 @@ $ git switch jjjermiah/adding-getting-started-page
 
 ??? question "How do I know where to create my file?"
 
-    This will create an empty Markdown file called `my_new_page.md` in the `docs/onboarding` directory.
+    The command below will create an empty Markdown file called `my_new_page.md` in the `docs/onboarding` directory.
     The relative path to the `docs` directory, will be the link to your new page. <br>
     i.e the link to your new page will be `<website-url>/handbook/onboarding/my_new_page/`
 
@@ -72,7 +72,7 @@ $ touch docs/onboarding/my_new_page.md
 You should now see a new file at `docs/onboarding/my_new_page.md`.
 ```
 
-To learn more about how to actually write content, see the [HandBook MkDocs Page][mkdocs] and
+To learn more about how to actually write content, see the [Handbook MkDocs Page][mkdocs] and
 [Handbook Markdown page][markdown].
 
 ### 3. Preview your changes
