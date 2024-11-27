@@ -77,17 +77,17 @@ To learn more about how to actually write content, see the [HandBook MkDocs Page
 ### 3. Preview your changes
 
 The following is a [`pixi task`](https://pixi.sh/latest/features/advanced_tasks/)
-that will start a local server and preview the documentation at `http://localhost:8000`.
+that will start a local server and preview the documentation at `http://localhost:8001` (aka `http://127.0.0.1:8001`).
 
 ```console
 $ pixi run serve
 INFO    -  Building documentation...
 INFO    -  Cleaning site directory
 ...
-INFO    -  [08:55:05] Serving on http://127.0.0.1:8000/handbook/
+INFO    -  [08:55:05] Serving on http://127.0.0.1:8001/handbook/
 ```
 
-You should see your changes appear at `http://127.0.0.1:8000/handbook/onboarding/my_new_page/`
+You should see your changes appear at `http://127.0.0.1:8001/handbook/onboarding/my_new_page/`
 
 ### 4. Commit and push your changes to your branch
 
