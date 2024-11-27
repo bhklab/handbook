@@ -68,7 +68,7 @@ Feel free to modify the body of the commit message to include only the relevant 
 
 !!! note
 
-    Only the PR Title needs to follow the [Conventional Commits][convential-commits] specification.
+    Only the PR Title needs to follow the [Conventional Commits](conventional_commits.md) specification.
     The commit message body can be modified to include any relevant commits.
 
 ![better_pr](images/better_pr_body.png){: style="height:100%;width:100%"}
