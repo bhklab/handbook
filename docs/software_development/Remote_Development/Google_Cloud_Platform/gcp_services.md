@@ -3,7 +3,7 @@
 Below are some key Google Cloud Platform (GCP) services that can be used for
 your project:
 
-## 1. Google Cloud Storage (GCS)
+## Google Cloud Storage (GCS)
 
 GCS is a scalable and secure object storage for data files, datasets, and
 ML-ready data.
@@ -55,7 +55,7 @@ Use the GCP console, gcloud CLI, or API to create a bucket:
     gsutil cp gs://<bucket_name>/<file_name> <local_destination>
     ```
 
-## 2. BigQuery
+## BigQuery
 
 BigQuery is a powerful SQL-based data warehouse that allows you to process,
 load, and analyze large datasets efficiently using SQL queries.
@@ -95,7 +95,7 @@ load, and analyze large datasets efficiently using SQL queries.
 > Follow the instructions on this [page](https://cloud.google.com/bigquery/docs)
 > to learn more about BigQuery.
 
-## 3. Cloud SQL for MySQL, PostgreSQL, and Microsoft SQL Server
+## Cloud SQL for MySQL, PostgreSQL, and Microsoft SQL Server
 
 Google Cloud SQL is a fully-managed relational database service for MySQL,
 PostgreSQL, and Microsoft SQL Server. It eliminates the need for database
@@ -162,7 +162,7 @@ Using the same `INSTANCE_NAME` as configured in the previous step:
 > For a detailed guide on using client services, please refer to this
 > [link](https://cloud.google.com/sql/docs)
 
-## 4. GCP Virtual Machines (VMs)
+## GCP Virtual Machines (VMs)
 
 A Cloud VM is a scalable, on-demand virtual machine hosted in the cloud. It
 functions like a physical computer, providing compute power, memory, storage,
@@ -212,7 +212,7 @@ Parameters:
     -   `nvidia-tesla-p100`, (`count=1`, `2`, or `4`)
     -   `nvidia-tesla-p4`, (`count=1`, `2`, or `4`)
 
-## 5. Google Cloud Artifact Registry
+## Google Cloud Artifact Registry
 
 Google Cloud Artifact Registry is a fully-managed service for storing and
 managing container images, as well as other software artifacts like Maven, npm,

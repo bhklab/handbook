@@ -1,6 +1,6 @@
 # Introduction to Google Cloud Platform (GCP)
 
-## 1. What is Google Cloud Platform?
+## What is Google Cloud Platform?
 
 Google Cloud Platform is a suite of cloud computing services offered by Google,
 providing a wide range of infrastructure and application services that can be
@@ -8,14 +8,14 @@ accessed on-demand. It enables users to build, deploy, and scale applications
 seamlessly while taking advantage of Google’s powerful and reliable
 infrastructure.
 
-## 2. Why Use GCP?
+## Why Use GCP?
 
 -   **Scalability**: Easily scale resources up or down based on workload.
 -   **Pay-as-You-Go**: Only pay for what you use.
 -   **Integration**: Connect seamlessly with open-source and enterprise tools.
 -   **Global Infrastructure**: High-speed global network for faster operations.
 
-## 3. How to Use GCP
+## How to Use GCP
 
 > Prerequisites:
 >
