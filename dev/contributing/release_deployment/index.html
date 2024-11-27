@@ -3541,7 +3541,7 @@
         
   
   <span class="md-ellipsis">
-    Convential Commits
+    Conventional Commits
   </span>
   
 
@@ -3844,10 +3844,10 @@ automatically build and deploy the website.</p>
 <p>Once the <code>gh-pages</code> branch is updated, GitHub Pages will automatically publish
 the latest version of the website.</p>
 <h2 id="releases-and-versioned-documentation">Releases and Versioned Documentation<a class="headerlink" href="#releases-and-versioned-documentation" title="Anchor link to this section for reference">#</a></h2>
-<p>We leverage both <a href="https://github.com/googleapis/release-please">release-please</a>
-and <code>mike</code> to automate the release process and manage versioned documentation,
-making it easier to maintain version control, changelogs, and multiple
-documentation versions.</p>
+<p>We leverage both <a href="https://github.com/googleapis/release-please"><code>release-please</code></a>
+and <a href="https://github.com/jimporter/mike"><code>mike</code></a> to automate the release process
+and manage versioned documentation, making it easier to maintain version control,
+changelogs, and multiple documentation versions.</p>
 <h3 id="how-releases-work">How Releases Work<a class="headerlink" href="#how-releases-work" title="Anchor link to this section for reference">#</a></h3>
 <p>When a pull request is merged into the <code>main</code> branch, a
 <a href="https://github.com/features/actions">GitHub Action</a> triggers the release
@@ -3856,7 +3856,7 @@ process.</p>
 <a href="https://github.com/bhklab/handbook/actions/workflows/release-please.yaml">this link</a>.</p>
 <p>Key aspects of this combined approach include:</p>
 <ul>
-<li><strong>Automated Release Creation with release-please</strong>: The tool automatically
+<li><strong>Automated Release Creation with <code>release-please</code></strong>: The tool automatically
    generates a release with changelogs and updates the version number based
    on the changes merged into <code>main</code>.</li>
 <li><strong>Dynamic Pull Request Updates</strong>: If additional changes are pushed to the
@@ -3866,14 +3866,13 @@ process.</p>
 <li><strong>Controlled Release Process</strong>: Maintainers can merge changes into the
   release PR only when they are ready to publish a new version, giving them
   full control over the timing of each release.</li>
-<li><strong>Versioned Documentation with mike</strong>: Once a new release is prepared,
+<li><strong>Versioned Documentation with <code>mike</code></strong>: Once a new release is prepared,
   <code>mike</code> is used to manage and deploy versioned documentation. This allows us
   to provide a separate set of documentation for each release, maintaining
   historical versions accessible on the website.</li>
 </ul>
 <p>This automated approach ensures consistency, reduces manual effort, and allows
-users to access documentation relevant to any specific version of the project.
-required to manage releases.</p>
+users to access documentation relevant to any specific version of the project.</p>
 <h3 id="manual-release-process">Manual Release Process<a class="headerlink" href="#manual-release-process" title="Anchor link to this section for reference">#</a></h3>
 <p>If you need to release a new version of the documentation manually, you can follow these steps:</p>
 <ol>
@@ -3935,7 +3934,7 @@ required to manage releases.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 5, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 27, 2024</span>
   </span>
 
     
@@ -3955,12 +3954,13 @@ required to manage releases.</p>
   <span class="md-source-file__fact">
     <span class="md-icon" title="Contributors">
       
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9 3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3 3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65 2.56.34 4.45 1.51 4.45 2.9z"/></svg>
       
     </span>
     <nav>
       
-        <a href="mailto:jermiahjoseph98@gmail.com">Jermiah Joseph</a>
+        <a href="mailto:jermiahjoseph98@gmail.com">Jermiah Joseph</a>, 
+        <a href="mailto:mtran256@uwo.ca">mtran</a>
     </nav>
   </span>
 
@@ -3997,7 +3997,7 @@ required to manage releases.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../conventional_commits/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Convential Commits">
+          <a href="../conventional_commits/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Conventional Commits">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -4007,7 +4007,7 @@ required to manage releases.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Convential Commits
+                Conventional Commits
               </div>
             </div>
           </a>
