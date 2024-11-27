@@ -2,6 +2,7 @@ site_name: BHKLab Handbook
 site_url: "https://bhklab.github.io/handbook/" # Trailing slash is recommended
 repo_url: https://github.com/bhklab/handbook
 repo_name: bhklab/handbook
+dev_addr: "127.0.0.1:8001"
 
 markdown_extensions:
   - toc:
