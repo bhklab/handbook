@@ -76,7 +76,12 @@ Feel free to modify the body of the commit message to include only the relevant 
 ### Verify GitHub Pages Deployment
 
 After merging the pull request, the changes will be deployed to GitHub Pages.
-Check the website at `https://bhklab.github.io/handbook/` to verify that the changes are correct.
+Check the website at [`https://bhklab.github.io/handbook/`](https://bhklab.github.io/handbook/)
+to verify that the changes are correct.
+
+!!!note
+    To view the latest merged PR changes, ensure you are on the `dev` version of
+    the site. The version dropdown selector is located next to the site title.
 
 ### Delete the branch
 
