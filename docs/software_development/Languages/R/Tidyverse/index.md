@@ -87,8 +87,11 @@ Some disadvantages of using the Tidyverse are:
 
 ## Introductory Example
 
-Let's say we have a CSV file containing a table, and we want to read into R,
-perform some manipulations on the data, and then write it out to a new file.
+Say we have a CSV file containing a table, and we want to:
+
+1. Read the file into R;
+2. Perform some manipulations on the data; and
+3. Write out the new table to a different CSV file.
 
 First, let's define some common paths for input and output:
 
