@@ -7,7 +7,7 @@ the documentation, you can submit an issue directly on our GitHub repository.
 We have a set of pre-defined issue templates to help categorize and address
 your concerns efficiently.
 
-link: [Submit and view issues](https://github.com/bhklab/handbook/issues)
+Link: [Submit and view issues](https://github.com/bhklab/handbook/issues)
 
 ## Available Issue Templates
 
