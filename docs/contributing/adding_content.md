@@ -90,6 +90,25 @@ INFO    -  [08:55:05] Serving on http://127.0.0.1:8001/handbook/
 
 You should see your changes appear at `http://127.0.0.1:8001/handbook/onboarding/my_new_page/`
 
+!!! tip
+    You can set the handbook website to automatically open in your default
+    browser by using the `-o` flag:
+
+    ```sh
+    pixi run serve -o
+    ```
+
+!!! note "About the port number"
+    By default, we host the local site on port `8001` because it is more likely
+    to be unused and available for the local server to use. In the case that you
+    would like to manually specify a different port (e.g. if it's in use by
+    something else), you can use the `-a` flag after `pixi run serve`.
+
+    For example, to run on port `1234`:
+    ```sh
+    pixi run serve -a localhost:1234
+    ```
+
 ### 4. Commit and push your changes to your branch
 
 ```sh
