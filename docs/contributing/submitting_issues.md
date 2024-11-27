@@ -60,4 +60,3 @@ also select **Open a blank issue** to describe your concern freely.
   section, page, or example, include links and screenshots to provide context.
 - **Suggest Solutions**: If you have an idea on how to fix or improve the
   issue, let us know! Your suggestions can help expedite the process.
-

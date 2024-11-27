@@ -1,6 +1,6 @@
 # [Conventional Commits](#conventional-commits)
 
-We follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification for commit messages. This helps us automate our release process and keep our commit history clean. 
+We follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification for commit messages. This helps us automate our release process and keep our commit history clean.
 
 This style is mandatory for [merging pull requests][modify-the-commit-message-as-needed] on the handbook, but are recommended for all commits.
 
@@ -34,7 +34,6 @@ The `<scope>` of the header is optional and provides context for where the chang
 - `chore`: Other changes that don't modify src or test files.
 
 Other types may be defined per project, but these are the most common.
-
 
 ## Sources
 
