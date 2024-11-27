@@ -61,4 +61,3 @@ also select **Open a blank issue** to describe your concern freely.
 - **Suggest Solutions**: If you have an idea on how to fix or improve the
   issue, let us know! Your suggestions can help expedite the process.
 
-Your feedback is invaluable, and we

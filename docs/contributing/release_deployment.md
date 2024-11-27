@@ -69,7 +69,6 @@ Key aspects of this combined approach include:
 
 This automated approach ensures consistency, reduces manual effort, and allows
 users to access documentation relevant to any specific version of the project.
-required to manage releases.
 
 ### Manual Release Process
 
