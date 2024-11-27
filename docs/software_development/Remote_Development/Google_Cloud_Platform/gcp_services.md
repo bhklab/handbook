@@ -10,76 +10,86 @@ ML-ready data.
 
 **Use Case**:
 
-- Centralized storage for raw and processed datasets.
-- Facilitates data sharing across team members.
-- Integration with other GCP services like BigQuery and AI/ML tools.
+-   Centralized storage for raw and processed datasets.
+-   Facilitates data sharing across team members.
+-   Integration with other GCP services like BigQuery and AI/ML tools.
 
 **How to Use:**
 
-- Ensure that you have completed [How to Use GCP](index.md#3-how-to-use-gcp) before
-starting this process.
+-   Ensure that you have completed [How to Use GCP](index.md#3-how-to-use-gcp)
+    before starting this process.
 
-- Create a GCS Bucket:
-  Use the GCP console, gcloud CLI, or API to create bucket
+-   Create a GCS Bucket:
+    -   Use the GCP console, gcloud CLI, or API to create bucket
+-   **Using Console:**
+    -   Follow the instructions in this [documentation](https://cloud.google.com/storage/docs/creating-buckets#console)
+        to create buckets.
+-   **Using Command Line:**
 
-- **_Using Console_:**
-  - Follow the instructions in this [documentation](https://cloud.google.com/storage/docs/creating-buckets#console) to create buckets.
-- **_Using Command Line:_**
-  In your development environment, run the gcloud storage buckets create command:
-  `gcloud storage buckets create gs://<BUCKET_NAME> --location=<BUCKET_LOCATION>`
+    -   In your development environment, run the gcloud storage buckets create command:
+        ```sh
+        gcloud storage buckets create gs://<BUCKET_NAME> --location=<BUCKET_LOCATION>
+        ```
 
-  Where:
+    Where:
 
-  - BUCKET*NAME* is the name you want to give your bucket, subject to naming
-  requirement. For example, my-bucket.
+    -   BUCKET*NAME* is the name you want to give your bucket, subject to naming
+        requirement. For example, my-bucket.
 
-  - BUCKET*LOCATION* is the location of your bucket. For example, us-east1.
+    -   BUCKET*LOCATION* is the location of your bucket. For example, us-east1.
 
-  If the request is successful, the command returns the following message:
-  **Creating gs://BUCKET_NAME/...**
+    If the request is successful, the command returns the following message:
+    **Creating gs://BUCKET_NAME/...**
 
-- **_Transfer Data:_**
-  _From Local to GCS:_
-  ```
-  gsutil cp <local_file> gs://<bucket_name>
-  ```
-  _From GCS to Local:_
-  ```
-  gsutil cp gs://<bucket_name>/<file_name> <local_destination>
-  ```
+-   **_Transfer Data:_**
+
+    _From Local to GCS:_
+
+    ```sh
+    gsutil cp <local_file> gs://<bucket_name>
+    ```
+
+    _From GCS to Local:_
+
+    ```sh
+    gsutil cp gs://<bucket_name>/<file_name> <local_destination>
+    ```
 
 ## 2. BigQuery
 
 It is a SQL-based data warehouse that allows you to process, load, and analyze
 data efficiently using SQL queries.
+
 **Purpose**: A powerful data warehouse for querying, analyzing, and
 preprocessing large datasets.
 
 **Use Case**:
 
-- Quickly preprocess and explore large datasets using SQL like query.
-- Simplifies aggregation, feature extraction, and preparation for ML models.
-- You can directly load data from a GCS bucket into an SQL-based data warehouse
-(BigQuery). It supports all types of data—structured, semi-structured, and
-unstructured, including tsv, csv, parquet, avro, xlsx, and many more.
-- To use BigQuery with a client library, please follow this [link](#https://cloud.google.com/bigquery/docs/reference/libraries) for detailed guidance.
-- **How to Use:**
+-   Quickly preprocess and explore large datasets using SQL like query.
+-   Simplifies aggregation, feature extraction, and preparation for ML models.
+-   You can directly load data from a GCS bucket into an SQL-based data warehouse
+    (BigQuery). It supports all types of data—structured, semi-structured, and
+    unstructured, including tsv, csv, parquet, avro, xlsx, and many more.
+-   To use BigQuery with a client library, please follow this [link](#https://cloud.google.com/bigquery/docs/reference/libraries)
+    for detailed guidance.
 
-* Ensure that you have completed [How to Use GCP](index.md#3-how-to-use-gcp) before
-starting this process.\*
+-   **How to Use:**
+
+\*Ensure that you have completed [How to Use GCP](index.md#3-how-to-use-gcp)
+before starting this process.\*
 
 1. **Load Data into BigQuery**:
    From GCS:
-   ```
-   bq load --source_format=CSV <DATASET_NAME>.<TABLE_NAME> gs://<BUCKET_NAME>/<FILE_NAME>
-   ```
+    ```sh
+    bq load --source_format=CSV <DATASET_NAME>.<TABLE_NAME> gs://<BUCKET_NAME>/<FILE_NAME>
+    ```
 2. **Query Data**:
    Use BigQuery's web interface or CLI to run SQL queries for data cleaning,
    feature engineering, and exploratory analysis.
    Example:
-   ````
-   SELECT * FROM `project_id.dataset_name.table_name` LIMIT 10;```
-   ````
+    ````sql
+    SELECT * FROM `project_id.dataset_name.table_name` LIMIT 10;```
+    ````
 
 **Follow the instructions in this [document](https://cloud.google.com/bigquery/docs)
 to learn more about BigQuery**
@@ -97,9 +107,9 @@ is a comprehensive guide to using Cloud SQL effectively for your projects.
 2. **Scalability**: Seamless scaling for growing workloads.
 3. **Security**: Built-in encryption, IAM-based access, and network security.
 4. **Integration**: Works seamlessly with GCP services like Compute Engine,
-Kubernetes Engine, and BigQuery.
+   Kubernetes Engine, and BigQuery.
 5. **Flexibility**: Supports popular relational databases: MySQL, PostgreSQL,
-and Microsoft SQL Server.
+   and Microsoft SQL Server.
 
 ### Setting Up Cloud SQL
 
@@ -108,7 +118,7 @@ starting this process.\
 
 #### Step 1: Enable the Cloud SQL API
 
-```
+```sh
 gcloud services enable sqladmin.googleapis.com
 ```
 
@@ -116,35 +126,38 @@ gcloud services enable sqladmin.googleapis.com
 
 **MySQL Example**:
 
-```
+```sh
 gcloud sql instances create [INSTANCE_NAME] \ --database-version=MYSQL_8_0 \ --cpu=[CPU_COUNT] \ --memory=[MEMORY_SIZE] \ --region=[REGION]
 
 ```
 
 **PostgreSQL Example**:
-`gcloud sql instances create [INSTANCE_NAME] \
+
+```sh
+gcloud sql instances create [INSTANCE_NAME] \
     --database-version=POSTGRES_14 \
     --cpu=[CPU_COUNT] \
     --memory=[MEMORY_SIZE] \
-    --region=[REGION]  `
+    --region=[REGION]
+```
 
 **Parameters**:
 
-- `--cpu`: Number of vCPUs (e.g., 2).
-- `--memory`: RAM allocation (e.g., 4GB).
-- `--region`: Choose a region (e.g., `us-central1`).
+-   `--cpu`: Number of vCPUs (e.g., 2).
+-   `--memory`: RAM allocation (e.g., 4GB).
+-   `--region`: Choose a region (e.g., `us-central1`).
 
 #### Step 3: Configure Users and Databases
 
 **Create a Database**:
 
-```
+```sh
 gcloud sql databases create [DATABASE_NAME] --instance=[INSTANCE_NAME]
 ```
 
 **Add a User**:
 
-```
+```sh
 gcloud sql users create [USERNAME] --password=[PASSWORD] --instance=[INSTANCE_NAME]
 ```
 
@@ -163,11 +176,11 @@ pipelines, or host applications.
 
 ### How It Helps:
 
-- Ideal for workloads requiring full control over the environment, OS, and
-configurations.
-- Provides isolated environments for training ML models.
-- Supports GPU/TPU acceleration for deep learning tasks.
-- Can host containerized ML workflows using Docker.
+-   Ideal for workloads requiring full control over the environment, OS, and
+    configurations.
+-   Provides isolated environments for training ML models.
+-   Supports GPU/TPU acceleration for deep learning tasks.
+-   Can host containerized ML workflows using Docker.
 
 ### How to Use:
 
@@ -176,20 +189,20 @@ starting this process._
 
 1. **Create a GPU-Enabled VM for Model Training**:
 
-```
+```sh
 gcloud compute instances create $INSTANCE_NAME \  --zone=$ZONE \  --image-family=$IMAGE_FAMILY \  --image-project=deeplearning-platform-release \  --maintenance-policy=TERMINATE \  --accelerator="type=nvidia-tesla-v100,count=1" \  --metadata="install-nvidia-driver=True"
 ```
 
 Parameters:
 
-- `--image-family` must be one of the GPU-specific image types. For more
-information, see [Choosing an Image](https://cloud.google.com/deep-learning-vm/docs/images).
-- `--image-project` must be `deeplearning-platform-release`.
-- `--maintenance-policy` must be `TERMINATE`. See [GPU Restrictions](https://cloud.google.com/compute/docs/gpus#restrictions) to learn more.
-- `--accelerator` specifies the GPU type to use. Must be specified in the format `--accelerator="type=TYPE,count=COUNT"`. Supported values of `TYPE` are:
-  - `nvidia-tesla-v100` (`count=1` or `8`)
-  - `nvidia-tesla-p100` (`count=1`, `2`, or `4`)
-  - `nvidia-tesla-p4` (`count=1`, `2`, or `4`)
+-   `--image-family` must be one of the GPU-specific image types. For more
+    information, see [Choosing an Image](https://cloud.google.com/deep-learning-vm/docs/images).
+-   `--image-project` must be `deeplearning-platform-release`.
+-   `--maintenance-policy` must be `TERMINATE`. See [GPU Restrictions](https://cloud.google.com/compute/docs/gpus#restrictions) to learn more.
+-   `--accelerator` specifies the GPU type to use. Must be specified in the format `--accelerator="type=TYPE,count=COUNT"`. Supported values of `TYPE` are:
+    -   `nvidia-tesla-v100` (`count=1` or `8`)
+    -   `nvidia-tesla-p100` (`count=1`, `2`, or `4`)
+    -   `nvidia-tesla-p4` (`count=1`, `2`, or `4`)
 
 ## 5. Google Cloud Artifact Registry
 
@@ -201,8 +214,6 @@ Docker Hub.
 
 ### Why Use Artifact Registry Instead of Docker Hub?
 
----
-
 | Feature               | Docker Hub                                                                      | Artifact Registry                                                                                          |
 | --------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | **Security**          | Publicly accessible by default. Limited security features unless on paid tiers. | Private by default, with IAM-based fine-grained access control and integration with GCP security features. |
@@ -211,16 +222,14 @@ Docker Hub.
 | **Cost**              | Free tier has pull limits. Paid plans for more.                                 | Pay only for what you store and access.                                                                    |
 | **Integration**       | Limited GCP integration.                                                        | Full integration with GCP services like Cloud Build, Compute Engine, and Kubernetes Engine.                |
 
----
-
 ### Setting Up and Using Artifact Registry
 
-- Ensure that you have completed [How to Use GCP](index.md#3-how-to-use-gcp) before
-starting this process.
+-   Ensure that you have completed [How to Use GCP](index.md#3-how-to-use-gcp)
+    before starting this process.
 
 #### Step 1: Enable Artifact Registry API
 
-```
+```sh
 gcloud services enable artifactregistry.googleapis.com
 ```
 
@@ -228,7 +237,7 @@ gcloud services enable artifactregistry.googleapis.com
 
 **Command**:
 
-```
+```sh
 gcloud artifacts repositories create [REPOSITORY_NAME] \
     --repository-format=docker \
     --location=[REGION] \
@@ -240,28 +249,24 @@ gcloud artifacts repositories create [REPOSITORY_NAME] \
 Run the following command to configure Docker to authenticate with your Artifact
 Registry:
 
-```
+```sh
 gcloud auth configure-docker [REGION]-docker.pkg.dev
 ```
 
 #### Step 4: Push Images to Artifact Registry
 
 1. Tag your Docker image for Artifact Registry:
-
-```
-   docker tag [IMAGE_NAME] [REGION]-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG]
-```
-
+    ```sh
+    docker tag [IMAGE_NAME] [REGION]-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG]
+    ```
 2. Push the image:
-
-```
-  docker push [REGION]-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG]
-```
+    ```sh
+    docker push [REGION]-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG]
+    ```
 
 #### Step 5: Pull Images from Artifact Registry
 
 To pull an image from your repository:
-
-```
+```sh
 docker pull [REGION]-docker.pkg.dev/[PROJECT_ID]/[REPOSITORY_NAME]/[IMAGE_NAME]:[TAG]
 ```
