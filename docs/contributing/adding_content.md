@@ -52,7 +52,8 @@ $ git checkout -b jjjermiah/adding-getting-started-page
 If you already have a named branch, you can switch to it with the following command:
 
 ```console
-git switch jjjermiah/adding-getting-started-page
+git switch <branch-name>
+$ git switch jjjermiah/adding-getting-started-page
 ```
 
 ### 2. Add your new content to the `docs` directory
@@ -91,7 +92,7 @@ You should see your changes appear at `http://127.0.0.1:8001/handbook/onboarding
 
 ### 4. Commit and push your changes to your branch
 
-```console
+```sh
 git add .
 git commit -m "Add new getting started page"
 git push --set-upstream origin jjjermiah/adding-getting-started-page
