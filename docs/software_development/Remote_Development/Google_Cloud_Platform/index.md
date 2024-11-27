@@ -17,12 +17,12 @@ infrastructure.
 
 ## 3. How to Use GCP
 
-Prerequisites:
+> Prerequisites:
+>
+> -   Ensure you have an active Google account.
+> -   Confirm that your account has been added to the relevant GCP project.
 
--   Ensure you have an active Google account.
--   Confirm that your account has been added to the relevant GCP project.
-
-> To access and use Google Cloud Platform (GCP), follow these steps:
+To access and use Google Cloud Platform (GCP), follow these steps:
 
 ### Accessing GCP via the Cloud Console
 
