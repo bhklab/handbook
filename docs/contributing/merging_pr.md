@@ -27,7 +27,7 @@ This is called a **Merge Commit**.
   <figcaption>Merge commit example</figcaption>
 </figure>
 
-We will be using the **Squash Merge** strategy for merging pull requests.
+We use the **Squash Merge** strategy for merging pull requests to the lab handbook.
 
 Squash merges are a way to combine multiple commits into a single commit.
 Instead of seeing all the author's individual commits in the main branch's
