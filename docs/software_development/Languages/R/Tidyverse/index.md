@@ -2,9 +2,10 @@
 
 ??? abstract "TL;DR"
 
-    The Tidyverse is a suite of R packages that mesh together with a
-    goal of improving common data science pipeline steps, namely data import,
-    tidying, manipulation, visualisation, and programming.
+    The [Tidyverse](https://tidyverse.tidyverse.org/) is a suite of R packages
+    that mesh together with a goal of improving common data science pipeline
+    steps, namely data import, tidying, manipulation, visualisation, and
+    programming.
 
     Of the eight core packages, some notable ones include:
 
@@ -35,19 +36,12 @@
 The origins of the Tidyverse began from a paper written by Hadley Wickham in
 2014, titled "Tidy Data", in which he describes the aforementioned
 design philosophy. (For those interested, you can read the paper here:
-[10.18637/jss.v059.i10](https://doi.org/10.18637/jss.v059.i10).) The Tidyverse
-package was subsequently [released in 2016](https://posit.co/blog/tidyverse-1-0-0/),
-containing packages revolving around piping, and an alternative to the
-dataframe, now called a "tibble". A more recent documentation of the underlying
-principles guiding Tidyverse packages can be found in
-[the tidy tools manifesto](https://tidyverse.tidyverse.org/articles/manifesto.html)
+[10.18637/jss.v059.i10](https://doi.org/10.18637/jss.v059.i10).) More recent
+documentation of the underlying principles guiding Tidyverse packages can be
+found in [the tidy tools manifesto](https://tidyverse.tidyverse.org/articles/manifesto.html)
 as well as the [Tidy design principles book](https://design.tidyverse.org/).
 
-The Tidyverse package itself can be thought of as a collection of several "core"
-packages. When you load the package with `library(tidyverse)`, you are just
-loading all of these core packages (eight of them, as of writing this) along
-with their dependencies together in a single line. Alternatively, you can load
-individual packages within the Tidyverse, such as `library(ggplot2)`.
+For an introduction on the Tidyverse, take a look at their [package page](https://tidyverse.tidyverse.org/).
 
 You can see a list of the eight core packages on their site
 [here](https://www.tidyverse.org/packages/), and further details within their
@@ -57,37 +51,36 @@ package, you can also find its respective cheatsheet on
 
 ## Why use the Tidyverse?
 
-As mentioned in the definition, the Tidyverse is an _opinionated_ collection of
-packages. This means that while the packages all cohesively follow the same
-design philosophy, they may not work well with how you prefer to program or for
-your specific use case. You may choose to use only certain packages from the
-Tidyverse, or you may choose to only use base R and other alternatives.
+The Tidyverse is an _opinionated_ collection of packages, meaning that while the
+packages all cohesively follow the same design philosophy, they may not work
+well with how you prefer to program or for your specific use case. You may
+choose to use only certain packages from the Tidyverse, or you may choose to
+only use base R and other alternatives.
 
 Some advantages of using the Tidyverse are:
 
--   **Consistency**: All packages in the Tidyverse follow the same design
+- **Consistency**: All packages in the Tidyverse follow the same design
     philosophy, making it easier to learn and use multiple packages. They also
     mesh well with one another, making it easier to use multiple packages
     together.
--   **Piping**: Most of the Tidyverse is designed to be used together with
-    pipes. The `|>` operator from base R >=4.1 works well for this, or you can
-    use the `%>%` pipe from the `magrittr` package for more advanced piping
-    options.
--   **Readability**: Often Tidyverse code is more human-readable than more
-    complex R alternatives, especially when using long pipe chains.
+- **Piping**: Most of the Tidyverse is designed to be used together with pipes.
+    The `|>` operator from base R >=4.1 works well for this, or you can use the
+    `%>%` pipe from the `magrittr` package for more advanced piping options.
+- **Readability**: Often Tidyverse code is more human-readable than more complex
+    R alternatives, especially when using long pipe chains.
 
 Some disadvantages of using the Tidyverse are:
 
--   **Learning curve**: The Tidyverse has a learning curve, especially if you
-    are new to R or programming in general. If switching over from base R,
-    there might also be a learning curve to relearn how to do things you are
-    already familiar with because of how differently things are designed.
--   **Stability**: The Tidyverse is constantly evolving, and packages may be
+- **Learning curve**: The Tidyverse has a learning curve, especially if you are
+    new to R or programming in general. If switching over from base R, there
+    might also be a learning curve to relearn how to do things you are already
+    familiar with because of how differently things are designed.
+- **Stability**: The Tidyverse is constantly evolving, and packages may be
     updated or deprecated. While base R tries to emphasize stability across
     updates, the Tidyverse packages are actively developed, and updates may
     introduce changes that improve functionality but could impact existing code.
--   **Compatibility**: The Tidyverse is not the only way to do things in R, and
-    as well, there are countless other packages that may not play nicely with
+- **Compatibility**: The Tidyverse is not the only way to do things in R, and as
+    well, there are countless other packages that may not play nicely with
     Tidyverse-oriented data structures or tibbles. In these cases you may have
     to convert back and forth between tibbles and data frames, which can be
     cumbersome.
@@ -153,50 +146,42 @@ e.g. `as.data.frame()`, whilst Tidyverse convention is to use snakecase, e.g.
 
 It's important to differentiate the R Tidyverse packages and design from the
 base R language itself. The R programming language is developed and maintained
-by the [R Foundation](https://www.r-project.org/foundation/), whilst the
-Tidyverse (as well as a multitude of other R programming tools and packages) are
-developed and maintained by [Posit, PBC](https://posit.co/) (formerly RStudio,
-Inc) on top of the R language. Some might consider the Tidyverse to be like a
-completely separate language because of its unique syntax, development style,
-and separation from traditional base R and programming design in general.
+by the R Core team and [R Foundation](https://www.r-project.org/foundation/),
+whilst the Tidyverse (as well as a multitude of other R programming tools and
+packages) are developed and maintained by [Posit, PBC](https://posit.co/)
+(formerly RStudio, Inc) on top of the R language.
 
 If you're familiar with R, you're almost certainly familiar with the RStudio
 application, the IDE developed by Posit. Hadley Wickham, the author of the Tidy
-Data paper, also happens to be the Chief Scientist at Posit. It's likely that
-if any package is supported/funded by Posit, it is a Tidyverse-adjacent package.
-It is also likely that they adopted a modern hexagonal sticker for their logo.
-Some examples are:
-
--   [`pak`](https://pak.r-lib.org/), a fresh approach to R package installation.
--   [`fs`](https://fs.r-lib.org/), a cross-platform interface for file system
-    operations in R.
--   [`renv`](https://rstudio.github.io/renv/index.html), a package for easy
-    reproducible environments in R.
--   [`styler`](https://styler.r-lib.org/), a code formatter for R, often used
-    alongside `lintr` to keep your code clean.
-
-R programmers may choose between Tidyverse packages, base R functions, or other
-packages like `data.table`. There's not always a _right_ way of doing
-things and you can spend some time to figure out which ways work best for you.
+Data paper, also happens to be the Chief Scientist at Posit. If you're a fan of
+the Tidyverse, also check out Posit's other useful tools like [Positron](https://positron.posit.co/),
+[Quarto](https://quarto.org/), [Shiny](https://shiny.posit.co/), and [pak](https://pak.r-lib.org/).
 
 ## Additional Resources
 
--   [Welcome to the Tidyverse](https://tidyverse.tidyverse.org/articles/paper.html)
+### Articles
+
+- [Welcome to the Tidyverse](https://tidyverse.tidyverse.org/articles/paper.html)
     &mdash; A brief paper introducing the Tidyverse, from the package vignette.
--   [Tidyverse](https://en.wikipedia.org/wiki/tidyverse) Wikipedia page.
--   [R for Data Science](https://r4ds.hadley.nz/) Textbook &mdash; The go-to
-    textbook for learning R and the Tidyverse, authored by Hadley Wickham, Mine
-    Çetinkaya-Rundel, and Garrett Grolemund.
--   [Swirl](https://swirlstats.com/) &mdash; An interactive learning platform
-    for R.
-    -   Specifically, check out [this course](https://swirlstats.com/scn/getclean.html)
-        for a quick (and interactive!) taste of working with `dplyr` and
-        `tidyr`.
--   [Tidymodels](https://www.tidymodels.org) &mdash; A collection of packages
-    for modeling and machine learning in R.
--   [Pharmaverse](https://pharmaverse.org/) &mdash; A connected network of
-    companies and individuals working to promote collaborative development of
-    curated open source R packages for clinical reporting usage in pharma.
--   [Writing performant code with tidy tools](https://www.tidyverse.org/blog/2023/04/performant-packages/)
+- [Tidyverse](https://en.wikipedia.org/wiki/tidyverse) Wikipedia page.
+- [Writing performant code with tidy tools](https://www.tidyverse.org/blog/2023/04/performant-packages/)
     &mdash; An interesting read on analysing code performance and how to
     consider alternatives; especially relevant to package development.
+
+### Learning
+
+- [R for Data Science](https://r4ds.hadley.nz/) Textbook &mdash; The go-to
+    textbook for learning R and the Tidyverse, authored by Hadley Wickham, Mine
+    Çetinkaya-Rundel, and Garrett Grolemund.
+- [Swirl](https://swirlstats.com/) &mdash; An interactive learning platform for
+    R.
+    - Specifically, check out [this course](https://swirlstats.com/scn/getclean.html)
+        for a quick (and interactive!) taste of working with `dplyr` and `tidyr`.
+
+### Packages
+
+- [Tidymodels](https://www.tidymodels.org) &mdash; A collection of packages
+    for modeling and machine learning in R.
+- [Pharmaverse](https://pharmaverse.org/) &mdash; A connected network of
+    companies and individuals working to promote collaborative development of
+    curated open source R packages for clinical reporting usage in pharma.
