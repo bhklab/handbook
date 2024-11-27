@@ -6,10 +6,10 @@
 2. [Why Use GCP?](#2-why-use-gcp)
 3. [How to Use GCP](#3-how-to-use-gcp)
 4. [Essential and Most Used GCP Services You May Use for Your Project](#essential-and-most-used-gcp-services-you-may-use-for-your-project)
-   1. [Google Cloud Storage (GCS)](#1-google-cloud-storage-gcs)
-   2. [BigQuery](#2-bigquery)
-   3. [Cloud SQL for MySQL, PostgreSQL, and Microsoft SQL Server](#3-cloud-sql-for-mysql-postgresql-and-microsoft-sql-server)
-   4. [Google Cloud Artifact Registry](#4-google-cloud-artifact-registry)
+    1. [Google Cloud Storage (GCS)](#1-google-cloud-storage-gcs)
+    2. [BigQuery](#2-bigquery)
+    3. [Cloud SQL for MySQL, PostgreSQL, and Microsoft SQL Server](#3-cloud-sql-for-mysql-postgresql-and-microsoft-sql-server)
+    4. [Google Cloud Artifact Registry](#4-google-cloud-artifact-registry)
 
 ## 1. What is Google Cloud Platform?
 
@@ -145,12 +145,12 @@ It is a SQL-based data warehouse that allows you to process, load, and analyze d
 
 * Ensure that you have completed [How to Use GCP](#3-how-to-use-gcp) before starting this process.\*
 
-1. **Load Data into BigQuery**:  
+1. **Load Data into BigQuery**:
    From GCS:
    ```
    bq load --source_format=CSV <DATASET_NAME>.<TABLE_NAME> gs://<BUCKET_NAME>/<FILE_NAME>
    ```
-2. **Query Data**:  
+2. **Query Data**:
    Use BigQuery's web interface or CLI to run SQL queries for data cleaning, feature engineering, and exploratory analysis.
    Example:
    ````
