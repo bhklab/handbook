@@ -12,7 +12,6 @@ This page contains links to previously created presentations and is intended to 
   
 &nbsp;&nbsp;&nbsp;*Canadian Bioinformatics Workshop, October 2024*
 
-
 **An Open Science Approach to Computational Pharmacogenomics** ([Slide Deck](https://docs.google.com/presentation/d/1mR4wYLbbRcaz6ZVBCZyXhtMnvn-XDBcuL1L_PB_TmeQ/edit?usp=sharing))
   
 &nbsp;&nbsp;&nbsp;*RECOMB/ISCB Regulatory & Systems Genomics/DREAM conference, October 2024*
@@ -26,15 +25,14 @@ This page contains links to previously created presentations and is intended to 
   
 &nbsp;&nbsp;&nbsp;*2024 Collaborative Breast Research Internal Award, June 2024*
 
-
 **Hallmarks of Drug Response Models: A Qualitative Framework to Evaluate Multivariable Predictive Biomarkers** ([Slide Deck](https://docs.google.com/presentation/d/12_qdW8u5jGVSvAJ22-kaorGUlcPN6C44-HTWMG4Lh-w/edit#slide=id.p1))
   
 &nbsp;&nbsp;&nbsp;*AACR Annual Meeting - San Diego, April 2024*
-
 
 **AI for Clinical Trials** ([Slide Deck](https://docs.google.com/presentation/d/18R2ZfBfW_gfx0Yti3GB5J46vKVGOh5HIfiN-iTQ_hk4/edit#slide=id.gc3323ced22_0_0))
   
 &nbsp;&nbsp;&nbsp;*Amplitude, April 2024*
 
 ## Previous Presentations
+
 For presentations from 2023 and before, please visit the [BHKLab website](https://bhklab.ca/#presentations)
