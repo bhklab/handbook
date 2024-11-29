@@ -1,6 +1,20 @@
 # BHKLab Onboarding Policy
 
 ## PMCRT Lab Tour
+### Lab Location
+The BHKLab is located in room 11-401 of the Princess Margaret Cancer Research Tower (PMCRT) in the MARS Discovery District.
+
+#### Directions to the lab
+1. Find the elevators nearest to [Mercatto](https://www.google.com/maps/place/Mercatto/data=!4m2!3m1!19sChIJiXa3MrY0K4gRXBkKpUGIqvs) on the MARS ground floor . If you are exiting the PMCRT security office, walk up the hallway ramp, through the frosted glass doors, and go straight across to the elevators.
+
+2. Go to the 11th floor of PMCRT. If the button does not work, tap your security card on the black glass below the floor buttons on the left side of the elevator.
+
+3. On the 11th floor, when you cross the security doors, make a right and go down the hallway. Turn left when you reach the next hallway with a sign that reads "11-401 Main Laboratory, South". 
+
+4. Go through security doors and make a left.
+
+
+### Lab Coordinator Onboarding
 On the first day in the lab, all new employees will be scheduled for a research onboarding by the Lab Coordinator. During the research onboarding, you will be provided an office tour of the physical and/or digital workplace. The digital office tour will include an overview of our internal research systems including: 
 
 - [Confluence Statement of Work (SOW)](../../General/Summary_Of_Work/index.md)
