@@ -1,8 +1,8 @@
 ---
-title: Code Review Presentation
 description: A presentation on code reviews
 author: Jermiah Joseph
 ---
+# Code Review Presentation
 
 This presentation was presented on November 26th, 2024, and summarizes the docs on code reviews in a slide format.
 

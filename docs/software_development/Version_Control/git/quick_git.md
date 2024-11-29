@@ -87,7 +87,7 @@ You can see all the aliases you have set up by running:
 git config --global --get-regexp alias
 ```
 
-## 7. Remove local branches that have been deleted remotely
+## 6. Remove local branches that have been deleted remotely
 
 **Problem:** You or another lab member have deleted a branch on the
 remote repository, but it still shows up in your local repository.  
