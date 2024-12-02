@@ -1,5 +1,41 @@
 # Changelog
 
+## [0.6.0](https://github.com/bhklab/handbook/compare/v0.5.0...v0.6.0) (2024-11-27)
+
+
+### Features
+
+* add a page for DESeq ([#91](https://github.com/bhklab/handbook/issues/91)) ([73d51b6](https://github.com/bhklab/handbook/commit/73d51b6e5e58f1b53afbe61c3b763143a5063cea))
+* add angular commit description to contributing ([#100](https://github.com/bhklab/handbook/issues/100)) ([cd6ee02](https://github.com/bhklab/handbook/commit/cd6ee02a2214c3c7383b440b2588235ace526812))
+* add concurrency settings to GitHub workflows to prevent workflows pushing to gh-pages at the same time from failing ([6735fd5](https://github.com/bhklab/handbook/commit/6735fd5eb030eefa6d22515543f20025b314f007))
+* add documentation on code-reviews, and embed the presented slides  ([#111](https://github.com/bhklab/handbook/issues/111)) ([e03e6ef](https://github.com/bhklab/handbook/commit/e03e6ef2037b573c21317e338bf061e7485ab1c4))
+* add presentation tools and database ([#108](https://github.com/bhklab/handbook/issues/108)) ([9c81b17](https://github.com/bhklab/handbook/commit/9c81b170f5d6589c0367f79e3b7625e325a8a724))
+* add QIPCM image retrieval guide ([#102](https://github.com/bhklab/handbook/issues/102)) ([55cebe5](https://github.com/bhklab/handbook/commit/55cebe561589616891cf931f7aed0115a18fcc91))
+* add table of contents to Confluence SOW tutorial page ([#99](https://github.com/bhklab/handbook/issues/99)) ([d73f29b](https://github.com/bhklab/handbook/commit/d73f29b6f63649bede4d4ab95d8277d1accfbe83))
+* added "basics of RNAseq" under Disciplines/Bioinformatics/Data_Types ([#88](https://github.com/bhklab/handbook/issues/88)) ([c6390aa](https://github.com/bhklab/handbook/commit/c6390aa805a523f771c7a54397f26e0ca966fa85))
+* added journal club md ([#89](https://github.com/bhklab/handbook/issues/89)) ([1f9557f](https://github.com/bhklab/handbook/commit/1f9557ff62bea359c03fa70fbb497b241fe228cf))
+* Added Owl page under General/Meetings/ ([#90](https://github.com/bhklab/handbook/issues/90)) ([3982918](https://github.com/bhklab/handbook/commit/398291893644a103837dceeda673c367d45bce8f))
+* added page on BHKlab meeting under General/Meetings/ ([#85](https://github.com/bhklab/handbook/issues/85)) ([f534b03](https://github.com/bhklab/handbook/commit/f534b03dd54009ede9b3ef6f2ced689aff2adb49))
+* added project tracking  ([#94](https://github.com/bhklab/handbook/issues/94)) ([a1f250e](https://github.com/bhklab/handbook/commit/a1f250edaeb6ee1e91eb0299017d24088ed133d5))
+* added radiomics-meeting-page under General/Meetings ([#83](https://github.com/bhklab/handbook/issues/83)) ([680f1d4](https://github.com/bhklab/handbook/commit/680f1d47cdf1da61dbb9eebbd02ebe9a99a842fb))
+* added sow tutorial page under General ([#82](https://github.com/bhklab/handbook/issues/82)) ([b8ce45c](https://github.com/bhklab/handbook/commit/b8ce45c50ca43b33f1db27758ffc43d281c282d9))
+* Added tidyverse page under `software_development/languages/R` ([#87](https://github.com/bhklab/handbook/issues/87)) ([1a9c2a1](https://github.com/bhklab/handbook/commit/1a9c2a1ffdd3adb9f63cbdf11cfeacdeec0d7d32))
+* cgeady add slicer info ([#109](https://github.com/bhklab/handbook/issues/109)) ([8779235](https://github.com/bhklab/handbook/commit/8779235c8d6524e177ae7430337cedd9e7c66a7c))
+* Creating vpn page ([#95](https://github.com/bhklab/handbook/issues/95)) ([d5c9d8a](https://github.com/bhklab/handbook/commit/d5c9d8a1383c0ecefa9bf55757120e67b845e996))
+* migrate Clinical Trial Curation page from BHKLab Confluence ([#105](https://github.com/bhklab/handbook/issues/105)) ([fe2386b](https://github.com/bhklab/handbook/commit/fe2386b484fd4b2d732288e3b57341976ebccd2d))
+* update directory structure with all section heading pages for assigned pages for tutorial ([#58](https://github.com/bhklab/handbook/issues/58)) ([72f314a](https://github.com/bhklab/handbook/commit/72f314aefc74a2b3acd39a82a4f25f62c8ca7319))
+* updates to RNA-Seq information ([#122](https://github.com/bhklab/handbook/issues/122)) ([92607f3](https://github.com/bhklab/handbook/commit/92607f3ce8b24e8400a6f81d92bab9af28663785))
+
+
+### Bug Fixes
+
+* add ... to all .pages ([b0d375f](https://github.com/bhklab/handbook/commit/b0d375f23a6d2081da5000047809ebb89a3a4d07))
+* fix `pixi run serve` warnings ([#107](https://github.com/bhklab/handbook/issues/107)) ([40c23c6](https://github.com/bhklab/handbook/commit/40c23c68dc4e1cde00984b6de226eb70beb69f92))
+* incremented default port to 8001 ([#120](https://github.com/bhklab/handbook/issues/120)) ([b086865](https://github.com/bhklab/handbook/commit/b0868655fe318e827e8050e0821bd701856ee55b))
+* Rename Hackathon Page Request to hackathon_page_request ([#66](https://github.com/bhklab/handbook/issues/66)) ([a37262f](https://github.com/bhklab/handbook/commit/a37262f2227a4f5239b6a2bacab0ce3b178fd420))
+* Rename hackathon_page_request to hackathon_page_request.md ([0f3f821](https://github.com/bhklab/handbook/commit/0f3f821a329a63b4903ab49af4aa40b6a6dd0fef))
+* update information in Contributing section ([#121](https://github.com/bhklab/handbook/issues/121)) ([c623418](https://github.com/bhklab/handbook/commit/c623418e21a9db7d0a22f1a7769dbe74a7e40462))
+
 ## [0.5.0](https://github.com/bhklab/handbook/compare/v0.4.0...v0.5.0) (2024-11-06)
 
 
