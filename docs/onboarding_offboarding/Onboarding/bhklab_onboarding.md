@@ -1,4 +1,4 @@
-# BHKLab Onboarding Policy
+# [BHKLab Onboarding Policy](#bhklab_onboarding_policy)
 
 ## PMCRT Lab Tour
 ### Lab Location
@@ -10,6 +10,8 @@ The BHKLab is located in room 11-401 of the Princess Margaret Cancer Research To
 2. Go to the 11th floor of PMCRT. If the button does not work, tap your security card on the black glass below the floor buttons on the left side of the elevator.
 
 3. On the 11th floor, when you cross the security doors, make a right and go down the hallway. Turn left when you reach the next hallway with a sign that reads "11-401 Main Laboratory, South". 
+
+    ![](img/hallway_to_lab.jpg){width=90%}
 
 4. Go through security doors and make a left.
 
