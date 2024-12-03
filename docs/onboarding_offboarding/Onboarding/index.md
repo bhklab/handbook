@@ -1,11 +1,11 @@
-# Onboarding
+# [Onboarding](#onboarding)
 **Congratulations on your successful interview and welcome to BHK Lab!** 
 
 We’re excited to have you join the team. Before you begin, there are a few important items that we wanted you to be aware of. This document will provide you with an overview of BHK Lab’s processes, procedures, and our standards for maintaining digital files. 
 
 ## Lab Overview 
 
-Review the [Lab Mission Statement](lab_mission.md) to get a sense of what we do and what we are trying to accomplish.
+Review the [Lab Mission Statement](../../General/lab_mission.md) to get a sense of what we do and what we are trying to accomplish.
 
 
 ## [UHN Onboarding Package](uhn_onboarding.md)
@@ -15,7 +15,7 @@ For further instruction on how to complete your UHN onboarding, please see the [
 
 
 ## [BHKLab Onboarding Package]((bhklab_onboarding.md))
-Once your UHN onboarding is complete, new employees can begin the BHKLab specific onboarding process. Steps are outlined on the [BHKLab Onboarding page](bhklab_onboarding.md).
+Once your UHN onboarding is complete, new employees can begin the BHKLab specific onboarding process. Steps are outlined on the [BHKLab Onboarding page](./bhklab_onboarding.md).
 
 
 ## [Meetings to Attend](../../General/Meetings/index.md)
