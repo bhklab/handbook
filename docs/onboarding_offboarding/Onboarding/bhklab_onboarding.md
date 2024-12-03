@@ -1,4 +1,4 @@
-# [BHKLab Onboarding Policy](#bhklab_onboarding_policy)
+# BHKLab Onboarding Policy
 
 ## PMCRT Lab Tour
 ### Lab Location
