@@ -14,7 +14,7 @@ You will be contacted by BHK Lab’s Office Coordinator, Soleil Miron, via email
 For further instruction on how to complete your UHN onboarding, please see the [UHN Onboarding page](uhn_onboarding.md).
 
 
-## [BHKLab Onboarding Package]((bhklab_onboarding.md))
+## [BHKLab Onboarding Package](bhklab_onboarding.md)
 Once your UHN onboarding is complete, new employees can begin the BHKLab specific onboarding process. Steps are outlined on the [BHKLab Onboarding page](./bhklab_onboarding.md).
 
 
@@ -22,6 +22,9 @@ Once your UHN onboarding is complete, new employees can begin the BHKLab specifi
 
 See the [Meetings page](../../General/Meetings/index.md) for an overview of mandatory meetings to attend.
 
+## [MBP Rotation Students](mbp_rotation.md)
+
+If you are an MBP student completing a rotation in the BHKLab, please see the [MBP Rotation Students page](mbp_rotation.md).
 
 ## Best Practices and Templates
 BHK Lab has developed a series of data storage guidelines to ensure that files can be found with ease by all members of the lab. All members, including new employees, are expected to maintain files in agreement with the current lab standards. You can find these around the BHKLab Handbook. We'll highlight a few below:
