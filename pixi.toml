@@ -18,6 +18,9 @@ mkdocs-git-revision-date-localized-plugin = ">=1.2.9,<2"
 mkdocs-include-markdown-plugin = ">=7.0.0,<8"
 mkdocs-redirects = ">=1.2.1,<2"
 
+[pypi-dependencies]
+mkdocs-awesome-pages-plugin = ">=2.9.3, <3"
+
 [tasks]
 build.description = "Build the documentation using MkDocs"
 build.cmd = "mkdocs build -f mkdocs.yml"
@@ -28,7 +31,7 @@ serve.description = "Serve the documentation to http://localhost:8001/"
 serve.cmd = "mkdocs serve -f mkdocs.yml"
 
 [environments]
-lint = { features = ["lint"] }
+dev = { features = ["lint"] }
 
 [feature.lint.dependencies]
 pre-commit = ">=3.7.1,<4"
@@ -39,13 +42,14 @@ typos = ">=1.23.1,<2"
 markdownlint-cli = ">=0.42.0,<0.43"
 
 [feature.lint.tasks]
-pre-commit-install.description = "Install pre-commit hooks"
-pre-commit-install.cmd = "pre-commit install --install-hooks -t=pre-commit -t=pre-push"
-pre-commit-install.inputs = [".pre-commit-config.yaml"]
+# pre-commit-install.description = "Install pre-commit hooks"
+# pre-commit-install.cmd = "pre-commit install --install-hooks -t=pre-commit -t=pre-push"
+# pre-commit-install.inputs = [".pre-commit-config.yaml"]
 
-lint.description = "Run pre-commit hooks"
-lint.cmd = "pre-commit run --all-files --hook-stage=manual"
-lint.depends-on = ["pre-commit-install"]
+# lint.description = "Run pre-commit hooks"
+# lint.cmd = "pre-commit run --all-files --hook-stage=manual"
+# lint.depends-on = ["pre-commit-install"]
 
-[pypi-dependencies]
-mkdocs-awesome-pages-plugin = ">=2.9.3, <3"
+[feature.lint.tasks.markdownlint]
+description = "Lint Markdown files"
+cmd = "markdownlint"
