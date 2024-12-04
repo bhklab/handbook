@@ -1,6 +1,14 @@
-# Welcome to Journal Club!  
+# Journal Club
 
-Whether you’re new to the lab or looking for a refresher, this guide will help you navigate **Journal Club (JC)**—our weekly session to explore research papers, exchange ideas, and grow as scientists. Let’s dive in!  
+## Details
+
+**Day**: Wednesdays
+
+**Time**: 12:00–1:00 PM
+
+**Location**: PMCRT 11-710
+
+**Format**: Two presenters (30 minutes each)
 
 ## **What Is Journal Club?**
 
@@ -13,23 +21,12 @@ Journal Club is a weekly session designed to:
 
 It’s all about **learning**, **critiquing**, and **getting inspired**.
 
----
-
-## **When and Where?**
-
-- **Day**: Wednesdays  
-- **Time**: 12:00–1:00 PM  
-- **Location**: PMCRT 11-710  
-- **Format**: Two presenters (30 minutes each)  
-
----
-
 ## **How Journal Club Works?**
 
 - **Presenters**:
     - **Option 1**: Each presenter discusses a different paper.
     - **Option 2**: Both presenters focus on the same paper, with one highlighting its strengths and the other critiquing its weaknesses.
-  
+
 - **Interactive Elements**:
     - **Dumb Questioner**: A participant is randomly chosen to ask a “dumb” question, encouraging open and fun discussions.
     - **Audience Poll**: For shared papers, attendees vote on whether the positive or critical perspective was more compelling.
@@ -43,24 +40,24 @@ It’s all about **learning**, **critiquing**, and **getting inspired**.
     - Ensure its relevance and potential impact on ongoing projects.
 
 2. **Prepare your slides**:
-    - **Introduction**: Why did you choose this paper?  
-    - **Methods**: How was the study conducted?  
-    - **Results**:  What are the key findings?  
-    - **Key Takeaways**: What are the main insights from the study?  
-    - **Your Perspective**: What worked well? What could be improved?  
+    - **Introduction**: Why did you choose this paper?
+    - **Methods**: How was the study conducted?
+    - **Results**:  What are the key findings?
+    - **Key Takeaways**: What are the main insights from the study?
+    - **Your Perspective**: What worked well? What could be improved?
 
 3. **Share the paper**:
     - *(Optional)* Upload the paper to Slack at least two days before the meeting for participants to review.
 
 ---
 
-## **Audience Role**  
+## **Audience Role**
 
-Even if you’re not presenting, your participation is essential!  
+Even if you’re not presenting, your participation is essential!
 
-- **Read the paper** beforehand, if possible.  
-- **Engage**: Ask questions and share your insights.  
-- **Be Open**: Every perspective adds value.  
+- **Read the paper** beforehand, if possible.
+- **Engage**: Ask questions and share your insights.
+- **Be Open**: Every perspective adds value.
 
 ---
 
@@ -70,4 +67,4 @@ Even if you’re not presenting, your participation is essential!
 
  ---
 
-Journal Club is a great way to stay curious, collaborate, and learn together. We look forward to seeing you there! 
+Journal Club is a great way to stay curious, collaborate, and learn together. We look forward to seeing you there!

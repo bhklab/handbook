@@ -2,7 +2,9 @@
 
 ## Details
 
-**Time**: Every Tuesday from 10:30 AM to 12:00 PM.
+**Day**: Tuesdays
+
+**Time**: 10:30–12:00 PM
 
 **Venue**: PMCRT 4-204.
 

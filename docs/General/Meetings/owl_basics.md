@@ -1,4 +1,4 @@
-# Lab Owl meeting Basics
+# Lab Owl for Meetings
 
 The Owl is a device that works as video and audio input for all meetings conducted in the BHK lab. It is pivotal to include the Owl in all lab meetings to bridge the gap between the users tuning in remote to the users on site.
 

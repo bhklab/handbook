@@ -1,1 +1,1 @@
-# PGx Biweekly team meeting
+# Pharmacogenomics Meetings
