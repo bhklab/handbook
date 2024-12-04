@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.7.0](https://github.com/bhklab/handbook/compare/v0.6.0...v0.7.0) (2024-12-04)
+
+
+### Features
+
+* Add "What is Machine Learning" page to the handbook ([#84](https://github.com/bhklab/handbook/issues/84)) ([34b3fab](https://github.com/bhklab/handbook/commit/34b3fab0c3fce38d56e8a265263cff44ef3958e2))
+* add Introduction to git slides to version control docs and fix up quick git tips ([#123](https://github.com/bhklab/handbook/issues/123)) ([8eb99fa](https://github.com/bhklab/handbook/commit/8eb99fa470c7b0f462ab9be47c0dbc9816830ad0))
+* migrate information from the Employee Onboarding Policy ([#127](https://github.com/bhklab/handbook/issues/127)) ([def834d](https://github.com/bhklab/handbook/commit/def834db30268c165a4d8c663e5dd416e1fb73f5))
+
 ## [0.6.0](https://github.com/bhklab/handbook/compare/v0.5.0...v0.6.0) (2024-11-27)
 
 
