@@ -151,7 +151,7 @@ If your SOW page is not showing up in the PAGE TREE, it has likely been saved to
 3. Click on it to continue editing and make sure to hit the Publish button in the bottom right. 
 
 ## Turning off Notifications
-If you want to turn off emailnotifications from Confluence: 
+If you want to turn off email notifications from Confluence: 
 
 1. Click on your profile photo in the top right and select Settings.
 
