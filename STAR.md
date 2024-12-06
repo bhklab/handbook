@@ -78,7 +78,8 @@ After generating the genome index, you can align RNA-seq reads using STAR.
 ### Single-End Reads Example:
 
 ```bash
-module load STAR/version_number 
+module load STAR/<version_number>
+# Replace <version_number> with the desired version, e.g., module load STAR/2.7.9a
 
 STAR --runThreadN 8 \
      --genomeDir /path/to/genomeDir \
