@@ -52,7 +52,8 @@ Before using STAR, ensure you have the following files:
 STAR requires a genome index to efficiently align reads. Submit the following command in your SLURM script to generate it:
 
 ```bash
-module load STAR/version_number 
+module load STAR/<version_number>
+# Replace <version_number> with the desired version, e.g., module load STAR/2.7.9a
 
 STAR --runThreadN 8 \
      --runMode genomeGenerate \
@@ -77,7 +78,8 @@ After generating the genome index, you can align RNA-seq reads using STAR.
 ### Single-End Reads Example:
 
 ```bash
-module load STAR/version_number 
+module load STAR/<version_number>
+# Replace <version_number> with the desired version, e.g., module load STAR/2.7.9a
 
 STAR --runThreadN 8 \
      --genomeDir /path/to/genomeDir \
@@ -92,7 +94,7 @@ STAR --runThreadN 8 \
 ### Paired-End Reads Example:
 
 ```bash
-module load STAR/version_number 
+# Replace <version_number> with the desired version, e.g., module load STAR/2.7.9a
 
 STAR --runThreadN 8 \
      --genomeDir /path/to/genomeDir \

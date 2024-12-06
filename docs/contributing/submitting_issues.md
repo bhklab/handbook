@@ -7,7 +7,7 @@ the documentation, you can submit an issue directly on our GitHub repository.
 We have a set of pre-defined issue templates to help categorize and address
 your concerns efficiently.
 
-link: [Submit and view issues](https://github.com/bhklab/handbook/issues)
+Link: [Submit and view issues](https://github.com/bhklab/handbook/issues)
 
 ## Available Issue Templates
 
@@ -44,7 +44,7 @@ When creating a new issue, you will be presented with the following options:
 
 1. Go to the GitHub repository and navigate to the "Issues" tab.
 2. Click on the "New Issue" button.
-3. Select the appropriate issue template from the list
+3. Select the appropriate issue template from the list.
 4. Fill out the template, providing as much detail as possible to help us
    understand and address your issue.
 5. Submit the issue.
@@ -60,5 +60,3 @@ also select **Open a blank issue** to describe your concern freely.
   section, page, or example, include links and screenshots to provide context.
 - **Suggest Solutions**: If you have an idea on how to fix or improve the
   issue, let us know! Your suggestions can help expedite the process.
-
-Your feedback is invaluable, and we

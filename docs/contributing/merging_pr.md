@@ -1,4 +1,4 @@
-# Merging Pull Requests
+# [Merging Pull Requests](#merging-pull-requests)
 
 !!! note "For Maintainers"
     Only a subset of members of the BHK Lab organization can merge pull requests.
@@ -27,7 +27,7 @@ This is called a **Merge Commit**.
   <figcaption>Merge commit example</figcaption>
 </figure>
 
-We will be using the **Squash Merge** strategy for merging pull requests.
+We use the **Squash Merge** strategy for merging pull requests to the lab handbook.
 
 Squash merges are a way to combine multiple commits into a single commit.
 Instead of seeing all the author's individual commits in the main branch's
@@ -55,7 +55,7 @@ To merge a pull request, follow these steps:
 
 ![image](images/squash_merge.png){: style="height:50%;width:50%"}
 
-### Modify the commit message as needed
+### [Modify the commit message as needed](#modify-the-commit-message-as-needed)
 
 By default, the commit message will be the title of the pull request.
 The body of the commit message will include all the commits from the pull request.
@@ -68,7 +68,7 @@ Feel free to modify the body of the commit message to include only the relevant 
 
 !!! note
 
-    Only the PR Title needs to follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
+    Only the PR Title needs to follow the [Conventional Commits](conventional_commits.md) specification.
     The commit message body can be modified to include any relevant commits.
 
 ![better_pr](images/better_pr_body.png){: style="height:100%;width:100%"}
@@ -76,7 +76,12 @@ Feel free to modify the body of the commit message to include only the relevant 
 ### Verify GitHub Pages Deployment
 
 After merging the pull request, the changes will be deployed to GitHub Pages.
-Check the website at `https://bhklab.github.io/handbook/` to verify that the changes are correct.
+Check the website at [`https://bhklab.github.io/handbook/`](https://bhklab.github.io/handbook/)
+to verify that the changes are correct.
+
+!!!note
+    To view the latest merged PR changes, ensure you are on the `dev` version of
+    the site. The version dropdown selector is located next to the site title.
 
 ### Delete the branch
 
