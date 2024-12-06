@@ -52,7 +52,8 @@ Before using STAR, ensure you have the following files:
 STAR requires a genome index to efficiently align reads. Submit the following command in your SLURM script to generate it:
 
 ```bash
-module load STAR/version_number 
+module load STAR/<version_number>
+# Replace <version_number> with the desired version, e.g., module load STAR/2.7.9a
 
 STAR --runThreadN 8 \
      --runMode genomeGenerate \
