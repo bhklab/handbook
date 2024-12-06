@@ -94,7 +94,7 @@ STAR --runThreadN 8 \
 ### Paired-End Reads Example:
 
 ```bash
-module load STAR/version_number 
+# Replace <version_number> with the desired version, e.g., module load STAR/2.7.9a
 
 STAR --runThreadN 8 \
      --genomeDir /path/to/genomeDir \
