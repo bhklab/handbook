@@ -191,7 +191,11 @@ When processing multiple RNA-seq samples, you can use SLURM's `--array` option t
 Create a text file listing all your sample FASTQ file pairs, with one sample per line. For paired-end data, include both files separated by a space, like this:
 
 **`samples.txt`:**
-
+```plaintext
+sample1_R1.fastq.gz sample1_R2.fastq.gz
+sample2_R1.fastq.gz sample2_R2.fastq.gz
+sample3_R1.fastq.gz sample3_R2.fastq.gz
+```
 
 ### 2. Writing the `sbatch` Script
 
