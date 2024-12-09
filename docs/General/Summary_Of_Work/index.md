@@ -149,3 +149,12 @@ If your SOW page is not showing up in the PAGE TREE, it has likely been saved to
 2. You should now be on the homepage with Recently worked on files listed. Your draft SOW will be listed here if it was saved. 
 
 3. Click on it to continue editing and make sure to hit the Publish button in the bottom right. 
+
+## Turning off Notifications
+If you want to turn off email notifications from Confluence: 
+
+1. Click on your profile photo in the top right and select Settings.
+
+2. Select Email under the left panel labeled Your Settings.
+
+3. Select Edit at the bottom of the page, and uncheck Recommended Updates and/or Daily Updates.
