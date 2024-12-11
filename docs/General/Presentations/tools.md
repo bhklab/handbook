@@ -18,7 +18,7 @@ Several slide templates have already been developed for the lab:
 
 
 
-**Miro**
+[**Miro**](#presentation_tools_miro)
 
 [Miro](https://miro.com/login/) is a collaborative white board platform that enables simple diagram and multi-figure panel creation for presentations and/or manuscripts. For diagrams that will be used and updated by others in the lab, please request a Miro Board be created via the BHK Lab Miro account.
 
