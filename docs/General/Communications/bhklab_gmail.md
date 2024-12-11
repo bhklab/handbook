@@ -1,6 +1,6 @@
 # BHKLab Gmail
 
-In the BHKLab, we primarily use Google Drive for document creation, storage, and sharing and Google Calendar for all lab meeting scheduling. To improve collaboration, communication, and security, we require lab members to create a dedicated BHKLab Gmail.
+In the BHKLab, we primarily use [Google Drive](https://drive.google.com/drive) for document creation, storage, and sharing and [Google Calendar](https://calendar.google.com/calendar) for all lab meeting scheduling. To improve collaboration, communication, and security, we require lab members to create a dedicated BHKLab Gmail.
 
 This email will be used for
 
@@ -22,7 +22,7 @@ Creation of this email should be done during your [BHKLab Onboarding](../../onbo
     
     a. The format of your email address will be 
         
-        `bhklab.firstnamelastname@gmail.com` 
+        bhklab.firstnamelastname@gmail.com 
     (ex. bhklab.johnsmith@gmail.com) 
 
 2. Once you have created the account, we recommend setting up a dedicated browser profile for it. Here are instructions for setting up a profile in:
@@ -37,7 +37,7 @@ Your BHKLab Gmail account is now ready to use!
 
 
 ## Integrating BHKLab Gmail with other tools
-We recommend adding your BhKLab Gmail account to your regular email app or setting up email forwarding to make it easier to keep on top of shared lab documents and updates to calendar events.
+We recommend adding your BHKLab Gmail account to your regular email app or setting up email forwarding to make it easier to keep on top of shared lab documents and updates to calendar events.
 
 ### Add Gmail account to your email app
 Please note, you will need to complete this process for each device you want to receive lab emails on.
@@ -66,7 +66,10 @@ To share a document with the Google Group:
 
 1. Open the document you wish to share from your Google Drive.
 2. Click the Share button in the top right corner of the document.
-3. In the Add people, groups, and calendar events text box, type `bhklab-accounts@googlegroups.com` and hit enter.
+3. In the "Add people, groups, and calendar events" text box, enter
+
+        bhklab-accounts@googlegroups.com 
+
 4. Set the permission level as makes sense for the document.
 5. Uncheck the Notify people option.
 6. Click Share.
@@ -79,11 +82,11 @@ The BHKLab Calendar is managed by `bhklab.research@gmail.com` and contains event
 - One-on-one meetings with BHK
 - Any other events the lab should be aware of
 
-Make sure you check this calendar and your BHKLab email regularly so you are aware of any changes to the regular schedule or invitations to your assigned presentation days.
+Your BHKLab Gmail account will be added to the BHKLab Calendar with viewing permissions as part of your Onboarding. Make sure you check this calendar and your BHKLab email regularly so you are aware of any changes to the regular schedule or invitations to your assigned presentation days.
 
-### Integrating your BHKLab Calendar with other tools
+### Integrating your BHKLab Gmail Calendar with other tools
 
-Follow the steps described on the [Share your calendar with someone](https://support.google.com/calendar/answer/37082?hl=en&ref_topic=10510447&sjid=5547978077838140625-NC) Google page with your BHKLab Gmail calendar, **not the BHKLAB calendar listed under Other calendars**.
+Follow the steps described on the [Share your calendar with someone](https://support.google.com/calendar/answer/37082?hl=en&ref_topic=10510447&sjid=5547978077838140625-NC) Google page with *your* BHKLab Gmail calendar, **not the BHKLAB calendar listed under Other calendars**.
 
 - If you are adding it to another Google Calendar, add that account at the "Share with specific people or groups" section.
 
