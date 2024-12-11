@@ -37,8 +37,8 @@ In the physical labspace, confirm that the following items are set up:
 ## [BHKLab Onboarding Form](https://docs.google.com/forms/d/e/1FAIpQLSem1WRpvKiHyeMop-sOsRx7NOd0hWbT2PGRRxiz3nfR3GUPEQ/viewform?usp=sf_link)
 The employees will then be directed to their supervisor/mentor. Together, you can begin to fill out the [BHKLab Onboarding Form](https://docs.google.com/forms/d/e/1FAIpQLSem1WRpvKiHyeMop-sOsRx7NOd0hWbT2PGRRxiz3nfR3GUPEQ/viewform?usp=sf_link). This form will help guide you through the onboarding process. When complete, you should have set up or initiated the following items:
 
-- [x] Creation of a [BHKLab Google account](https://support.google.com/mail/answer/56256?hl=en) (long-term employees only)
-- [x] Invitation to BHKLab Google Calendar with view-only permissions
+- [x] Creation of a [BHKLab Google account](../../General/Communications/bhklab_gmail.md) (long-term employees only)
+- [x] Invitation to [BHKLAB Google Calendar](../../General/Communications/bhklab_calendar.md) with view-only permissions
 - [x] Invitation to [BHKLab Slack](http://bhklab.slack.com)
 - [x] Invitation to [BHKLab GitHub Team](https://github.com/orgs/bhklab/teams/bhkteam)
 - [x] Set up for [HPC4Health access](https://bhklab.github.io/HPC4Health/setup/getting_an_account/) (if applicable)
