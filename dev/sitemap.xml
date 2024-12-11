@@ -2,298 +2,306 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/lab_mission/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Code_Of_Conduct/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
+    </url>
+    <url>
+         <loc>https://bhklab.github.io/handbook/dev/General/Communications/bhklab_calendar/</loc>
+         <lastmod>2024-12-11</lastmod>
+    </url>
+    <url>
+         <loc>https://bhklab.github.io/handbook/dev/General/Communications/bhklab_gmail/</loc>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Manuscripts/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Meetings/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Meetings/Radiomics_meeting/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Meetings/journal_club/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Meetings/lab_meeting/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Meetings/owl_basics/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Meetings/pharmacogx_meetings/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Meetings/project_tracking/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Presentations/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Presentations/database/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Presentations/tools/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Projects/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/General/Summary_Of_Work/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/contributing/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/contributing/adding_content/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/contributing/changelog/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/contributing/conventional_commits/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/contributing/merging_pr/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/contributing/prerequisites/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/contributing/release_deployment/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/contributing/reviews/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/contributing/submitting_issues/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Bioinformatics/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Bioinformatics/STAR/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Bioinformatics/deseq/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Bioinformatics/Data_Types/rnaseq/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Data_Science/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Data_Science/Data_Curation/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Data_Science/Data_Curation/Clinical_Trial_Curation/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Imaging/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Imaging/Radiomics/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Imaging/Tools/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Imaging/Tools/QIPCM/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Imaging/Tools/QIPCM/querying_data/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Machine_Learning/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Pharmacogenomics/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/onboarding_offboarding/Offboarding/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/onboarding_offboarding/Onboarding/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/onboarding_offboarding/Onboarding/bhklab_onboarding/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/onboarding_offboarding/Onboarding/mbp_rotation/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/onboarding_offboarding/Onboarding/uhn_onboarding/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/onboarding_offboarding/Onboarding/vpn/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Cloud/compute_canada_cloud/introduction/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Development_Environment/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Development_Environment/CLI_Tools/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Development_Environment/Containerization/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Development_Environment/Integrated_Development_Environments/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Development_Environment/Package_Managers/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Development_Environment/Shells/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Languages/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Languages/Javascript_Typescript/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Languages/Markdown/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Languages/Markdown/mkdocs/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Languages/Markdown/mkdocs/examples/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Languages/Python/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Languages/R/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Languages/R/Tidyverse/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Languages/R/Tidyverse/ggplot2/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Languages/Rust/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Remote_Development/Google_Cloud_Platform/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Remote_Development/Google_Cloud_Platform/gcp_services/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Remote_Development/High_Performance_Computing_for_Health/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Version_Control/code_reviews/challenges_solutions/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Version_Control/code_reviews/conducting_a_review/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Version_Control/code_reviews/introduction/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Version_Control/code_reviews/mindsets/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Version_Control/code_reviews/presentation/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Version_Control/git/introduction/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Version_Control/git/quick_git/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-11</lastmod>
     </url>
 </urlset>
