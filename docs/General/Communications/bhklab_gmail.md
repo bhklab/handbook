@@ -13,6 +13,7 @@ You are also welcome to use it to create accounts for tools related to your lab 
 !!! note
     Your specified preferred contact email from your onboarding will be used for the majority of communications, but lab documents and calendar events must be accessed with your BHKLab Gmail account.
 
+When your time in the BHKLab is complete, control of the account will be transferred to the lab manager so documents can be accessed and transferred as needed.
 
 ## Creating your BHKLab Gmail account
 Creation of this email should be done during your [BHKLab Onboarding](../../onboarding_offboarding/Onboarding/bhklab_onboarding.md) when you completed the [Onboarding Form](../../onboarding_offboarding/Onboarding/bhklab_onboarding.md#bhklab-onboarding-form), but we will describe it again here. If you have created the account already, you can skip to step 2.
