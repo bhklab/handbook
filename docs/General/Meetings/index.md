@@ -12,7 +12,7 @@ The following meetings are specific to disciplines in the lab and are mandatory 
 | Discipline-specific Meetings                    | Frequency           | Date and time           | Slack channel      |
 |-------------------------------------------------|---------------------|-------------------------|--------------------|
 | [Radiomics team meeting](Radiomics_meeting.md)  | Biweekly            | Tuesdays, 2-3 p.m.      | #radiomics         |
-| [PGx team meeting](pharmacogx_meetings.md)      | Weekly              | Wednesdays, 1-2 p.m.    | #pharmacogenomics  |
+| [PGx team meeting](pharmacogx_meetings.md)      | Biweekly            | Wednesdays, 1-2 p.m.    | #pharmacogenomics  |
 | Software Developer team meeting                 | Monthly             | Mondays, 12-1 p.m.      | #software-developer|
 
 We use The Meeting Owl for our meetings so they can be ran hybridly. See the [Meeting Owl Basics](owl_basics.md) page to learn more about how to use it.
