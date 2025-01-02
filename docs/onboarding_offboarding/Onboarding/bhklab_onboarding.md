@@ -44,5 +44,5 @@ The employees will then be directed to their supervisor/mentor. Together, you ca
 - [x] Set up for [HPC4Health access](https://bhklab.github.io/HPC4Health/setup/getting_an_account/) (if applicable)
 - [x] Add to Atlassian Crowd Group for [Confluence SOW](https://collaborate.uhnresearch.ca/confluence/pages/viewpage.action?spaceKey=BHKLabSOW&title=BHKLab-SOW)
 - [x] Add prefered email address to the ["BHKLab" Google Group](https://groups.google.com/g/bhklabresearch/members) - this will be used for lab-wide communication 
-- [x] Add BHKLab Gmail to the ["BHKLab Google Accounts" Google Group](https://groups.google.com/g/bhklab-accounts/members) - this will be used to grant access to BHKLab Google Drive documents
+- [x] Add BHKLab Gmail to the ["BHKLab Members" Google Group](https://groups.google.com/g/bhklab-members/members) - this will be used to grant access to BHKLab Google Drive documents
 - [x] Any other resources deemed necessary
