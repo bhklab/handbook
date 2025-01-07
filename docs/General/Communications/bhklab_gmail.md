@@ -74,6 +74,9 @@ To share a document with the Google Group:
 5. Uncheck the Notify people option.
 6. Click Share.
 
+!!! note
+    For documents and folders related to manuscripts or grants, or any other specified instance, ownership still needs to be transferred to `bhklab.research@gmail.com` in addition to sharing with the BHKLab Members group.
+
 
 ## BHKLab Calendar
 --8<--
