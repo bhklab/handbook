@@ -31,7 +31,7 @@ Creation of this email should be done during your [BHKLab Onboarding](../../onbo
     - [Mozilla Firefox](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles)
     - [Safari](https://support.apple.com/en-ca/105100)
 
-3. Your BHKLab Gmail will be added to the [BHKLab Google Accounts Google Group](https://groups.google.com/g/bhklab-accounts). This will grant you access to lab-wide Google Documents.
+3. Your BHKLab Gmail will be added to the [BHKLab Members Google Group](https://groups.google.com/g/bhklab-accounts). This will grant you access to lab-wide Google Documents.
 
 Your BHKLab Gmail account is now ready to use!
 
@@ -60,19 +60,36 @@ If your document needs to be shared with other lab members, you may use their BH
     Personal Gmail accounts should not be used for lab documents unless you are a short-term member of the lab (less than 1 month).
 
 ### File Sharing
-If your document needs to be shared with other lab members, you may use their BHKLab Gmail account OR the BHKLab Google Group to make the document accessible to the entire lab.
+If your document needs to be shared with other lab members, you may use their BHKLab Gmail account OR the BHKLab Google Group to make the document accessible to the entire lab. If more than three people need access to the document, we recommend sharing it with the BHKLab Members group instead.
 
-To share a document with the Google Group:
+#### To share a document with the Google Group:
 
 1. Open the document you wish to share from your Google Drive.
 2. Click the Share button in the top right corner of the document.
 3. In the "Add people, groups, and calendar events" text box, enter
 
-        bhklab-accounts@googlegroups.com 
+        bhklab-members@googlegroups.com 
 
 4. Set the permission level as makes sense for the document.
 5. Uncheck the Notify people option.
 6. Click Share.
+
+#### If you need to share multiple documents or folders:
+
+1. In the directory menu, select all the documents and/or folders you wish to share (`Shift + Click` to select multiple).
+2. Right click on the selected items and select `Share` and then `Share` again.
+3. In the "Add people, groups, and calendar events" text box, enter
+
+        bhklab-members@googlegroups.com 
+
+4. Set the permission level as makes sense for each document. These will need to be set for each document or folder.
+5. Uncheck the Notify people option.
+6. Click Share.
+
+This sharing method is useful for transferring ownership of existing lab documents on your personal Gmail account to your BHKLab Gmail account.
+
+!!! note
+    For documents and folders related to manuscripts or grants, or any other specified instance, ownership still needs to be transferred to `bhklab.research@gmail.com` in addition to sharing with the BHKLab Members group.
 
 
 ## BHKLab Calendar
