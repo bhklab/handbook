@@ -31,7 +31,7 @@ Creation of this email should be done during your [BHKLab Onboarding](../../onbo
     - [Mozilla Firefox](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles)
     - [Safari](https://support.apple.com/en-ca/105100)
 
-3. Your BHKLab Gmail will be added to the [BHKLab Google Accounts Google Group](https://groups.google.com/g/bhklab-accounts). This will grant you access to lab-wide Google Documents.
+3. Your BHKLab Gmail will be added to the [BHKLab Members Google Group](https://groups.google.com/g/bhklab-accounts). This will grant you access to lab-wide Google Documents.
 
 Your BHKLab Gmail account is now ready to use!
 
@@ -68,7 +68,7 @@ To share a document with the Google Group:
 2. Click the Share button in the top right corner of the document.
 3. In the "Add people, groups, and calendar events" text box, enter
 
-        bhklab-accounts@googlegroups.com 
+        bhklab-members@googlegroups.com 
 
 4. Set the permission level as makes sense for the document.
 5. Uncheck the Notify people option.
