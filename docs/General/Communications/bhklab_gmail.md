@@ -99,11 +99,10 @@ docs/General/Communications/bhklab_calendar.md:2:8
 
 ### Integrating your BHKLab Gmail Calendar with other tools
 
-Follow the steps described on the [Share your calendar with someone](https://support.google.com/calendar/answer/37082?hl=en&ref_topic=10510447&sjid=5547978077838140625-NC) Google page with *your* BHKLab Gmail calendar, **not the BHKLAB calendar listed under Other calendars**.
+!!! warning
+    You cannot view the BHKLAB calendar with a non-BHKLab Gmail account in the browser version of Google Calendar. Do not add any personal Gmail accounts to the BHKLAB calendar to try to do so.
 
-- If you are adding it to another Google Calendar, add that account at the "Share with specific people or groups" section.
+- If you [added the email to Outlook](#add-gmail-account-to-your-email-app) on your Desktop, the calendar should be added automatically. Click on the Calendar icon on the far left side of the window, click the dropdown for your BHKLab Gmail account in the left panel, and toggle on the BHKLAB calendar under Other Calendars.
 
-- If you [added the email to Outlook](#add-gmail-account-to-your-email-app) on your Desktop, the calendar should be added automatically. Click on the Calendar icon on the far left side of the window, click the dropdown for your BHKLab Gmail account in the left panel, and toggle on the BHKLAB calendar.
-
-- If you are adding it to the Apple iCal app, open System Settings, add the BHKLab Gmail to your Internet Accounts, and make sure Calendars is toggled on.
+- If you are adding it to the Apple iCal app, open System Settings, add the BHKLab Gmail to your Internet Accounts, and make sure Calendars is toggled on. If it still isn't showing up, go to the [Google Sync Settings](https://calendar.google.com/calendar/syncselect) and make sure BHKLAB is selected.
 
