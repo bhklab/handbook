@@ -104,5 +104,7 @@ docs/General/Communications/bhklab_calendar.md:2:8
 
 - If you [added the email to Outlook](#add-gmail-account-to-your-email-app) on your Desktop, the calendar should be added automatically. Click on the Calendar icon on the far left side of the window, click the dropdown for your BHKLab Gmail account in the left panel, and toggle on the BHKLAB calendar under Other Calendars.
 
+- If you are using the Google Calendar app on your phone, you can [add the BHKLab Gmail account](https://support.google.com/calendar/answer/13322290?hl=en&co=GENIE.Platform%3DAndroid) to view the BHKLAB calendar.
+
 - If you are adding it to the Apple iCal app, open System Settings, add the BHKLab Gmail to your Internet Accounts, and make sure Calendars is toggled on. If it still isn't showing up, go to the [Google Sync Settings](https://calendar.google.com/calendar/syncselect) and make sure BHKLAB is selected.
 
