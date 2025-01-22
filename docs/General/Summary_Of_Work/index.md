@@ -10,6 +10,8 @@ This tutorial will utilize the Google Drive associated with the [BHKLab Gmail](.
 
 If you are a short-term employee (less than one month), you may complete the instructions below with a personal Gmail account.
 
+---
+
 ## Setting Up Your SOW Space
 !!! note 
     This section will need to be repeated in January of each year.
@@ -19,7 +21,6 @@ In the main folders section of your Google Drive, created a directory called `SO
 
 Within this directory, create a directory and name it the current year (e.g. `2025`).
 
-
 ### Document Creation
 Next, open [the SOW template document](). In the File menu, select `Make a copy`. 
 
@@ -28,12 +29,12 @@ Next, open [the SOW template document](). In the File menu, select `Make a copy`
 
 Once created, make sure the sharing permissions include `bhklab-admin@googlegroups.com`.
 
-
 ### Add Your Page to the Main SOW Tracker
 In the [SOW Tracking Document], find your job title. Under this heading, paste the link to your SOW document and set the text to `Your Name-SOW-Year`
 
 This is where Ben will access your SOW from weekly.
 
+---
 
 ## Creating Your SOW Page
 
