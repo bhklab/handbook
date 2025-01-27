@@ -1,4 +1,7 @@
-# [Confluence SOW Tutorial](#confluence-sow-tutorial)
+# [Confluence SOW Tutorial (outdated)](#confluence-sow-tutorial)
+
+!!! warning "Outdated Warning"
+    This tutorial is outdated and no longer in use. Please refer to the [Google Drive SOW Tutorial](../Summary_Of_Work/index.md) for the most up-to-date instructions.
 
 This tutorial will walk you through how to access Confluence, set up your Page Tree, and to write your weekly Summary of Work (SOW). 
 
