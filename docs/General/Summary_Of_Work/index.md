@@ -17,20 +17,22 @@ If you are a short-term employee (less than one month), you may complete the ins
     This section will need to be repeated in January of each year.
 
 ### Directory Creation
-In the main folders section of your Google Drive, created a directory called `SOW`. In the sharing menu, add `bhklab-admin@googlegroups.com` as an Editor. 
+In the your BHKLab Google Drive, created a folder called `SOW`. In the sharing menu, add `bhklab-admin@googlegroups.com` as an Editor. 
 
-Within this directory, create a directory and name it the current year (e.g. `2025`).
+Within this folder, create another folder and name it the current year (e.g. `2025`).
 
 ### Document Creation
-Next, open [the SOW template document](). In the File menu, select `Make a copy`. 
+Next, open [the SOW template document](https://docs.google.com/document/d/1x9kGto0gaGadxOf1Btm_EPLvz1QT6bAyDgUshFqTa9o/edit?usp=sharing). In the File menu, select `Make a copy`. 
 
 * Name the copy as `Your Name-SOW-Year`. (e.g. `John-SOW-2025`).
-* Select the year directory you just created as the destination.
+* Select the year folder you just created as the destination.
+* Check the box for `Share it with the same people`
+* Click `Make a copy`
 
 Once created, make sure the sharing permissions include `bhklab-admin@googlegroups.com`.
 
 ### Add Your Page to the Main SOW Tracker
-In the [SOW Tracking Document], find your job title. Under this heading, paste the link to your SOW document and set the text to `Your Name-SOW-Year`
+In the [SOW for BHK document](https://docs.google.com/document/d/1auQPchq_p8Cbl7e7wTAxqLuOk-kY4dRQ9WylxFWgS6I/edit?tab=t.0), find your job title. Under this heading, insert a File smart chip. To find your SOW file, start typing your name and it should appear as one of the options.
 
 This is where Ben will access your SOW from weekly.
 
@@ -59,6 +61,6 @@ Open your SOW document you copied in the Document Creation section.
 **BHK Read Marker:** For BHK use only. 
 !!! note
     If you copied the previous week’s SOW, make that this is set to unchecked.  
-    Unchecked:   ![](img/confluence_unreadbhk.png)      Checked:   ![](img/confluence_readbhk.png)
+    Unchecked:   ![](img/docs_bhk_unchecked.png){: width=10% }      Checked:   ![](img/docs_bhk_checked.png){: width=10% }
 
 
