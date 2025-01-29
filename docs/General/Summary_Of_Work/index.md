@@ -23,7 +23,7 @@ Visit the [Google Drive](https://drive.google.com) website and ensure you are lo
 
 ### Directory Creation
 
-In the your BHKLab Google Drive, created a folder called `SOW`.
+In your BHKLab Google Drive, create a folder called `SOW`.
 In the sharing menu (1), add `bhklab-admin@googlegroups.com` as an Editor.
 { .annotate }
 
