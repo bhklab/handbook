@@ -29,6 +29,7 @@ If you are an MBP student completing a rotation in the BHKLab, please see the [M
 ## Best Practices and Templates
 BHK Lab has developed a series of data storage guidelines to ensure that files can be found with ease by all members of the lab. All members, including new employees, are expected to maintain files in agreement with the current lab standards. You can find these around the BHKLab Handbook. We'll highlight a few below:
 
+- [Summary of Work Instructions](../../General/Summary_Of_Work/index.md)
 - [Lab Meeting best practices](../../General/Meetings/lab_meeting.md)
 - [Journal club best practices](../../General/Meetings/journal_club.md)
 - [HPC4Health help](https://bhklab.github.io/HPC4Health/)
