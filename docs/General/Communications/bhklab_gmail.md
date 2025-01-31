@@ -94,7 +94,7 @@ This sharing method is useful for transferring ownership of existing lab documen
 
 ## BHKLab Calendar
 --8<--
-docs/General/Communications/bhklab_calendar.md:2:8
+docs/General/Communications/bhklab_calendar.md:2:13
 --8<--
 
 ### Integrating your BHKLab Gmail Calendar with other tools
