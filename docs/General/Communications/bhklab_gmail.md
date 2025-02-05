@@ -15,6 +15,7 @@ You are also welcome to use it to create accounts for tools related to your lab 
 
 When your time in the BHKLab is complete, control of the account will be transferred to the lab manager so documents can be accessed and transferred as needed.
 
+---
 ## Creating your BHKLab Gmail account
 Creation of this email should be done during your [BHKLab Onboarding](../../onboarding_offboarding/Onboarding/bhklab_onboarding.md) when you completed the [Onboarding Form](../../onboarding_offboarding/Onboarding/bhklab_onboarding.md#bhklab-onboarding-form), but we will describe it again here. If you have created the account already, you can skip to step 2.
 
@@ -35,7 +36,7 @@ Creation of this email should be done during your [BHKLab Onboarding](../../onbo
 
 Your BHKLab Gmail account is now ready to use!
 
-
+---
 ## Integrating BHKLab Gmail with other tools
 We recommend adding your BHKLab Gmail account to your regular email app or setting up email forwarding to make it easier to keep on top of shared lab documents and updates to calendar events.
 
@@ -49,7 +50,7 @@ Please note, you will need to complete this process for each device you want to 
 ### Set up email forwarding
 Follow the steps described on the [Automatically forward Gmail messages to another account](https://support.google.com/mail/answer/10957?hl=en) page.
 
-
+---
 ## BHKLab Google Drive
 Your BHKLab [Google Drive](https://drive.google.com/drive) is where you will store all of your lab documents. Any work related to your lab projects must be stored here.
 In specific instances, documents may be shared with or from the `bhklab.research@gmail.com` account - this is one of our administrative accounts that allows us to keep track of lab documents. 
@@ -91,10 +92,10 @@ This sharing method is useful for transferring ownership of existing lab documen
 !!! note
     For documents and folders related to manuscripts or grants, or any other specified instance, ownership still needs to be transferred to `bhklab.research@gmail.com` in addition to sharing with the BHKLab Members group.
 
-
+---
 ## BHKLab Calendar
 --8<--
-docs/General/Communications/bhklab_calendar.md:2:13
+docs/General/Communications/bhklab_calendar.md:2:15
 --8<--
 
 ### Integrating your BHKLab Gmail Calendar with other tools
