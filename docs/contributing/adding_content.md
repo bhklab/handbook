@@ -79,7 +79,7 @@ You should now see a new file at `docs/onboarding_offboarding/my_new_page.md`.
     This file is used to generate the navigation menu for the handbook.
 
     To add your new page to the `.pages` file, open the file and add the relative path to your new page.
-    For example, if you added a new page to the `onboarding_offboarding` directory, you would add the following 
+    For example, if you added a new page to the `onboarding_offboarding` directory, you would add the following
     line (highlighted in green)
     to the `onboarding_offboarding/.pages` file:
 
