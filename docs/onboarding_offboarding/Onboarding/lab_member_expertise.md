@@ -30,3 +30,6 @@
 | **LabOps**                           | Sisira Kadambat Nair, Katy Scott                                                        |
 | **Hiring**                           | Sisira Kadambat Nair                                                                    |
 | **Payroll, grant budgets, meeting room scheduling, purchases** | Soleil Miron                                       |
+| **Pipelines (Snakemake)**            | Jermiah Joseph                                                                         |
+| **High Performance Computing (HPC) on H4H** | Jermiah Joseph                                                                         |
+| **Version Control (Git & GitHub)**   | Jermiah Joseph                                                                         |
