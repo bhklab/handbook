@@ -1,5 +1,33 @@
 # Changelog
 
+## [0.7.0](https://github.com/bhklab/handbook/compare/v0.6.0...v0.7.0) (2025-02-14)
+
+
+### Features
+
+* Add "What is Machine Learning" page to the handbook ([#84](https://github.com/bhklab/handbook/issues/84)) ([34b3fab](https://github.com/bhklab/handbook/commit/34b3fab0c3fce38d56e8a265263cff44ef3958e2))
+* Add Communications section and BHKLab Gmail page ([#131](https://github.com/bhklab/handbook/issues/131)) ([648743d](https://github.com/bhklab/handbook/commit/648743d35c64bca06ab149ea03a1cdf4a5573ccb))
+* add Introduction to git slides to version control docs and fix up quick git tips ([#123](https://github.com/bhklab/handbook/issues/123)) ([8eb99fa](https://github.com/bhklab/handbook/commit/8eb99fa470c7b0f462ab9be47c0dbc9816830ad0))
+* add lab server page to Remote_Development ([#136](https://github.com/bhklab/handbook/issues/136)) ([142eaec](https://github.com/bhklab/handbook/commit/142eaec4b553a5929c438db6cccf6a57d58a15e0))
+* Add new lab expertise page ([#145](https://github.com/bhklab/handbook/issues/145)) ([bd3be40](https://github.com/bhklab/handbook/commit/bd3be40224a72955a7f37713ebdb65dfe03e8150))
+* added note about adding the BHKLab calendar to your BHKLab Gmail with the email ([aa72aa8](https://github.com/bhklab/handbook/commit/aa72aa876aadbb3c7f191d8ceaceb2d8d313fc3a))
+* Adding a new page for STAR alignment ([#93](https://github.com/bhklab/handbook/issues/93)) ([ed2e6de](https://github.com/bhklab/handbook/commit/ed2e6ded55f5b089cc4e0ffef4a03ec066bcd096))
+* Google Cloud Platform page added ([#92](https://github.com/bhklab/handbook/issues/92)) ([b2fea5c](https://github.com/bhklab/handbook/commit/b2fea5cfea0bfe1d4e6555f23ec201fa013a1e66))
+* make all tables sortable ([#147](https://github.com/bhklab/handbook/issues/147)) ([a89b5ae](https://github.com/bhklab/handbook/commit/a89b5ae1952e5d4f073b154c07079a118e962903))
+* migrate information from the Employee Onboarding Policy ([#127](https://github.com/bhklab/handbook/issues/127)) ([def834d](https://github.com/bhklab/handbook/commit/def834db30268c165a4d8c663e5dd416e1fb73f5))
+* update BHKLAB calendar setup ([#143](https://github.com/bhklab/handbook/issues/143)) ([35d1dff](https://github.com/bhklab/handbook/commit/35d1dff38b2782392b53c8484b92a960ec716231))
+* update BHKLab Gmail page ([#135](https://github.com/bhklab/handbook/issues/135)) ([0f2dddd](https://github.com/bhklab/handbook/commit/0f2dddddc97eca9a2f2032752c26385f55d582fa))
+* update-SOW-instructions ([#138](https://github.com/bhklab/handbook/issues/138)) ([b4cee1f](https://github.com/bhklab/handbook/commit/b4cee1fdbc75be5d0d0eb99cb9a4f8912fdaaf75))
+* updated BHKLab Calendar instructions ([#142](https://github.com/bhklab/handbook/issues/142)) ([aa72aa8](https://github.com/bhklab/handbook/commit/aa72aa876aadbb3c7f191d8ceaceb2d8d313fc3a))
+* updates to the journal club page ([#139](https://github.com/bhklab/handbook/issues/139)) ([de22192](https://github.com/bhklab/handbook/commit/de221926bd1a32b83b7e3c883b7873f08edc7102))
+
+
+### Bug Fixes
+
+* PGx meetings are biweekly ([#133](https://github.com/bhklab/handbook/issues/133)) ([4777bcd](https://github.com/bhklab/handbook/commit/4777bcd7eeb6788d404979d08df21d40c4b105fa))
+* update BHKLab Google group to be Members instead of Google Accou… ([#134](https://github.com/bhklab/handbook/issues/134)) ([51a7ec2](https://github.com/bhklab/handbook/commit/51a7ec2e4da6ccadf59726e63818fb807f0d916f))
+* update BHKLab Google group to be Members instead of Google Accounts and update hyperlink ([51a7ec2](https://github.com/bhklab/handbook/commit/51a7ec2e4da6ccadf59726e63818fb807f0d916f))
+
 ## [0.6.0](https://github.com/bhklab/handbook/compare/v0.5.0...v0.6.0) (2024-11-27)
 
 
