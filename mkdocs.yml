@@ -61,6 +61,8 @@ extra:
 
 extra_javascript:
   - assets/js/extra.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
 
 theme:
   # logo: assets/bhklab_logo.png
