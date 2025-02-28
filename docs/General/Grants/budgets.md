@@ -1,5 +1,7 @@
 Budgets need to be sent to grants@uhn.ca for approval.
 
+UHN Grant Application Module Info: https://universityhealthnetwork.sharepoint.com/teams/ResGrantsAwards/SitePages/GrantApplicationModule.aspx
+
 In email, include:
 
 - Budget outline
