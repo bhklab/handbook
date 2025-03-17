@@ -52,46 +52,88 @@ $ git checkout -b jjjermiah/adding-getting-started-page
 If you already have a named branch, you can switch to it with the following command:
 
 ```console
-git switch jjjermiah/adding-getting-started-page
+git switch <branch-name>
+$ git switch jjjermiah/adding-getting-started-page
 ```
 
 ### 2. Add your new content to the `docs` directory
 
 ??? question "How do I know where to create my file?"
 
-    This will create an empty Markdown file called `my_new_page.md` in the `docs/onboarding` directory.
+    The command below will create an empty Markdown file called `my_new_page.md` in the `docs/onboarding_offboarding` directory.
     The relative path to the `docs` directory, will be the link to your new page. <br>
-    i.e the link to your new page will be `<website-url>/handbook/onboarding/my_new_page/`
+    i.e the link to your new page will be `<website-url>/handbook/onboarding_offboarding/my_new_page/`
 
-Let's say you want to add a new page to the `Onboarding` section.
-You would add a new file to the `docs/onboarding` directory.
+Let's say you want to add a new page to the `Onboarding/Offboarding` section.
+You would add a new file to the `docs/onboarding_offboarding` directory.
 
 ```console
-$ touch docs/onboarding/my_new_page.md
-You should now see a new file at `docs/onboarding/my_new_page.md`.
+$ touch docs/onboarding_offboarding/my_new_page.md
+You should now see a new file at `docs/onboarding_offboarding/my_new_page.md`.
 ```
 
-To learn more about how to actually write content, see the [HandBook MkDocs Page][mkdocs] and
+!!! note "You may need to add your page to the `.pages` file"
+
+    If you are adding a new page to the handbook, you may need to add the new page to the `.pages` file
+    that lives in the same directory in which your new page is located.
+    This file is used to generate the navigation menu for the handbook.
+
+    To add your new page to the `.pages` file, open the file and add the relative path to your new page.
+    For example, if you added a new page to the `onboarding_offboarding` directory, you would add the following
+    line (highlighted in green)
+    to the `onboarding_offboarding/.pages` file:
+
+    ```diff
+    title: Onboarding / Offboarding
+
+    nav:
+        - Onboarding
+        - Offboarding
+    +   - onboarding_offboarding/my_new_page.md
+    ```
+
+    This will add a link to your new page in the navigation menu.
+
+To learn more about how to actually write content, see the [Handbook MkDocs Page][mkdocs] and
 [Handbook Markdown page][markdown].
 
 ### 3. Preview your changes
 
 The following is a [`pixi task`](https://pixi.sh/latest/features/advanced_tasks/)
-that will start a local server and preview the documentation at `http://localhost:8000`.
+that will start a local server and preview the documentation at `http://localhost:8001` (aka `http://127.0.0.1:8001`).
 
 ```console
 $ pixi run serve
 INFO    -  Building documentation...
 INFO    -  Cleaning site directory
 ...
-INFO    -  [08:55:05] Serving on http://127.0.0.1:8000/handbook/
+INFO    -  [08:55:05] Serving on http://127.0.0.1:8001/handbook/
 ```
 
-You should see your changes appear at `http://127.0.0.1:8000/handbook/onboarding/my_new_page/`
+You should see your changes appear at `http://127.0.0.1:8001/handbook/onboarding/my_new_page/`
+
+!!! tip
+    You can set the handbook website to automatically open in your default
+    browser by using the `-o` flag:
+
+    ```sh
+    pixi run serve -o
+    ```
+
+!!! note "About the port number"
+    By default, we host the local site on port `8001` because it is more likely
+    to be unused and available for the local server to use. In the case that you
+    would like to manually specify a different port (e.g. if it's in use by
+    something else), you can use the `-a` flag after `pixi run serve`.
+
+    For example, to run on port `1234`:
+    ```sh
+    pixi run serve -a localhost:1234
+    ```
 
 ### 4. Commit and push your changes to your branch
 
-```console
+```sh
 git add .
 git commit -m "Add new getting started page"
 git push --set-upstream origin jjjermiah/adding-getting-started-page

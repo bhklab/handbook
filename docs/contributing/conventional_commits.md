@@ -1,6 +1,6 @@
-# [Convential Commits](#convential-commits)
+# [Conventional Commits](#conventional-commits)
 
-We follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification for commit messages. This helps us automate our release process and keep our commit history clean. 
+We follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification for commit messages. This helps us automate our release process and keep our commit history clean.
 
 This style is mandatory for [merging pull requests][modify-the-commit-message-as-needed] on the handbook, but are recommended for all commits.
 
@@ -30,11 +30,10 @@ The `<scope>` of the header is optional and provides context for where the chang
 - `perf`: A code change that improves performance.
 - `test`: Changes to the test framework.
 - `build`: Changes to the build process or tools.
-- `ci`: Changes to CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
-- `chore`: Other changes that don't modify src or test files
+- `ci`: Changes to CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs).
+- `chore`: Other changes that don't modify src or test files.
 
 Other types may be defined per project, but these are the most common.
-
 
 ## Sources
 
