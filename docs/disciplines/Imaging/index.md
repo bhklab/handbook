@@ -113,5 +113,3 @@ Image File Size = \text{Header Size} + \text{Pixel Data Size}
 
 - **Two Files**: Metadata and image data stored separately.
     - **Example**: Analyze (.hdr and .img)
-
-*add diagram comparing single file vs. two-file configurations*
