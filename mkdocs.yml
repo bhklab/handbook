@@ -24,6 +24,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - footnotes
+  - pymdownx.blocks.caption
 
 plugins:
   - redirects:                        # handles URL redirects for moved pages
