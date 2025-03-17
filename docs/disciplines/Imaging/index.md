@@ -7,6 +7,10 @@ function of an anatomic region, typically presented as an array of picture
 elements called **pixels** (2D) or **voxels** (3D). This representation is a
 discrete mapping of **numerical values** to positions in space.
 
+![Three panels explaining what pixels are. The first shows a low resolution picture of Abraham Lincoln, the second has numerical pixel values overlaid as a matrix, and the third is just the pixel value matrix.](images/image-of-Abraham-Lincoln-as-a-matrix-of-pixel-values_W640.jpg)
+/// caption
+Image of Abraham Lincoln as a matrix of pixel values. ([Source](https://doi.org/10.1093/llc/fqy085))
+///
 <!-- - The numerical values, known as **intensity values**, vary based on:
     - **Image type**: MRI, CT, PET, etc.
     - **Acquisition method**
