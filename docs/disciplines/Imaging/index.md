@@ -38,6 +38,22 @@ the image file as a "header."
 - **Pixel depth**: Bytes used to represent each voxel intensity
 - **Data type**: Integer, floating-point, etc.
 
+=== "DICOM"
+    ``` dicom
+    (0018,0015) CS BodyPartExamined = LUNG
+    (0018,0050) DS SliceThickness = 3
+    (0020,0037) DS ImageOrientationPatient = 1\0\0\0\1\0
+    (0020,1002) IS ImagesInAcquisition = 99
+    (0028,0010) US Rows = 512
+    (0028,0011) US Columns = 512
+    (0028,0030) DS PixelSpacing = 0.9766\0.9766
+    (0028,0100) US BitsAllocated = 16
+    (0028,0101) US BitsStored = 16
+    (0028,0102) US HighBit = 15
+    (0028,0103) US PixelRepresentation = 0
+    ```
+
+
 *add diagram showing a sample header with key metadata fields*
 
 ## Pixel Data
