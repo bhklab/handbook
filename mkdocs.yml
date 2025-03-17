@@ -29,6 +29,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.blocks.caption
+  - pymdownx.arithmatex:
+      generic: true
 
 plugins:
   - redirects:                        # handles URL redirects for moved pages
@@ -64,6 +66,12 @@ extra_javascript:
   - assets/js/extra.js
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 theme:
   # logo: assets/bhklab_logo.png
