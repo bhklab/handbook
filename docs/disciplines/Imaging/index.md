@@ -53,9 +53,6 @@ the image file as a "header."
     (0028,0103) US PixelRepresentation = 0
     ```
 
-
-*add diagram showing a sample header with key metadata fields*
-
 ## Pixel Data
 
 The **pixel data** in a medical image file represents the actual image values,
@@ -67,14 +64,14 @@ stored in a format specific to the image file.
 ### **Pixel Data Size**
 
 \[
-\text{Pixel Data Size} = \text{Rows} \times \text{Columns} \times
+Pixel Data Size = \text{Rows} \times \text{Columns} \times
 \text{Pixel Depth (Bytes)} \times \text{Number of Frames}
 \]
 
 ### **Image File Size**
 
 \[
-\text{Image File Size} = \text{Header Size} + \text{Pixel Data Size}
+Image File Size = \text{Header Size} + \text{Pixel Data Size}
 \]
 
 ??? tip "Example Calculation:"
