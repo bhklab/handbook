@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://github.com/bhklab/handbook/compare/v0.7.0...v0.8.0) (2025-03-17)
+
+
+### Features
+
+* Added pages from med-imagenet to disciplines/Imaging ([#86](https://github.com/bhklab/handbook/issues/86)) ([0c3a226](https://github.com/bhklab/handbook/commit/0c3a22607ffb3d45db279ec6156f49bca492e628))
+
 ## [0.7.0](https://github.com/bhklab/handbook/compare/v0.6.0...v0.7.0) (2025-02-14)
 
 
