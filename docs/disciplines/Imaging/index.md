@@ -4,19 +4,24 @@
 
 A medical image is a digital representation of the internal structure or
 function of an anatomic region, typically presented as an array of picture
-elements called **pixels** (2D) or **voxels** (3D). This representation is a
+elements called **pixels** (2D) or **voxels** (volume pixels, 3D). This representation is a
 discrete mapping of **numerical values** to positions in space.
 
-![Three panels explaining what pixels are. The first shows a low resolution picture of Abraham Lincoln, the second has numerical pixel values overlaid as a matrix, and the third is just the pixel value matrix.](images/image-of-Abraham-Lincoln-as-a-matrix-of-pixel-values_W640.jpg)
+![Three panels explaining what pixels are. The first shows a low resolution black and white photo of Abraham Lincoln, the second has numerical pixel values overlaid as a matrix, and the third is just the pixel value matrix.](images/image-of-Abraham-Lincoln-as-a-matrix-of-pixel-values_W640.jpg)
 /// caption
 Image of Abraham Lincoln as a matrix of pixel values. ([Source](https://doi.org/10.1093/llc/fqy085))
 ///
-<!-- - The numerical values, known as **intensity values**, vary based on:
-    - **Image type**: MRI, CT, PET, etc.
-    - **Acquisition method**
-    - **Reconstruction and post-processing**
 
-*add diagram showing pixel and voxel arrangement* -->
+![Subsection of an abodminal CT scan with a red square over an edge of an organ expanded out to a matrix to show the numerical values in that part of the image.](images/medical_image_pixels.png){width=70%}
+/// caption
+Section of abdominal computed tomography (CT) scan with a matrix of Hounsfield units (HU). (Source: Caryn Geady)
+///
+
+The numerical values, known as **intensity values**, vary based on:
+
+- **Image type**: MRI, CT, PET, etc.
+- **Acquisition method**
+- **Reconstruction and post-processing**
 
 ## Medical Image Metadata
 
