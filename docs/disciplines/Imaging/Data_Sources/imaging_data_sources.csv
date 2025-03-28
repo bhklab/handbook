@@ -1,0 +1,5 @@
+Source Name,Source URL,Data Type,Description
+The Cancer Imaging Archive (TCIA),<https://www.cancerimagingarchive.net/>,CR; CT; DX; Histopathology; MG; MR; NM; PET; REG; RTSTRUCT; SEG; SR; US; ,The Cancer Imaging Archive (TCIA) is a service which de-identifies and hosts a large archive of medical images of cancer accessible for public download.
+Grand Challenge,<https://grand-challenge.org/challenges/>,CT; Dermoscopy; Endoscopy; Fundus Photograph; Histology; IR; MG; MR; OCT; PET; US; XR,A platform for end-to-end development of machine learning solutions in biomedical imaging.
+RAD IMAGE NET,<https://www.radimagenet.com/>,CT; MR; US; XR, RadImageNet is a large database of annotated medical images from multiple modalities and of multiple pathologies. The data can be licensed for commercial use.
+EUCAIM,<https://dashboard.eucaim.cancerimage.eu/>, CR; CT; DX; PET; MG; MR; NM; SEG; US, Cancer Image Europe provides a robust + trustworthy platform for researchers clinicians and innovators to access diverse cancer images enabling the benchmarking/testing/piloting of AI-driven technologies.
