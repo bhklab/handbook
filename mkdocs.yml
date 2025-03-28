@@ -45,6 +45,7 @@ plugins:
       enable_creation_date: true
   - include-markdown                  # allows for including Markdown files into another Markdown file
   - mike                              # mike handles versioned documentation
+  - table-reader                      # allows to directly insert various table formats into a page
 
 extra:
   homepage: https://bhklab.github.io/handbook/latest
