@@ -9,14 +9,3 @@ Once you have access to Business Hub, navigate to the Grant Applications page an
     ![Budget Form](img/UHN_budget_application_requirements.png)
 1. Once you've submitted, you'll receive an email with feedback from the grants office and whether you're approved for submission.
 
----
-
-Budgets need to be sent to <grants@uhn.ca> for approval.
-In email, include:
-
-- Budget outline
-- Project proposal
-- What grant is being applied for
-- Principal applicant name
-- Deadline for submission
-- If the grant is multi-institutional 
