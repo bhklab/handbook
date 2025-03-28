@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.8.0](https://github.com/bhklab/handbook/compare/v0.7.0...v0.8.0) (2025-03-28)
+
+
+### Features
+
+* add Med-ImageTools to Disciplines/Imaging/Tools index page ([#157](https://github.com/bhklab/handbook/issues/157)) ([ff05b2c](https://github.com/bhklab/handbook/commit/ff05b2c7d30111264ea63a01022a67a72a8aed50))
+* add section about Mac specific step for SSH forwarding setup for lab server ([#152](https://github.com/bhklab/handbook/issues/152)) ([14e532d](https://github.com/bhklab/handbook/commit/14e532ddf66ce0c82400f8eeef33bd5e0fd89015))
+* Added pages from med-imagenet to disciplines/Imaging ([#86](https://github.com/bhklab/handbook/issues/86)) ([0c3a226](https://github.com/bhklab/handbook/commit/0c3a22607ffb3d45db279ec6156f49bca492e628))
+* Added Resources tab ([#153](https://github.com/bhklab/handbook/issues/153)) ([ef6ea07](https://github.com/bhklab/handbook/commit/ef6ea070bb36f52150ecbb419f0b7bc98244dd70))
+* Adding content to the JavaScript/TypeScript page to provide a general understanding and usage in the lab ([#154](https://github.com/bhklab/handbook/issues/154)) ([bb81a74](https://github.com/bhklab/handbook/commit/bb81a74cd9f90e571b4b12d76b0fd0718fb693c3))
+
 ## [0.7.0](https://github.com/bhklab/handbook/compare/v0.6.0...v0.7.0) (2025-02-14)
 
 
