@@ -20,3 +20,6 @@
 **The ORT has compiled a list of awards, conference grants and fellowship opportunities for graduate students and postdoctoral researchers.** 
 [ORT link](https://uhntrainees.ca/trainee-resources-2/#)
 
+**Vector Institute** 
+[An entrance award for top students pursuing AI master’s in Ontario](https://vectorinstitute.ai/programs/scholarship/)
+
