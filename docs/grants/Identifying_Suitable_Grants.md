@@ -26,6 +26,7 @@ Note: Benjamin will have an account on ResearchNet. Your PI can add you as deleg
 ### Genome Canada (GAPP)
 
 [Funding guidelines and policies](https://genomecanada.ca/about/corporate-policies-and-statements/funding-guidelines-and-policies/)
+
 [Funding opportunities](https://genomecanada.ca/projects-funding-opportunities/funding-opportunities)
 
 ### Terry Fox Research Institute (TFRI)
@@ -45,7 +46,8 @@ NSERC has several programs for both Professors and Students/Fellows. Please chec
 
 ### Canadian Cancer Society (CCS)
 
-[For Researchers](https://cancer.ca/en/research/for-researchers)
+[Open funding opportunities for Researchers](https://cancer.ca/en/research/for-researchers)
+
 [Application portal](EGrAMS)
 
 Note: Benjamin will have an account on EGrAMS. Please reach out directly or contact Sisira at sisira.nair@uhn.ca for questions regarding submission portal for the lab.
@@ -98,6 +100,19 @@ This is an extensive process. Please request the help of Research Grants months 
 ### The DataWorks! Prize (FASEB & NIH)
 Federation of American Societies for Experimental Biology (FASEB) and the National Institutes of Health (NIH) hosts an annual challenge that showcases the benefits of research data management while recognizing and rewarding teams whose research demonstrates the power of data sharing or reuse practices.
 [Webpage only](https://www.faseb.org/data-management-and-sharing/dataworks-prize)
+
+### EU funding
+
+European Commission: Horizon Europe has Pillar I and II funding programs. 
+
+- Pillar I - Investigator-driven initiatives in all research areas that give the scientific community a strong role in determining the avenues of research to be pursued:
+
+- Pillar II - Collaborative research and innovation projects responding to thematically specific calls for proposals within the following six clusters that address key societal challenges.
+
+[Read more](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/cluster-1-health_en)
+
+[Check here for active funding calls using filter view](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals)
+
 
 
 <h2 style="color: brown;">Cloud credits opportunities</h2>
