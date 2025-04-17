@@ -103,12 +103,18 @@ For any project data listed in your Offboarding Report, please ensure that:
 
 ---
 
-## Assets Purchased with operating funds and/or research funds
-*Please ensure you return the assets to the Lab coordinator in person.*
+## Physical Assets Purchased by BHKLab
+*Please ensure you return the assets to the lab coordinator in person.*
 
-If an employee wishes to have possession of any BHK Lab asset purchased with operating funds and/or research funds, s/he may request from the employer permission to purchase such asset at fair market value.  The employer will determine if it is in the best interests of BHK Lab to sell the asset.
+If an employee wishes to have possession of any BHK Lab asset purchased with operating funds and/or research funds, they may request from the employer permission to purchase such asset at fair market value.  The employer will determine if it is in the best interests of BHK Lab to sell the asset.
 
 If the employer agrees to sell the asset, the employer shall determine fair market value through processes deemed appropriate by the employer. 
+
+---
+
+## On Your Last Day
+
+On your official last day, please ensure that you return your Photo ID card and access card to the PMCRT Security office, located on the first floor of the MARS Discovery District.
 
 ---
 
