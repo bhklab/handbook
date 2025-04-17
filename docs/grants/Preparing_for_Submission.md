@@ -5,7 +5,7 @@ While there are common sections, each grant agency has specific requirements. Be
 Use this guide to navigate each stage of the grant application process, from initial registration to final submission. ![Grant Submission Process](images/Grant_Submission_Process.png)
 ## Prerequisites
 
-1. Create a folder under BHK lab Manage Google drive. General access is restricted to Benjamin, Soleil and Sisira, hence reach out to Sisira to create folders.
+1. Create a folder under BHKLab Manage Google drive. General access is restricted to Benjamin, Soleil and Sisira, hence reach out to Sisira to create folders.
 
 2. Sub folders **SHOULD** be arranged in the following hierarchy.
 
@@ -17,15 +17,16 @@ Use this guide to navigate each stage of the grant application process, from ini
 
 ## Step 1: Registration
 
- - Register on the funding agency's submission portal listed in Identifying_Suitable_Grants.md 
- 	- In most cases, this has to be done from the PI's account. Ask Benjamin or Sisira
+- Register on the funding agency's submission portal listed in Identifying_Suitable_Grants.md 
+    - In most cases, this has to be done from the PI's account. Ask Benjamin or Sisira
 
- - Create or update your profile with current contact information and institutional details
- 	- Ask Soleil for Benjamin's updated CV
+- Create or update your profile with current contact information and institutional details
+    - Ask Soleil for Benjamin's updated CV
 
- - Obtain necessary identifiers of participants (e.g., CCV ID, ORCID)
- 
-**Pro Tip:  Attend webinars detailing the grant submission conducted by grant agencies.**
+- Obtain necessary identifiers of participants (e.g., CCV ID, ORCID)
+
+!!! tip "Pro Tip"
+    Attend webinars detailing the grant submission conducted by grant agencies.
 
 ## Step 2: Letter of Intent (LOI) or Registration (if required)
 
@@ -40,7 +41,8 @@ Use this guide to navigate each stage of the grant application process, from ini
 
 ## Step 3: Internal Coordination and Approvals
 
-**Pro Tip: Start this as early as possible to provide enough time for approvals, review etc.**
+!!! tip "Pro Tip"
+    Start this as early as possible to provide enough time for approvals, review etc.
 
  - Inform relevant institutional offices about your grant submission (e.g., UHN Research Grants, RFS)
  

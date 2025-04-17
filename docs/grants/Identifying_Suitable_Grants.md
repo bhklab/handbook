@@ -16,12 +16,13 @@ CIHR has several funding programs.
 - Initiatives
 - Prizes
 
-Note: Check with your PI if you are unsure of which program to apply for. If you have access to UHN email, you can also track emails from **research-community-news-bounces@uhnresearch.ca**.
+Note: Check with your PI if you are unsure of which program to apply for. If you have access to UHN email, you can also track emails from **<research-community-news-bounces@uhnresearch.ca>**.
 
 
 Applying for funding - [List of current funding opportunities](https://www.researchnet-recherchenet.ca/rnr16/search.do?fodAgency=CIHR&fodLanguage=E&all=1&search=true&org=CIHR&sort=program&masterList=true&view=currentOpps)
 
-Note: Benjamin will have an account on ResearchNet. Your PI can add you as delegate on the application. Final submission can be done only by the NPI. Please reach out directly to Benjamin or contact Sisira at sisira.nair@uhn.ca for questions regarding submission portal for the lab.
+!!! note
+    Benjamin will have an account on ResearchNet. Your PI can add you as delegate on the application. Final submission can be done only by the NPI. Please reach out directly to Benjamin or contact Sisira at <sisira.nair@uhn.ca> for questions regarding submission portal for the lab.
 
 ### Genome Canada (GAPP)
 
@@ -50,7 +51,8 @@ NSERC has several programs for both Professors and Students/Fellows. Please chec
 
 [Application portal](EGrAMS)
 
-Note: Benjamin will have an account on EGrAMS. Please reach out directly or contact Sisira at sisira.nair@uhn.ca for questions regarding submission portal for the lab.
+!!! note
+    Benjamin will have an account on EGrAMS. Please reach out directly or contact Sisira at <sisira.nair@uhn.ca> for questions regarding submission portal for the lab.
 
 ### University of Toronto Data Sciences Institute (DSI)
 

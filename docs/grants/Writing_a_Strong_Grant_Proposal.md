@@ -2,8 +2,11 @@
 
 This is intended as a guide to the general sections of a full grant proposal. Please refer to the funding guidelines for specific requirements.
 
-**Pro tip - Export your proposal to Microsoft Word to check the spelling and grammar errors, you can choose to display information about the reading level of the document. This will include readability scores according to the Flesch-Kincaid Grade Level test and Flesch Reading Ease test.** 
-[Understand readability scores](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2)
+!!! tip "Pro Tip"
+    Export your proposal to Microsoft Word to check the spelling and grammar errors, you can choose to display information about the reading level of the document. This will include readability scores according to the Flesch-Kincaid Grade Level test and Flesch Reading Ease test. 
+
+    [Understand readability scores](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2)
+
 ## <h2 style="color: red;">Scientific part of the proposal</h2>
 **Lay title and Summary/Abstract**
 
@@ -15,13 +18,15 @@ Write a concise, jargon-free summary that clearly explains the project's purpose
 
 Present the context and significance of the research. What gap does it address? Why is it important now? Support with current literature and statistics to make a compelling case.
 
-**Pro tip - Articulate better by dividing into sub-sections with titles instead on one big section**
+!!! tip "Pro Tip"
+    Articulate better by dividing into sub-sections with titles instead on one big section
 
 **Preliminary work**
 
 Demonstrate that the project builds on solid groundwork. Include a table of data, previous publications, or plots from proof-of-concept studies to show feasibility and credibility. These should be indexed in the text as well. 
 
-**Pro tip - Include an Overiew of the research idea, highlight preliminary sections vs. Aims**
+!!! tip "Pro Tip"
+    Include an Overiew of the research idea, highlight preliminary sections vs. Aims
 
 **Hypothesis**
 
@@ -44,13 +49,15 @@ For example, mention statistical model limitations, data privacy, clinical data 
 
 Describe the expected scientific outcomes and broader impact. Indicate how the findings will be disseminated and how they may inform future research or policy. Include any plans for scaling, follow-up studies, or knowledge translation. Include Gantt chart for Timeline and milestones.
 
-**Pro tip - For Gantt chart, you can enhance visualization by coding dark colors to initial deliverables and light colours for improvements or updates following early studies.**
+!!! tip "Pro Tip"
+    For Gantt chart, you can enhance visualization by coding dark colors to initial deliverables and light colours for improvements or updates following early studies.
 
 **Research Data Management & Open Science**
 
 Detail how data will be collected, stored, shared, and preserved. Include plans for open access publication, data repositories, and compliance with FAIR data principles (Findable, Accessible, Interoperable, Reusable).
 
-Note: If your proposal includes private data access, include secure storage plans via H4H or GCP. Mention the size of data if known. Adhere to the regulations included in the Personal Information Protection and Electronic Documents Act (PIPEDA), Health Insurance Portability and Accountability Act (HIPAA) and the General Data Protection Regulation (GDPR) for Canada, USA, and Europe, respectively. Also refer to First Nations principles of Ownership, Control, Access, and Possession (OCAP) in Canada and mention if applicable.
+!!! note
+    If your proposal includes private data access, include secure storage plans via H4H or GCP. Mention the size of data if known. Adhere to the regulations included in the Personal Information Protection and Electronic Documents Act (PIPEDA), Health Insurance Portability and Accountability Act (HIPAA) and the General Data Protection Regulation (GDPR) for Canada, USA, and Europe, respectively. Also refer to First Nations principles of Ownership, Control, Access, and Possession (OCAP) in Canada and mention if applicable.
 
 **Expertise, Experience & Resources**
 
