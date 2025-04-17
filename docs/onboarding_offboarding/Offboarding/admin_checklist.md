@@ -9,7 +9,7 @@ This checklist is for the lab coordinator running the offboarding process.
 1. Share the [Offboarding Policy](index.md) with the lab member.
 
 #### Email Template
-
+Send the following email to the lab member to schedule the two meetings: [Email Template](offboarding_initialization.emltpl)
     
 
 
