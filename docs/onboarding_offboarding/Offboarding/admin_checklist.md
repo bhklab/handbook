@@ -7,14 +7,18 @@ This checklist is for the lab coordinator running the offboarding process.
 1. Share this folder to their BHKLab Gmail (e.g. bhklab.johndoe@gmail.com).
 1. Share the [Lab Off-boarding Information template](https://docs.google.com/document/d/1KhnDPSIPqvjw7__1ACFVlBg7tS21bKxaR5AdPV6voUs/edit?tab=t.0) with the lab member.
 1. Share the [Offboarding Policy](index.md) with the lab member.
-1. Send the [Exit Interview Form](https://docs.google.com/forms/d/1HEtSofzgdJ-RPYh8rB02RkIdUJ1lRl24OHYSWfpGYLE/edit) to the lab member via their BHKLab Gmail.
-1. Request that the lab member change the password to their BHKLab Gmail account and share this with the lab coordinator.
+
+#### Email Template
+
+    
 
 
 ## During the Offboarding Initialization Meeting
 1. Walk through the [Offboarding Policy](index.md) with the lab member.
 1. Make sure they have access to their Offboarding Report folder and Information template.
-1. Explain that the Exit Interview form should be completed just prior to the exit interview.
+1. Send the [Exit Interview Form](https://docs.google.com/forms/d/1HEtSofzgdJ-RPYh8rB02RkIdUJ1lRl24OHYSWfpGYLE/edit) to the lab member via their BHKLab Gmail.
+    1. Explain that the Exit Interview form should be completed just prior to the exit interview.
+1. Request that the lab member change the password to their BHKLab Gmail account and share this with the lab coordinator.
 
 ## During the Exit Interview
 
@@ -41,3 +45,5 @@ Service list:
 
 ## After the Exit Interview
 1. Update member status in the [BHKLab Member Tracking](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=1405839011#gid=1405839011) sheet to 'Alumni'
+1. Update member status on website
+1. Remove the member from the [Lab Member Expertise](../Onboarding/lab_member_expertise.md) page
