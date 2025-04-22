@@ -10,5 +10,5 @@ Once you have access to Business Hub, navigate to the Grant Applications page an
 
 1. Select Full Application
 1. Fill out the form with your budget information.
-    ![Budget Form](images/UHN_budget_application_requirements.png)
+    ![Budget Form](../images/UHN_budget_application_requirements.png)
 1. Once you've submitted, you'll receive an email with feedback from the grants office and whether you're approved for submission.
