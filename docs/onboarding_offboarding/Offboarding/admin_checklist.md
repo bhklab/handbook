@@ -1,6 +1,6 @@
 # Admin Offboarding Instructions
 
-This checklist is for the lab coordinator running the offboarding process.
+This checklist is for the assigned lab staff running the offboarding process.
 
 ## Before the Offboarding Initialization Meeting
 1. Create a folder in [Offboarding Reports](https://drive.google.com/open?id=1QfFFfN4sKITbvyqEB_9QrdgW6ETulWk9) with the name of the lab member.
@@ -23,7 +23,7 @@ Send the following email to the lab member to schedule the two meetings: [Email 
 ## During the Exit Interview
 
 ### UHN Account
-The Office coordinator has to make sure that the employee’s UHN email/inbox is inactivated. 
+The Office coordinator (Soleil Miron) has to make sure that the employee’s UHN email/inbox is inactivated. 
 
 ### Lab Service Access
 Make sure that access to lab resources are inactivated.
@@ -44,6 +44,8 @@ Service list:
 
 
 ## After the Exit Interview
+To be done by assigned lab staff in charge of offboarding:
+
 1. Update member status in the [BHKLab Member Tracking](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=1405839011#gid=1405839011) sheet to 'Alumni'
 1. Update member status on website
 1. Remove the member from the [Lab Member Expertise](../Onboarding/lab_member_expertise.md) page

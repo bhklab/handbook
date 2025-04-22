@@ -11,7 +11,7 @@ Individuals under the employ of BHK lab who either received or provided a notice
 2. **Exit Interview** - a final meeting on the day prior to the employee's last official working day or based on availability
 
 ### Offboarding Initialization
-The lab coordinator with contact the employee to set this meeting. This meeting will be use to summarize the off-boarding requirements.
+An assigned lab staff member will contact the employee to set this meeting. This meeting will be use to summarize the off-boarding requirements.
 
 - A folder will be shared with the employee to add documents discussed during the initial meeting. _This includes but is not restricted to a detailed back up of project details such as links to code, data folders and documentation._
 - The [Lab Off-boarding Information template](https://docs.google.com/document/d/1KhnDPSIPqvjw7__1ACFVlBg7tS21bKxaR5AdPV6voUs/edit?tab=t.0#heading=h.j2hjmkdukzsc) will be shared with the employee. Please make a copy of this document in your offboarding report folder.
@@ -49,7 +49,7 @@ Members leaving the lab will prepare a single digital parent folder containing a
 3. Any other relevant documents that are not caputred in (1) or (2).
 
 
-This prepared folder will be shared by the terminated member with the BHK Lab coordinator, or equivalent, in addition to at least one (1) topic expert involved in each project included in the prepared folder. For short-term interns or volunteers, the parent folder can be shared with respective mentor(s). On receipt of the folder, each recipient shall confirm with the terminated employee the folder’s contents, including clarification for the contents and location of any items not included in the folder. 
+This prepared folder will be shared by the terminated member with the assigned lab staff member, in addition to at least one (1) topic expert involved in each project included in the prepared folder. For short-term interns or volunteers, the parent folder can be shared with respective mentor(s). On receipt of the folder, each recipient shall confirm with the terminated employee the folder’s contents, including clarification for the contents and location of any items not included in the folder. 
 
 **Link this document in your final SOW.**
 
