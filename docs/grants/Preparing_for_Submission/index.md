@@ -46,7 +46,7 @@ Use this guide to navigate each stage of the grant application process, from ini
 
  - Inform relevant institutional offices about your grant submission (e.g., UHN Research Grants, RFS)
  
- **Budgets should be added to [BusinessHub](https://uhn.my.site.com/BusinessHub/s/login/)**
+ **Budgets should be added to [BusinessHub](https://uhn.my.site.com/BusinessHub/s/login/)** :material-arrow-right-box: see the [UHN Budget Process](UHN_budget_process.md) page
 
  - Obtain internal approvals, budgets, and documentation
 
