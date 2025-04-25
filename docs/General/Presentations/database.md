@@ -36,3 +36,7 @@ This page contains links to previously created presentations and is intended to 
 ## Previous Presentations
 
 For presentations from 2023 and before, please visit the [BHKLab website](https://bhklab.ca/#presentations)
+
+## Other templates
+
+Poster Template for Princess Margaret Cancer Centre ([Drive link to template](https://docs.google.com/presentation/d/16yw-3wdP3Q5lVE58KPhzqOWEgQ-lao-1/edit?usp=sharing&ouid=103107316923799140662&rtpof=true&sd=true))
