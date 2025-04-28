@@ -1,0 +1,10 @@
+title: Admin
+
+nav:
+    - Home: index.md
+    - asset_management.md
+    - personnel_management.md
+    - recruitment.md
+    - research_tracking.md
+    - scheduling.md
+    
