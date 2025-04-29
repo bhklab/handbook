@@ -65,9 +65,7 @@ To ensure continued access to all lab work related documents, we ask that the em
     !!! warning
         This should not include code or internal datasets. Please store these in the appropriate locations (e.g. GitHub, H4H, etc.).
 
-1. Grant **edit** access to **all contents** of your BHKLab Google Drive to <bhklab-admin@googlegroups.com>. This can be done from the top level of the drive by selecting all contents and clicking the share button.
-
-1. Change the password to their BHKLab Gmail account and share this with the lab coordinator.
+1. Transfer ownership to **all contents** of your BHKLab Google Drive to <bhklab-archive@gmail.com>. This can be done from the top level of the drive by selecting all contents and clicking the share button.
 
 If there are private documents you wish to keep private, please move these to your personal storage. 
 
