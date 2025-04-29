@@ -31,6 +31,9 @@ markdown_extensions:
   - pymdownx.blocks.caption
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - redirects:                        # handles URL redirects for moved pages
@@ -45,6 +48,7 @@ plugins:
       enable_creation_date: true
   - include-markdown                  # allows for including Markdown files into another Markdown file
   - mike                              # mike handles versioned documentation
+  - table-reader                      # allows to directly insert various table formats into a page
 
 extra:
   homepage: https://bhklab.github.io/handbook/latest
@@ -63,6 +67,8 @@ extra:
   generator: false                     # disable 'built with MkDocs' footer
 
 extra_javascript:
+  - https://www.googletagmanager.com/gtag/js?id=G-GW7GQT08LM
+  - assets/js/ga4.js
   - assets/js/extra.js
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - assets/js/tablesort.js
