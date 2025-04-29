@@ -1,5 +1,4 @@
-title: RNAseq pipelines
+title: RNA-Seq Pipelines
 
 nav:
-    - Kallistso: kallistso.md
-    - ...
+    - Kallisto: kallisto.md
