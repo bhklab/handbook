@@ -1,6 +1,6 @@
 # Slack
 
-Daily intra-lab communications are done via [Slack](https://slack.com/). We recommend using your [BHKLab e-mail](./bhklab_gmail.md) as your Slack e-mail as that will allow you to easily integrate with other lab tools such as the [shared calendar](./bhklab_calendar.md).
+Daily intra-lab communications are done via [Slack](https://slack.com/). We recommend using your [BHKLab Gmail](./bhklab_gmail.md) as your Slack e-mail as that will allow you to easily integrate with other lab tools such as the [shared calendar](./bhklab_calendar.md).
 
 
 ## General Rules
