@@ -16,7 +16,7 @@ Directly outputs transcript abundance estimates such as **TPM** (Transcripts Per
 Efficient enough to run on laptops or small servers.
 
 ## Download
-Kallistso is already installed on H4H. 
+Kallisto is already installed on H4H. 
 If you would like to install it on your local computer, please follow [these instructions](https://pachterlab.github.io/kallisto/download). 
 
 ## Workflow:
@@ -37,5 +37,5 @@ The option `-b 100` specifies 100 bootstrap samples for estimating quantificatio
 
 
 ## Usage
- - A Snakemake Kallistso pipeline is available at H4H: `/cluster/projects/bhklab/pipelines/kallisto_snakemake_pipeline`
+ - A Snakemake Kallisto pipeline is available at H4H: `/cluster/projects/bhklab/pipelines/kallisto_snakemake_pipeline`
  - Details about pipeline setup and usage are available in the pipeline's `README` file. 
