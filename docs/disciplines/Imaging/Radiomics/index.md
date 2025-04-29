@@ -1,8 +1,11 @@
 # Radiomics
 
-Radiomics is the study of the interaction between radiation and support diagnosis, prognosis, and treatment planning. It bridges radiology and data science, allowing for a more detailed understanding of disease characteristics.
+_**Radiomics**_ is the high-throughput extraction of quantiative features from medical images for textural analysis that spatially characterises regions/volumes of interest and may provide insight into the underlying pathophysiology to support diagnosis, prognosis, and treatment planning [(Barry et al., 2025)](https://link.springer.com/article/10.1007/s00330-024-11341-y#Abs1). It bridges radiology and data science, allowing for a more detailed understanding of disease characteristics.
 
-![https://www.researchgate.net/figure/Flowchart-showing-the-process-of-radiomics-A-Image-segmentation-is-performed-on_fig1_314482215](../images/radiomics_overview.png)
+![](../images/RadiomicsAnalysisWorkflow.png)
+/// caption
+Radiomics analysis workflow ([Source](https://www.itnonline.com/content/new-radiomics-model-uses-immunohistochemistry-predict-thyroid-nodules))
+///
 
 ## Learn the Foundations
 
