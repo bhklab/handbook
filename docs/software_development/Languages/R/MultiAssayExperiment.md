@@ -90,11 +90,6 @@ meta_data <- metadata(icb_mae)
 
 ## Additional References 
 
-Bioconductor [MultiAssayExperiment](https://www.bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html)
-
-User reference manual [PDF](https://www.bioconductor.org/packages/release/bioc/manuals/MultiAssayExperiment/man/MultiAssayExperiment.pdf)
-
-
-
-
+- Bioconductor [MultiAssayExperiment](https://www.bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html)
+- User reference manual [PDF](https://www.bioconductor.org/packages/release/bioc/manuals/MultiAssayExperiment/man/MultiAssayExperiment.pdf)
 
