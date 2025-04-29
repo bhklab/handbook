@@ -15,7 +15,7 @@ Being a jerk is ***strongly discouraged.***
 
 Additionally, the lab Slack workspace is divided in to channels. Please use the channels for their intended purposes and following the guidelines below. 
 
-
+---
 ## Channels
 
 The Slack has four main channels - `#general`, `#random`, `#publications`, and `#conferences-workshops`. We give guidelines for posting in each of these below. The rules for posting in  `#publications` are specific and require special attention.
