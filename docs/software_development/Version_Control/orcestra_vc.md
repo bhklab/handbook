@@ -1,0 +1,3 @@
+# ORCESTRA VC
+
+ORCESTRA is a project bound to the principles of reproducibility and transparency. This is because ORCESTRA is a dataset repository that provides key metadata for the pipelines, raw data, and tools needed to recreate the standardized datasets published to the platform. This ensures users of our datasets and platforms can be confident in the work we produce and even validate it them. The transparency and reproducibility also ensures that platform users can take our metadata and create their own versions of datasets by adding or omitting fields that we can include in ours.
