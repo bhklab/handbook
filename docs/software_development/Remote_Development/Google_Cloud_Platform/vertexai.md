@@ -61,6 +61,7 @@ To use Feature Store:
 ### **Pipelines**: Automate and orchestrate ML workflows
 Vertex AI Pipelines allow you to build reproducible, scalable ML workflows by chaining steps like data processing, training, evaluation, and deployment. Based on Kubeflow Pipelines, it helps manage experiment runs and simplifies MLOps.  
 To create a pipeline:
+
 - Define your steps using **Vertex Pipelines SDK**.
 - Upload and run the pipeline through **Vertex AI Pipelines**.
 - Monitor executions directly in the console.
