@@ -33,6 +33,7 @@ You can also start and stop notebooks as needed to control costs.
 
 ### **Model Monitoring** : Track model performance.
 Vertex AI includes a built-in experiment tracking tool called **Vertex AI Experiments**. It automatically or manually tracks ML training runs and logs:
+
   - Hyperparameters (e.g., learning rate, batch size)
   - Evaluation metrics (e.g., accuracy, loss)
   - Artifacts (e.g., model files)
