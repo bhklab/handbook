@@ -8,7 +8,7 @@ Once or twice a month, 1 hour max
 ## Meeting style
 Rotating presenters from different subteams/projects listed on [Miro](https://miro.com/app/board/uXjVM3E5M-0=/?share_link_id=948374782430) can self-assign themselved one week before the meeting. If you do not see your project here, please add.
 
-Slack reminders are set up to #pharmacogenomics channel a week in advance.
+Slack reminders are set up to `#pharmacogenomics` channel a week in advance.
 
 Presenters self assign yourself one week in advance by adding to [PGx Meeting - coverage](https://docs.google.com/document/d/1K6ncKURTKOyaQLLiMnt-Nbdks125dAMb3cHGcC4h6-c/edit?usp=sharing)
 
