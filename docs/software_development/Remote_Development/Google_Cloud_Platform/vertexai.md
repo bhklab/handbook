@@ -1,6 +1,6 @@
 # **Google Cloud Vertex AI**
 
-Vertex AI is Google Cloud’s end-to-end platform for building, training, deploying, and managing machine learning models.
+Vertex AI is Google Cloudâ€™s end-to-end platform for building, training, deploying, and managing machine learning models.
 
 ## **Why Use Vertex AI?**
 
@@ -12,7 +12,7 @@ Vertex AI is Google Cloud’s end-to-end platform for building, training, deployin
 ## **Main Features of Vertex AI**
 
 ### **Training**: Train custom models with Vertex AI
-Vertex AI enables you to train machine learning models using pre-built containers (for frameworks like TensorFlow, PyTorch, XGBoost) or your own custom containers. You can configure distributed training, use accelerators (GPUs/TPUs), and tune hyperparameters automatically.  
+Vertex AI enables you to train machine learning models using pre-built containers (for frameworks like TensorFlow, PyTorch, XGBoost) or your custom containers. You can configure distributed training, use accelerators (GPUs/TPUs), and tune hyperparameters automatically.  
 To start training:
 - Go to **Vertex AI > Training** in the GCP console.
 - Choose between **Custom Training**, **AutoML**, or **Pre-trained models**.
@@ -48,7 +48,7 @@ To deploy a model:
 ### **Feature Store**: Manage and serve ML features
 Vertex AI Feature Store provides a centralized repository to manage, reuse, and serve ML features for training and online inference. It ensures consistency between training and serving data.  
 To use Feature Store:
-- Create a Featurestore in **Vertex AI > Feature Store**.
+- Create a Featurestore in **Vertex AI Feature Store**.
 - Define entity types and features.
 - Ingest data manually or set up ingestion pipelines.
 
@@ -56,7 +56,7 @@ To use Feature Store:
 Vertex AI Pipelines allow you to build reproducible, scalable ML workflows by chaining steps like data processing, training, evaluation, and deployment. Based on Kubeflow Pipelines, it helps manage experiment runs and simplifies MLOps.  
 To create a pipeline:
 - Define your steps using **Vertex Pipelines SDK**.
-- Upload and run the pipeline through **Vertex AI > Pipelines**.
+- Upload and run the pipeline through **Vertex AI Pipelines**.
 - Monitor executions directly in the console.
 
   You can find detailed information and tutorials about Vertex AI in the official: https://cloud.google.com/vertex-ai/docs
