@@ -57,14 +57,17 @@ Links to publications **must** follow the formatting guidelines below.
 
 If you have a paper that you wish to share with the lab you **must** post it as a hyperlink where the text of the link is the title of the paper. Simply posting the link is *Very Not Good* and you'll be asked to fix it. 
 
-Suppose you wanted to share [this paper](https://arxiv.org/pdf/2104.12748). 
+!!! example
+    Suppose you wanted to share [this paper](https://arxiv.org/pdf/2104.12748). 
 
-A proper post to `#publications` would be:
+    A proper post to `#publications` would be:
 
+    > [Efficient Evolutionary Models with Digraphons](https://arxiv.org/pdf/2104.12748)
 
-[Efficient Evolutionary Models with Digraphons](https://arxiv.org/pdf/2104.12748)
+    Posting  `https://arxiv.org/pdf/2104.12748` or `Efficient Evolutionary Models with Digraphons https://arxiv.org/pdf/2104.12748` will result in someone (usually Ben) asking you to correct it.
 
-Posting  `https://arxiv.org/pdf/2104.12748` or `Efficient Evolutionary Models with Digraphons https://arxiv.org/pdf/2104.12748` will result in someone (usually Ben) asking you to correct it. 
+    ??? tip "Slack Shortcut for Links"
+        Cmd/Ctrl + Shift + U will open the "Add Link" menu.
 
 **Additional Requirements**
 - If the publication you link has restricted access reply to your post *in a thread* with a pdf of the paper attached.
