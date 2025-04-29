@@ -1,8 +1,8 @@
-# Software Development Meeting
+# Software Dev Meeting
 
 ## Time and Room
 
-Software Development team holds a virtual meeting on the last Monday of every month. If you're a part of Software development team and would like to join, please ask Matthew to add you to the meeting invite.
+Software Development team holds a virtual meeting on the last Monday of every month from 12p.m to 1 p.m. If you're a part of Software development team and would like to join, please ask Matthew to add you to the meeting invite.
 
 ## Agenda
 
