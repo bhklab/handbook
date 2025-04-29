@@ -38,6 +38,7 @@ Vertex AI includes a built-in experiment tracking tool called **Vertex AI Experi
   - Artifacts (e.g., model files)
   - Environment details (e.g., container, machine type)
 To use it you can:
+
 - Automatically tracks runs from **Vertex AI Workbench**.
 - You can also log metrics programmatically using the Python SDK.
 
