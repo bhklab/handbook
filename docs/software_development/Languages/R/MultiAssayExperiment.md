@@ -64,27 +64,29 @@ mae <- MultiAssayExperiment(
 ## How to view and work with a MultiAssayExperiment 
 We will give an example Using Immune Checkpoint Blockade Dataset. Suppose you have downloaded a Immune Checkpoint Blockade Dataset from [ORCESTRA](https://www.orcestra.ca/)
     
-    library(MultiAssayExperiment)
-    # Load dataset
-    icb_mae <- readRDS(icb_file)
+```r
+library(MultiAssayExperiment)
 
-    # Extract clinical data (patient information, treatment, disease etc.)
-    clinical_data <- colData(icb_mae) %>% as.data.frame()
-  
-    # view RNA
-    rna_se <- experiments(icb_mae)[["expr"]]
-    rna_sample <- colnames(rna_se) # Sample names inside RNA assay
-    rna_expr <- assay(rna_se) # save the rna expression with sample to a matrix 
-  
-    # view mutation data
-    snv_se <- experiments(icb_mae)[["snv"]]
-    snv_matrix <- assay(snv_se)
+# Load dataset
+icb_mae <- readRDS(icb_file)
 
-    # Mapping between assays and primary samples
-    sample_map <- sampleMap(icb_mae)
+# Extract clinical data (patient information, treatment, disease etc.)
+clinical_data <- colData(icb_mae) %>% as.data.frame()
 
-    # View metadata if available, this include any extra information about the experiment (i.e. batch info, project details)
-    meta_data <- metadata(icb_mae)
+# view RNA
+rna_se <- experiments(icb_mae)[["expr"]]
+rna_sample <- colnames(rna_se) # Sample names inside RNA assay
+rna_expr <- assay(rna_se) # save the rna expression with sample to a matrix 
+
+# view mutation data
+snv_se <- experiments(icb_mae)[["snv"]]
+snv_matrix <- assay(snv_se)
+
+# Mapping between assays and primary samples
+sample_map <- sampleMap(icb_mae)
+
+# View metadata if available, this include any extra information about the experiment (i.e. batch info, project details)
+meta_data <- metadata(icb_mae)
 
 ## Additional References 
 
