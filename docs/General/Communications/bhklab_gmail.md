@@ -8,7 +8,7 @@ This email will be used for
 - Sharing the [BHKLab Google calendar](#bhklab-calendar)
 - Scheduling presentations for [lab meetings](../Meetings/lab_meeting.md) and [journal club meetings](../Meetings/journal_club.md)
 
-You are also welcome to use it to create accounts for tools related to your lab work, such as [Miro](../Presentations/tools.md#presentation_tools_miro) or [Paperpile](https://paperpile.com/).
+You are also welcome to use it to create accounts for tools related to your lab work, such as [Miro][miro] or [Paperpile](https://paperpile.com/).
 
 !!! note
     Your specified preferred contact email from your onboarding will be used for the majority of communications, but lab documents and calendar events must be accessed with your BHKLab Gmail account.
