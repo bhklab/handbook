@@ -15,7 +15,7 @@ Vertex AI is Google Cloud's end-to-end platform for building, training, deployin
 Vertex AI enables you to train machine learning models using pre-built containers (for frameworks like TensorFlow, PyTorch, XGBoost) or your custom containers. You can configure distributed training, use accelerators (GPUs/TPUs), and tune hyperparameters automatically.  
 To start training:
 
-- Go to **Vertex AI > Training** in the GCP console.
+- Go to **Vertex AI -> Training** in the GCP console.
 - Choose between **Custom Training**, **AutoML**, or **Pre-trained models**.
 - Specify your dataset, training script (if custom), and machine type.
 
@@ -60,6 +60,7 @@ To use Feature Store:
 - Ingest data manually or set up ingestion pipelines.
 
 ### **Pipelines**: Automate and orchestrate ML workflows
+
 Vertex AI Pipelines allow you to build reproducible, scalable ML workflows by chaining steps like data processing, training, evaluation, and deployment. Based on Kubeflow Pipelines, it helps manage experiment runs and simplifies MLOps.  
 To create a pipeline:
 
