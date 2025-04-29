@@ -14,6 +14,8 @@ This checklist is for the assigned lab staff running the offboarding process.
 ### Offboarding Initialization Email Template
 Send the following email to the lab member to schedule the two meetings: [Email Template](offboarding_initialization.emltpl)
 
+CC the lab member's mentor/supervisor on this email. They are not required to attend the meetings, but should be aware of the offboarding process, including their requirement to review the Lab Off-boarding Information document.
+
 The email must includes links to:
 
 * The [Offboarding Policy](index.md)
@@ -26,9 +28,10 @@ The email must includes links to:
 ## During the Offboarding Initialization Meeting
 1. Walk through the [Offboarding Policy](index.md) with the lab member.
 1. Make sure they have access to their Offboarding Report folder and Information template.
-1. Send the [Exit Interview Form](https://docs.google.com/forms/d/1HEtSofzgdJ-RPYh8rB02RkIdUJ1lRl24OHYSWfpGYLE/edit) to the lab member via their BHKLab Gmail.
+1. Remind the lab member of the [Exit Interview Form](https://docs.google.com/forms/d/1HEtSofzgdJ-RPYh8rB02RkIdUJ1lRl24OHYSWfpGYLE/edit) sent in the initial email.
     1. Explain that the Exit Interview form should be completed just prior to the exit interview.
 1. Request that the lab member change the password to their BHKLab Gmail account and share this with the lab coordinator.
+
 
 ## During the Exit Interview
 
