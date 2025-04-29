@@ -1,4 +1,4 @@
-# Kallistso
+# Kallisto
 
 Kallisto is a lightweight, ultra-fast RNA-seq quantification tool.
 It is mainly used for estimating transcript abundances directly from RNA-seq reads without performing full read alignment.
@@ -28,7 +28,7 @@ kallisto index -i transcriptome.idx transcripts.fa
 ```
 kallisto quant -i transcriptome.idx -o output_dir -b 100 reads_1.fastq reads_2.fastq
 ```
--b 100 specifies 100 bootstrap samples for estimating quantification uncertainty.
+The option `-b 100` specifies 100 bootstrap samples for estimating quantification uncertainty.
 
 ## Outputs
  - `abundance.tsv` — Main quantification table (TPM, estimated counts)
