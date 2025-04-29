@@ -3,11 +3,11 @@
 It is a package in R used to harmonize data management of multiple experimental assays performed on an overlapping set of specimens. It is designed to manage and integrate multiple types of omics or experimental data (e.g., RNA-seq, mutation data, methylation, proteomics) into a single, structured object.  The object stores different data modalities (assays) together, keep track of which samples have which data types, with a goal to facilitate joint analysis, visualization, and subsetting across multiple experiments.
 
 
-    "It provides a familiar Bioconductor user experience by extending concepts from SummarizedExperiment,
-    supporting an open-ended mix of standard data classes for individual assays,
-    and allowing subsetting by genomic ranges or rownames. 
-    Facilities are provided for reshaping data into wide and long
-    formats for adaptability to graphing and downstream analysis."
+> "It provides a familiar Bioconductor user experience by extending concepts from SummarizedExperiment,
+> supporting an open-ended mix of standard data classes for individual assays,
+> and allowing subsetting by genomic ranges or rownames. 
+> Facilities are provided for reshaping data into wide and long
+> formats for adaptability to graphing and downstream analysis."
 
 Citation
 
