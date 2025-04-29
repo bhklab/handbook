@@ -5,7 +5,7 @@ Daily intra-lab communications are done via [Slack](https://slack.com/). We reco
 
 ## General Rules
 
-Your communications on Slack should be professional. In particular what you post should should comply with the [Slack Terms of Service](https://slack.com/terms-of-service/user) as well as the code of conduct of your institution.
+Your communications on Slack should be professional. In particular what you post should comply with the [Slack Terms of Service](https://slack.com/terms-of-service/user) as well as the code of conduct of your institution.
 
 - [UHN Code of Conduct](https://www.uhn.ca/corporate/For_Staff/New_Employees/Documents/UHN-Policies-Codes-Handbook.pdf)
 - [UofT Code of Conduct](https://people.utoronto.ca/policies/)
