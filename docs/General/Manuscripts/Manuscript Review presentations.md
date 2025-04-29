@@ -8,16 +8,17 @@ This is to ensure the manuscript updates are discussed regularly, preferably wit
 
 ## How it works
 
- - Presenter is usually the first author. This person will be assigned in the first lab meeting of the month. This is usually based on completion status of manuscripts (usually closest to publishing goes first)
-  - Time the presentation so that you have at least 30 minutes for discussion
-  - Ensure you differentiate new updates vs. updates from your last manuscript presentation
-  - If multiple co-first authors are present, you can divide the results based on your individual contributions
+- Presenter is usually the first author. This person will be assigned in the first lab meeting of the month. This is usually based on completion status of manuscripts (usually closest to publishing goes first)
+- Time the presentation so that you have at least 30 minutes for discussion
+- Ensure you differentiate new updates vs. updates from your last manuscript presentation
+- If multiple co-first authors are present, you can divide the results based on your individual contributions
 
 ## What to present
 
---> Following the required structure of the manuscript you are submitting to, arrange the analysis. 
+* Following the required structure of the manuscript you are submitting to, arrange the analysis. 
 
---> Please use the template as a guide - 
+* Please use the template as a guide - 
 [Research Dissemination Update Template - DO NOT EDIT](https://docs.google.com/presentation/d/1f1IwILV8l8bKktyElq_HRMWAbjf0xj7n2CJvbGBEJYg/edit#slide=id.g2666473ec8e_0_0)
 
-**Pro tip: Use a notebook or texteditor to capture feedback and suggestions from the lab. Or you can request Sisira/Ben to share the AI-generated meeting notes.**
+!!! tip "Pro Tip"
+    Use a notebook or texteditor to capture feedback and suggestions from the lab. Or you can request Sisira/Ben to share the AI-generated meeting notes.
