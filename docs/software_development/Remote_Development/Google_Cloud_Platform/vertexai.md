@@ -52,6 +52,7 @@ To deploy a model:
 ### **Feature Store**: Manage and serve ML features
 Vertex AI Feature Store provides a centralized repository to manage, reuse, and serve ML features for training and online inference. It ensures consistency between training and serving data.  
 To use Feature Store:
+
 - Create a Featurestore in **Vertex AI Feature Store**.
 - Define entity types and features.
 - Ingest data manually or set up ingestion pipelines.
