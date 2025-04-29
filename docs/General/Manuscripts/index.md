@@ -49,11 +49,57 @@ List all authors, using superscript numbers to indicate their respective institu
 5. Below the author list, provide a numbered list of institutions that matches the superscripts assigned to the authors. Below is a list of departments and institutions the BHK Lab commonly collaborates with. Use these exact names when citing affiliations:
 
 a. Princess Margaret Cancer Centre, University Health Network, Toronto, Ontario, Canada
+
 b. Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada
+
 c. Joint Department of Medical Imaging, University of Toronto, Toronto, Ontario, Canada
+
 d. Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada
+
 e. Vector Institute for Artificial Intelligence, Toronto, Ontario, Canada
 
+6. Use Heading 1 (uppercase) for all main sections (e.g., Abstract, Results, etc.).
+
+7. For any subsections within main sections, use Heading 2 formatting.
+
+8. Regular body text should be written in Arial, font size 11.
+
+9. Figures - All figures should be created using [Miro](https://miro.com/app/dashboard/).
+
+10. Refer to figures, tables, and supplementary materials in parentheses (e.g., "the results suggest... (Figure 2)"), rather than writing phrases like “Figure 2 shows…” or “As can be seen in Table 1…”.
+
+11. Place captions directly near the figures in the initial draft.
+
+Caption formatting:
+
+Begin the caption with a bolded sentence summarizing the figure or table content.
+
+Captions must be standalone — they should be understandable without needing to read the main text.
+
+3. Tables - Small tables can be created directly in Google Docs.
+
+Larger tables should be prepared in Google Sheets or saved as CSV files.
+
+In general, avoid using tables when possible — use graphics instead, as they communicate information more effectively.
+
+4. Supplementary Materials - Store all supplementary methods, formulas, figures, tables, and additional information in Overleaf while drafting your manuscript.
+
+When your paper is ready for Benjamin's review, compile all Overleaf content into a single PDF.
+
+Export figures and tables from Miro into Overleaf as needed.
+
+5. Code and Data Storage
+Store your project’s computer code in the [BHKLAB GitHub repository](https://github.com/bhklab).
+
+All processed data and final code must be stored in your CodeOcean Capsule, ensuring that the code runs correctly within the environment.
+
+6. References
+Compile all references using Paperpile.
+
+Note: Paperpile licenses are limited. Coordinate with the lab to obtain or transfer a license as needed.
+
+7. Writing Style
+After a period (.), use a single space before starting the next sentence (no double spaces).
 
 
 
