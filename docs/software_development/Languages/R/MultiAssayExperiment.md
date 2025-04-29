@@ -61,6 +61,7 @@ mae <- MultiAssayExperiment(
   experiments = ExperimentList(rna = rna, mutations = mutations),
   colData = patient_info
 )
+```
 
 ## How to view and work with a MultiAssayExperiment 
 We will give an example Using Immune Checkpoint Blockade Dataset. Suppose you have downloaded a Immune Checkpoint Blockade Dataset from [ORCESTRA](https://www.orcestra.ca/)
@@ -87,7 +88,7 @@ snv_matrix <- assay(snv_se)
 sample_map <- sampleMap(icb_mae)
 
 # View metadata if available, this include any extra information about the experiment (i.e. batch info, project details)
-meta_data <- metadata(icb_mae)
+meta_data <- metadata(icb_mae)```
 
 ## Additional References 
 
