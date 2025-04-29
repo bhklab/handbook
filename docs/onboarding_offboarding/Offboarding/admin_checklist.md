@@ -47,6 +47,11 @@ Make sure that access to lab resources are inactivated.
 !!! note
     Check the Exit Interview form to see if any of the following lab resources have been requested to be kept active for the lab member.
 
+    Any requested services will be kept active for 
+
+    * **Six months** after the exit interview OR 
+    * If working on a manuscript, when that **manuscript is submitted**
+
     Service list:
 
     * [ ] Slack
