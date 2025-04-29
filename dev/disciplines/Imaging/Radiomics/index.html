@@ -4766,6 +4766,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learn-the-foundations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learn the Foundations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-papers-and-case-studies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Papers and Case Studies
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -4783,7 +4809,51 @@
 
 
 <h1 id="radiomics">Radiomics<a class="headerlink" href="#radiomics" title="Anchor link to this section for reference">#</a></h1>
-<p>Radiomics is the study of the interaction between radiation and support diagnosis, prognosis, and treatment planning. It bridges radiology and data science, allowing for a more detailed understanding of disease characteristics.</p>
+<p><em><strong>Radiomics</strong></em> is the high-throughput extraction of quantiative features from medical images for textural analysis that spatially characterises regions/volumes of interest and may provide insight into the underlying pathophysiology to support diagnosis, prognosis, and treatment planning <a href="https://link.springer.com/article/10.1007/s00330-024-11341-y#Abs1">(Barry et al., 2025)</a>. It bridges radiology and data science, allowing for a more detailed understanding of disease characteristics.</p>
+<figure>
+<p><img alt="" src="../images/RadiomicsAnalysisWorkflow.png" /></p>
+<figcaption>
+<p>Radiomics analysis workflow (<a href="https://www.itnonline.com/content/new-radiomics-model-uses-immunohistochemistry-predict-thyroid-nodules">Source</a>)</p>
+</figcaption>
+</figure>
+<h2 id="learn-the-foundations">Learn the Foundations<a class="headerlink" href="#learn-the-foundations" title="Anchor link to this section for reference">#</a></h2>
+<ul>
+<li>
+<p><strong><a href="https://cs50.harvard.edu/python/2022/weeks/6/">Intro to Python (CS50 Week 6)</a></strong><br />
+  Radiomics pipelines are often built in Python, so this course provides a solid foundation in the language.</p>
+</li>
+<li>
+<p><strong><a href="https://pyradiomics.readthedocs.io/en/latest/">PyRadiomics Documentation</a></strong><br />
+  The official documentation for PyRadiomics, a robust open-source Python package for extracting engineered features from medical images.</p>
+</li>
+<li>
+<p><strong><a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization by Andrew Ng</a></strong><br />
+  A comprehensive course that covers the fundamentals of deep learning. Highly relevant for radiomics pipelines that involve neural networks for image feature extraction or outcome prediction.</p>
+</li>
+<li>
+<p><strong><a href="https://lightning.ai/docs/pytorch/stable/starter/introduction.html">Lightning in 15 Minutes</a></strong><br />
+  A concise tutorial introducing PyTorch Lightning—an efficient and reproducible way to structure deep learning projects, especially useful for radiomics model development.</p>
+</li>
+</ul>
+<h2 id="key-papers-and-case-studies">Key Papers and Case Studies<a class="headerlink" href="#key-papers-and-case-studies" title="Anchor link to this section for reference">#</a></h2>
+<ul>
+<li>
+<p><strong><a href="https://www.nature.com/articles/ncomms5006">Decoding tumour phenotype by noninvasive imaging using a quantitative radiomics approach</a> — <em>Nature Communications</em></strong><br />
+  This seminal paper is widely credited with sparking interest in radiomics by demonstrating how quantitative imaging features can decode tumor phenotype.</p>
+</li>
+<li>
+<p><strong><a href="https://www.nature.com/articles/s41598-017-10371-5">Radiomics strategies for risk assessment of tumour failure in head-and-neck cancer</a> — <em>Scientific Reports</em></strong><br />
+  A strong example of using engineered radiomic features to predict treatment outcomes in head-and-neck cancer.</p>
+</li>
+<li>
+<p><strong><a href="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002711">Deep learning for lung cancer prognostication: A retrospective multi-cohort radiomics study</a> — <em>PLOS Medicine</em></strong><br />
+  Combines radiomics with deep learning to predict survival outcomes, showcasing the power of hybrid approaches.</p>
+</li>
+<li>
+<p><strong><a href="https://www.nature.com/articles/s41568-018-0016-5">Artificial intelligence in radiology</a> — <em>Nature Reviews Cancer</em></strong><br />
+  A high-level overview of AI’s role in modern radiology, including how radiomics fits into the broader clinical and research landscape.</p>
+</li>
+</ul>
 
 
 
@@ -4806,7 +4876,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 26, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 29, 2025</span>
   </span>
 
     
@@ -4832,6 +4902,7 @@
     <nav>
       
         <a href="mailto:jermiahjoseph98@gmail.com">Jermiah Joseph</a>, 
+        <a href="mailto:72413722+joshuasiraj@users.noreply.github.com">Joshua Siraj</a>, 
         <a href="mailto:mtran256@uwo.ca">mtran</a>
     </nav>
   </span>
