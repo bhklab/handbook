@@ -1,4 +1,4 @@
-# [Confluence SOW Tutorial (outdated)](#confluence-sow-tutorial)
+# Confluence SOW Tutorial (outdated)
 
 !!! warning "Outdated Warning"
     This tutorial is outdated and no longer in use. Please refer to the [Google Drive SOW Tutorial](../Summary_Of_Work/index.md) for the most up-to-date instructions.
