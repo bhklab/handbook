@@ -38,6 +38,9 @@ The email must includes links to:
 ### UHN Account
 The Office coordinator (Soleil Miron) has to make sure that the employee’s UHN email/inbox is inactivated. 
 
+### Off-boarding Information Document
+Confirm this has been filled out thoroughly and reviewed by the lab member's mentor/supervisor.
+
 ### Lab Service Access
 Make sure that access to lab resources are inactivated.
 
@@ -55,6 +58,8 @@ Service list:
 * [ ] Miro
 * [ ] Paperpile
 
+### Return Physical ID Cards
+Remind the lab member to return their ID cards to the PMCRT Security office, located on the first floor of the MARS Discovery District.
 
 ## After the Exit Interview
 To be done by assigned lab staff in charge of offboarding:
