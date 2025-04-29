@@ -67,3 +67,4 @@ To be done by assigned lab staff in charge of offboarding:
 1. Update member status in the [BHKLab Member Tracking](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=1405839011#gid=1405839011) sheet to 'Alumni'
 1. Update member status on website
 1. Remove the member from the [Lab Member Expertise](../Onboarding/lab_member_expertise.md) page
+1. In bhklab.archive@gmail.com Drive, accept ownership of the lab member's BHKLab Google Drive contents and put them in their [Personal Folders](https://drive.google.com/drive/folders/1pkE9wPP4j8oDp2yocw4STB3EAj4BUfJh).
