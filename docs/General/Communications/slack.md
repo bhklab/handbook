@@ -24,7 +24,7 @@ The Slack has four main channels - `#general`, `#random`, `#publications`, and `
 
 The `#general` channel is where most lab-wide notices are posted. The content of `#general` is confined to the professional functioning of the BHK Lab and will contain things like:
 
-- Deadline reminders (such as those for the [Summary of Work](../Summary_of_Work/index.md))
+- Deadline reminders (such as those for the [Summary of Work](../Summary_Of_Work/index.md))
 - Scientific talks that may be of interest to lab members.
 - Scheduling of lab-wide events (e.g., lab retreats, hackathons, etc.)
 - Group food orders.
