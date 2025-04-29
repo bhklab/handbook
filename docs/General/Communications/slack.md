@@ -69,9 +69,12 @@ If you have a paper that you wish to share with the lab you **must** post it as 
     ??? tip "Slack Shortcut for Links"
         Cmd/Ctrl + Shift + U will open the "Add Link" menu.
 
-**Additional Requirements**
-- If the publication you link has restricted access reply to your post *in a thread* with a pdf of the paper attached.
-- If you want to comment on or discuss a paper posted by a lab member respond *in the thread*. We want to keep the channel as just a list of publications to the extent possible.
+!!! info "**Additional Requirements - Threads**"
+    
+    - If the publication you link has restricted access, reply to your post *in a thread* with a PDF of the paper attached.
+
+    - If you want to comment on or discuss a paper posted by a lab member, respond *in a thread*. We want to keep the channel as just a list of publications to the extent possible.
+
 
 
 ### Conferences And Workshops
