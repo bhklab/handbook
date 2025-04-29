@@ -49,7 +49,7 @@ Members leaving the lab will prepare a single digital parent folder containing a
 3. Any other relevant documents that are not caputred in (1) or (2).
 
 
-This prepared folder will be shared by the terminated member with the assigned lab staff member, in addition to at least one (1) topic expert involved in each project included in the prepared folder. For short-term interns or volunteers, the parent folder can be shared with respective mentor(s). On receipt of the folder, each recipient shall confirm with the terminated employee the folder’s contents, including clarification for the contents and location of any items not included in the folder. 
+This prepared folder will be shared by the outgoing lab member with the assigned lab staff member, in addition to at least one (1) topic expert (e.g. their mentor/supervisor) involved in each project included in the prepared folder. For short-term interns or volunteers, the parent folder can be shared with respective mentor(s). On receipt of the folder, each recipient shall confirm with the terminated employee the folder’s contents, including clarification for the contents and location of any items not included in the folder. 
 
 **Link this document in your final SOW.**
 
