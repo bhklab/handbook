@@ -16,11 +16,9 @@ Citation
 
 ### Structure of a MultiAssayExperiment Object
 
-- **ExperimentList**: A list of assays (SummarizedExperiment, matrix, or other compatible objects).
-
-- **colData**: Metadata about the primary samples (patients/cell lines), such as age, treatment, outcome.
-
-- **sampleMap**: A table mapping how each assay's sample IDs relate to the primary colData sample IDs (handles cases where IDs differ across experiments).
+- **`ExperimentList`**: A list of assays (SummarizedExperiment, matrix, or other compatible objects).
+- **`colData`**: Metadata about the primary samples (patients/cell lines), such as age, treatment, outcome.
+- **`sampleMap`**: A table mapping how each assay's sample IDs relate to the primary colData sample IDs (handles cases where IDs differ across experiments).
 
         MultiAssayExperiment
         |-- ExperimentList
