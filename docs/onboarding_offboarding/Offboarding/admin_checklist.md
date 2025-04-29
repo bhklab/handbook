@@ -14,8 +14,6 @@ This checklist is for the assigned lab staff running the offboarding process.
 ### Offboarding Initialization Email Template
 Send the following email to the lab member to schedule the two meetings: [Email Template](offboarding_initialization.emltpl)
 
-Make the subject line: Off-boarding Initialization - <First Name> <Last Name>
-
 The email must includes links to:
 
 * The [Offboarding Policy](index.md)
