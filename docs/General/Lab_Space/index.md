@@ -26,7 +26,7 @@ To keep track of the lab hardware, we use a [Lab Equipment Inventory](https://do
 !!! warning
     If a piece of equipment at your workspace is missing from the spreadsheet, or vice versa, please contact your lab coordinator.
 
-## Other Lab Resources
+## Other Lab Space Resources
 
 * Washrooms are located on either end of the floor on every floor of the PMCRT. The women's washroom is on the south side (right from the elevators) and the men's washroom is on the north side (left from the elevators).
 * There are kitchen facilities at either end of the floor on every floor of the PMCRT. A water dispenser is in the sink in both kitchens.
