@@ -11,7 +11,7 @@ It is a package in R used to harmonize data management of multiple experimental 
 
 Citation
 
-        Ramos M, Schiffer L, Re A, Azhar R, Basunia A, Rodriguez Cabrera C, Chan T, Chapman P, Davis S, Gomez-Cabrero D, Culhane A, Haibe-Kains B, Hansen K, Kodali H, Louis M, Mer A, Reister M, Morgan M, Carey V, Waldron L (2017). “Software For The Integration Of Multi-Omics Experiments In Bioconductor.” Cancer Research, 77(21), e39-42. doi:10.1158/0008-5472.CAN-17-0344, https://cancerres.aacrjournals.org/content/77/21/e39. 
+> Ramos M, Schiffer L, Re A, Azhar R, Basunia A, Rodriguez Cabrera C, Chan T, Chapman P, Davis S, Gomez-Cabrero D, Culhane A, Haibe-Kains B, Hansen K, Kodali H, Louis M, Mer A, Reister M, Morgan M, Carey V, Waldron L (2017). “Software For The Integration Of Multi-Omics Experiments In Bioconductor.” Cancer Research, 77(21), e39-42. doi:10.1158/0008-5472.CAN-17-0344, https://cancerres.aacrjournals.org/content/77/21/e39. 
 
 
 ### Structure of a MultiAssayExperiment Object
