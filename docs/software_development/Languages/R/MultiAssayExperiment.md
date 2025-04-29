@@ -1,6 +1,6 @@
 
 ## MultiAssayExperiment
-It is a package in R used to harmonize data management of multiple experimental assays performed on an overlapping set of specimens. It is designed to manage and integrate multiple types of omics or experimental data (e.g., RNA-seq, mutation data, methylation, proteomics) into a single, structured object.  The object stores different data modalities (assays) together, keep track of which samples have which data types, with a goal to facilitate joint analysis, visualization, and subsetting across multiple experiments.
+MultiAssayExperiment is an R package used to harmonize data management of multiple experimental assays performed on an overlapping set of specimens. It is designed to manage and integrate multiple types of omics or experimental data (e.g., RNA-seq, mutation data, methylation, proteomics) into a single, structured object. The object stores different data modalities (assays) together, keep track of which samples have which data types, with a goal to facilitate joint analysis, visualization, and subsetting across multiple experiments.
 
 
 > "It provides a familiar Bioconductor user experience by extending concepts from SummarizedExperiment,
@@ -29,11 +29,12 @@ Citation
         |-- sampleMap (which patient → which sample in each assay)
 
 ## When to MultiAssayExperiment
-You can create a MultiAssayExperiment object if you have a multiomics dataset (RNA, DNA mutation data, proteomics) for the same or overlapping sets of samples, and if you want to apply multi-omics integration methods, ML models, or visualizations that require synchronized datasets.
+You can create a MultiAssayExperiment object if you have a multiomics dataset (RNA-seq, mutation, proteomics data) for the same or overlapping sets of samples, and if you want to apply multi-omics integration methods, ML models, or visualizations that require synchronized datasets.
 
 
 ## Installation requirement
-R with version > 4.5
+
+R (version "4.5") 
 
         if (!require("BiocManager", quietly = TRUE))
             install.packages("BiocManager")
