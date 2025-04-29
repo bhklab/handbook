@@ -1,3 +1,4 @@
 nav:
-  - introduction.md
-  - ...
+    - introduction.md
+    - gcs.md
+    - ...
