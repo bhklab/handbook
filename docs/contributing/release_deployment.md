@@ -36,10 +36,10 @@ the latest version of the website.
 
 ## Releases and Versioned Documentation
 
-We leverage both [release-please](https://github.com/googleapis/release-please)
-and `mike` to automate the release process and manage versioned documentation,
-making it easier to maintain version control, changelogs, and multiple
-documentation versions.
+We leverage both [`release-please`](https://github.com/googleapis/release-please)
+and [`mike`](https://github.com/jimporter/mike) to automate the release process
+and manage versioned documentation, making it easier to maintain version control,
+changelogs, and multiple documentation versions.
 
 ### How Releases Work
 
@@ -52,7 +52,7 @@ You can view the release automation action at
 
 Key aspects of this combined approach include:
 
-- **Automated Release Creation with release-please**: The tool automatically
+- **Automated Release Creation with `release-please`**: The tool automatically
    generates a release with changelogs and updates the version number based
    on the changes merged into `main`.
 - **Dynamic Pull Request Updates**: If additional changes are pushed to the
@@ -62,14 +62,13 @@ Key aspects of this combined approach include:
 - **Controlled Release Process**: Maintainers can merge changes into the
   release PR only when they are ready to publish a new version, giving them
   full control over the timing of each release.
-- **Versioned Documentation with mike**: Once a new release is prepared,
+- **Versioned Documentation with `mike`**: Once a new release is prepared,
   `mike` is used to manage and deploy versioned documentation. This allows us
   to provide a separate set of documentation for each release, maintaining
   historical versions accessible on the website.
 
 This automated approach ensures consistency, reduces manual effort, and allows
 users to access documentation relevant to any specific version of the project.
-required to manage releases.
 
 ### Manual Release Process
 

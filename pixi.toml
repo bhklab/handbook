@@ -24,7 +24,7 @@ build.cmd = "mkdocs build -f mkdocs.yml"
 build.inputs = ["docs", "mkdocs.yml"]
 build.outputs = ["site"]
 
-serve.description = "Serve the documentation to http://localhost:8000/"
+serve.description = "Serve the documentation to http://localhost:8001/"
 serve.cmd = "mkdocs serve -f mkdocs.yml"
 
 [environments]
@@ -49,3 +49,5 @@ lint.depends-on = ["pre-commit-install"]
 
 [pypi-dependencies]
 mkdocs-awesome-pages-plugin = ">=2.9.3, <3"
+mkdocs-table-reader-plugin = ">=3.1.0, <4"
+openpyxl = ">=3.1.5, <4"
