@@ -45,7 +45,7 @@ For team-specific posting please use the proper channel (`#pharmacogenomics` or 
 We use the `#publications` channel *exclusively* to share publications and (briefly) discuss those that are shared. Publications should in one of the following categories:
 
 1. Papers related to ongoing BHK Lab projects.
-2. Papers interest to the research areas of the BHK Lab and our collaborators. 
+2. Papers of interest to the research areas of the BHK Lab and our collaborators. 
 
 These categories can be interpretedly broadly. For example, if you have a computational method paper that you think could be useful for a pharmacogenomics or radiomics problem, feel free to share it. If you suspect the connection between the paper and BHK Lab research is non-obvious, you should include a comment explaining how you see a connection. Conversely, posting links to papers from [math.AG](https://arxiv.org/list/math.AG/recent), for example, without comment is unwise. 
 
