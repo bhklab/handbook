@@ -47,16 +47,16 @@ Make sure that access to lab resources are inactivated.
 !!! note
     Check the Exit Interview form to see if any of the following lab resources have been requested to be kept active for the lab member.
 
-Service list:
+    Service list:
 
-* [ ] Slack
-* [ ] GitHub
-* [ ] Google Groups
-* [ ] H4H
-* [ ] GPU Server
-* [ ] Cloud services (GCP, AWS, Azure)
-* [ ] Miro
-* [ ] Paperpile
+    * [ ] Slack
+    * [ ] GitHub
+    * [ ] Google Groups
+    * [ ] H4H
+    * [ ] GPU Server
+    * [ ] Cloud services (GCP, AWS, Azure)
+    * [ ] Miro
+    * [ ] Paperpile
 
 ### Return Physical ID Cards
 Remind the lab member to return their ID cards to the PMCRT Security office, located on the first floor of the MARS Discovery District.
@@ -65,6 +65,6 @@ Remind the lab member to return their ID cards to the PMCRT Security office, loc
 To be done by assigned lab staff in charge of offboarding:
 
 1. Update member status in the [BHKLab Member Tracking](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=1405839011#gid=1405839011) sheet to 'Alumni'
-1. Update member status on website
+1. Update member status on the [BHKLab Website](https://www.bhklab.ca/)
 1. Remove the member from the [Lab Member Expertise](../Onboarding/lab_member_expertise.md) page
 1. In bhklab.archive@gmail.com Drive, accept ownership of the lab member's BHKLab Google Drive contents and put them in their [Personal Folders](https://drive.google.com/drive/folders/1pkE9wPP4j8oDp2yocw4STB3EAj4BUfJh).
