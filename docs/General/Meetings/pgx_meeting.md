@@ -20,8 +20,8 @@ Presenters self assign yourself one week in advance by adding to [PGx Meeting - 
  - Action items for the presented project
 
 ## Meeting Ground Rules
-a. No meeting unless there is at least 1 presenter signed up a week before. 
-b. If not, any PGx meember can cancel the meeting by deleting the PGx meeting on lab calendar.
-c. If there is no meeting, add async updates on google doc tracker.
-d. All active PGx members should attend unless there are valid reasons. This should be communicated with Sisira/lead beforehand.
-e. Respect time: Stick to time limits to keep the agenda moving.
+1. No meeting unless there is at least 1 presenter signed up a week before. 
+1. If not, any PGx meember can cancel the meeting by deleting the PGx meeting on the lab calendar.
+1. If there is no meeting, add async updates on [Google doc tracker](https://docs.google.com/document/d/1K6ncKURTKOyaQLLiMnt-Nbdks125dAMb3cHGcC4h6-c/edit?usp=sharing).
+1. All active PGx members should attend unless there are valid reasons. This should be communicated with Sisira/lead beforehand.
+1. Respect time: Stick to time limits to keep the agenda moving.
