@@ -21,12 +21,14 @@ To start training:
 
 ### **Workbench**: Managed Jupyter notebooks integrated with GCP resources.
 Setting Up and Using Vertex AI Workbench
+
 - Go to the "Vertex AI Workbench" in the GCP console.
 - Click **New Notebook**.
 - Select:
   - **Environment** (e.g., TensorFlow Enterprise, PyTorch).
   - **Machine Type** (CPU or GPU).
 - After creation, click **Open JupyterLab** to start working.
+
 You can also start and stop notebooks as needed to control costs.
 
 ### **Model Monitoring** : Track model performance.
