@@ -94,7 +94,7 @@ Store your project’s computer code in the [BHKLAB GitHub repository](https://g
 All processed data and final code must be stored in your CodeOcean Capsule, ensuring that the code runs correctly within the environment.
 
 6. References
-Compile all references using Paperpile.
+Compile all references using [Paperpile](https://paperpile.com/h/guide-google-docs/).
 
 Note: Paperpile licenses are limited. Coordinate with the lab to obtain or transfer a license as needed.
 
