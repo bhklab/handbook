@@ -44,19 +44,22 @@ R with version > 4.5
 
 ## Make a MultiAssayExperiment Object
 
-        library(MultiAssayExperiment)
+```r
+library(MultiAssayExperiment)
 
-        # Suppose you have rna, mutation data and patient information
-        rna <- SummarizedExperiment(assays = list(counts = matrix(rnorm(1000), ncol = 10)))
-        snv <- matrix(sample(0:1, 100, replace = TRUE), ncol = 10)
-        patient_info <- DataFrame(PatientID = paste0("Patient", 1:10),
-                                Age = sample(40:80, 10))
+# Suppose you have rna, mutation data and patient information
+rna <- SummarizedExperiment(assays = list(counts = matrix(rnorm(1000), ncol = 10)))
+snv <- matrix(sample(0:1, 100, replace = TRUE), ncol = 10)
+patient_info <- as.data.frame(
+  PatientID = paste0("Patient", 1:10),
+  Age = sample(40:80, 10)
+)
 
-        # Create the MultiAssayExperiment object with function
-        mae <- MultiAssayExperiment(
-        experiments = ExperimentList(rna = rna, mutations = mutations),
-        colData = patient_info
-        )
+# Create the MultiAssayExperiment object with function
+mae <- MultiAssayExperiment(
+  experiments = ExperimentList(rna = rna, mutations = mutations),
+  colData = patient_info
+)
 
 ## How to view and work with a MultiAssayExperiment 
 We will give an example Using Immune Checkpoint Blockade Dataset. Suppose you have downloaded a Immune Checkpoint Blockade Dataset from [ORCESTRA](https://www.orcestra.ca/)
