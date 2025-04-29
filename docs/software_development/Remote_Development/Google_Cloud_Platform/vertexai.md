@@ -1,6 +1,6 @@
 # **Google Cloud Vertex AI**
 
-Vertex AI is Google Cloud’s end-to-end platform for building, training, deploying, and managing machine learning models.
+Vertex AI is Google Cloud's end-to-end platform for building, training, deploying, and managing machine learning models.
 
 ## **Why Use Vertex AI?**
 
@@ -41,7 +41,7 @@ To use it you can:
 ### **Prediction and Deployment**: Serve models
 Vertex AI provides two ways to serve models: **online prediction** (real-time requests) and **batch prediction** (large-scale async jobs). You can deploy trained models to an endpoint with autoscaling and version management.  
 To deploy a model:
-- Go to **Vertex AI > Models**.
+- Go to **Vertex AI Models**.
 - Upload or select your model and deploy it to an endpoint.
 - Set machine type and scaling options.
 
