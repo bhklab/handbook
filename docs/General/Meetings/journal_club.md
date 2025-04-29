@@ -55,6 +55,11 @@ It’s all about **learning**, **critiquing**, and **getting inspired**.
     - **Key Takeaways**: What are the main insights from the study?  
     - **Your Perspective**: What worked well? What could be improved?  
 
+4. **Presentation day**:
+    - On the day of the meeting, you are responsible for retrieving the Meeting Owl and ensuring that it is set up for the meeting. See the [Meeting Owl Basics](owl_basics.md) page to learn more about how to use it.
+
+    !!! warning
+        If you are planning on presenting remotely, please connect with someone **onsite** to ensure the [Meeting Owl](owl_basics.md) is set up for you. 
 ---
 
 ## Audience Role  
