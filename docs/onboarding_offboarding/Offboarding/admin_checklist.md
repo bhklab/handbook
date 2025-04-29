@@ -3,8 +3,8 @@
 This checklist is for the assigned lab staff running the offboarding process.
 
 ## Before the Offboarding Initialization Meeting
-1. Create a folder in the **bhklab.research** drive under [Offboarding Reports](https://drive.google.com/open?id=1QfFFfN4sKITbvyqEB_9QrdgW6ETulWk9) with the name of the lab member.
-    1. Confirm this folder is owned by bhklab.research@gmail.com. Transfer ownership if necessary.
+1. Create a folder in the **bhklab.archive** drive under [Offboarding Reports](https://drive.google.com/open?id=1QfFFfN4sKITbvyqEB_9QrdgW6ETulWk9) with the name of the lab member.
+    1. Confirm this folder is owned by bhklab.archive@gmail.com. Transfer ownership if necessary.
     1. Share this folder to the lab member's BHKLab Gmail (e.g. bhklab.johndoe@gmail.com).
 
 1. Create a folder in the **bhklab.archive** drive under [Personal Folders](https://drive.google.com/drive/folders/1pkE9wPP4j8oDp2yocw4STB3EAj4BUfJh) with the name of the lab member.
@@ -14,7 +14,7 @@ This checklist is for the assigned lab staff running the offboarding process.
 ### Offboarding Initialization Email Template
 Send the following email to the lab member to schedule the two meetings: [Email Template](offboarding_initialization.emltpl)
 
-CC the lab member's mentor/supervisor on this email. They are not required to attend the meetings, but should be aware of the offboarding process, including their requirement to review the Lab Off-boarding Information document.
+CC the lab member's mentor/supervisor on this email. They are not required to attend the meetings, but should be aware of the offboarding process, including their requirement to review the Lab Off-boarding Information document. This review is mandatory to ensure the work is backed up properly and with the correct access permissions.
 
 The email must includes links to:
 
