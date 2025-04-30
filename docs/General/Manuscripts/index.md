@@ -53,13 +53,6 @@ Then, **use these highlighting rules consistently** throughout the manuscript dr
 - List authors under the title with superscript numbers.
 - Superscripts link to institutions (see examples below).
 
-**Authors**:  
-Sarah Lee², Benjamin Haibe-Kains¹
-
-**Affiliations**:  
-¹ Princess Margaret Cancer Centre, University Health Network, Toronto, Ontario, Canada  
-² Department of Computer Science, University of Toronto, Toronto, Ontario, Canada  
-
 ### Common Institution Examples
 
 - Princess Margaret Cancer Centre, University Health Network, Toronto, Ontario, Canada
@@ -67,6 +60,13 @@ Sarah Lee², Benjamin Haibe-Kains¹
 - Joint Department of Medical Imaging, University of Toronto, Toronto, Ontario, Canada
 - Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada
 - Vector Institute for Artificial Intelligence, Toronto, Ontario, Canada
+
+**Authors**:  
+Sarah Lee², Benjamin Haibe-Kains¹
+
+**Affiliations**:  
+¹ Princess Margaret Cancer Centre, University Health Network, Toronto, Ontario, Canada  
+² Department of Computer Science, University of Toronto, Toronto, Ontario, Canada  
 
 ## 5. Cover Letter Structure
 
