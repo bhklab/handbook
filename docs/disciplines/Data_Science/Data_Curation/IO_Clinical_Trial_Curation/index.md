@@ -57,8 +57,8 @@ Generally, an overall process of the curation follows the steps outlined below:
 1. **Download source data**: Download data from publications or data repositories. The source data can be in various formats such as an Excel file, CSV, or TXT. 
 2. **Process raw molecular data, if available**: The RNA-seq processing from raw FASTQ is outlined on the [RNAseq raw processing page](https://collaborate.uhnresearch.ca/confluence/display/BHKLabPRC/RNA+seq+raw+processing).
 3. **Add annotations**: Ensure that genes, tissues, and treatments are annotated with metadata available from external source and lab standardized columns.
-4. **Create RangedSummarizedExperiment or SummarizedExperiment (SE) object**: For the molecular data, we prefer RangedSummarizedExperiment as it is compatible with [GenomicRanges R package](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html).
-5. **Create MAE object**: Format downloaded data to the layout and structure that is favourable to creating a MAE object. Through this process, the source data is extracted from the source data format and formatted into a CSV or TSV file. Integrate molecular data to MAE. 
+4. **Create RangedSummarizedExperiment or SummarizedExperiment (SE) object**: For the molecular data, we prefer RangedSummarizedExperiment objects as they are compatible with the [GenomicRanges R package](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html).
+5. **Create MAE object**: Format the downloaded data to a layout and structure aligned with an MAE object. Through this process, the source data is extracted and formatted into a CSV or TSV file. Integrate the molecular data with the MAE.
 
 
 # 3. Clinical Metadata Curation
