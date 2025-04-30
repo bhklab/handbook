@@ -12,7 +12,7 @@ An example curated MAE object is available on [ORCESTRA](https://orcestra.ca/cli
 Currently, a clinical data MAE includes:
 
 1. Clinical metadata: Patient/sample information
-2. Molecular profiles: RNA-seq, SNV, CNA data formatted as [RangedSummarizedExperiment or SummarizedExperiment](https://bioconductor.org/packages/devel/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html)
+2. Molecular profiles: RNA-seq, SNV, CNA data formatted as a [RangedSummarizedExperiment or SummarizedExperiment](https://bioconductor.org/packages/devel/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html).
 
 
 ### Data Processing Overview
