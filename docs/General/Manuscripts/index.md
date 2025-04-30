@@ -12,7 +12,29 @@ This guide outlines key steps for preparing a manuscript in the BHK Lab to strea
 | 3 | Transfer ownership to `bhklab.research@gmail.com` |
 | 4 | Organize into subfolders: Figures, Tables, Supplementary, Code, etc. |
 
-## 2. Manuscript Format Checklist
+## 2. Add Legend & Highlighting Guide at the Top of Manuscript
+
+Add the following **legend at the top** of your manuscript:
+
+| Purpose | Style |
+|--------|-------|
+| Shared Directory | "[Google Drive URL]" |
+| Editable Figures | "[Miro URL]" |
+| Figures Tables_Supplementary_Info | "[Overleaf URL]" |
+| Computer Code | "[GitHub URL]" |
+| Executable Container | "[Code Ocean URL] # Optional, if applicable" |
+| References | "[Paperpile link]" |
+
+Then, **use these highlighting rules consistently** throughout the manuscript draft:
+
+| Purpose | Highlight Style |
+|--------|------------------|
+| Figure/Table/Supplement Reference | *highlighted in blue* |
+| Needs update or rewording | *highlighted in yellow* |
+| To be deleted | *strikethrough in red* |
+| Citation needed | *highlighted in pink* |
+
+## 3. Manuscript Format Checklist
 
 | Element | Requirement |
 |--------|-------------|
@@ -24,28 +46,6 @@ This guide outlines key steps for preparing a manuscript in the BHK Lab to strea
 | **Code** | Upload to [BHK GitHub](https://github.com/bhklab) |
 | **Data** | Store and run in [Code Ocean capsule](https://codeocean.com/) |
 | **References** | Use  [Paperpile](https://paperpile.com/) |
-
-## 3. Add Legend & Highlighting Guide at the Top of Manuscript
-
-Add the following **legend at the top** of your manuscript:
-
-| Purpose | Style |
-|--------|-------|
-| Shared Directory | "[Google Drive URL]" |
-| Editable Figures | "[Miro URL]" |
-| Figures Tables_Supplementary_Info | "[Overleaf URL]" |
-| Computer Code | "[GitHub URL]" |
-| Executable Container | "[Code Ocean URL]" |
-| References | "[Paperpile link]" |
-
-Then, **use these highlighting rules consistently** throughout the manuscript draft:
-
-| Purpose | Highlight Style |
-|--------|------------------|
-| Figure/Table/Supplement Reference | *highlighted in blue* |
-| Needs update or rewording | *highlighted in yellow* |
-| To be deleted | *strikethrough in red* |
-| Citation needed | *highlighted in pink* |
 
 ## 4. Author & Institution Formatting
 
