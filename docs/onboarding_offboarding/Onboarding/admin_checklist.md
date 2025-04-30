@@ -5,6 +5,12 @@ These instructions are for the assigned lab staff running the offboarding proces
 !!! warning "Access Requirements"
     To complete these instructions, your BHKLab Gmail account mus be a member of the bhklab-admin@google-groups.com Google Group. If you are not a member of this group, please contact the lab coordinator to be added.
 
+!!! info "**What You Will Need**"
+    - [BHKLab Member Tracking sheet](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=168762825#gid=168762825)
+    - [BHKLab Project Ideas sheet](https://docs.google.com/spreadsheets/d/1lCYb-FtZTe0ihC5boZ_I-WMFLRATtg9W3g0DGAOuHvI/edit?gid=0#gid=0)
+    - [Lab workspace](https://docs.google.com/spreadsheets/d/1LOKDkhRi4wDBf5Cg5Cjzzdeh0frhG4YZ5h11d835Qa0/edit?gid=0#gid=0)
+    - [Email Template](bhklab_onboarding_email_template.emltpl)
+
 
 BHKLab Onboarding starts after UHN onboarding from Soleil’s end. Hiring is usually project-dependent, hence new hires will have a project plan from the beginning. Once the final decision is made, projects and mentors will be emailed to you along with other details required. 
 
