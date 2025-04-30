@@ -8,28 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://bhklab.github.io/handbook/dev/disciplines/Bioinformatics/STAR/">
+        <link rel="canonical" href="https://bhklab.github.io/handbook/dev/disciplines/Bioinformatics/Tools/RNAseq_Pipelines/deseq/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../../../Data_Types/rnaseq/">
       
       
-        <link rel="next" href="../deseq/">
+        <link rel="next" href="../kallisto/">
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
     
     
       
-        <title>STAR Alignment Guide - BHKLab Handbook</title>
+        <title>DESeq2 - BHKLab Handbook</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.a40c8224.min.css">
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.a40c8224.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -54,11 +54,11 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/css/stylesheet.css">
+      <link rel="stylesheet" href="../../../../../assets/css/stylesheet.css">
     
       <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#star-alignment-guide" class="md-skip">
+        <a href="#deseq2" class="md-skip">
           Skip to content
         </a>
       
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              STAR Alignment Guide
+              DESeq2
             
           </span>
         </div>
@@ -238,7 +238,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../General/" class="md-tabs__link">
+        <a href="../../../../../General/" class="md-tabs__link">
           
   
     
@@ -260,7 +260,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../" class="md-tabs__link">
+        <a href="../../../../" class="md-tabs__link">
           
   
     
@@ -280,7 +280,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../software_development/" class="md-tabs__link">
+        <a href="../../../../../software_development/" class="md-tabs__link">
           
   
     
@@ -300,7 +300,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../grants/" class="md-tabs__link">
+        <a href="../../../../../grants/" class="md-tabs__link">
           
   
     
@@ -326,7 +326,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../onboarding_offboarding/Onboarding/" class="md-tabs__link">
+        <a href="../../../../../onboarding_offboarding/Onboarding/" class="md-tabs__link">
           
   
     
@@ -349,7 +349,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../resources/" class="md-tabs__link">
+        <a href="../../../../../resources/" class="md-tabs__link">
           
   
     
@@ -369,7 +369,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../contributing/" class="md-tabs__link">
+        <a href="../../../../../contributing/" class="md-tabs__link">
           
   
     
@@ -473,7 +473,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../General/" class="md-nav__link ">
+            <a href="../../../../../General/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -506,7 +506,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/lab_mission/" class="md-nav__link">
+      <a href="../../../../../General/lab_mission/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -548,7 +548,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../General/Lab_Space/" class="md-nav__link ">
+            <a href="../../../../../General/Lab_Space/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -607,7 +607,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../General/Summary_Of_Work/" class="md-nav__link ">
+            <a href="../../../../../General/Summary_Of_Work/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -640,7 +640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/Summary_Of_Work/old_confluence_instructions/" class="md-nav__link">
+      <a href="../../../../../General/Summary_Of_Work/old_confluence_instructions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -715,7 +715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/Communications/bhklab_calendar/" class="md-nav__link">
+      <a href="../../../../../General/Communications/bhklab_calendar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -736,7 +736,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/Communications/bhklab_gmail/" class="md-nav__link">
+      <a href="../../../../../General/Communications/bhklab_gmail/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -757,7 +757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/Communications/slack/" class="md-nav__link">
+      <a href="../../../../../General/Communications/slack/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -819,7 +819,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../General/Meetings/" class="md-nav__link ">
+            <a href="../../../../../General/Meetings/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -852,7 +852,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/Meetings/lab_meeting/" class="md-nav__link">
+      <a href="../../../../../General/Meetings/lab_meeting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -873,7 +873,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/Meetings/journal_club/" class="md-nav__link">
+      <a href="../../../../../General/Meetings/journal_club/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -894,7 +894,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/Meetings/Radiomics_meeting/" class="md-nav__link">
+      <a href="../../../../../General/Meetings/Radiomics_meeting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -915,7 +915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/Meetings/pgx_meeting/" class="md-nav__link">
+      <a href="../../../../../General/Meetings/pgx_meeting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -936,7 +936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/Meetings/owl_basics/" class="md-nav__link">
+      <a href="../../../../../General/Meetings/owl_basics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -957,7 +957,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/Meetings/Software_dev_meeting/" class="md-nav__link">
+      <a href="../../../../../General/Meetings/Software_dev_meeting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1011,7 +1011,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../General/Presentations/" class="md-nav__link ">
+            <a href="../../../../../General/Presentations/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1044,7 +1044,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/Presentations/database/" class="md-nav__link">
+      <a href="../../../../../General/Presentations/database/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1065,7 +1065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/Presentations/tools/" class="md-nav__link">
+      <a href="../../../../../General/Presentations/tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1117,7 +1117,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../General/Manuscripts/" class="md-nav__link ">
+            <a href="../../../../../General/Manuscripts/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1150,7 +1150,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../General/Manuscripts/Manuscript%20Review%20presentations/" class="md-nav__link">
+      <a href="../../../../../General/Manuscripts/Manuscript%20Review%20presentations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1200,7 +1200,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../General/Projects/" class="md-nav__link ">
+            <a href="../../../../../General/Projects/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1257,7 +1257,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../General/Awards_Achievements_Tracking/" class="md-nav__link ">
+            <a href="../../../../../General/Awards_Achievements_Tracking/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1336,7 +1336,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../" class="md-nav__link ">
+            <a href="../../../../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1392,7 +1392,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Data_Science/" class="md-nav__link ">
+            <a href="../../../../Data_Science/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1448,7 +1448,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Data_Science/Data_Curation/" class="md-nav__link ">
+            <a href="../../../../Data_Science/Data_Curation/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1502,7 +1502,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Data_Science/Data_Curation/Clinical_Trial_Curation/" class="md-nav__link ">
+            <a href="../../../../Data_Science/Data_Curation/Clinical_Trial_Curation/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1575,7 +1575,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Machine_Learning/" class="md-nav__link ">
+            <a href="../../../../Machine_Learning/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1699,7 +1699,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Data_Types/rnaseq/" class="md-nav__link">
+      <a href="../../../Data_Types/rnaseq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1725,8 +1725,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -1738,11 +1740,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_4_2" id="__nav_2_4_2_label" tabindex="0">
@@ -1756,7 +1758,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_4_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_4_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_4_2">
             <span class="md-nav__icon md-icon"></span>
             Tools
@@ -1767,10 +1769,16 @@
                 
   
   
+    
   
   
+  
     
     
+      
+        
+      
+        
       
         
       
@@ -1780,11 +1788,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_2_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_2_1" checked>
         
           
           <label class="md-nav__link" for="__nav_2_4_2_1" id="__nav_2_4_2_1_label" tabindex="0">
@@ -1798,7 +1806,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_4_2_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_4_2_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_4_2_1">
             <span class="md-nav__icon md-icon"></span>
             RNA-Seq Pipelines
@@ -1809,14 +1817,123 @@
                 
   
   
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    DESeq2
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    DESeq2
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Features:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visually-de-result-with-volcano-plot" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visually DE result with volcano plot
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
   
   
     <li class="md-nav__item">
-      <a href="../Tools/RNAseq_Pipelines/kallisto/" class="md-nav__link">
+      <a href="../kallisto/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Kallisto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../STAR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    STAR
   </span>
   
 
@@ -1878,7 +1995,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Pharmacogenomics/" class="md-nav__link ">
+            <a href="../../../../Pharmacogenomics/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1943,7 +2060,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Imaging/" class="md-nav__link ">
+            <a href="../../../../Imaging/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1997,7 +2114,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Imaging/Data_Sources/" class="md-nav__link ">
+            <a href="../../../../Imaging/Data_Sources/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2077,7 +2194,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Imaging/Data_Types/DICOM/" class="md-nav__link">
+      <a href="../../../../Imaging/Data_Types/DICOM/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2098,7 +2215,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Imaging/Data_Types/nifti/" class="md-nav__link">
+      <a href="../../../../Imaging/Data_Types/nifti/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2148,7 +2265,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Imaging/Radiomics/" class="md-nav__link ">
+            <a href="../../../../Imaging/Radiomics/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2207,7 +2324,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Imaging/Tools/" class="md-nav__link ">
+            <a href="../../../../Imaging/Tools/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2263,7 +2380,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Imaging/Tools/QIPCM/" class="md-nav__link ">
+            <a href="../../../../Imaging/Tools/QIPCM/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2296,7 +2413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Imaging/Tools/QIPCM/querying_data/" class="md-nav__link">
+      <a href="../../../../Imaging/Tools/QIPCM/querying_data/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2377,7 +2494,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/" class="md-nav__link ">
+            <a href="../../../../../software_development/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2441,7 +2558,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Development_Environment/" class="md-nav__link ">
+            <a href="../../../../../software_development/Development_Environment/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2495,7 +2612,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Development_Environment/Shells/" class="md-nav__link ">
+            <a href="../../../../../software_development/Development_Environment/Shells/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2552,7 +2669,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Development_Environment/Integrated_Development_Environments/" class="md-nav__link ">
+            <a href="../../../../../software_development/Development_Environment/Integrated_Development_Environments/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2609,7 +2726,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Development_Environment/Package_Managers/" class="md-nav__link ">
+            <a href="../../../../../software_development/Development_Environment/Package_Managers/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2666,7 +2783,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Development_Environment/CLI_Tools/" class="md-nav__link ">
+            <a href="../../../../../software_development/Development_Environment/CLI_Tools/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2723,7 +2840,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Development_Environment/Containerization/" class="md-nav__link ">
+            <a href="../../../../../software_development/Development_Environment/Containerization/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2798,7 +2915,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Languages/" class="md-nav__link ">
+            <a href="../../../../../software_development/Languages/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2852,7 +2969,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Languages/Javascript_Typescript/" class="md-nav__link ">
+            <a href="../../../../../software_development/Languages/Javascript_Typescript/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2911,7 +3028,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Languages/Markdown/" class="md-nav__link ">
+            <a href="../../../../../software_development/Languages/Markdown/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2967,7 +3084,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Languages/Markdown/mkdocs/" class="md-nav__link ">
+            <a href="../../../../../software_development/Languages/Markdown/mkdocs/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3000,7 +3117,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Languages/Markdown/mkdocs/examples/" class="md-nav__link">
+      <a href="../../../../../software_development/Languages/Markdown/mkdocs/examples/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3058,7 +3175,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Languages/Python/" class="md-nav__link ">
+            <a href="../../../../../software_development/Languages/Python/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3117,7 +3234,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Languages/R/" class="md-nav__link ">
+            <a href="../../../../../software_development/Languages/R/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3173,7 +3290,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Languages/R/Tidyverse/" class="md-nav__link ">
+            <a href="../../../../../software_development/Languages/R/Tidyverse/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3206,7 +3323,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Languages/R/Tidyverse/ggplot2/" class="md-nav__link">
+      <a href="../../../../../software_development/Languages/R/Tidyverse/ggplot2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3264,7 +3381,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Languages/Rust/" class="md-nav__link ">
+            <a href="../../../../../software_development/Languages/Rust/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3398,7 +3515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Version_Control/git/introduction/" class="md-nav__link">
+      <a href="../../../../../software_development/Version_Control/git/introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3419,7 +3536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Version_Control/git/quick_git/" class="md-nav__link">
+      <a href="../../../../../software_development/Version_Control/git/quick_git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3498,7 +3615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Version_Control/code_reviews/introduction/" class="md-nav__link">
+      <a href="../../../../../software_development/Version_Control/code_reviews/introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3519,7 +3636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Version_Control/code_reviews/mindsets/" class="md-nav__link">
+      <a href="../../../../../software_development/Version_Control/code_reviews/mindsets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3540,7 +3657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Version_Control/code_reviews/challenges_solutions/" class="md-nav__link">
+      <a href="../../../../../software_development/Version_Control/code_reviews/challenges_solutions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3561,7 +3678,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Version_Control/code_reviews/conducting_a_review/" class="md-nav__link">
+      <a href="../../../../../software_development/Version_Control/code_reviews/conducting_a_review/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3582,7 +3699,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Version_Control/code_reviews/presentation/" class="md-nav__link">
+      <a href="../../../../../software_development/Version_Control/code_reviews/presentation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3611,7 +3728,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Version_Control/orcestra_vc/" class="md-nav__link">
+      <a href="../../../../../software_development/Version_Control/orcestra_vc/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3744,7 +3861,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/introduction/" class="md-nav__link">
+      <a href="../../../../../software_development/Remote_Development/Google_Cloud_Platform/introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3765,7 +3882,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/vertexai/" class="md-nav__link">
+      <a href="../../../../../software_development/Remote_Development/Google_Cloud_Platform/vertexai/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3786,7 +3903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/artifact_registry/" class="md-nav__link">
+      <a href="../../../../../software_development/Remote_Development/Google_Cloud_Platform/artifact_registry/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3807,7 +3924,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/bigquery/" class="md-nav__link">
+      <a href="../../../../../software_development/Remote_Development/Google_Cloud_Platform/bigquery/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3828,7 +3945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/cloud_sql/" class="md-nav__link">
+      <a href="../../../../../software_development/Remote_Development/Google_Cloud_Platform/cloud_sql/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3849,7 +3966,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/gcs/" class="md-nav__link">
+      <a href="../../../../../software_development/Remote_Development/Google_Cloud_Platform/gcs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3870,7 +3987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/serving_images_and_videos/" class="md-nav__link">
+      <a href="../../../../../software_development/Remote_Development/Google_Cloud_Platform/serving_images_and_videos/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3891,7 +4008,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/virtual_machines/" class="md-nav__link">
+      <a href="../../../../../software_development/Remote_Development/Google_Cloud_Platform/virtual_machines/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3941,7 +4058,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Remote_Development/High_Performance_Computing_for_Health/" class="md-nav__link ">
+            <a href="../../../../../software_development/Remote_Development/High_Performance_Computing_for_Health/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4000,7 +4117,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Remote_Development/Lab_Server/" class="md-nav__link ">
+            <a href="../../../../../software_development/Remote_Development/Lab_Server/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4033,7 +4150,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../software_development/Remote_Development/Lab_Server/github_access/" class="md-nav__link">
+      <a href="../../../../../software_development/Remote_Development/Lab_Server/github_access/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4083,7 +4200,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../software_development/Remote_Development/Compute_Canada_Cloud/" class="md-nav__link ">
+            <a href="../../../../../software_development/Remote_Development/Compute_Canada_Cloud/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4165,7 +4282,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../grants/" class="md-nav__link ">
+            <a href="../../../../../grants/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4198,7 +4315,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../grants/Identifying_Suitable_Grants/" class="md-nav__link">
+      <a href="../../../../../grants/Identifying_Suitable_Grants/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4242,7 +4359,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../grants/Preparing_for_Submission/" class="md-nav__link ">
+            <a href="../../../../../grants/Preparing_for_Submission/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4275,7 +4392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../grants/Preparing_for_Submission/UHN_budget_process/" class="md-nav__link">
+      <a href="../../../../../grants/Preparing_for_Submission/UHN_budget_process/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4304,7 +4421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../grants/Writing_a_Strong_Grant_Proposal/" class="md-nav__link">
+      <a href="../../../../../grants/Writing_a_Strong_Grant_Proposal/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4325,7 +4442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../grants/Submission_Process/" class="md-nav__link">
+      <a href="../../../../../grants/Submission_Process/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4346,7 +4463,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../grants/Templates_%26_Resources/" class="md-nav__link">
+      <a href="../../../../../grants/Templates_%26_Resources/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4449,7 +4566,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../onboarding_offboarding/Onboarding/" class="md-nav__link ">
+            <a href="../../../../../onboarding_offboarding/Onboarding/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4482,7 +4599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../onboarding_offboarding/Onboarding/uhn_onboarding/" class="md-nav__link">
+      <a href="../../../../../onboarding_offboarding/Onboarding/uhn_onboarding/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4503,7 +4620,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../onboarding_offboarding/Onboarding/bhklab_onboarding/" class="md-nav__link">
+      <a href="../../../../../onboarding_offboarding/Onboarding/bhklab_onboarding/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4524,7 +4641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../onboarding_offboarding/Onboarding/vpn/" class="md-nav__link">
+      <a href="../../../../../onboarding_offboarding/Onboarding/vpn/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4545,7 +4662,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../onboarding_offboarding/Onboarding/mbp_rotation/" class="md-nav__link">
+      <a href="../../../../../onboarding_offboarding/Onboarding/mbp_rotation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4566,7 +4683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../onboarding_offboarding/Onboarding/lab_member_expertise/" class="md-nav__link">
+      <a href="../../../../../onboarding_offboarding/Onboarding/lab_member_expertise/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4618,7 +4735,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../onboarding_offboarding/Offboarding/" class="md-nav__link ">
+            <a href="../../../../../onboarding_offboarding/Offboarding/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4651,7 +4768,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../onboarding_offboarding/Offboarding/admin_checklist/" class="md-nav__link">
+      <a href="../../../../../onboarding_offboarding/Offboarding/admin_checklist/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4710,7 +4827,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../resources/" class="md-nav__link ">
+            <a href="../../../../../resources/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4743,7 +4860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../resources/Undergraduate_award_opportunities/" class="md-nav__link">
+      <a href="../../../../../resources/Undergraduate_award_opportunities/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4808,7 +4925,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../contributing/" class="md-nav__link ">
+            <a href="../../../../../contributing/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4841,7 +4958,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../contributing/prerequisites/" class="md-nav__link">
+      <a href="../../../../../contributing/prerequisites/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4862,7 +4979,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../contributing/submitting_issues/" class="md-nav__link">
+      <a href="../../../../../contributing/submitting_issues/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4883,7 +5000,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../contributing/adding_content/" class="md-nav__link">
+      <a href="../../../../../contributing/adding_content/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4904,7 +5021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../contributing/reviews/" class="md-nav__link">
+      <a href="../../../../../contributing/reviews/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4925,7 +5042,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../contributing/merging_pr/" class="md-nav__link">
+      <a href="../../../../../contributing/merging_pr/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4946,7 +5063,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../contributing/conventional_commits/" class="md-nav__link">
+      <a href="../../../../../contributing/conventional_commits/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4967,7 +5084,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../contributing/release_deployment/" class="md-nav__link">
+      <a href="../../../../../contributing/release_deployment/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4988,7 +5105,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../contributing/changelog/" class="md-nav__link">
+      <a href="../../../../../contributing/changelog/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5036,44 +5153,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
+  <a href="#features" class="md-nav__link">
     <span class="md-ellipsis">
-      Introduction
+      Features:
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation-and-setup" class="md-nav__link">
+  <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation and Setup
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Installation and Setup">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#loading-star-on-the-h4h-cluster" class="md-nav__link">
-    <span class="md-ellipsis">
-      Loading STAR on the H4H Cluster
+      Example
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#verifying-installation" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#visually-de-result-with-volcano-plot" class="md-nav__link">
     <span class="md-ellipsis">
-      Verifying Installation
+      Visually DE result with volcano plot
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -5095,247 +5197,53 @@
   
 
 
-<h1 id="star-alignment-guide">STAR Alignment Guide<a class="headerlink" href="#star-alignment-guide" title="Anchor link to this section for reference">#</a></h1>
-<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Anchor link to this section for reference">#</a></h2>
-<p><strong>STAR</strong> (Spliced Transcripts Alignment to a Reference) is a high-performance RNA-seq read aligner, widely used for mapping RNA sequencing data to reference genomes. It is optimized for speed and accuracy, especially for aligning spliced reads across exon-exon junctions.</p>
-<p>This guide explains how to set up and use STAR for RNA-seq read alignment.</p>
-<h2 id="installation-and-setup">Installation and Setup<a class="headerlink" href="#installation-and-setup" title="Anchor link to this section for reference">#</a></h2>
-<h3 id="loading-star-on-the-h4h-cluster">Loading STAR on the H4H Cluster<a class="headerlink" href="#loading-star-on-the-h4h-cluster" title="Anchor link to this section for reference">#</a></h3>
-<p>To use STAR on the H4H cluster, load the module:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>module<span class="w"> </span>load<span class="w"> </span>STAR
+<h1 id="deseq2">DESeq2<a class="headerlink" href="#deseq2" title="Anchor link to this section for reference">#</a></h1>
+<p>DESeq2 is a popular R package used for analyzing RNA count data - transcriptomics. It is widely used for differentially expressed analysis (DE) between different conditions (e.g. WT vs. mutant). The package also integrates many powerful data processing and analysis tools.</p>
+<h2 id="features">Features:<a class="headerlink" href="#features" title="Anchor link to this section for reference">#</a></h2>
+<p><strong>Normalization</strong>: DESeq2 normalizes the count data to account for differences in sequencing depth and RNA composition.<br />
+<strong>Statistical Modeling</strong>: It uses a negative binomial distribution to model the count data, which is appropriate for overdispersed count data.<br />
+<strong>Differential Expression Analysis</strong>: DESeq2 provides statistical tests to identify genes that are differentially expressed between conditions.<br />
+<strong>Visualization</strong>: The package includes functions for visualizing results, such as MA plots and heatmaps.  </p>
+<h2 id="example">Example<a class="headerlink" href="#example" title="Anchor link to this section for reference">#</a></h2>
+<p>One may follow the workflow template from below (data preprocessing and further analysis are needed, and they vary between different analyses):
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a># Create DESeqDataSet object
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>dds &lt;- DESeqDataSetFromMatrix(countData = countData, ## your raw count
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>                              colData = colData, ## your column metadata (i.e. sample/cell data)
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>                              design = ~ condition) ## specifies the experimental design (e.g. conditions, treatments, etc.)
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a># Run the DESeq2 pipeline
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>dds &lt;- DESeq(dds)
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>DEresults = results(dds)
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>DEresults &lt;- DEresults[order(DEresults$padj),]
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a># Extract results
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>res &lt;- results(dds)
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>## MA plot to check how well normalization works
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>plotMA(dds)
 </span></code></pre></div>
-<h3 id="verifying-installation">Verifying Installation<a class="headerlink" href="#verifying-installation" title="Anchor link to this section for reference">#</a></h3>
-<p>After loading STAR, check the version to ensure compatibility with your pipeline:</p>
-<p><div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>STAR<span class="w"> </span>--version
-</span></code></pre></div>
-The output should display the version number, for example:
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>STAR\2.7.9a
+One can perform QC through PCA plot:
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>rld &lt;- rlog(dds)
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>DESeq2::plotPCA(rld, ntop = 500, intgroup = &#39;group&#39;) +
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>  ylim(-50, 50) + theme_bw()
 </span></code></pre></div></p>
-<h1 id="preparing-for-star-alignment">Preparing for STAR Alignment<a class="headerlink" href="#preparing-for-star-alignment" title="Anchor link to this section for reference">#</a></h1>
-<p>Before using STAR, ensure you have the following files:</p>
-<h3 id="reference-genome-fasta-file">Reference Genome FASTA File<a class="headerlink" href="#reference-genome-fasta-file" title="Anchor link to this section for reference">#</a></h3>
-<ul>
-<li>Contains the DNA sequences of your reference genome.</li>
-<li><strong>Example for GRCh38:</strong></li>
-<li>Here: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.40_GRCh38.p14/
-  <code>GCF_000001405.40_GRCh38.p14_genomic.fna.gz</code></li>
-</ul>
-<h3 id="gene-annotation-file-gtf">Gene Annotation File (GTF)<a class="headerlink" href="#gene-annotation-file-gtf" title="Anchor link to this section for reference">#</a></h3>
-<ul>
-<li>Includes gene structure (exons, introns, splice junctions).</li>
-<li><strong>Example for GRCh38:</strong></li>
-<li>Here: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.40_GRCh38.p14/
-  <code>GCF_000001405.40_GRCh38.p14_genomic.gtf.gz</code></li>
-</ul>
-<h3 id="rna-seq-fastq-files">RNA-seq FASTQ Files<a class="headerlink" href="#rna-seq-fastq-files" title="Anchor link to this section for reference">#</a></h3>
-<ul>
-<li>Paired-end or single-end sequencing data.</li>
-</ul>
-<h2 id="index">Index<a class="headerlink" href="#index" title="Anchor link to this section for reference">#</a></h2>
-<h2 id="2-generating-a-genome-index">2. Generating a Genome Index<a class="headerlink" href="#2-generating-a-genome-index" title="Anchor link to this section for reference">#</a></h2>
-<p>STAR requires a genome index to efficiently align reads. Submit the following command in your SLURM script to generate it:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>module<span class="w"> </span>load<span class="w"> </span>STAR/&lt;version_number&gt;
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="c1"># Replace &lt;version_number&gt; with the desired version, e.g., module load STAR/2.7.9a</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>STAR<span class="w"> </span>--runThreadN<span class="w"> </span><span class="m">8</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">     </span>--runMode<span class="w"> </span>genomeGenerate<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">     </span>--genomeDir<span class="w"> </span>/path/to/genomeDir<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">     </span>--genomeFastaFiles<span class="w"> </span>genome.fa<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">     </span>--sjdbGTFfile<span class="w"> </span>annotations.gtf<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">     </span>--sjdbOverhang<span class="w"> </span><span class="m">100</span>
+<h2 id="visually-de-result-with-volcano-plot">Visually DE result with volcano plot<a class="headerlink" href="#visually-de-result-with-volcano-plot" title="Anchor link to this section for reference">#</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>dds &lt;- DESeq(dds)
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>DEresults = results(dds)
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>library(EnhancedVolcano)
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a># DEseq object is S4 object - we need to convert it to a data frame (S3)
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>DEresults &lt;- as.data.frame(DEresults)
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>EnhancedVolcano(DEresults,
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>                lab = row.names(DEresults),
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>                x = &#39;log2FoldChange&#39;,
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>                y = &#39;padj&#39;,
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>                pCutoff = 5e-2,
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>                FCcutoff = 1,
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>                labSize = 2.5,
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>                legendLabels=c(&#39;Not sig.&#39;,expression(paste(&#39;Log&#39;[2],&#39;FC&#39;)),&#39;padj&#39;, expression(paste(&#39;padj &amp; Log&#39;[2],&#39;FC&#39;))),
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>                ylab = &quot;padj&quot;)
 </span></code></pre></div>
-<h3 id="explanation-of-parameters">Explanation of Parameters<a class="headerlink" href="#explanation-of-parameters" title="Anchor link to this section for reference">#</a></h3>
-<ul>
-<li><strong><code>--runThreadN</code></strong>: Number of threads (adjust to available cores for faster processing).</li>
-<li><strong><code>--genomeDir</code></strong>: Directory where the genome indices will be stored.</li>
-<li><strong><code>--genomeFastaFiles</code></strong>: Path to the reference genome FASTA file(s). For multiple FASTA files, list them separated by spaces.</li>
-<li><strong><code>--sjdbGTFfile</code></strong>: Path to the GTF annotation file for splice junction information.</li>
-<li><strong><code>--sjdbOverhang</code></strong>: Read length minus 1 (e.g., for 101 bp reads, use 100).</li>
-</ul>
-<h2 id="3-aligning-rna-seq-reads">3. Aligning RNA-seq Reads<a class="headerlink" href="#3-aligning-rna-seq-reads" title="Anchor link to this section for reference">#</a></h2>
-<p>After generating the genome index, you can align RNA-seq reads using STAR.</p>
-<h3 id="single-end-reads-example">Single-End Reads Example:<a class="headerlink" href="#single-end-reads-example" title="Anchor link to this section for reference">#</a></h3>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>module<span class="w"> </span>load<span class="w"> </span>STAR/&lt;version_number&gt;
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="c1"># Replace &lt;version_number&gt; with the desired version, e.g., module load STAR/2.7.9a</span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>STAR<span class="w"> </span>--runThreadN<span class="w"> </span><span class="m">8</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">     </span>--genomeDir<span class="w"> </span>/path/to/genomeDir<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="w">     </span>--readFilesCommand<span class="w"> </span>gunzip<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">     </span>--readFilesIn<span class="w"> </span>sample_R1.fastq<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">     </span>--outFileNamePrefix<span class="w"> </span>sample<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">     </span>--quantMode<span class="w"> </span>GeneCounts<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="w">     </span>--outReadsUnmapped<span class="w"> </span>Fastx<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="w">     </span>--chimSegmentMin<span class="w"> </span><span class="m">10</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="w">     </span>--outSAMtype<span class="w"> </span>BAM<span class="w"> </span>SortedByCoordinate
-</span></code></pre></div>
-<h3 id="paired-end-reads-example">Paired-End Reads Example:<a class="headerlink" href="#paired-end-reads-example" title="Anchor link to this section for reference">#</a></h3>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1"># Replace &lt;version_number&gt; with the desired version, e.g., module load STAR/2.7.9a</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>STAR<span class="w"> </span>--runThreadN<span class="w"> </span><span class="m">8</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">     </span>--genomeDir<span class="w"> </span>/path/to/genomeDir<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">     </span>--readFilesCommand<span class="w"> </span>gunzip<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="w">     </span>--readFilesIn<span class="w"> </span>sample_R1.fastq<span class="w"> </span>sample_R2.fastq<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">     </span>--outFileNamePrefix<span class="w"> </span>sample<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">     </span>--quantMode<span class="w"> </span>GeneCounts<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="w">     </span>--outReadsUnmapped<span class="w"> </span>Fastx<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="w">     </span>--chimSegmentMin<span class="w"> </span><span class="m">10</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="w">     </span>--outSAMtype<span class="w"> </span>BAM<span class="w"> </span>SortedByCoordinate
-</span></code></pre></div>
-<h3 id="explanation-of-parameters_1">Explanation of Parameters<a class="headerlink" href="#explanation-of-parameters_1" title="Anchor link to this section for reference">#</a></h3>
-<ul>
-<li>
-<p><strong>----readFilesIn</strong>: 
-Input FASTQ files (single or paired-end).</p>
-</li>
-<li>
-<p><strong>--outFileNamePrefix</strong>: 
-Prefix for output files.</p>
-</li>
-<li>
-<p><strong>--outSAMtype</strong>: 
-Specifies output format (e.g., sorted BAM file).</p>
-</li>
-<li>
-<p><strong>--runThreadN:</strong>
-Number of CPU threads to use. Adjust this based on the computational resources available on your cluster. Using more threads speeds up the process but requires more cores.</p>
-</li>
-<li>
-<p><strong>--genomeDir:</strong>
-Path to the directory containing the pre-generated STAR genome index. This directory is created using the --runMode genomeGenerate command (see the section on generating the genome index).</p>
-</li>
-<li>
-<p><strong>--readFilesCommand:</strong>
-Command used to preprocess the input FASTQ files. In this example, gunzip is specified, indicating that the input FASTQ files are compressed (.gz). For uncompressed files, this parameter is not needed.</p>
-</li>
-<li>
-<p><strong>--readFilesIn:</strong>
-Specifies the input FASTQ file(s) for alignment. For single-end reads, provide one file; for paired-end reads, provide both files separated by a space (e.g., sample_R1.fastq sample_R2.fastq).</p>
-</li>
-<li>
-<p><strong>--outFileNamePrefix:</strong>
-Specifies the prefix for all output files. STAR will append specific suffixes to this prefix to generate different output files (e.g., BAM files, logs).</p>
-</li>
-<li>
-<p><strong>--quantMode:</strong>
-Enables quantification of reads at the gene level. Using GeneCounts generates a file (ReadsPerGene.out.tab) that provides read counts for each gene, useful for downstream expression analysis.</p>
-</li>
-<li>Output includes three columns for each gene:</li>
-<li>Uniquely mapped reads.</li>
-<li>Reads mapped to both strands.</li>
-<li>
-<p>Reads mapped to the opposite strand.</p>
-</li>
-<li>
-<p><strong>--outSAMtype:</strong>
-Specifies the format of the output alignment file: </p>
-</li>
-<li><strong>BAM Unsorted:</strong> Produces an unsorted BAM file.</li>
-<li>
-<p><strong>BAM SortedByCoordinate:</strong> </p>
-<ul>
-<li>Produces a sorted BAM file based on genomic coordinates, which is typically required for downstream tools like featureCounts or visualization in genome browsers.</li>
-</ul>
-</li>
-<li>
-<p><strong>--outReadsUnmapped:</strong>
-Specify whether to output unmapped reads. Options include Fastx to write unmapped reads in FASTQ format, which can be useful for troubleshooting or further analysis.</p>
-</li>
-<li>
-<p><strong>chimSegmentMin:</strong>
-Minimum length of chimeric alignments (e.g., for detecting fusion transcripts). Defaults to 0, but setting a value like 10 can help identify chimeric reads.</p>
-</li>
-</ul>
-<h2 id="star-output">STAR Output<a class="headerlink" href="#star-output" title="Anchor link to this section for reference">#</a></h2>
-<p>STAR generates several output files. Key files include:</p>
-<h3 id="log-files">Log Files<a class="headerlink" href="#log-files" title="Anchor link to this section for reference">#</a></h3>
-<ul>
-<li><strong><code>Log.out</code></strong>: General log with alignment summary.</li>
-<li><strong><code>Log.final.out</code></strong>: Detailed alignment statistics.</li>
-<li><strong><code>Log.progress.out</code></strong>: Progress of the alignment process, including percentage completion.</li>
-</ul>
-<h3 id="alignment-files">Alignment Files<a class="headerlink" href="#alignment-files" title="Anchor link to this section for reference">#</a></h3>
-<ul>
-<li><strong><code>Aligned.sortedByCoord.out.bam</code></strong>: BAM file containing reads aligned to the reference genome, sorted by genomic coordinates.</li>
-<li><strong><code>Aligned.out.bam</code></strong>: BAM file containing reads aligned to the reference genome (unsorted).</li>
-</ul>
-<h3 id="gene-counts">Gene Counts<a class="headerlink" href="#gene-counts" title="Anchor link to this section for reference">#</a></h3>
-<ul>
-<li><strong><code>ReadsPerGene.out.tab</code></strong>: File containing gene-level read counts, with three columns for each gene:</li>
-<li>Uniquely mapped reads.</li>
-<li>Reads mapped to both strands.</li>
-<li>Reads mapped to the opposite strand.</li>
-</ul>
-<h3 id="unmapped-reads">Unmapped Reads<a class="headerlink" href="#unmapped-reads" title="Anchor link to this section for reference">#</a></h3>
-<ul>
-<li><strong><code>Unmapped.out.mate1</code></strong>: FASTQ file containing unmapped reads from the first mate (if specified).</li>
-<li><strong><code>Unmapped.out.mate2</code></strong>: FASTQ file containing unmapped reads from the second mate (if specified).</li>
-</ul>
-<h3 id="splice-junctions">Splice Junctions<a class="headerlink" href="#splice-junctions" title="Anchor link to this section for reference">#</a></h3>
-<ul>
-<li><strong><code>SJ.out.tab</code></strong>: File listing detected splice junctions, including information about their genomic coordinates and supporting read counts.</li>
-</ul>
-<h3 id="chimeric-reads">Chimeric Reads<a class="headerlink" href="#chimeric-reads" title="Anchor link to this section for reference">#</a></h3>
-<ul>
-<li><strong><code>Chimeric.out.sam</code></strong>: SAM file containing chimeric (fusion) alignments, useful for identifying fusion transcripts.</li>
-</ul>
-<p><strong>Several of these parameters are optional, for more details see:</strong>
-- https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf </p>
-<h2 id="running-star-alignments-in-parallel-using-sbatch-array">Running STAR Alignments in Parallel Using <code>sbatch --array</code><a class="headerlink" href="#running-star-alignments-in-parallel-using-sbatch-array" title="Anchor link to this section for reference">#</a></h2>
-<p>When processing multiple RNA-seq samples, you can use SLURM's <code>--array</code> option to run jobs in parallel. This approach is efficient for handling batch alignment tasks.</p>
-<h3 id="1-preparing-input-files">1. Preparing Input Files<a class="headerlink" href="#1-preparing-input-files" title="Anchor link to this section for reference">#</a></h3>
-<p>Create a text file listing all your sample FASTQ file pairs, with one sample per line. For paired-end data, include both files separated by a space, like this:</p>
-<p><strong><code>samples.txt</code>:</strong>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>sample1_R1.fastq.gz sample1_R2.fastq.gz sample2_R1.fastq.gz sample2_R2.fastq.gz sample3_R1.fastq.gz sample3_R2.fastq.gz
-</span></code></pre></div></p>
-<h3 id="2-writing-the-sbatch-script">2. Writing the <code>sbatch</code> Script<a class="headerlink" href="#2-writing-the-sbatch-script" title="Anchor link to this section for reference">#</a></h3>
-<p>Here's an example <code>sbatch</code> script to run STAR for each sample in the list using an array job:</p>
-<p><strong><code>run_star.sh</code>:</strong>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="ch">#!/bin/bash</span>
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="c1">#SBATCH --job-name=STAR_array</span>
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="c1">#SBATCH --array=0-2                 # Set the range of job indices (adjust based on the number of samples)</span>
-</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="c1">#SBATCH --ntasks=1                  # Number of tasks per job</span>
-</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="c1">#SBATCH --cpus-per-task=8           # Number of CPUs per task</span>
-</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="c1">#SBATCH --mem=61440M                # Memory allocation per job</span>
-</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="c1">#SBATCH --p himem                   # Partition</span>
-</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="c1">#SBATCH -t 07:00:00                 # Max runtime </span>
-</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="c1">#SBATCH --output=logs/star_%A_%a.log # Log file for each task</span>
-</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>
-</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a><span class="c1"># Load STAR module</span>
-</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>module<span class="w"> </span>load<span class="w"> </span>STAR
-</span><span id="__span-7-13"><a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>
-</span><span id="__span-7-14"><a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a><span class="c1"># Read the samples file to get the corresponding FASTQ files for this array task</span>
-</span><span id="__span-7-15"><a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a><span class="nv">SAMPLES_FILE</span><span class="o">=</span><span class="s2">&quot;samples.txt&quot;</span>
-</span><span id="__span-7-16"><a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a><span class="nv">LINE</span><span class="o">=</span><span class="k">$(</span>sed<span class="w"> </span>-n<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span><span class="s2">p&quot;</span><span class="w"> </span><span class="nv">$SAMPLES_FILE</span><span class="k">)</span>
-</span><span id="__span-7-17"><a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a><span class="nv">FASTQ1</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span><span class="w"> </span><span class="nv">$LINE</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>cut<span class="w"> </span>-d<span class="w"> </span><span class="s1">&#39; &#39;</span><span class="w"> </span>-f<span class="w"> </span><span class="m">1</span><span class="k">)</span>
-</span><span id="__span-7-18"><a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a><span class="nv">FASTQ2</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span><span class="w"> </span><span class="nv">$LINE</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>cut<span class="w"> </span>-d<span class="w"> </span><span class="s1">&#39; &#39;</span><span class="w"> </span>-f<span class="w"> </span><span class="m">2</span><span class="k">)</span>
-</span><span id="__span-7-19"><a id="__codelineno-7-19" name="__codelineno-7-19" href="#__codelineno-7-19"></a>
-</span><span id="__span-7-20"><a id="__codelineno-7-20" name="__codelineno-7-20" href="#__codelineno-7-20"></a><span class="c1"># Specify the genome directory and output directory</span>
-</span><span id="__span-7-21"><a id="__codelineno-7-21" name="__codelineno-7-21" href="#__codelineno-7-21"></a><span class="nv">GENOME_DIR</span><span class="o">=</span><span class="s2">&quot;/path/to/genomeDir&quot;</span>
-</span><span id="__span-7-22"><a id="__codelineno-7-22" name="__codelineno-7-22" href="#__codelineno-7-22"></a><span class="nv">OUTPUT_DIR</span><span class="o">=</span><span class="s2">&quot;/path/to/output&quot;</span>
-</span><span id="__span-7-23"><a id="__codelineno-7-23" name="__codelineno-7-23" href="#__codelineno-7-23"></a>
-</span><span id="__span-7-24"><a id="__codelineno-7-24" name="__codelineno-7-24" href="#__codelineno-7-24"></a><span class="c1"># Run STAR</span>
-</span><span id="__span-7-25"><a id="__codelineno-7-25" name="__codelineno-7-25" href="#__codelineno-7-25"></a>STAR<span class="w"> </span>--runThreadN<span class="w"> </span><span class="m">8</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-7-26"><a id="__codelineno-7-26" name="__codelineno-7-26" href="#__codelineno-7-26"></a><span class="w">     </span>--genomeDir<span class="w"> </span><span class="nv">$GENOME_DIR</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-7-27"><a id="__codelineno-7-27" name="__codelineno-7-27" href="#__codelineno-7-27"></a><span class="w">     </span>--readFilesCommand<span class="w"> </span>gunzip<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-7-28"><a id="__codelineno-7-28" name="__codelineno-7-28" href="#__codelineno-7-28"></a><span class="w">     </span>--readFilesIn<span class="w"> </span><span class="nv">$FASTQ1</span><span class="w"> </span><span class="nv">$FASTQ2</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-7-29"><a id="__codelineno-7-29" name="__codelineno-7-29" href="#__codelineno-7-29"></a><span class="w">     </span>--outFileNamePrefix<span class="w"> </span><span class="nv">$OUTPUT_DIR</span>/sample_<span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span>_<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-7-30"><a id="__codelineno-7-30" name="__codelineno-7-30" href="#__codelineno-7-30"></a><span class="w">     </span>--outSAMtype<span class="w"> </span>BAM<span class="w"> </span>SortedByCoordinate
-</span></code></pre></div></p>
-<h3 id="2-submitting-the-job">2. Submitting the Job<a class="headerlink" href="#2-submitting-the-job" title="Anchor link to this section for reference">#</a></h3>
-<p>Submit the job array with the following command:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>sbatch<span class="w"> </span>run_star.sh
-</span></code></pre></div>
-<h3 id="explanation-of-parameters_2">Explanation of Parameters<a class="headerlink" href="#explanation-of-parameters_2" title="Anchor link to this section for reference">#</a></h3>
-<ul>
-<li><strong><code>--array=0-2</code></strong>: Specifies the range of indices for the job array. Adjust based on the number of lines in <code>samples.txt</code>. For example, if you have 10 samples, use <code>--array=0-9</code>.</li>
-<li><strong><code>SLURM_ARRAY_TASK_ID</code></strong>: A unique identifier for each array task, corresponding to the line in <code>samples.txt</code>.</li>
-<li><strong><code>sed -n "${SLURM_ARRAY_TASK_ID}p"</code></strong>: Extracts the line from <code>samples.txt</code> corresponding to the current array task.</li>
-</ul>
-<h3 id="4-logs-and-output">4. Logs and Output<a class="headerlink" href="#4-logs-and-output" title="Anchor link to this section for reference">#</a></h3>
-<ul>
-<li><strong>Logs</strong>: Logs for each task will be saved in the <code>logs/</code> directory with filenames like <code>star_JOBID_TASKID.log</code>.</li>
-<li><strong>Output</strong>: Aligned BAM files and other outputs will be saved in the specified <code>OUTPUT_DIR</code>.</li>
-</ul>
 
 
 
@@ -5358,7 +5266,7 @@ Minimum length of chimeric alignments (e.g., for detecting fusion transcripts). 
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 9, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 30, 2025</span>
   </span>
 
     
@@ -5368,7 +5276,7 @@ Minimum length of chimeric alignments (e.g., for detecting fusion transcripts). 
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 9, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 27, 2024</span>
   </span>
 
     
@@ -5383,7 +5291,7 @@ Minimum length of chimeric alignments (e.g., for detecting fusion transcripts). 
     </span>
     <nav>
       
-        <a href="mailto:70668756+peterhher@users.noreply.github.com">PeterHHer</a>
+        <a href="mailto:118444948+ofek-lin@users.noreply.github.com">Ofek Yu Lin</a>
     </nav>
   </span>
 
@@ -5420,7 +5328,7 @@ Minimum length of chimeric alignments (e.g., for detecting fusion transcripts). 
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Introduction">
+          <a href="../../../Data_Types/rnaseq/" class="md-footer__link md-footer__link--prev" aria-label="Previous: RNA-Seq">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -5430,20 +5338,20 @@ Minimum length of chimeric alignments (e.g., for detecting fusion transcripts). 
                 Previous
               </span>
               <div class="md-ellipsis">
-                Introduction
+                RNA-Seq
               </div>
             </div>
           </a>
         
         
           
-          <a href="../deseq/" class="md-footer__link md-footer__link--next" aria-label="Next: DESeq2">
+          <a href="../kallisto/" class="md-footer__link md-footer__link--next" aria-label="Next: Kallisto">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                DESeq2
+                Kallisto
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -5492,22 +5400,22 @@ Minimum length of chimeric alignments (e.g., for detecting fusion transcripts). 
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["header.autohide", "content.code.annotate", "content.code.copy", "content.code.select", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.path", "navigation.tabs", "navigation.top", "navigation.tracking", "navigation.footer", "search.highlight", "search.suggest", "search.share", "toc.follow"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["header.autohide", "content.code.annotate", "content.code.copy", "content.code.select", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.path", "navigation.tabs", "navigation.top", "navigation.tracking", "navigation.footer", "search.highlight", "search.suggest", "search.share", "toc.follow"], "search": "../../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.60a45f97.min.js"></script>
       
         <script src="https://www.googletagmanager.com/gtag/js?id=G-GW7GQT08LM"></script>
       
-        <script src="../../../assets/js/ga4.js"></script>
+        <script src="../../../../../assets/js/ga4.js"></script>
       
-        <script src="../../../assets/js/extra.js"></script>
+        <script src="../../../../../assets/js/extra.js"></script>
       
         <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       
-        <script src="../../../assets/js/tablesort.js"></script>
+        <script src="../../../../../assets/js/tablesort.js"></script>
       
-        <script src="../../../assets/js/katex.js"></script>
+        <script src="../../../../../assets/js/katex.js"></script>
       
         <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
       
