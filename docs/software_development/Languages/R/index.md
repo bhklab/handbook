@@ -23,6 +23,8 @@ Part of a book on software development in R (highly recommend the entire book to
 [Bioconductor Packages: Development, Maintenance, and Peer Review](https://contributions.bioconductor.org/)  
 If you are looking to build a package for Bioconductor, I heavily recommend going through these guidelines before starting as they have a rigorous approval process
 
+^^Highlighted chapters^^: [Coding Style](https://contributions.bioconductor.org/r-code.html#r-code)
+
 **Guide to data.tables**    
 [data.table in R ](https://rdatatable.gitlab.io/data.table/) supplemented with [External Guide to data.table](https://www.machinelearningplus.com/data-manipulation/datatable-in-r-complete-guide/) and [101 R data.table exercises](https://www.machinelearningplus.com/data-manipulation/101-r-data-table-exercises/)
 
