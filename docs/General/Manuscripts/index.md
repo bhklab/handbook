@@ -3,6 +3,8 @@
 This guide outlines key steps for preparing a manuscript in the BHK Lab to streamline review and feedback from Benjamin. For full details, refer to the complete guide here:  
 📄 [Manuscript Writing Guidelines](https://docs.google.com/document/d/1KmADmM8-rfxrnE0NzD-yaTyjxXvGq7JYFisiOadtkZE/edit?tab=t.0)
 
+---
+
 ## 1. Initial Setup
 
 | Step | Action |
@@ -68,6 +70,8 @@ Sarah Lee², Benjamin Haibe-Kains¹ ³
 ¹ Princess Margaret Cancer Centre, University Health Network, Toronto, Ontario, Canada  
 ² Department of Computer Science, University of Toronto, Toronto, Ontario, Canada  
 ³ Vector Institute for Artificial Intelligence, Toronto, Ontario, Canada
+
+---
 
 **📝 Note:**  
 Before making any changes to formatting, structure, or manuscript components, please consult with the **project lead** and the **corresponding author(s)**. All updates should align with the target journal’s submission guidelines and policies.
