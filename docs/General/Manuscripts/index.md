@@ -69,27 +69,6 @@ Sarah Lee², Benjamin Haibe-Kains¹ ³
 ² Department of Computer Science, University of Toronto, Toronto, Ontario, Canada  
 ³ Vector Institute for Artificial Intelligence, Toronto, Ontario, Canada
 
-## 5. Cover Letter Structure
-
-| Paragraph | Content |
-|-----------|---------|
-| 1 | Manuscript title, type, background & research question |
-| 2 | Methods, key findings, significance |
-| 3 | Relevance to journal, broader impact |
-| Final | Conflicts, disclosures, author contact, journal policies |
-
-✅ **Mandatory Phrases:**
-- “This manuscript has not been published elsewhere…”
-- “All authors approve this submission…”
-
-## 6. Response to Reviewers
-
-- Use clear formatting:
-  - Reviewer comments in **black**
-  - Responses in **blue**
-- Maintain a polite, constructive tone.
-- Reference exact changes in the manuscript.
-
 **📝 Note:**  
 Before making any changes to formatting, structure, or manuscript components, please consult with the **project lead** and the **corresponding author(s)**. All updates should align with the target journal’s submission guidelines and policies.
 
