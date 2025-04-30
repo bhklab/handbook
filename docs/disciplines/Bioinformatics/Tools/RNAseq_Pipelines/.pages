@@ -1,4 +1,7 @@
 title: RNA-Seq Pipelines
 
 nav:
+    - DESeq2: deseq.md
     - Kallisto: kallisto.md
+    - STAR: STAR.md
+    - ...
