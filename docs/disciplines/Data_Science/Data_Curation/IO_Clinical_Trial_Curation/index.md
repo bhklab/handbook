@@ -88,7 +88,7 @@ These columns must be filled (use `NA` if unavailable):
 | **event_occurred_pfs/event_occurred_os** | Binary measurement showing whether the event of interest occurred (1) or not (0).  The event name like "pfs", "os" must be appended to event_occurred to differentiate the survival measure                                                                |
 
 !!!note
-    Common columns have to be the first set of columns appearing in the metadata followed by the rest of the columns. You could add other columns with the name in the source data, but the standard columns with the above mentioned names should be present.
+    Common columns must be the first set of columns appearing in the metadata, followed by any additional columns. You may add other metadata columns available in the source data, but the standardized columns above should be present first.
     
 
 ## 3.3 Common Additional Columns 
