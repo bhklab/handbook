@@ -22,7 +22,7 @@ Add the following **legend at the top** of your manuscript:
 | Editable Figures | "[Miro URL]" |
 | Figures Tables_Supplementary_Info | "[Overleaf URL]" |
 | Computer Code | "[GitHub URL]" |
-| Executable Container | "[Code Ocean URL] (Optional, if applicable)" |
+| Executable Container | "[Code Ocean URL] *(optional, if applicable)*" |
 | References | "[Paperpile link]" |
 
 Then, **use these highlighting rules consistently** throughout the manuscript draft:
@@ -43,8 +43,9 @@ Then, **use these highlighting rules consistently** throughout the manuscript dr
 | **Subtitles** | Use `HEADING 2` |
 | **Figures** | Created in [Miro](https://miro.com/app/dashboard/) |
 | **Tables** | Use Google Docs for small; Sheets or CSV for large |
-| **Code** | Upload to [BHK GitHub](https://github.com/bhklab) |
-| **Data** | Store and run in [Code Ocean capsule](https://codeocean.com/) |
+| **Supplementary Info** | Store in [Overleaf](https://www.overleaf.com/) *(optional, if applicable)*|
+| **Code & Scripts** | Upload to [BHK GitHub](https://github.com/bhklab) |
+| **Data** | Store and run in [Code Ocean capsule](https://codeocean.com/) *(optional, if applicable)*|
 | **References** | Use  [Paperpile](https://paperpile.com/) |
 
 ## 4. Author & Institution Formatting
