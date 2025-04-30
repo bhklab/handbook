@@ -11,7 +11,7 @@ This guide outlines key steps for preparing a manuscript in the BHK Lab to strea
 |------|--------|
 | 1 | Create a shared Google Drive folder for all manuscript materials |
 | 2 | Share it with `bhaibeka@gmail.com`, co-authors, and add `bhklab.research@gmail.com` as **Editor** |
-| 3 | Transfer ownership to `bhklab.research@gmail.com` |
+| 3 | Transfer **ownership** to `bhklab.research@gmail.com` |
 | 4 | Organize into subfolders: Figures, Tables, Supplementary, Code, etc. |
 
 ## 2. Add Legend & Highlighting Guide at the Top of Manuscript
