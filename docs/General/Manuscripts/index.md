@@ -22,7 +22,7 @@ Add the following **legend at the top** of your manuscript:
 | Editable Figures | "[Miro URL]" |
 | Figures Tables_Supplementary_Info | "[Overleaf URL]" |
 | Computer Code | "[GitHub URL]" |
-| Executable Container | "[Code Ocean URL] # Optional, if applicable" |
+| Executable Container | "[Code Ocean URL] (Optional, if applicable)" |
 | References | "[Paperpile link]" |
 
 Then, **use these highlighting rules consistently** throughout the manuscript draft:
