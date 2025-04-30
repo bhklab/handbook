@@ -62,11 +62,12 @@ Then, **use these highlighting rules consistently** throughout the manuscript dr
 - Vector Institute for Artificial Intelligence, Toronto, Ontario, Canada
 
 **Authors**:  
-Sarah Lee², Benjamin Haibe-Kains¹
+Sarah Lee², Benjamin Haibe-Kains¹ ³
 
 **Affiliations**:  
 ¹ Princess Margaret Cancer Centre, University Health Network, Toronto, Ontario, Canada  
 ² Department of Computer Science, University of Toronto, Toronto, Ontario, Canada  
+³ Vector Institute for Artificial Intelligence, Toronto, Ontario, Canada
 
 ## 5. Cover Letter Structure
 
