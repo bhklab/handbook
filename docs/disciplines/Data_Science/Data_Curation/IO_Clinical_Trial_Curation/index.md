@@ -7,7 +7,7 @@ This documentation describes the curation process of clinical trial data for imm
 ## Objective
 
 The objective is to curate clinical trial datasets into R's [MultiAssayExperiment (MAE)](https://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html) object.  
-An example curated MAE object is available on [ORCESTRA](https://zenodo.org/records/7332074).
+An example curated MAE object is available on [ORCESTRA](https://orcestra.ca/clinical_icb/62f2a126cc4bc7736ac4ee6f).
 
 Currently, a clinical data MAE includes:
 
