@@ -53,6 +53,13 @@ Then, **use these highlighting rules consistently** throughout the manuscript dr
 - List authors under the title with superscript numbers.
 - Superscripts link to institutions (see examples below).
 
+**Authors**:  
+Sarah Lee², Benjamin Haibe-Kains¹
+
+**Affiliations**:  
+¹ Princess Margaret Cancer Centre, University Health Network, Toronto, Ontario, Canada  
+² Department of Computer Science, University of Toronto, Toronto, Ontario, Canada  
+
 ### Common Institution Examples
 
 - Princess Margaret Cancer Centre, University Health Network, Toronto, Ontario, Canada
@@ -61,16 +68,7 @@ Then, **use these highlighting rules consistently** throughout the manuscript dr
 - Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada
 - Vector Institute for Artificial Intelligence, Toronto, Ontario, Canada
 
-## 5. Supplementary Materials
-
-| Content | Platform |
-|--------|----------|
-| Editable figures | Miro |
-| Supplementary info | Overleaf |
-| Code & scripts | GitHub |
-| Executable container | Code Ocean |
-
-## 6. Cover Letter Structure
+## 5. Cover Letter Structure
 
 | Paragraph | Content |
 |-----------|---------|
@@ -83,7 +81,7 @@ Then, **use these highlighting rules consistently** throughout the manuscript dr
 - “This manuscript has not been published elsewhere…”
 - “All authors approve this submission…”
 
-## 7. Response to Reviewers
+## 6. Response to Reviewers
 
 - Use clear formatting:
   - Reviewer comments in **black**
