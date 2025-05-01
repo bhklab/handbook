@@ -150,24 +150,36 @@ The table below shows the other common columns across the 19 ICB datasets curate
 
 ### 4.1 Gene Annotations
 
-Lab-standardized annotations are stored in the [BHKLAB-Pachyderm Annotations repository](https://github.com/BHKLAB-Pachyderm/Annotations). Available `.RData` files include `features_gene`, `features_transcript`, and `tx2gene` tables.
+Check the gene annotation version used in the original dataset (typically stated in the reference paper or supplement).  
 
-Preferred Gencode versions:
+Then download the matching file from the BHKLab [Annotations repository](https://github.com/BHKLAB-Pachyderm/Annotations). Preferred versions:  
+- [**Gencode v19**](https://github.com/BHKLAB-Pachyderm/Annotations/blob/master/Gencode.v19.annotation.RData)  
+- [**Gencode v40**](https://github.com/BHKLAB-Pachyderm/Annotations/blob/master/Gencode.v40.annotation.RData)  
 
-- [Gencode v19](https://github.com/BHKLAB-Pachyderm/Annotations/blob/master/Gencode.v19.annotation.RData)  
-- [Gencode v40](https://github.com/BHKLAB-Pachyderm/Annotations/blob/master/Gencode.v40.annotation.RData)
+Available `.RData` files include: `features_gene`, `features_transcript`, and `tx2gene`.  
 
-> Use the version appropriate for your reference genome. See the Gene Curation SOP.
+> The goal is to **retain as many genes as possible** and match the original reference. Using a mismatched annotation version can lead to a loss of gene entries—this is not preferred.
 
 ### 4.2 Drug Annotations
 
-Follow the Drug Curation SOP and standardize using BHKLab's [drug annotation files](https://github.com/BHKLAB-Pachyderm/Annotations).
+Standardize treatment names using BHKLab’s [drug annotation files](https://github.com/BHKLAB-Pachyderm/Annotations).  
+
+If the treatment is not listed there, search external databases such as [**PubChem**](https://pubchem.ncbi.nlm.nih.gov/) to verify the correct drug name.
+
+> **Note:**  
+> For the `treatment` column, immunotherapy regimens are currently grouped into the following categories:
+>
+> - **PD-1/PD-L1**: Immune checkpoint inhibitors targeting PD-1 or PD-L1  
+> - **CTLA4**: Checkpoint inhibitors targeting CTLA-4  
+> - **IO+combo**: Combination immunotherapy  
+> - **IO+chemo**: Immunotherapy plus chemotherapy  
+> - **IO+targeted**: Immunotherapy plus targeted therapy  
+> - **Vaccine_BasedIO**: Immunotherapy based on therapeutic cancer vaccines
+
 
 ### 4.3 Tissue Annotations
 
 Use [OncoTree](http://oncotree.mskcc.org/) to map cancer types. If unmatched, perform manual review and map to standardized tissue categories.
-
----
 
 ## 5. Create SE or RangedSE 
 
