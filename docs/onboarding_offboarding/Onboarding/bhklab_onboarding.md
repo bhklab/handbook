@@ -34,7 +34,7 @@ On the first day in the lab, all new employees will be scheduled for a research 
 
 - [x] Employee has picked up their UHN Photo ID card from Toronto General Photo ID office (Department is “Princess Margaret - Research”)
 - [x] Employee has picked up their PMCRT Access card from the PMCRT security office
-- [x] Assigned to a [workspace in the lab](https://docs.google.com/spreadsheets/d/1LOKDkhRi4wDBf5Cg5Cjzzdeh0frhG4YZ5h11d835Qa0/edit?gid=0#gid=0)
+- [x] Assigned to a [workspace in the lab](https://docs.google.com/spreadsheets/d/1LOKDkhRi4wDBf5Cg5Cjzzdeh0frhG4YZ5h11d835Qa0/edit?gid=425990717#gid=425990717)
 - [x] Ensure the employee has access to a computer/monitor, keyboard, and mouse if available in the [Lab Equipment Inventory](https://docs.google.com/spreadsheets/d/1zFbTAdv5DT6tnajDMeXwoWP65VzjcD9PxynnXzholwE/edit?gid=212760015#gid=212760015&fvid=1274444863)
 
 
