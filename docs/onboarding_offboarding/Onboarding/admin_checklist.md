@@ -39,7 +39,7 @@ Respond to the email with the following template: [Email Template](bhklab_onboar
 ---
 
 ## Onboarding Form Completion
-Once they have completed the onboardin form their information will show up in the [BHKLab Member Tracking sheet](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=789264692#gid=789264692) in the `BHKLab_Onboaring_Form_Response` tab.
+Once they have completed the onboarding form their information will show up in the [BHKLab Member Tracking sheet](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=789264692#gid=789264692) in the `BHKLab_Onboaring_Form_Response` tab.
 
 You can start setting up their lab access now.
 
@@ -87,7 +87,7 @@ If the new lab member requires access to H4H for their project, they need an acc
 
 ## Orientation Meeting
 
-* Go through the [BHKLab Onboarding Guide](bhklab_onboardin.md) with the new lab member (virtually or in person).
+* Go through the [BHKLab Onboarding Guide](bhklab_onboarding.md) with the new lab member (virtually or in person).
 * Brief about working mode (onsite vs. virtual days)
 * Lab meeting and JC scheduling
     - Mention Julia is in charge of scheduling
