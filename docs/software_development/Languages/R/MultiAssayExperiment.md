@@ -45,7 +45,7 @@ R (version "4.5")
 
 ## Make a MultiAssayExperiment Object
 
-```r
+'''
 library(MultiAssayExperiment)
 
 # Suppose you have rna, mutation data and patient information
