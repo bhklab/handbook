@@ -14,7 +14,8 @@ Each curated dataset includes two key components:
 1. **Clinical metadata**: Patient/sample-level information such as treatment, response, survival, demographics.  
 2. **Molecular profiles**: Expression data (RNA-seq or microarray), and when available SNV and CNA data. These are formatted as [**SummarizedExperiment (SE)** or **RangedSummarizedExperiment (RangedSE)**](https://bioconductor.org/packages/devel/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html)  objects, depending on the assay type.
 
-**Public data curated on ORCESTRA**:  
+We curate all data into the [**MultiAssayExperiment (MAE)**](https://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html) format. To get started, download a sample curated dataset from [**ORCESTRA**](https://www.orcestra.ca/clinical_icb) to explore its structure.
+
 All publicly available curated datasets are located on [ORCESTRA](https://www.orcestra.ca/clinical_icb). We recommend downloading one to explore the clinical metadata and molecular assay structure.
 
 
