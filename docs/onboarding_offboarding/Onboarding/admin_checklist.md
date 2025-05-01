@@ -21,17 +21,22 @@ BHKLab Onboarding starts after UHN onboarding from Soleil’s end. Hiring is usu
 
 Exceptions are rotation students as we will be informed a few days before they join. In this case, the lab-coordinator (Sisira) will find a project and share it with you.
 
+---
+
 ## Upon Hiring
 Once a new lab member has been hired, the following steps should be taken:
 
 1. Add the new lab member to the [Incoming Member Data](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=168762825#gid=168762825) sheet in the BHKLab Member Tracking sheet.
 1. Determine what workspace the new lab member will be assigned to in the [Lab workspace](https://docs.google.com/spreadsheets/d/1LOKDkhRi4wDBf5Cg5Cjzzdeh0frhG4YZ5h11d835Qa0/edit?gid=0#gid=0) document. You may need to create a new tab to rearrange the seating. Consult with the lab coordinator about this.
 
+---
 
 ## Welcome Email
 Upon successful completion of UHN onboarding, Soleil will send an email (Subject: UHN Photo ID and PMCRT access card) to the new employee with details including access card and photo ID pick-up, directions etc. Following this, the lab onboarding by the assigned lab member can commence.
 
 Respond to the email with the following template: [Email Template](bhklab_onboarding_email_template.emltpl)
+
+---
 
 ## Onboarding Form Completion
 Once they have completed the onboardin form their information will show up in the [BHKLab Member Tracking sheet](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=789264692#gid=789264692) in the `BHKLab_Onboaring_Form_Response` tab.
@@ -42,6 +47,7 @@ You can start setting up their lab access now.
 
 1. Set their `ACTIVE STATUS` to `Onboarding`
 1. Add their bhklab gmail to the [BHKLab Members Google Group](https://groups.google.com/g/bhklab-members)
+1. Check off the boxes for lab resource access as they have been set up following the instructions below.
 
 ---
 
@@ -77,8 +83,9 @@ If the new lab member requires access to H4H for their project, they need an acc
 1. Ben will reply to approve the request.
 1. Zhibin will reply once the account has been created.
 
-## Orientation Meeting
+---
 
+## Orientation Meeting
 
 * Go through the [BHKLab Onboarding Guide](bhklab_onboardin.md) with the new lab member (virtually or in person).
 * Brief about working mode (onsite vs. virtual days)
