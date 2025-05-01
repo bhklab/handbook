@@ -4,9 +4,9 @@ Ideas for a breakdown:
 
 ## Programming Languages
 
-- R
-- Python
-- JavaScript/Typescript
+- [R](R/index.md)
+- [Python](Python/index.md)
+- [JavaScript/TypeScript](Javascript_Typescript/index.md)
 - Rust
 
 ## Scripting Languages
@@ -21,7 +21,7 @@ Ideas for a breakdown:
 
 - Definition
 - Examples
-    - SQL
+    - [SQL](SQL/index.md)
     - HTML
 
 ## Compiled vs. Interpreted Languages
