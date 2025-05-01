@@ -231,4 +231,4 @@ The following tabs are included:
     ```
 
     - **Script**: Core functions for curating clinical and molecular data, [ICB_Common](https://github.com/BHKLAB-Pachyderm/ICB_Common/tree/9d3297b69d182e459a25596971670020473a63a5)
-    - **Annotation**: Source for drug and tissue and gene annotations files, [Annotations]((https://github.com/BHKLAB-Pachyderm/Annotations/tree/bd2325ad727b2351d637b66f0313d0dfb81a0917))
+    - **Annotation**: Source for drug, tissue and gene annotations files, [Annotations]((https://github.com/BHKLAB-Pachyderm/Annotations/tree/bd2325ad727b2351d637b66f0313d0dfb81a0917))
