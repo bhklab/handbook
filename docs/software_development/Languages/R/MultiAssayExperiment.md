@@ -1,7 +1,8 @@
 
 ## MultiAssayExperiment
-[MultiAssayExperiment](https://www.bioconductor.org/packages/devel/bioc/vignettes/MultiAssayExperiment/inst/doc/MultiAssayExperiment.html) is an R package used to harmonize data management of multiple experimental assays performed on an overlapping set of specimens. It is designed to manage and integrate multiple types of omics or experimental data (e.g., RNA-seq, mutation data, methylation, proteomics) into a single, structured object. The object stores different data modalities (assays) together, keep track of which samples have which data types, with a goal to facilitate joint analysis, visualization, and subsetting across multiple experiments.
+[MultiAssayExperiment](https://www.bioconductor.org/packages/devel/bioc/vignettes/MultiAssayExperiment/inst/doc/MultiAssayExperiment.html) (MAE) is an R package used to harmonize data management of multiple experimental assays performed on an overlapping set of specimens. It is designed to manage and integrate multiple types of omics or experimental data (e.g., RNA-seq, mutation data, methylation, proteomics) into a single, structured object. The object stores different data modalities (assays) together, keep track of which samples have which data types, with a goal to facilitate joint analysis, visualization, and subsetting across multiple experiments.
 
+You can create a MultiAssayExperiment object if you have a multiomics dataset (RNA-seq, mutation, proteomics data) for the same or overlapping sets of samples, and if you want to apply multi-omics integration methods, ML models, or visualizations that require synchronized datasets.
 
 > "It provides a familiar Bioconductor user experience by extending concepts from SummarizedExperiment,
 > supporting an open-ended mix of standard data classes for individual assays,
@@ -14,9 +15,9 @@
 Ramos M, Schiffer L, Re A, Azhar R, Basunia A, Rodriguez Cabrera C, Chan T, Chapman P, Davis S, Gomez-Cabrero D, Culhane A, Haibe-Kains B, Hansen K, Kodali H, Louis M, Mer A, Reister M, Morgan M, Carey V, Waldron L (2017). “Software For The Integration Of Multi-Omics Experiments In Bioconductor.” Cancer Research, 77(21), e39-42. doi:10.1158/0008-5472.CAN-17-0344, https://cancerres.aacrjournals.org/content/77/21/e39. 
 
 
-### Structure of a MultiAssayExperiment Object
+## Structure of a MAE Object
 
-- **`ExperimentList`**: A list of assays (SummarizedExperiment, matrix, or other compatible objects).
+- **`ExperimentList`**: A list of assays (i.e. SummarizedExperiment, matrix).
 - **`colData`**: Metadata about the primary samples (patients/cell lines), such as age, treatment, outcome.
 - **`sampleMap`**: A table mapping how each assay's sample IDs relate to the primary colData sample IDs (handles cases where IDs differ across experiments).
 
@@ -27,9 +28,6 @@ Ramos M, Schiffer L, Re A, Azhar R, Basunia A, Rodriguez Cabrera C, Chan T, Chap
                 |-- Proteomics data
         |-- colData (patient-level metadata)
         |-- sampleMap (which patient → which sample in each assay)
-
-## When to MultiAssayExperiment
-You can create a MultiAssayExperiment object if you have a multiomics dataset (RNA-seq, mutation, proteomics data) for the same or overlapping sets of samples, and if you want to apply multi-omics integration methods, ML models, or visualizations that require synchronized datasets.
 
 
 ## Installation requirement
@@ -43,7 +41,7 @@ R (version "4.5")
 
         
 
-## Make a MultiAssayExperiment Object
+## Build a MAE Object
 
 
         library(MultiAssayExperiment)
@@ -62,7 +60,7 @@ R (version "4.5")
         colData = patient_info
         )
 
-## How to view and work with a MultiAssayExperiment 
+## Work with a MAE 
 We will give an example Using Immune Checkpoint Blockade Dataset. Suppose you have downloaded a Immune Checkpoint Blockade Dataset from [ORCESTRA](https://www.orcestra.ca/)
     
 
