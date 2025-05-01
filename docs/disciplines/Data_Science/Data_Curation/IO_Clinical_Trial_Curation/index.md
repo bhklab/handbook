@@ -28,7 +28,7 @@ The standard curation process includes:
 3. **Process and clean clinical metadata**, harmonizing variable names, response labels, and survival fields  
 4. **Add standardized annotations** (e.g., drug names, gene identifiers, tissue types)  
 5. **Create `SE` or `RangedSE` objects**, depending on assay type  
-6. **Assemble the final `MultiAssayExperiment (MAE)` object** integrating all data components  
+6. **Assemble the final `MAE` object**, integrating all data components  
 7. **Review a reference IO dataset** — we recommend exploring a curated example on [**ORCESTRA**](https://www.orcestra.ca/clinical_icb) to understand expected structure and standards
 
 ## 1. Download Source Data
@@ -55,7 +55,11 @@ If raw RNA (FASTQ files) are not available, look for processed files by modality
 
 If RNA-seq FASTQ files are available, the output should include **gene-level TPM** values .Include isoform (transcript-level) data when available.
 
-### 1.3 Clinical Metadata
+## COMMENT: How about othe rmolecular data? 
+## COMMENT: How to guide any new user where to find pipeline to run from scratch (using FASTQ files) and extract e.g., RNA-seq count data? 
+## Do we have only RNA-seq data for IO? You alreay curated I-SPY which includes microarray data? Please add more data modality that you already work along with link (e.g., using ICB-Common or guide them in H4H)
+
+### 1.3 Clinical Metadata (Farnoosh will improve this part)
 
 Clinical metadata should be collected as CSV or Excel files and should include:
 
@@ -84,7 +88,7 @@ You will need **TPM values** for downstream analysis, whether derived from raw F
   }
   ```
 
-### 2.2 SNV/CNA Processing
+### 2.2 SNV/CNA Processing ---> Please add link to help user how to curate? GitHub or H4H?!
 
 - SNV data: binary gene × sample matrix preferred
 - CNA data: gene-level amplifications, deletions, or summary scores
@@ -114,7 +118,7 @@ Format clinical metadata as:
 !!!note
     Common columns must be the first set of columns appearing in the metadata, followed by any additional columns. You may add other metadata columns available in the source data, but the standardized columns above should be present first.
 
-### 3.2 Additional Columns 
+### 3.2 Additional Columns  ---> rna.info? dna.info? 
 
 The table below shows the other common columns across the 19 ICB datasets curated
 
@@ -144,7 +148,7 @@ The table below shows the other common columns across the 19 ICB datasets curate
 | TMB_raw             | Tumor Mutation Burden raw values                                                                                                                                                                                                        | in-lab curation |
 | treatment           | Drug target or drug name                                                                                                                                                                                                                | source          |
 
-## 4. Add Annotations
+## 4. Add Annotations ----> links for gene or drug annotation is not informative. It refers to the repo that includes different scripts or information. Please improve this part which is really important. 
 
 ### 4.1 Gene Annotations
 
@@ -173,7 +177,7 @@ If the treatment is not listed there, search external databases such as [**PubCh
 > - **IO+combo**: Combination immunotherapy  
 > - **IO+chemo**: Immunotherapy plus chemotherapy  
 > - **IO+targeted**: Immunotherapy plus targeted therapy  
-> - **Vaccine_BasedIO**: Immunotherapy based on therapeutic cancer vaccines
+> - **Vaccine_BasedIO**: Immunotherapy based on therapeutic cancer vaccines ---> did we agree to have this 'name' for IO data? Or did we curate this type of data? We mainly focus on IO/ICB or combination with chemo, targeted. 
 
 
 ### 4.3 Tissue Annotations
