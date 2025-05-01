@@ -230,5 +230,5 @@ The following tabs are included:
         └── 📄 Format_cased_sequenced.R   # Flags patients with RNA/CNA/SNV data
     ```
 
-    - **Script**: General functions for clinical and molecular data curation located at [ICB_Common](https://github.com/BHKLAB-Pachyderm/ICB_Common/tree/9d3297b69d182e459a25596971670020473a63a5)
-    - **Annotation**: Functions for drug and tissue annotations located at [Annotations]((https://github.com/BHKLAB-Pachyderm/Annotations/tree/bd2325ad727b2351d637b66f0313d0dfb81a0917))
+    - **Script**: Core functions for curating clinical and molecular data, [ICB_Common](https://github.com/BHKLAB-Pachyderm/ICB_Common/tree/9d3297b69d182e459a25596971670020473a63a5)
+    - **Annotation**: Source for drug and tissue and gene annotations files, [Annotations]((https://github.com/BHKLAB-Pachyderm/Annotations/tree/bd2325ad727b2351d637b66f0313d0dfb81a0917))
