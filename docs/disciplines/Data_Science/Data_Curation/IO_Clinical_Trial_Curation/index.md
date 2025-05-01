@@ -1,13 +1,12 @@
-# IO Clinical Trial Curation
+# Immuno-Oncology Clinical Trial Curation
 
-**Welcome to the IO Curation Guide!**  
+**Welcome to the Immuno-Oncology Curation Guide!**
 
-Whether you're new to the lab or looking for a refresher, this guide will walk you through how to curate immunotherapy clinical trial datasets into structured, analysis-ready R objects. Our goal is to help you transform raw and processed data into clean, standardized **MultiAssayExperiment (MAE)** objects that can be used across downstream analyses and collaborative projects.
-
+Whether you're new to the lab or need a quick refresher, this guide walks you through the process of curating Immuno-Oncology (IO) clinical trial datasets into structured, analysis-ready R objects. The goal is to standardize raw and processed data into clean **MultiAssayExperiment (MAE)** objects for use in downstream analysis and collaborative research.
 
 ## What Is IO Curation?
 
-IO curation is the process of transforming clinical trial data into reusable, analysis-ready formats for R.
+IO curation is the process of transforming clinical trial data into reusable, analysis-ready formats compatible with R-based workflows.
 
 Each curated dataset includes two key components:
 
@@ -16,20 +15,21 @@ Each curated dataset includes two key components:
 
 We curate all data into the [**MultiAssayExperiment (MAE)**](https://www.bioconductor.org/packages/devel/bioc/vignettes/MultiAssayExperiment/inst/doc/MultiAssayExperiment.html) format. All publicly available curated datasets are located on [ORCESTRA](https://www.orcestra.ca/clinical_icb). We recommend downloading one to explore the clinical metadata and molecular assay structure.
 
+# COMMENT: How about annotation data? 
+
 ## Step-by-Step Workflow
 
 An example of a clinical data processing pipeline is available [ICB_Van_Allen Snakemake](https://github.com/BHKLAB-Pachyderm/ICB_Van_Allen-snakemake.git).
 
-The standard process includes:
+The standard curation process includes:
 
-1. Download source data  
-2. Process raw molecular data (if applicable)  
-3. Process clinical data  
-4. Add standardized annotations  
-5. Create `SE` or `RangedSE` objects  
-6. Build the final `MAE` object  
-7. IO Example Dataset
-
+1. **Access and download source data** (raw or processed)  
+2. **Process or import molecular data** (e.g., RNA-seq, SNV, CNA), ensuring standardized formats and identifiers  
+3. **Process and clean clinical metadata**, harmonizing variable names, response labels, and survival fields  
+4. **Add standardized annotations** (e.g., drug names, gene identifiers, tissue types)  
+5. **Create `SE` or `RangedSE` objects**, depending on assay type  
+6. **Assemble the final `MultiAssayExperiment (MAE)` object** integrating all data components  
+7. **Review a reference IO dataset** — we recommend exploring a curated example on [**ORCESTRA**](https://www.orcestra.ca/clinical_icb) to understand expected structure and standards
 
 ## 1. Download Source Data
 
