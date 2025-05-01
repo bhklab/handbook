@@ -1,8 +1,6 @@
 # Cover Letter and Response to Reviewers
 
 This guide outlines key steps for preparing a **cover letter** and a **response to reviewers** in the BHK Lab.  
-Refer to the complete guide here:  
-📄 [Cover Letter Guidelines](https://docs.google.com/document/d/1KmADmM8-rfxrnE0NzD-yaTyjxXvGq7JYFisiOadtkZE/edit?tab=t.0)
 
 ---
 

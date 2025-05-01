@@ -1,7 +1,6 @@
 # Guidelines for Manuscript Preparation
 
-This guide outlines key steps for preparing a manuscript in the BHK Lab to streamline review and feedback from Benjamin. For full details, refer to the complete guide here:  
-📄 [Manuscript Writing Guidelines](https://docs.google.com/document/d/1KmADmM8-rfxrnE0NzD-yaTyjxXvGq7JYFisiOadtkZE/edit?tab=t.0)
+This guide outlines key steps for preparing a manuscript in the BHK Lab to streamline review and feedback from Benjamin and co-authors.
 
 ---
 
