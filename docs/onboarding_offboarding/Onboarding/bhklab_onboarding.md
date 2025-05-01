@@ -25,7 +25,7 @@ On the first day in the lab, all new employees will be scheduled for a research 
 - [BHKLab Google Account](../../General/Communications/bhklab_gmail.md)
 - [Summary of Work (SOW)](../../General/Summary_Of_Work/index.md)
 - [BHKLab Calendar](../../General/Communications/bhklab_calendar.md), and the dates of [lab meetings](../../General/Meetings/lab_meeting.md) and [journal club](../../General/Meetings/journal_club.md)
-- BHK Lab Slack
+- [BHK Lab Slack](../../General/Communications/slack.md)
 - [BHK Lab GitHub](https://github.com/bhklab) (added by supervisor/mentor as this is project specific)
 - Any additional programs/systems specific to the employee’s work duties
 
