@@ -1,81 +1,106 @@
 # IO Clinical Trial Curation
 
-This documentation describes the curation process of clinical trial data for immunotherapy datasets into a standardized R object.
+**Welcome to the IO Curation Guide!**  
 
-# Immunotherapy Datasets
-
-## Objective
-
-The objective is to curate clinical trial datasets into R's [MultiAssayExperiment (MAE)](https://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html) object.  
-An example curated MAE object is available on [ORCESTRA](https://orcestra.ca/clinical_icb/62f2a126cc4bc7736ac4ee6f).
-
-Currently, a clinical data MAE includes:
-
-1. Clinical metadata: Patient/sample information
-2. Molecular profiles: RNA-seq, SNV, CNA data formatted as a [RangedSummarizedExperiment or SummarizedExperiment](https://bioconductor.org/packages/devel/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html).
+Whether you're new to the lab or looking for a refresher, this guide will walk you through how to curate immunotherapy clinical trial datasets into structured, analysis-ready R objects. Our goal is to help you transform raw and processed data into clean, standardized **MultiAssayExperiment (MAE)** objects that can be used across downstream analyses and collaborative projects.
 
 
-### Data Processing Overview
-![](img/Clinical_trial_curation_overview.png){: align=left height=25% width=25% }
+## What Is IO Curation?
 
-An example of clinical data processing pipeline can be found here as [a Snakemake pipeline](https://github.com/BHKLAB-DataProcessing/ICB_Braun-snakemake/blob/main/Snakefile). 
+IO curation is the process of transforming clinical trial data into reusable, analysis-ready formats for R.
 
-Generally, an overall process of the curation follows the steps outlined below:
+Each curated dataset includes two key components:
 
-1. **Download source data**: Download data from publications or data repositories. The source data can be in various formats such as an Excel file, CSV or TXT. 
-2. **Process raw molecular data, if available**: The RNA-seq processing from raw FASTQ is outlined on the [RNAseq raw processing page](https://collaborate.uhnresearch.ca/confluence/display/BHKLabPRC/RNA+seq+raw+processing).
-3. **Add annotations**: Ensure that genes, tissues and treatments are annotated with metadata available from external source and lab standardized columns.
-4. **Create RangedSummarizedExperiment or SummarizedExperiment (SE) object**: For the molecular data, we prefer RangedSummarizedExperiment as it is compatible with [GenomicRanges R package](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html).
-5. **Create MAE object**: Format downloaded data to the layout and structure that is favourable to creating a MAE object. Through this process, the source data is extracted from the source data format and formatted into a CSV or TSV file. Integrate molecular data to MAE. 
+1. **Clinical metadata**: Patient/sample-level information such as treatment, response, survival, demographics.  
+2. **Molecular profiles**: Expression data (RNA-seq or microarray), and when available SNV and CNA data. These are formatted as [**SummarizedExperiment (SE)** or **RangedSummarizedExperiment (RangedSE)**](https://bioconductor.org/packages/devel/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html)  objects, depending on the assay type.
 
-
-Let's start curation: the first step is **Data Access**.
-
-# 1. Data Access
-
-## 1.1 Public Data
-
-If the source is PubMed, raw omics files and clinical response metadata are available in Supplementary sections or external repository links under the Data Availability section of the paper.
-
-## 1.2 Private Data
-
-Private datasets containing PHI or detailed clinical response information may require access requests to the corresponding author or data custodian.
+**Public data curated on ORCESTRA**:  
+All publicly available curated datasets are located on [ORCESTRA](https://www.orcestra.ca/clinical_icb). We recommend downloading one to explore the clinical metadata and molecular assay structure.
 
 
-# 2. Data Processing Workflow
+## Step-by-Step Workflow
 
-An example of the clinical data processing pipeline: [Snakemake pipeline (ICB Braun)](https://github.com/BHKLAB-DataProcessing/ICB_Braun-snakemake/blob/main/Snakefile)
+An example of a clinical data processing pipeline is available [ICB_Van_Allen Snakemake](https://github.com/BHKLAB-Pachyderm/ICB_Van_Allen-snakemake.git).
 
-## 2.1 General Workflow
+The standard process includes:
 
-![](img/Clinical_trial_curation_overview.png){: align=left height=25% width=25% }
-
-An example of clinical data processing pipeline can be found here as [a Snakemake pipeline](https://github.com/BHKLAB-DataProcessing/ICB_Braun-snakemake/blob/main/Snakefile). 
-
-Generally, an overall process of the curation follows the steps outlined below:
-
-1. **Download source data**: Download data from publications or data repositories. The source data can be in various formats such as an Excel file, CSV, or TXT. 
-2. **Process raw molecular data, if available**: The RNA-seq processing from raw FASTQ is outlined on the [RNAseq raw processing page](https://collaborate.uhnresearch.ca/confluence/display/BHKLabPRC/RNA+seq+raw+processing).
-3. **Add annotations**: Ensure that genes, tissues, and treatments are annotated with metadata available from external source and lab standardized columns.
-4. **Create RangedSummarizedExperiment or SummarizedExperiment (SE) object**: For the molecular data, we prefer RangedSummarizedExperiment objects as they are compatible with the [GenomicRanges R package](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html).
-5. **Create MAE object**: Format the downloaded data to a layout and structure aligned with an MAE object. Through this process, the source data is extracted and formatted into a CSV or TSV file. Integrate the molecular data with the MAE.
+1. Download source data  
+2. Process raw molecular data (if applicable)  
+3. Process clinical data  
+4. Add standardized annotations  
+5. Create `SE` or `RangedSE` objects  
+6. Build the final `MAE` object  
+7. IO Example Dataset
 
 
-# 3. Clinical Metadata Curation
+## 1. Download Source Data
 
-## 3.1 Objective
+Begin by reviewing the original publication to confirm study design, molecular assays, and whether the data is public or private.
 
-Format the clinical metadata:
+#### Dataset Categories
 
-- **Rows**: patient/sample IDs
+- **Private datasets**: Stored internally (e.g., Box, institutional drives). May include PHI and require ethics approval.
+- **Public datasets**: Available via [GEO](https://www.ncbi.nlm.nih.gov/geo/), [dbGaP](https://www.ncbi.nlm.nih.gov/gap/), [Zenodo](https://zenodo.org), and [EGA](https://ega-archive.org).
+
+### 1.1 Molecular Data
+
+If raw RNA (FASTQ files) are not available, look for processed files by modality:
+
+- RNA-seq: TPM or count matrices (CSV, TSV, Excel)  
+- RNA-seq: Isoform-level expression (optional but recommended)  
+- DNA (SNV): VCF, MAF, or binary gene-level mutation calls  
+- DNA (CNA): Gene-by-sample matrices or segment files
+
+### 1.2 RNA-seq Raw Data
+
+[RNA sequencing (RNA-seq)](https://bhklab.github.io/handbook/dev/disciplines/Bioinformatics/Data_Types/rnaseq/) measures gene expression by sequencing RNA and aligning it to a reference genome.
+
+If RNA-seq FASTQ files are available, the output should include **gene-level TPM** values .Include isoform (transcript-level) data when available.
+
+### 1.3 Clinical Metadata
+
+Clinical metadata should be collected as CSV or Excel files and should include:
+
+- Patient/sample identifiers
+- Treatment and response information
+- OS/PFS time and event censoring (highly preferred)
+
+## 2. Process Molecular Data
+
+### 2.1 RNA-seq Processing
+
+You will need **TPM values** for downstream analysis, whether derived from raw FASTQ files or already processed expression data. The final output should be **log-transformed TPM**.
+
+ - If you have **TPM**, use:
+  ```r
+  # Apply log-transformation to TPM values
+    log2(TPM + 0.001)
+
+  ```
+
+- If you have **raw counts**, convert to TPM using:
+  ```r
+  GetTPM <- function(counts, gene_length) {
+    x <- counts / gene_length
+    return(t(t(x) * 1e6 / colSums(x)))
+  }
+  ```
+
+### 2.2 SNV/CNA Processing
+
+- SNV data: binary gene × sample matrix preferred
+- CNA data: gene-level amplifications, deletions, or summary scores
+
+Ensure clean row/column names and valid sample IDs.
+
+## 3. Process Clinical Data
+
+Format clinical metadata as:
+
+- **Rows**: patient/sample IDs  
 - **Columns**: clinical attributes
 
-This structure becomes the `colData()` in the MAE or SE.
-
-
-## 3.2 Mandatory Columns
-
-These columns must be filled (use `NA` if unavailable):
+### 3.1 Mandatory Columns
 
 | **Column name**                          | **Description**                                                                                                                                                                                                                                            |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -87,13 +112,13 @@ These columns must be filled (use `NA` if unavailable):
 | **survival_unit**                        | The unit in which the survival time is measured. If the event is measured in other units such as “day”, or “year”, it must be converted to "month" for consistency                                                                                         |
 | **event_occurred_pfs/event_occurred_os** | Binary measurement showing whether the event of interest occurred (1) or not (0).  The event name like "pfs", "os" must be appended to event_occurred to differentiate the survival measure                                                                |
 
+
 !!!note
     Common columns must be the first set of columns appearing in the metadata, followed by any additional columns. You may add other metadata columns available in the source data, but the standardized columns above should be present first.
-    
 
-## 3.3 Common Additional Columns 
+### 3.2 Additional Columns 
 
-The table below shows the other common columns across the 19 ICB datasets curated.
+The table below shows the other common columns across the 19 ICB datasets curated
 
 | Column name         | Description                                                                                                                                                                                                                             | type            |
 |---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
@@ -120,119 +145,77 @@ The table below shows the other common columns across the 19 ICB datasets curate
 | TMB_perMb           | TMB per megabase (Mb) calculated where: TMB = mutns/target; mutns = number of non-synonymous mutations; and target = target size of the sequencing. See Supplementary Table S2 of [PMID: 36055464](https://pubmed.ncbi.nlm.nih.gov/36055464/) | in-lab curation |
 | TMB_raw             | Tumor Mutation Burden raw values                                                                                                                                                                                                        | in-lab curation |
 | treatment           | Drug target or drug name                                                                                                                                                                                                                | source          |
-# 4. Molecular Data Processing
 
-## 4.1 RNA-seq Data
+## 4. Add Annotations
 
-First and foremost, **the RNA-seq data should be at gene-level and in TPM**. The TPM value should be log transformed with log2(TPM) + 0.001.
+### 4.1 Gene Annotations
 
-- Expected input: **TPM** values
-- Transform:
-```r
-log2(TPM + 0.001)
-```
-- If only raw counts available:
-```r
-GetTPM <- function(counts, gene_size) {
-  x <- counts / gene_size
-  return(t(t(x) * 1e6 / colSums(x)))
-}
-```
-- Include isoform (transcript-level) data when available.
+Lab-standardized annotations are stored in the [BHKLAB-Pachyderm Annotations repository](https://github.com/BHKLAB-Pachyderm/Annotations). Available `.RData` files include `features_gene`, `features_transcript`, and `tx2gene` tables.
 
-If available, counts and transcript-level data (isoforms) should also be included.
+Preferred Gencode versions:
 
-
-## 4.2 SE Object Requirements
-
-- `colData`: Clinical metadata, formatted in patient/sample IDs as rows and attribute data as columns..
-- `assay`: Expression/mutation matrix, formatted in gene/transcript IDs as rows and patient/sample IDs as columns.
-- `rowData`: Gene metadata (Ensembl, transcript info), formatted as gene/transcript IDs as rows and attributes as columns. More details on the gene metadata below.
-
-
-# 5. Building the MultiAssayExperiment (MAE)
-
-After generating SE objects:
-
-- Integrate all data into a [MultiAssayExperiment](https://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html)
-
-## 5.1 Key MAE Components
-
-- `colData()` — Clinical metadata
-- `experiments()` — Molecular assays
-- `sampleMap()` — Sample coordination map
-- `assays()` — Access matrices
-
-!!!note
- Sample IDs must match between metadata and assays.
-
-
-# 6. Annotation Standards
-
-Lab standardized annotation data are stored in BHKLab-Pachyderm's Annotation repository.
-
-## 6.1 Gene Annotations
-
-Lab standardized annotation data are stored in BHKLab-Pachyderm's Annotation repository.
-
-#### Gene Annotations
-Gene metadata is obtained from [Gencode](https://www.gencodegenes.org/human/releases.html) annotations. We have a few versions of Gencode annotation data available in .RData files. An .RData file includes data frames that contains gene and transcript information such as features_gene, features_transcript and tx2gene. Some of the available gene annotations include:
-
-- [Gencode v19](https://github.com/BHKLAB-Pachyderm/Annotations/blob/master/Gencode.v19.annotation.RData)
+- [Gencode v19](https://github.com/BHKLAB-Pachyderm/Annotations/blob/master/Gencode.v19.annotation.RData)  
 - [Gencode v40](https://github.com/BHKLAB-Pachyderm/Annotations/blob/master/Gencode.v40.annotation.RData)
 
-!!!note
-    Please use the most recent version for your gene annotations from this repository. The version of Gencode must be decided after checking the reference genome. Follow Gene curation SOP for detailed steps
+> Use the version appropriate for your reference genome. See the Gene Curation SOP.
+
+### 4.2 Drug Annotations
+
+Follow the Drug Curation SOP and standardize using BHKLab's [drug annotation files](https://github.com/BHKLAB-Pachyderm/Annotations).
+
+### 4.3 Tissue Annotations
+
+Use [OncoTree](http://oncotree.mskcc.org/) to map cancer types. If unmatched, perform manual review and map to standardized tissue categories.
+
+---
+
+## 5. Create SE or RangedSE 
+
+Use:
+
+- `SummarizedExperiment`: for expression or mutation matrices (TPM, SNV binary calls)
+- `RangedSummarizedExperiment`: for genomic ranges (e.g., VCFs with genomic coordinates)
+
+Each object should include:
+
+- `assay`: main data matrix (features × samples)  
+- `rowData`: feature metadata (e.g., gene symbol, Ensembl ID)  
+- `colData`: sample-level metadata (clinical)
 
 
-## 6.2 Drug Annotations
+## 6. Build MAE
 
-For clinical data, drug annotations are performed in case-by-case basis. For immunotherapy treatments, both instances such as anti-"target" (eg: anti-CTLA4) and monoclonal antibody brand names can be present. Please follow the Drug curation SOP to correctly annotate such cases using the standard lab files in the [Annotation](https://github.com/BHKLAB-Pachyderm/Annotations) repository.
+Integrate multiple assay types and clinical data into a single MAE object.
 
-## 6.3 Tissue Annotations
+**Required Components:**
 
-For tissue annotations that cannot be mapped using Tissue curation SOP to the standard lab files in the [Annotation repository](https://github.com/BHKLAB-Pachyderm/Annotations), manual review needs to be performed in case-by-case basis.
+- `experiments()`: a list of `SE`/`RangedSE` objects (e.g., `expr`, `snv`, `cna`)  
+- `colData()`: the clinical metadata  
+- `sampleMap()`: map linking sample IDs to patients across assays
 
+## 7. IO Example Dataset
 
-# 7. Example Dataset: ORCESTRA Website Tabs
+View the dataset online at **[ICB_Van_Allen](https://www.orcestra.ca/clinical_icb/62f29ca3b89ff37208748d8b)** — available on **Orcestra**.
 
-Dataset Example: [**ICB_Van_Allen**](https://www.orcestra.ca/clinical_icb/62f29ca3b89ff37208748d8b)
+The following tabs are included:
 
-Website Tabs:
+- **Dataset Tab**: Contains **Gencode v19** annotations and related publication references. 
 
-- **Disclaimer**: Licensing, re-annotation note
-- **Data**: RNA reference, publication reference
-- **Pipeline**: Snakemake/Nextflow script links
+- **Pipeline Tab**:  
+    - **Commit**: Key scripts are available at [commit](https://github.com/BHKLAB-DataProcessing/ICB_Van_Allen-snakemake/tree/c7a8e0e9e70b27c690e57312eab36d8557629c14). Below is the structure of the folder:
 
-Important Links:
+    ```
+    📁  ICB_Van_Allen/
+    ├── 📄 Snakefile                       # Snakemake workflow combining all scripts
+    └── 📁 scripts
+        ├── 📄 format_downloaded_data.R   # Generates CLIN, EXPR, SNV input files
+        ├── 📄 Format_CLIN.R              # Cleans and annotates clinical metadata
+        ├── 📄 Format_EXPR.R              # Processes and logs RNA expression data
+        ├── 📄 Format_SNV.R               # Cleans SNV mutation data
+        ├── 📄 Format_CNA_seg.R           # Segmented CNA profiles 
+        ├── 📄 Format_CNA_gene.R          # Gene-level CNA profiles 
+        └── 📄 Format_cased_sequenced.R   # Flags patients with RNA/CNA/SNV data
+    ```
 
-- DOI: [Zenodo record](https://doi.org/10.5281/zenodo.7332074)
-- Publication: PubMed reference
-- GEO: GEO accession entry
-
-R example:
-```r
-ICB_Van_Allen <- readRDS("path/to/ICB_Van_Allen.rds")
-```
-```r
-A MultiAssayExperiment object of 2 listed experiments:
-[1] expr: RangedSummarizedExperiment with 57820 rows and 42 columns
-[2] snv: SummarizedExperiment with 13709 rows and 110 columns
-```
-
-# Final Overview
-
-```
-Raw Data (Clinical + Molecular)
-    ↓
-Clinical Metadata Curation
-    ↓
-Molecular Data Processing
-    ↓
-SummarizedExperiment Objects
-    ↓
-MultiAssayExperiment (MAE) Assembly
-```
-
-
-
+    - **Script**: General functions for clinical and molecular data curation located at [ICB_Common](https://github.com/BHKLAB-Pachyderm/ICB_Common/tree/9d3297b69d182e459a25596971670020473a63a5)
+    - **Annotation**: Functions for drug and tissue annotations located at [Annotations]((https://github.com/BHKLAB-Pachyderm/Annotations/tree/bd2325ad727b2351d637b66f0313d0dfb81a0917))
