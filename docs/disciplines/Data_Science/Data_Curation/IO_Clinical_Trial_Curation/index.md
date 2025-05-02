@@ -161,7 +161,8 @@ Then download the matching file from the BHKLab [Annotations repository](https:/
 
 Available `.RData` files include: `features_gene`, `features_transcript`, and `tx2gene`.  
 
-> The goal is to **retain as many genes as possible** and match the original reference. Using a mismatched annotation version can lead to a loss of gene entries—this is not preferred.
+!!! note
+     The goal is to **retain as many genes as possible** and match the original reference. Using a mismatched annotation version can lead to a loss of gene entries—this is not preferred.
 
 ### 4.2 Drug Annotations
 
