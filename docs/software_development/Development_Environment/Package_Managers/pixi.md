@@ -25,7 +25,7 @@ Pixi excels in dependency management and reproducibility, particularly across di
 - Simply include a `pixi.toml` file in your project repository.
 - Another user runs `pixi install` and instantly replicates your environment.
 
-## Tasks
+### Tasks
 
 Instead of describing ways to run pipelines or commands to do repeated actions, you can define tasks in the `pixi.toml` file. This way, instead of running long commands with convoluted arguments and flags, you can alias it with a simple name. You can find more details on tasks on their [task documentation](https://pixi.sh/latest/workspace/advanced_tasks/).
 
