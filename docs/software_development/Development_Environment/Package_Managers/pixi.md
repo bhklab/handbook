@@ -80,6 +80,26 @@ pixi add bioconductor-limma -c bioconda
 !!! tip "Installing R and Bioconductor Packages"
 
     R packages are often prepended with `r-` in the package name, and depend on the base R installation `r-base`. Bioconductor packages are also available if you add `bioconda` as a channel, and are often prepended with `bioconductor-`.
+    The easiest way to find the exact package names is to search for them on the [Anaconda Cloud](https://anaconda.org/).
+
+??? bug "Bioconductor packages on ARM-based Macs"
+
+    Some Bioconductor packages have not yet been built for ARM-based Macs (Apple Silicon)
+    and thus might raise an error:
+
+    ![pixi-add-pgx](./images/pixi_bioconductor-error-arm64.png)
+
+    If you encounter issues, you can try [falling back to osx-64](https://pixi.sh/latest/reference/pixi_manifest/#platforms)
+    which uses [rosetta](https://developer.apple.com/documentation/apple-silicon/about-the-rosetta-translation-environment)
+    to run x86_64 binaries on ARM-based Macs:
+
+    ```diff
+    [workspace]
+    channels = ["conda-forge", "bioconda"]
+    name = "my_project"
+    - platforms = ["osx-arm64"]
+    + platforms = ["osx-64"]
+    ```
 
 ## VS Code Integration
 
