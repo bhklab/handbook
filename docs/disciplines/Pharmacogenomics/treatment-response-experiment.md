@@ -1,5 +1,16 @@
 # TreatmentResponseExperiment Tutorial
 
+## Table of Contents
+
+- [Context](#context)
+- [Summarized Features](#summarized-features)
+- [Structure](#structure)
+    - [Diagram of Structure](#diagram-of-structure)
+    - [Key Components](#key-components)
+- [Example Pipelines that create a TreatmentResponseExperiment](#example-pipelines-that-create-a-treatmentresponseexperiment)
+    - [Example Repositories](#example-repositories)
+- [Extra Resources](#extra-resources)
+
 ## Context
 
 - Developed to address shortcomings of the old `@treatmentResponse` data structures
