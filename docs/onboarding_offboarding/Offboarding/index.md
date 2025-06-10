@@ -67,7 +67,7 @@ To ensure continued access to all lab work related documents, we ask that the em
     !!! warning
         This should not include code or internal datasets. Please store these in the appropriate locations (e.g. GitHub, H4H, etc.).
 
-1. Transfer ownership of **all contents** of your BHKLab Google Drive to <bhklab-archive@gmail.com>. This can be done from the top level of the drive by selecting all contents and clicking the share button.
+1. Transfer ownership of **all contents** of your BHKLab Google Drive to <bhklab.archive@gmail.com>. This can be done from the top level of the drive by selecting all contents and clicking the share button.
 
 If there are private documents you wish to keep private, please move these to your personal storage. 
 
@@ -87,7 +87,7 @@ If there are private documents you wish to keep private, please move these to yo
 ### Project Data
 For any project data listed in your Offboarding Report, please ensure that:
 
-1. ALL data paths are included (e.g. srcdata, rawdata, procdata, should all be listed **separtely**).
+1. ALL data paths are included (e.g. srcdata, rawdata, procdata, should all be listed **separately**).
 1. Indicate for each dataset if it is required to replicate the project. This will help us determine if we can keep the data or if it needs to be removed.
 1. Ensure that group access is enabled for all data. Run the following command for the dataset directory:
 
