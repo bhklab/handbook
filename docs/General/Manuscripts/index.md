@@ -1,13 +1,10 @@
-# Manuscript Standards
+# Manuscript Writing Guidelines
 
-TODO::
+<!-- TODO::
 [Miro](https://miro.com/)
 [Overleaf](https://www.overleaf.com/)
 [BHKLAB Github repository](https://github.com/bhklab)
-[Paperpile](https://paperpile.com/)
-
-
-# Manuscript Writing Guidelines
+[Paperpile](https://paperpile.com/) -->
 
 The following document should serve as a guideline for the current and future BHK lab members in preparing their manuscripts in a fashion that enables Benjamin to read their manuscripts as quickly as possible and provide his feedback.
 
@@ -22,10 +19,18 @@ The following document should serve as a guideline for the current and future BH
 
 1. Create a shared Google Drive directory containing all of your supplementary information. This Drive should then be shared with BHK (bhaibeka@gmail.com) and all the other Co-authors.  
 2. Add [bhklab.research@gmail.com](mailto:bhklab.research@gmail.com) as an Editor for this shared directory. Then **transfer ownership** of that directory to [bhklab.research@gmail.com](mailto:bhklab.research@gmail.com). Your directory will be stored in the “Manuscripts” folder in the [bhklab.research@gmail.com](mailto:bhklab.research@gmail.com) Google account.  
-3. At the top of your manuscript have the following legend and add the following highlighting guidelines throughout your manuscript for highlighting materials
+3. At the top of your manuscript have the following legend and add the following highlighting guidelines throughout your manuscript for highlighting materials:
 
-| Resources: Shared Directory: Google Drive URL Editable Figures: Miro URL Figures, Tables and Supplementary Information: Overleaf URL Computer Code: GitHub URL Container: Code Ocean URL References using Paperpile.com Colour code while drafting the manuscript:  text  References to figures, tables or supplementary information  text  To be updated/modified  text  To be deleted  text  Reference needed |
-| :---- |
+    | Resources:        |  |
+    |-------------------|--|
+    | Shared Directory: | Google Drive URL |
+    | Editable Figures: | Miro URL Figures |
+    | Tables and Supplementary Information: | Overleaf URL |
+    | Computer Code:    | GitHub URL |
+    | Container:        | Code Ocean URL 
+    | References:       | use Paperpile.com |
+   
+    ![Text highlighting colour code for mansucript writing. Blue text references figures, tables, or supplementary information; Yellow text is to be updated/modified; Red text is to be deleted; and Green text needs a reference.](img/manuscript_colour_code.png)
 
 4. At the very top of your paper underneath the title, have the authors with superscript numbers.   
    1. The superscripts each represent the institutions the authors belong to.  
