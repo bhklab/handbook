@@ -40,9 +40,7 @@ The following document should serve as a guideline for the current and future BH
       2. Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.  
       3. Joint Department of Medical Imaging, University of Toronto, Toronto, Canada  
       4. Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada.  
-      5. ~~Ontario Institute for Cancer Research, Toronto, Ontario, Canada.~~  
-      6. ~~Department of Computer Science, University of Toronto, Toronto, Ontario, Canada.~~  
-      7. Vector Institute for Artificial Intelligence, Toronto, Ontario, Canada.  
+      5. Vector Institute for Artificial Intelligence, Toronto, Ontario, Canada.  
 6. For all section titles (ie Abstract, Results, etc) use Uppercase *Heading 1*.  
 7. Within the above-mentioned sections if you have other titles use *Heading 2*.  
 8. The regular text of the paper should be in Arial 11\.  
