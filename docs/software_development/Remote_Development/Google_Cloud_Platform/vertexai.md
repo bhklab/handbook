@@ -67,5 +67,5 @@ To create a pipeline:
 - Upload and run the pipeline through **Vertex AI Pipelines**.
 - Monitor executions directly in the console.
 
-  You can find detailed information and tutorials about Vertex AI in the official: https://cloud.google.com/vertex-ai/docs
+  You can find detailed information and tutorials about Vertex AI in the official: <https://cloud.google.com/vertex-ai/docs>
   
