@@ -5616,22 +5616,20 @@
 <p>Vertex AI enables you to train machine learning models using pre-built containers (for frameworks like TensorFlow, PyTorch, XGBoost) or your custom containers. You can configure distributed training, use accelerators (GPUs/TPUs), and tune hyperparameters automatically.<br />
 To start training:</p>
 <ul>
-<li>Go to <strong>Vertex AI -&gt; Training</strong> in the GCP console.</li>
+<li>Go to <strong>Vertex AI &gt; Training</strong> in the GCP console.</li>
 <li>Choose between <strong>Custom Training</strong>, <strong>AutoML</strong>, or <strong>Pre-trained models</strong>.</li>
 <li>Specify your dataset, training script (if custom), and machine type.</li>
 </ul>
 <h3 id="workbench-managed-jupyter-notebooks-integrated-with-gcp-resources"><strong>Workbench</strong>: Managed Jupyter notebooks integrated with GCP resources.<a class="headerlink" href="#workbench-managed-jupyter-notebooks-integrated-with-gcp-resources" title="Anchor link to this section for reference">#</a></h3>
 <p>Setting Up and Using Vertex AI Workbench</p>
-<ol>
-<li>Go to the <strong>Vertex AI Workbench</strong> in the GCP console.</li>
+<ul>
+<li>Go to the "Vertex AI Workbench" in the GCP console.</li>
 <li>Click <strong>New Notebook</strong>.</li>
-<li>Select:<ul>
-<li><strong>Environment</strong> (e.g., TensorFlow Enterprise, PyTorch)</li>
-<li><strong>Machine Type</strong> (CPU or GPU)</li>
-</ul>
-</li>
+<li>Select:</li>
+<li><strong>Environment</strong> (e.g., TensorFlow Enterprise, PyTorch).</li>
+<li><strong>Machine Type</strong> (CPU or GPU).</li>
 <li>After creation, click <strong>Open JupyterLab</strong> to start working.</li>
-</ol>
+</ul>
 <p>You can also start and stop notebooks as needed to control costs.</p>
 <h3 id="model-monitoring-track-model-performance"><strong>Model Monitoring</strong> : Track model performance.<a class="headerlink" href="#model-monitoring-track-model-performance" title="Anchor link to this section for reference">#</a></h3>
 <p>Vertex AI includes a built-in experiment tracking tool called <strong>Vertex AI Experiments</strong>. It automatically or manually tracks ML training runs and logs:</p>
@@ -5639,9 +5637,13 @@ To start training:</p>
 <li>Hyperparameters (e.g., learning rate, batch size)</li>
 <li>Evaluation metrics (e.g., accuracy, loss)</li>
 <li>Artifacts (e.g., model files)</li>
-<li>Environment details (e.g., container, machine type)
-To use it you can:</li>
-<li>Automatically tracks runs from <strong>Vertex AI Workbench</strong>.</li>
+<li>
+<p>Environment details (e.g., container, machine type)
+To use it you can:</p>
+</li>
+<li>
+<p>Automatically tracks runs from <strong>Vertex AI Workbench</strong>.</p>
+</li>
 <li>You can also log metrics programmatically using the Python SDK.</li>
 </ul>
 <h3 id="prediction-and-deployment-serve-models"><strong>Prediction and Deployment</strong>: Serve models<a class="headerlink" href="#prediction-and-deployment-serve-models" title="Anchor link to this section for reference">#</a></h3>
@@ -5668,7 +5670,7 @@ To create a pipeline:</p>
 <li>Upload and run the pipeline through <strong>Vertex AI Pipelines</strong>.</li>
 <li>Monitor executions directly in the console.</li>
 </ul>
-<p>You can find detailed information and tutorials about Vertex AI: <a href="https://cloud.google.com/vertex-ai/docs">Learn more about Vertex AI</a></p>
+<p>You can find detailed information and tutorials about Vertex AI in the official: <a href="https://cloud.google.com/vertex-ai/docs">https://cloud.google.com/vertex-ai/docs</a></p>
 
 
 
@@ -5691,7 +5693,7 @@ To create a pipeline:</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 29, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 10, 2025</span>
   </span>
 
     
@@ -5711,12 +5713,13 @@ To create a pipeline:</p>
   <span class="md-source-file__fact">
     <span class="md-icon" title="Contributors">
       
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9 3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3 3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65 2.56.34 4.45 1.51 4.45 2.9z"/></svg>
       
     </span>
     <nav>
       
-        <a href="mailto:31931184+nabinelnino@users.noreply.github.com">Nabin Bagale</a>
+        <a href="mailto:31931184+nabinelnino@users.noreply.github.com">Nabin Bagale</a>, 
+        <a href="mailto:shagreza@users.noreply.github.com">Shay</a>
     </nav>
   </span>
 
