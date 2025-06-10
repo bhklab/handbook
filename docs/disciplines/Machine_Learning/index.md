@@ -12,7 +12,7 @@ Before ML, we relied on statistical methods, manual rule-based algorithms, or hu
 - **Scalability**: ML handles large and complex datasets better than manual methods.
 - **Adaptability**: Models improve automatically as they process more data.
 - **Automation**: ML can automate repetitive tasks, saving time and resources.
-
+ 
 ### Limitations of Machine Learning
 - **Data Dependency**: Requires large amounts of quality data to perform well.
 - **Black Box Models**: Some ML models lack interpretability, making them hard to trust.
@@ -60,3 +60,4 @@ ML is broadly divided into three main categories:
     - Models learn by interacting with an environment and receiving rewards or penalties.
     - Examples: Markov decision process (MDP), Deep Q Networks (DQN).
 
+    
