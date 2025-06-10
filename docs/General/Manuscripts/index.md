@@ -35,12 +35,16 @@ The following document should serve as a guideline for the current and future BH
 4. At the very top of your paper underneath the title, have the authors with superscript numbers.   
    1. The superscripts each represent the institutions the authors belong to.  
 5. List the institutions that the authors belong to beneath the author  
-   1. Here is a list of departments and institutions that the BHK lab often collaborates with or works for:  
-      1. Princess Margaret Cancer Centre, University Health Network, Toronto, Ontario, Canada.  
-      2. Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.  
-      3. Joint Department of Medical Imaging, University of Toronto, Toronto, Canada  
-      4. Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada.  
-      5. Vector Institute for Artificial Intelligence, Toronto, Ontario, Canada.  
+
+    ???+ info "List of common collaborators"
+          Here is a list of departments and institutions that the BHK lab often collaborates with or works for:  
+       
+          1. Princess Margaret Cancer Centre, University Health Network, Toronto, Ontario, Canada.  
+          2. Department of Medical Biophysics, University of Toronto, Toronto, Ontario, Canada.  
+          3. Joint Department of Medical Imaging, University of Toronto, Toronto, Canada  
+          4. Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada.  
+          5. Vector Institute for Artificial Intelligence, Toronto, Ontario, Canada.
+
 6. For all section titles (ie Abstract, Results, etc) use Uppercase *Heading 1*.  
 7. Within the above-mentioned sections if you have other titles use *Heading 2*.  
 8. The regular text of the paper should be in Arial 11\.  
