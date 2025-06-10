@@ -180,6 +180,7 @@ the Tidyverse, also check out Posit's other useful tools like [Positron](https:/
     R.
     - Specifically, check out [this course](https://swirlstats.com/scn/getclean.html)
         for a quick (and interactive!) taste of working with `dplyr` and `tidyr`.
+- [Tidyverse style guide](https://style.tidyverse.org/) &mdash; A guide to consistent code writing in R.
 
 ### Packages
 

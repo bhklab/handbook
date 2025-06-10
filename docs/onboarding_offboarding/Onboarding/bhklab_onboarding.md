@@ -25,7 +25,7 @@ On the first day in the lab, all new employees will be scheduled for a research 
 - [BHKLab Google Account](../../General/Communications/bhklab_gmail.md)
 - [Summary of Work (SOW)](../../General/Summary_Of_Work/index.md)
 - [BHKLab Calendar](../../General/Communications/bhklab_calendar.md), and the dates of [lab meetings](../../General/Meetings/lab_meeting.md) and [journal club](../../General/Meetings/journal_club.md)
-- BHK Lab Slack
+- [BHK Lab Slack](../../General/Communications/slack.md)
 - [BHK Lab GitHub](https://github.com/bhklab) (added by supervisor/mentor as this is project specific)
 - Any additional programs/systems specific to the employee’s work duties
 
@@ -34,7 +34,7 @@ On the first day in the lab, all new employees will be scheduled for a research 
 
 - [x] Employee has picked up their UHN Photo ID card from Toronto General Photo ID office (Department is “Princess Margaret - Research”)
 - [x] Employee has picked up their PMCRT Access card from the PMCRT security office
-- [x] Assigned to a [workspace in the lab](https://docs.google.com/spreadsheets/d/1LOKDkhRi4wDBf5Cg5Cjzzdeh0frhG4YZ5h11d835Qa0/edit?gid=0#gid=0)
+- [x] Assigned to a [workspace in the lab](https://docs.google.com/spreadsheets/d/1LOKDkhRi4wDBf5Cg5Cjzzdeh0frhG4YZ5h11d835Qa0/edit?gid=425990717#gid=425990717)
 - [x] Ensure the employee has access to a computer/monitor, keyboard, and mouse if available in the [Lab Equipment Inventory](https://docs.google.com/spreadsheets/d/1zFbTAdv5DT6tnajDMeXwoWP65VzjcD9PxynnXzholwE/edit?gid=212760015#gid=212760015&fvid=1274444863)
 
 
