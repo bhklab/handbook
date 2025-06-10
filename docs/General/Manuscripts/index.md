@@ -72,8 +72,9 @@ Sarah Lee², Benjamin Haibe-Kains¹ ³
 
 ---
 
-**📝 Note:**  
-Before making any changes to formatting, structure, or manuscript components, please consult with the **project lead** and the **corresponding author(s)**. All updates should align with the target journal’s submission guidelines and policies.
+!!! note "📝 Note"  
+      Before making any changes to formatting, structure, or manuscript components, please consult with the **project lead** and the **corresponding author(s)**. All updates should align with the target journal’s submission guidelines and policies.
+
 
 📌 *Follow these guidelines to ensure fast, focused feedback from Benjamin. Consistency helps everyone involved.*
 
