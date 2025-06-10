@@ -8,7 +8,7 @@ Keep it concise and aligned with the journal’s scope. Your goal is to communic
 - Why it matters  
 - Why it fits the journal and its readership  
 
-### What to Include
+## What to Include
 
 - **Greeting**: Address the editor by name if known.  
 - **Opening**: Date, journal name, manuscript title, and article type (e.g., research, review).  
@@ -23,12 +23,14 @@ Keep it concise and aligned with the journal’s scope. Your goal is to communic
 
 **Third paragraph**: here you should indicate why the readers of the journal would be interested in the work. Take your cues from the journal’s aims and scope. For example if the journal requires that all work published has broad implications explain how your study fulfills this. It is also a good idea to include a sentence on the importance of the results to the field.
 
-### Required Statements
+## Required Statements
 
 - “This manuscript has not been published elsewhere and is not under consideration by another journal.”  
 - “All authors have approved the manuscript and agree with its submission to [Journal Name].”
 
 Use the letter to confidently position your work. Editors often read it before the manuscript itself.
+
+## Example Structure
 
 !!! example
     March 18, 2021
