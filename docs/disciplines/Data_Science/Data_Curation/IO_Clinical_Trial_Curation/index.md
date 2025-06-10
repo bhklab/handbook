@@ -15,7 +15,7 @@ Each curated dataset includes two key components:
 
 We curate all data into the [**MultiAssayExperiment (MAE)**](https://www.bioconductor.org/packages/devel/bioc/vignettes/MultiAssayExperiment/inst/doc/MultiAssayExperiment.html) format. All publicly available curated datasets are located on [ORCESTRA](https://www.orcestra.ca/clinical_icb). We recommend downloading one to explore the clinical metadata and molecular assay structure.
 
-# COMMENT: How about annotation data? 
+<!--# COMMENT: How about annotation data? -->
 
 ## Step-by-Step Workflow
 
@@ -55,9 +55,9 @@ If raw RNA (FASTQ files) are not available, look for processed files by modality
 
 If RNA-seq FASTQ files are available, the output should include **gene-level TPM** values .Include isoform (transcript-level) data when available.
 
-## COMMENT: How about othe rmolecular data? 
+<!-- ## COMMENT: How about other molecular data? 
 ## COMMENT: How to guide any new user where to find pipeline to run from scratch (using FASTQ files) and extract e.g., RNA-seq count data? 
-## Do we have only RNA-seq data for IO? You alreay curated I-SPY which includes microarray data? Please add more data modality that you already work along with link (e.g., using ICB-Common or guide them in H4H)
+## Do we have only RNA-seq data for IO? You already curated I-SPY which includes microarray data? Please add more data modality that you already work along with link (e.g., using ICB-Common or guide them in H4H) -->
 
 ### 1.3 Clinical Metadata (Farnoosh will improve this part)
 
@@ -88,7 +88,7 @@ You will need **TPM values** for downstream analysis, whether derived from raw F
   }
   ```
 
-### 2.2 SNV/CNA Processing ---> Please add link to help user how to curate? GitHub or H4H?!
+### 2.2 SNV/CNA Processing <!--  Please add link to help user how to curate? GitHub or H4H?! -->
 
 - SNV data: binary gene × sample matrix preferred
 - CNA data: gene-level amplifications, deletions, or summary scores
@@ -118,7 +118,7 @@ Format clinical metadata as:
 !!!note
     Common columns must be the first set of columns appearing in the metadata, followed by any additional columns. You may add other metadata columns available in the source data, but the standardized columns above should be present first.
 
-### 3.2 Additional Columns  ---> rna.info? dna.info? 
+### 3.2 Additional Columns  <!-- rna.info? dna.info? -->
 
 The table below shows the other common columns across the 19 ICB datasets curated
 
@@ -148,7 +148,7 @@ The table below shows the other common columns across the 19 ICB datasets curate
 | TMB_raw             | Tumor Mutation Burden raw values                                                                                                                                                                                                        | in-lab curation |
 | treatment           | Drug target or drug name                                                                                                                                                                                                                | source          |
 
-## 4. Add Annotations ----> links for gene or drug annotation is not informative. It refers to the repo that includes different scripts or information. Please improve this part which is really important. 
+## 4. Add Annotations  <!-- links for gene or drug annotation is not informative. It refers to the repo that includes different scripts or information. Please improve this part which is really important. -->
 
 ### 4.1 Gene Annotations
 
@@ -170,15 +170,15 @@ Standardize treatment names using BHKLab’s [drug annotation files](https://git
 
 If the treatment is not listed there, search external databases such as [**PubChem**](https://pubchem.ncbi.nlm.nih.gov/) to verify the correct drug name.
 
-> **Note:**  
-> For the `treatment` column, immunotherapy regimens are currently grouped into the following categories:
->
-> - **PD-1/PD-L1**: Immune checkpoint inhibitors targeting PD-1 or PD-L1  
-> - **CTLA4**: Checkpoint inhibitors targeting CTLA-4  
-> - **IO+combo**: Combination immunotherapy  
-> - **IO+chemo**: Immunotherapy plus chemotherapy  
-> - **IO+targeted**: Immunotherapy plus targeted therapy  
-> - **Vaccine_BasedIO**: Immunotherapy based on therapeutic cancer vaccines ---> did we agree to have this 'name' for IO data? Or did we curate this type of data? We mainly focus on IO/ICB or combination with chemo, targeted. 
+!!!note
+    For the `treatment` column, immunotherapy regimens are currently grouped into the following categories:
+    
+    - **PD-1/PD-L1**: Immune checkpoint inhibitors targeting PD-1 or PD-L1
+    - **CTLA4**: Checkpoint inhibitors targeting CTLA-4
+    - **IO+combo**: Combination immunotherapy
+    - **IO+chemo**: Immunotherapy plus chemotherapy
+    - **IO+targeted**: Immunotherapy plus targeted therapy
+    - **Vaccine_BasedIO**: Immunotherapy based on therapeutic cancer vaccines <!--  did we agree to have this 'name' for IO data? Or did we curate this type of data? We mainly focus on IO/ICB or combination with chemo, targeted. --->
 
 
 ### 4.3 Tissue Annotations
