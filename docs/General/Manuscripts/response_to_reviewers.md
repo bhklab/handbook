@@ -1,21 +1,21 @@
-## Response to Reviewers
+# Response to Reviewers
 
 When revising a manuscript based on peer review, a well-structured response document is essential. It shows that you've addressed the feedback thoughtfully and improved the manuscript accordingly.
 
-### Tips for Writing
+## Tips for Writing
 
 - Be clear, respectful, and constructive.  
 - Acknowledge valid criticisms, and explain your rationale when you disagree.  
 - Reference exact changes made in the revised manuscript.
 
-### Format
+## Format
 
 - **Reviewer comments**: Use **black text** to quote reviewer feedback.
 - **Your responses**: Use **blue text** to clearly separate your reply.
 - Number or bullet each comment for clarity.
 - Refer to line numbers, sections, or figures in your revised manuscript wherever relevant.
 
-### Example Structure
+## Example Structure
 Reviwer comments are in plain text, responses are ***bold and italicized***
 
 !!! example "Short Example"
