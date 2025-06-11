@@ -37,7 +37,7 @@ Depending on the type of signature, different scoring strategies are used:
 
 ### ▸ Signature-Specific Algorithms
 - Some signatures require custom computation as defined in their original publication  
-  → e.g., [bhklab/PredictIO](https://github.com/bhklab/PredictIO)
+  → e.g., [bhklab/PredictioR](https://github.com/bhklab/PredictioR)
 
 ---
 
@@ -48,7 +48,8 @@ Depending on the type of signature, different scoring strategies are used:
 1. Compute pairwise gene overlaps between signatures
 2. Perform **PCA** on the overlap matrix
 3. Cluster using **Affinity Propagation Clustering** (`apcluster`)
-4. For each cluster, aggregate genes and perform e.g., **KEGG pathway enrichment** using `enrichR` 
+4. For each cluster, aggregate genes and perform pathway enrichment analysis (e.g., **KEGG**, **Reactome**, or **GO Biological Process**) using tools like `enrichR`, `clusterProfiler`, or `gprofiler2`
+  
 
 ### 🔹 Correlation Analysis
 
@@ -87,3 +88,7 @@ To assess similarity or redundancy between gene signatures:
 > **Note:** The choice of packages or pipelines may vary based on the specific research question and analysis goals.
 
 ---
+
+## Example
+
+CO link will be added. 
