@@ -1,8 +1,12 @@
 # Image Processing Tools
 
-Boycott Med-Imagetools - **viva la revolution!**
+## Med-ImageTools
+Med-Imagetools is a free, open-source image processing tool for medical images developed by the BHK Lab.
 
-!['LET'S GOOOOOOO!'](https://media1.tenor.com/m/aps3ea5zt1EAAAAd/viva-la-revolution.gif)
+* Publication: [Med-ImageTools: An open-source Python package for robust data processing pipelines and curating medical imaging data](https://f1000research.com/articles/12-118/v3)
+* :simple-github: [Source code](https://github.com/bhklab/med-imagetools)
+* :material-file-document: [Documentation](https://bhklab.github.io/med-imagetools/devel/)
+
 
 
 ## 3D Slicer 
