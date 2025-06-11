@@ -4,13 +4,13 @@ This page provides guidelines for curating and analyzing RNA-based gene expressi
 
 ---
 
-## 🔍 What is a Signature?
+## What is a Signature?
 
 A **gene signature** is a defined set of genes whose collective expression pattern is associated with a specific biological process, disease state, or response to therapy. Gene signatures are used in enrichment analysis, clustering, classification, and predictive modeling, and are increasingly applied to identify associations with drug response in both preclinical models and clinical datasets.
 
 ---
 
-## 📦 Signature Sources
+## Signature Sources
 
 You can find gene signatures from:
 
@@ -18,12 +18,12 @@ You can find gene signatures from:
   → [https://www.gsea-msigdb.org/gsea/msigdb](https://www.gsea-msigdb.org/gsea/msigdb)
 
 - **SignatureSets R package** – curated gene sets manually annotated and versioned  
-  - Annotated with **GENCODE v40** (link to be added)
+  - Annotated with **GENCODE v40** [bhklab/SignatureSets](https://github.com/bhklab/SignatureSets)
   - Uses **HUGO gene symbols** linked to **Entrez** and **Ensembl** IDs
 
 ---
 
-## 🧮 Computing Signature Scores
+## Computing Signature Scores
 
 Depending on the type of signature, different scoring strategies are used:
 
@@ -37,24 +37,29 @@ Depending on the type of signature, different scoring strategies are used:
 
 ### ▸ Signature-Specific Algorithms
 - Some signatures require custom computation as defined in their original publication  
-  → e.g., [PredictIO signature](ADD LINK TO PAPER)
+  → e.g., [bhklab/PredictIO](https://github.com/bhklab/PredictIO)
 
 ---
 
-## 📊 Signature Analysis Workflows
+## Signature Analysis Workflows
 
 ### 🔹 Cluster Analysis
 
 1. Compute pairwise gene overlaps between signatures
-2. Perform **PCA** on the overlap matrix (PC1 & PC2)
-3. Cluster using **Affinity Propagation Clustering** (`apcluster`, v1.4.8)
-4. For each cluster, aggregate genes and perform **KEGG pathway enrichment** using `enrichR` (v3.0)
+2. Perform **PCA** on the overlap matrix
+3. Cluster using **Affinity Propagation Clustering** (`apcluster`)
+4. For each cluster, aggregate genes and perform e.g., **KEGG pathway enrichment** using `enrichR` 
 
 ### 🔹 Correlation Analysis
 
-- Compute **Spearman correlations** between signature scores across studies
-- Visualize with `corrplot` (v0.84)
-- Report median correlation across datasets
+To assess similarity or redundancy between gene signatures:
+
+- **Compute Spearman and/or Pearson correlation coefficients** between signature scores across samples.
+  - *Spearman* is rank-based, captures monotonic relationships, and is robust to outliers and non-linear patterns.
+  - *Pearson* assumes linear relationships and is sensitive to the scale and magnitude of values.
+- Use the `cor()` function in R with `method = "spearman"` or `"pearson"` as appropriate.
+
+- - **Visualize** the correlation matrix using the `corrplot` R package or a heatmap (e.g., `pheatmap` or `ComplexHeatmap`) to identify clusters or patterns among signatures.
 
 ### 🔹 Association Analysis
 
@@ -65,32 +70,20 @@ Depending on the type of signature, different scoring strategies are used:
 #### Preclinical Associations
 - **Drug response metrics** (e.g., IC50, AUC): Spearman or Pearson correlation
 
-> 🔍 Apply **multiple testing correction** (e.g., Benjamini-Hochberg FDR, Bonferroni) where appropriate.
+> Apply **multiple testing correction** (e.g., Benjamini-Hochberg FDR, Bonferroni) where appropriate.
 
 ---
 
-## 📚 References
+## Additional Tools and Packages
 
-- [PREDICTIO PAPER](ADD LINK)
-- SignatureSets Package (ADD LINK)
-- MSigDB Resource
-- [CodeOcean Tool for Signature Analysis](ADD LINK IF AVAILABLE)
+| Purpose                | Tool / Package                                      |
+|------------------------|-----------------------------------------------------|
+| Signature scoring      | GSVA, ssGSEA, custom code                           |
+| Clustering             | `apcluster`, `hclust`                               |
+| Enrichment analysis    | `enrichR`, `clusterProfiler`, `fgsea`               |
+| Visualization          | `corrplot`, `ComplexHeatmap`, `pheatmap`, `ggplot2` |
+| Association modeling   | `glm`, `survival` (includes `coxph`), `caret`       |
 
----
-
-## 🛠️ Tools and Packages
-
-| Purpose                | Tool / Package               |
-|------------------------|------------------------------|
-| Signature scoring      | GSVA, ssGSEA, custom code    |
-| Clustering             | `apcluster` (R)              |
-| Enrichment analysis    | `enrichR` (R)                |
-| Visualization          | `corrplot` (R)               |
-| Association modeling   | `glm`, `coxph`               |
+> **Note:** The choice of packages or pipelines may vary based on the specific research question and analysis goals.
 
 ---
-
-Let me know if you want me to:
-- Add placeholder links for the missing references
-- Turn this into a page layout in your local Markdown file
-- Include example R code blocks or figures
