@@ -2,5 +2,6 @@ title: Resources
 
 nav:
     - index.md
-    - Undergraduate_award_opportunities.md
+    - "Trainee funding opportunities": Undergraduate_award_opportunities.md
+    - "Guide for mentors and supervisors": Guide_to_mentors.md
 
