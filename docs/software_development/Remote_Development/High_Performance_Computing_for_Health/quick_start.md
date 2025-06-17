@@ -136,9 +136,9 @@ Familiarize yourself with submitting jobs by reading our documentation on [Submi
     #!/bin/bash
     #SBATCH --job-name=my_job_name
     #SBATCH --mem=8G
-    #SBATCH -t 1:0:0
-    #SBATCH -c 2
-    #SBATCH -N 1
+    #SBATCH --time 1:0:0
+    #SBATCH --cpus-per-task 2
+    #SBATCH --nodes 1
     #SBATCH --partition=any
     #SBATCH --mail-user=bhklab.johnsmith@gmail.com
     #SBATCH --mail-type=START,FAIL,END
