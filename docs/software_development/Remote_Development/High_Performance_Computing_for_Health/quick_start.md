@@ -125,11 +125,11 @@ umask 002
 
 ## Interactive Jobs - `salloc`
 
-Familiarize yourself with `salloc` by reading our documentation on [Interactive Jobs and Debugging](https://bhklab.github.io/HPC4Health/slurm/interactive_jobs/) and the [Slurm `salloc` documentation](https://slurm.schedmd.com/salloc.html)
+Familiarize yourself with `salloc` by reading our documentation on [Interactive Jobs and Debugging](https://bhklab.github.io/HPC4Health/slurm/interactive_jobs/) and the [Slurm `salloc` documentation](https://slurm.schedmd.com/salloc.html).
 
 
 ## Submitting Jobs - `sbatch`
-Familiarize yourself with submitting jobs by reading our documentation on [Submitting Jobs on H4H](https://bhklab.github.io/HPC4Health/slurm/submitting_jobs/) and the [Slurm `sbatch` documentation](https://slurm.schedmd.com/sbatch.html)
+Familiarize yourself with submitting jobs by reading our documentation on [Submitting Jobs on H4H](https://bhklab.github.io/HPC4Health/slurm/submitting_jobs/) and the [Slurm `sbatch` documentation](https://slurm.schedmd.com/sbatch.html).
 
 !!! example "Slurm header example"
     ```.vim
