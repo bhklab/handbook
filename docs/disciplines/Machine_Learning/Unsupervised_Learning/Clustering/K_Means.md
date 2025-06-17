@@ -41,6 +41,37 @@ d(x_j,c_\ell) = (x_j-c_\ell)^TM(x_j-c_\ell)
 $$ as in the case of metric learning (see [[2]](#2) for inner product norms and [[3]](#3) for metric learning). 
 
 
+### Worked Example
+
+We follow the same set up as in the worked example for [spectral clustering](./SpectralClustering.md). Specifically we simulate expression data by generating two groups from negative binomial distributions and subsequently applying a log transform. 
+```python
+from sklearn.cluster import KMeans
+from scipy.stats import nbinom
+import numpy as np
+
+seed = 1234 # seed to get reproducible behavior
+n1, p1 = 10, 0.3
+n2, p2 = 15, 0.5
+
+g1 = nbinom.rvs(n1, p1, size = 50,random_state = seed).reshape(10,5) # simulated expression for distribution 1
+g2 = nbinom.rvs(n2, p2, size = 50,random_state = seed).reshape(10,5) # simulated expression for distribution 2
+
+
+X = np.log2(np.vstack((g1,g2))+0.001)
+n_nbrs = int(np.ceil(np.log(X.shape[0])))+1
+true_labels = 10*[0]+10*[1]
+```
+
+Running the algorithm and checking the predicted clusters is simple:
+```python
+clustering_algo = KMeans(n_clusters = 2)
+clustering_algo.fit(X)
+
+
+print(true_labels)
+print(clustering_algo.labels_)
+
+```
 
 #### References
 - <a id="1">[1]</a>

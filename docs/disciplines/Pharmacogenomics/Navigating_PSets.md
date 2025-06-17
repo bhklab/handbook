@@ -4,9 +4,11 @@
 When you first join the BHKLab Pharmacogenomics (PGx) team, you will likely need to familiarize yourself with our R package [`PharmacoGx`](https://www.bioconductor.org/packages/devel/bioc/html/PharmacoGx.html).  The fundamental object of `PharmacoGx` is the PSet, which is a data structured specifically designed to handle the inputs, results, and meta-data surrounding a [cell line screen](./Cell_Viability_Screens.md). 
 
 
-PSets can be a bit counter-intuitive at first and so this page provides a rough guide on how to manipulate them. At present we only have tools in `R` to navigate this.
+PSets can be a bit counter-intuitive at first and so this page provides a rough guide on how to manipulate them. At present we only have tools in `R` to navigate them. 
 
-Detailed vignettes can be found [here](https://bhklab.github.io/CBWWorkshop2024/articles/Module1.html).
+Before we get into the basics, it is probably worth addressing a natural question: **why use PSets?**  The answer is that pharmacogenomics research is conductor across instutitions which have their own idiosyncratic approach to handling and annotating data. PSets allow for standardized nomenclature across datasets, meaning each PSet will ahve the same column names inside its dataframes, a common set of identifiers for drugs and for cell lines, and quality-controlled response measurements. 
+
+This page only covers the basics. Once you've reviewed these snippets you can look at the detailed vignettes [here](https://bhklab.github.io/CBWWorkshop2024/articles/Module1.html).
 
 
 

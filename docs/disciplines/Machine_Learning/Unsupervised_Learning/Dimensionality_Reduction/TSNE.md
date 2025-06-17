@@ -1,4 +1,4 @@
-# Introduction
+# T-SNE
 
 
 t-SNE is a common to

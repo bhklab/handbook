@@ -36,7 +36,7 @@ At each step the number of samples needed to cover the data set domain is approx
 
 ## The Manifold Hypothesis
 
-While the curse of dimensionlity paints a bleak picture, the [manifold hypothesis](https://en.wikipedia.org/wiki/Manifold_hypothesis) offers some help. The manifold hypothesis supposes that the observations $x_i\in mathbb{R}^d$ live on some **unknown** lower-dimensional surface (a *manifold*).
+While the curse of dimensionlity paints a bleak picture, the [manifold hypothesis](https://en.wikipedia.org/wiki/Manifold_hypothesis) offers some help. The manifold hypothesis supposes that the observations $x_i\in \mathbb{R}^d$ live on some **unknown** lower-dimensional surface (a *manifold*).
 
 As a visual example, suppose you have a bunch of points in $\mathbb{R}^3$. After some data analysis you discover that they all have the same Euclidean norm, which means they lie on a *sphere,* a two-dimensional surface that lies in a three-dimensional space. 
 

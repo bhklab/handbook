@@ -33,7 +33,10 @@ But how *do* we compute these vectors? The answer comes via matrix algebra, in p
 **SVD Reminders**
 
 - The SVD is a *decomposition* of a matrix. Meaning it re-writes a matrix $M\in\mathbb{R}^{n\times d}$ as a product of other matrices. 
-- The SVD rewrites $M$ as the product of three matrices, $U, \Sigma, W$; $M=U\Sigma W^$. 
+- The SVD rewrites $M$ as the product of three matrices, $U, \Sigma, W$. Explicitly we have
+$$
+M=U\Sigma W^T
+$$. 
 - $U\in \mathbb{R}^{n \times n}$ where the columns are unit vectors that are orthogonal. The columns of $U$ are called the **right singular vectors**.
 - $\Sigma\in \mathbb{R}^{n\times d}$ and is diagonal with non-negative real numbers along the diagonal. The diagonal entries are called the **singular values**. We assume that the columns of $\Sigma$ are listed in decreasing order of the singular values. These are written as $\sigma_i$. 
 - $W\in \mathbb{R}^{d\times d}$ where the the columns are unit vectors that are orthogonal. The columns are called the **right** singular vectors. 
@@ -68,9 +71,60 @@ The way to reduce dimensionality is to only pick a subset of the $w_j$. Suppose 
 
 Looking at the SVD again we can note that $AW=U\Sigma W^TW = U\Sigma$ and so the principal components are the left singular vectors and the principal values the corresponding singular values. 
 
+### Worked Example
+
+First we generate some data. We perform a simulation that generates data that should look a little like gene expression data in log-transformed [transcripts per million (TPM)](https://www.rna-seqblog.com/rpkm-fpkm-and-tpm-clearly-explained/).
+
+```python
+from sklearn.decomposition import PCA
+from scipy.stats import nbinom
+import numpy as np
+
+seed = 1234 # seed to get reproducible behavior
+n1, p1 = 10, 0.3
+n2, p2 = 15, 0.5
+
+g1 = nbinom.rvs(n1, p1, size = 50,random_state = seed).reshape(10,5) # simulated expression for distribution 1
+g2 = nbinom.rvs(n2, p2, size = 50,random_state = seed).reshape(10,5) # simulated expression for distribution 2
 
 
-### Computational Resources
+X = np.log2(np.vstack((g1,g2))+0.001)
+```
 
-The PCA for data is readily computed in `python` using the [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html) library and in `R` using the [`prcomp` function](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/prcomp). 
+The centering of `X` can be done manually or using `scikit-learn` built in functionality. The latter is recommended but we give both for completeness.
+```python
+# manual
+X = X-np.mean(X,axis=0,keepdims=True)
 
+# scikit-learn
+from sklearn.preprocessing import StandardScaler
+sclr = StandardScaler(with_std=False) # only want to center, not scale in this instance. 
+X = sclr.fit_transform(X)
+```
+
+To see how to get explained variance, let's try with the maximum number of principle components which is the dimensionality of the data, which in this instance is 5. 
+```python
+dim_red = PCA(n_components=5)
+dim_red.fit(X)
+```
+
+Luckily `sciki-learn` has functions for immediately giving percentage of variance. Suppose we want to explain 70% of the variance.  The following block will find the minimum number of principal components to compute to above this value. If the data was much higher dimension, say over 500 features, this approach will be **slow** and it is better to start with a guess at number of principal components needed. 
+
+```python
+
+explain_variance = dim_red.explained_variance_ratio_
+cumulative_explained_variance = np.cumsum(dim_red.explained_variance_ratio_)
+tol = 0.7
+locations_above_tol = [k for k in range(len(cumulative_explained_variance)) if cumulative_explained_variance[k]>=tol]
+nc = min(locations_above_tol)+1 # add 1 because python uses 0 indexing. 
+```
+
+Now that we have the minimum required number of components, we can compute the PCA and reduce down to desired number of dimensions.:
+```python
+dim_red = PCA(n_components=nc)
+dim_red.fit(X)
+X_reduced = dim_red.transform(X)
+
+print(X.shape) # (20,5)
+print(X_reduced.shape) #(20,2)
+```
