@@ -1,4 +1,4 @@
 
 # Introduction
 
-TODO:: Add a short description here
+Pharmacogenomics is the discipline of associating molecular patient measurements with clinical outcomes. 
