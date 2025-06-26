@@ -3,7 +3,7 @@
 In general we assume we have a dataset $X$ which consists of $n$ observations in $\mathbb{R}^d$. The dimensionality of the dataset is $d$. 
 
 
-Dimensionality reduction is often used as pre-processing step for subsequent analyses, included [clustering](../Clustering/index.md), [supervised learning](../../Supervised_Learning/index.md), or visualization. Common techniques for dimensionality reduction include:
+Dimensionality reduction is often used as pre-processing step for subsequent analyses, including [clustering](../Clustering/index.md), [supervised learning](../../Supervised_Learning/index.md), or visualization. Common techniques for dimensionality reduction include:
 
 - **[Principal Component Analysis (PCA)](PCA.md)** 
 - **[Random Projections](Random_Projections.md)**
