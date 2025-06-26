@@ -43,7 +43,7 @@ $$ as in the case of metric learning (see [[2]](#2) for inner product norms and 
 
 ### Worked Example
 
-We follow the same set up as in the worked example for [spectral clustering](./SpectralClustering.md). Specifically we simulate expression data by generating two groups from negative binomial distributions and subsequently applying a log transform. 
+We follow the same set up as in the worked example for [spectral clustering](Spectral_Clustering.md). Specifically we simulate expression data by generating two groups from negative binomial distributions and subsequently applying a log transform. 
 ```python
 from sklearn.cluster import KMeans
 from scipy.stats import nbinom

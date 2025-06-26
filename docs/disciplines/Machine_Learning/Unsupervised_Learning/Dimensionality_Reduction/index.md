@@ -5,12 +5,12 @@ In general we assume we have a dataset $X$ which consists of $n$ observations in
 
 Dimensionality reduction is often used as pre-processing step for subsequent analyses, included [clustering](../Clustering/index.md), [supervised learning](../../Supervised_Learning/index.md), or visualization. Common techniques for dimensionality reduction include:
 
-- **[Principal Component Analysis (PCA)](./PCA.md)** 
-- **[Random Projections](./Random_Projections.md)**
-- **[t-distributed Stochastic Neighbor Embeding (t-SNE)](./tsne.md)**
-- **[Uniform Manifold Approximation and Projection (UMAP)](./UMAP.md)**
-- **[Locally Linear Embeddings (LLE)](./Locally_Linear_Embeddings.md)**
-- **[Laplacian Eigenmaps](./Laplacian_Eigenmaps)**
+- **[Principal Component Analysis (PCA)](PCA.md)** 
+- **[Random Projections](Random_Projections.md)**
+- **[t-distributed Stochastic Neighbor Embeding (t-SNE)](TSNE.md)**
+- **[Uniform Manifold Approximation and Projection (UMAP)](UMAP.md)**
+- **[Locally Linear Embeddings (LLE)](Locally_Linear_Embeddings.md)**
+- **[Laplacian Eigenmaps](Laplacian_Eigenmaps.md)**
 
 
 Dimensionality reduction is needed due to a phenomenon known as the *curse of dimensionality*, which states that there is a pessimism-inducing relationship between the dimension of your data. Most dimensionality reduction techniques are based on something called the [manifold hypothesis](https://en.wikipedia.org/wiki/Manifold_hypothesis), which assumes that the data, while living in some high dimensional space, are actually on some much lower dimensional surface. 
