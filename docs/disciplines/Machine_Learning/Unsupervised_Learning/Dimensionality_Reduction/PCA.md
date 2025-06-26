@@ -52,10 +52,12 @@ The full PCA procedure is as follows.
 4. Compute the SVD of the matrix $A$, that is $A=U\Sigma W^T$. 
 
 
-***IMPORTANT NOTES***
 
-- Centering the data is **required** for PCA to succeed. If you do fail to do this the first principal component will be just the mean and thus, a waste of computation. 
-- It is wise to make sure that your data is, roughly, on the same scale. This is due to the construction of PCA. Suppose one of the dimensions contains values around 100 and the other features are in between 0 and 1. Then the dot product will be distorted by that dimension even if the variation in one of the other dimensions is larger. 
+???+ warning
+	Centering the data is **required** for PCA to succeed. If you do fail to do this the first principal component will be just the mean and thus, a waste of computation. 
+
+???+ tip
+	It is wise to make sure that your data is, roughly, on the same scale. This is due to the construction of PCA. Suppose one of the dimensions contains values around 100 and the other features are in between 0 and 1. Then the dot product will be distorted by that dimension even if the variation in one of the other dimensions is larger. 
 
 ### Dimensionality Reduction
 
