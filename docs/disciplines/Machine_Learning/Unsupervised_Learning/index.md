@@ -1,6 +1,6 @@
 # Introduction
 
-Unsupervised Learning (UL) is a branch of machine learning where the inputs are not labeled. Generally speaking, the goal of UL is to find some sort of ``hidden'' (sometimes called "latent") structure in the dataset. 
+Unsupervised Learning (UL) is a branch of machine learning where the inputs are not labeled. Generally speaking, the goal of UL is to find some sort of "hidden" (sometimes called "latent") structure in the dataset. 
 
 The two most common tasks in UL are [dimensionality reduction](./Dimensionality_Reduction/index.md) and [clustering](./Clustering/index.md). Parts of the field known as [generative modeling](./Generative_Modeling/index.md) also fit under the umbrella of unspervised learning. 
 
