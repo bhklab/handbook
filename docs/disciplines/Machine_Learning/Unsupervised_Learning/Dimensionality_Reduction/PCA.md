@@ -36,7 +36,7 @@ But how *do* we compute these vectors? The answer comes via matrix algebra, in p
 - The SVD rewrites $M$ as the product of three matrices, $U, \Sigma, W$. Explicitly we have
 $$
 M=U\Sigma W^T
-$$. 
+$$ 
 - $U\in \mathbb{R}^{n \times n}$ where the columns are unit vectors that are orthogonal. The columns of $U$ are called the **right singular vectors**.
 - $\Sigma\in \mathbb{R}^{n\times d}$ and is diagonal with non-negative real numbers along the diagonal. The diagonal entries are called the **singular values**. We assume that the columns of $\Sigma$ are listed in decreasing order of the singular values. These are written as $\sigma_i$. 
 - $W\in \mathbb{R}^{d\times d}$ where the the columns are unit vectors that are orthogonal. The columns are called the **right** singular vectors. 
