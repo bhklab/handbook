@@ -6,7 +6,7 @@ Here’s an overview of **mandatory** meetings to attend. See lab calendar for l
 |-----------------------------------|---------------------|-------------------------|-------------------|
 | [Lab meeting](lab_meeting.md)     | Weekly              | Tuesdays, 10.30-12 p.m. | #general #random  |
 | [Journal club](journal_club.md)   | Bi-Weekly           | Wednesdays, 12-1 p.m.   | #general #random  |
-| [Manuscript Review](../Manuscripts/Manuscript_Review_presentations.md) | Monthly (or as needed) | Last Wednesday of the month, 12-1 p.m. | |
+| [Manuscript Review](../Manuscripts/manuscript_review_presentations.md) | Monthly (or as needed) | Last Wednesday of the month, 12-1 p.m. | |
 
 The following meetings are specific to disciplines in the lab and are mandatory for only members of that discipline. Other lab members are welcome to attend these meetings.
 
