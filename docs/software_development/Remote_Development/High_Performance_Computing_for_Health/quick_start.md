@@ -139,8 +139,12 @@ Familiarize yourself with submitting jobs by reading our documentation on [Submi
     #SBATCH --time 1:0:0
     #SBATCH --cpus-per-task 2
     #SBATCH --nodes 1
-    #SBATCH --partition=any
     #SBATCH --mail-user=bhklab.johnsmith@gmail.com
-    #SBATCH --mail-type=START,FAIL,END
+    #SBATCH --mail-type=BEGIN,FAIL,END
     #SBATCH --output="~/slurm_logs/%A-%x.out"
     ```
+    
+    * This will submit a job called "my_job_name".
+    * It requests 2 CPUs with 8G of memory each for 1 hour. 
+    * An email will be sent to `bhklab.johnsmith@gmail.com` when the job begins, fails, and/or ends.
+    * Logs will be output as a file with the format `{job number}-{job name}` in a directory called `slurm_logs` in the user's home directory.
