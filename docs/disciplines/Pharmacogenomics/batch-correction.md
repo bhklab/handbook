@@ -40,6 +40,7 @@ When available, **center ID** or **platform ID** can be included as a batch vari
 | **ComBat**     | Known batches     | `sva::ComBat`             | Empirical Bayes method; widely used for microarray or log-transformed RNA-seq data |
 | **ComBat-seq** | Known batches     | `sva::ComBat_seq`         | Variant of ComBat for **RNA-seq count data**                      |
 | **svaseq**     | Unknown batches   | `sva::svaseq`             | RNA-seq-specific extension of SVA; models logCPM or transformed counts |
+| **sva**     | Unknown batches   | `sva::sva`             | widely used for microarray or log-transformed RNA-seq data |
 | **RUVSeq**     | Unknown batches   | `RUVSeq::RUVg`, `RUVs`    | Designed for RNA-seq counts using control genes or replicates         |
 | **Linear Model** | Known batches   | `limma::removeBatchEffect` | Simple, design-aware batch removal approach for log-scale data        |
 | **PCA**        | Diagnostic tool   | `prcomp`, `PCAtools`      | Visualization tool to detect batch structure; not a correction method |
@@ -81,7 +82,12 @@ The choice of batch **estimation** and **correction** methods depends on the und
 > **Recommendation:** Always assess your data type (e.g., log-transformed vs. raw counts) and the assumptions of each method before applying batch correction. Where possible, review relevant studies or perform simulations to justify your approach.
 
 ```
+## Additional Example
 
+For a step-by-step example of batch estimation and correction using real log-transfomed RNA-seq data, refer to the following guide:  
+[Batch estimation SVA](https://drive.google.com/file/d/1pvnGrQfymj22ls6epNMwBZ4mv5cvq8p8/view?usp=sharing) and [Batch correction: ComBat](https://drive.google.com/file/d/16lNLoxRF_ELS8vhYBT2gKhoM4IZOvfzM/view?usp=sharing)
+
+```
 ## References
 
 - Leek JT et al., *Bioinformatics*, 2012.  
