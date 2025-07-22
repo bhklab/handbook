@@ -55,15 +55,7 @@ These effects can obscure biological signals and lead to false conclusions if no
 
 ---
 
-## Key R Packages
-
-```r
-# Install required packages
-install.packages("BiocManager")
-BiocManager::install(c("sva", "limma", "RUVSeq", "edgeR", "DESeq2", "PCAtools"))
-```
-
-## Tips
+## Note
 
 - Always inspect data **before and after** correction.
 - Don’t over-correct: ensure biological variation remains.
@@ -71,10 +63,3 @@ BiocManager::install(c("sva", "limma", "RUVSeq", "edgeR", "DESeq2", "PCAtools"))
 
 ---
 
-## Additional Reading
-
-- Johnson et al., *Biostatistics*, 2007 — ComBat method  
-- Risso et al., *Nature Biotechnology*, 2014 — RUVSeq  
-- Leek & Storey, *PLoS Genetics*, 2007 — SVA
-
----
