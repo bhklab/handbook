@@ -1,6 +1,6 @@
 # Non-IO Clinical Trial Curation
 
-This documentation describes the curation process of clinical trial data for immunotherapy datasets into a standardized R object.
+This documentation describes the curation process of clinical trial data for non-immunotherapy datasets into a standardized R object.
 
 ## Non-immunotherapy datasets
 
