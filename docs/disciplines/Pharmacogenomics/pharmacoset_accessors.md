@@ -157,8 +157,8 @@ dive into the actual data.
 
     # Access any assay (i.e 'viability', 'computed_profiles', 'published_profiles')
     head(assay(tre, "viability"))
-    rowData(tre)          # sample metadata
-    colData(tre)          # treatment metadata
+    rowData(tre)    # sample metadata
+    colData(tre)    # treatment metadata
     ```
 
 === "legacy accessors"
