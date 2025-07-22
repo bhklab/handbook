@@ -71,7 +71,6 @@ When available, **center ID** or **platform ID** can be included as a batch vari
 - In multi-platform or multi-center studies, consider combining batch correction with **meta-analysis** approaches
 
 ---
-
 ## Note 
 
 The choice of batch **estimation** and **correction** methods depends on the underlying **data distribution** and the **statistical assumptions** of each method.
@@ -81,13 +80,16 @@ The choice of batch **estimation** and **correction** methods depends on the und
 
 > **Recommendation:** Always assess your data type (e.g., log-transformed vs. raw counts) and the assumptions of each method before applying batch correction. Where possible, review relevant studies or perform simulations to justify your approach.
 
-```
-## Additional Example
+---
 
-For a step-by-step example of batch estimation and correction using real log-transfomed RNA-seq data, refer to the following guide:  
-[Batch estimation SVA](https://drive.google.com/file/d/1pvnGrQfymj22ls6epNMwBZ4mv5cvq8p8/view?usp=sharing) and [Batch correction: ComBat](https://drive.google.com/file/d/16lNLoxRF_ELS8vhYBT2gKhoM4IZOvfzM/view?usp=sharing)
+## Example
 
-```
+For a step-by-step example of batch estimation and correction using real log-transformed RNA-seq data, refer to the following guide:  
+-  [Batch estimation: SVA](https://drive.google.com/file/d/1pvnGrQfymj22ls6epNMwBZ4mv5cvq8p8/view?usp=sharing)  
+-  [Batch correction: ComBat](https://drive.google.com/file/d/16lNLoxRF_ELS8vhYBT2gKhoM4IZOvfzM/view?usp=sharing)
+
+---
+
 ## References
 
 - Leek JT et al., *Bioinformatics*, 2012.  
