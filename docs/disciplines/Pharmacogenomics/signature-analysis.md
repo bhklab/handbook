@@ -89,6 +89,10 @@ To assess similarity or redundancy between gene signatures:
 
 ---
 
-## Example
+## Related Concept: What is Pathway Analysis?
 
-CO link will be added. 
+While **signature analysis** focuses on scoring samples based on predefined gene sets (signatures) often linked to clinical traits or phenotypes, **pathway analysis** aims to identify **biological pathways** (e.g., KEGG, Reactome, GO) that are statistically enriched in a gene list or ranked gene set (e.g., from differential expression).
+
+Pathway analysis is often used alongside or after signature analysis to interpret what broader biological processes the gene sets represent.
+
+> Use pathway analysis when your research question involves uncovering **mechanisms** or **biological context**; use signature analysis when focusing on **prediction**, **classification**, or **phenotypic scoring**. The choice of packages or pipelines may vary based on the specific research question and analysis goals.
