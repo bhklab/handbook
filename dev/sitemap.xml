@@ -181,6 +181,14 @@
          <lastmod>2025-07-22</lastmod>
     </url>
     <url>
+         <loc>https://bhklab.github.io/handbook/dev/disciplines/Data_Science/Visualization/</loc>
+         <lastmod>2025-07-22</lastmod>
+    </url>
+    <url>
+         <loc>https://bhklab.github.io/handbook/dev/disciplines/Data_Science/Visualization/sankey/</loc>
+         <lastmod>2025-07-22</lastmod>
+    </url>
+    <url>
          <loc>https://bhklab.github.io/handbook/dev/disciplines/Imaging/</loc>
          <lastmod>2025-07-22</lastmod>
     </url>
@@ -462,6 +470,14 @@
     </url>
     <url>
          <loc>https://bhklab.github.io/handbook/dev/software_development/Languages/R/Tidyverse/ggplot2/</loc>
+         <lastmod>2025-07-22</lastmod>
+    </url>
+    <url>
+         <loc>https://bhklab.github.io/handbook/dev/software_development/Languages/R/networkD3/</loc>
+         <lastmod>2025-07-22</lastmod>
+    </url>
+    <url>
+         <loc>https://bhklab.github.io/handbook/dev/software_development/Languages/R/networkD3/sankey/</loc>
          <lastmod>2025-07-22</lastmod>
     </url>
     <url>
