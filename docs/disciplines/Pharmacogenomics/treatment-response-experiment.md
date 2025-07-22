@@ -47,7 +47,16 @@ performant when computing over millions of data points.
 ### Key Components
 
 To best understand the `TreatmentResponseExperiment`, we will conceptualize it
-as a data structure with four main components:
+as a data structure with four main components.
+
+!!! tip
+
+    You can access these respective components using the `rowData`, `colData`, `assays`, and `metadata` functions, e.g.:
+    
+    ```r
+    rowData(tre)
+    assays(tre)
+    ```
 
 1. **rowData** - The treatments you're testing
     - `rowIDs`: the columns that identify unique treatment experiment (make up the `rowKey`)
