@@ -4,7 +4,11 @@
 
 ## Getting Started
 
-The BHK Lab has a paid Paperpile license. If you need access, you can reach out to Sisira on Slack or Email. When collecting citations for your project, create a subdirectory within the Paperpile library with the name of your project.
+The BHK Lab has a paid Paperpile license. If you need access credentials, you can reach out to the Lab Coordinator via Slack or Email.
+
+!!! info "Required"
+
+    When collecting citations for your project, you must create a subdirectory within the Paperpile library with the name of your project to help organize citations.
 
 ## Using Paperpile
 
