@@ -1,66 +1,93 @@
+
 # Batch Correction Analysis
 
-This page introduces the concept of batch correction in genomic data analysis, why it's important, and provides guidance on commonly used methods and tools.
+This page introduces the concept of batch correction in genomic data analysis, explains why it matters, and provides a practical overview of commonly used methods and tools.
 
 ---
 
 ## What is Batch Correction?
 
-**Batch effects** are unwanted sources of variation in high-throughput data (e.g., RNA-seq, microarray) caused by differences in experimental conditions such as processing date, technician, reagent lot, or sequencing platform rather than true biological differences.
+**Batch effects** are unwanted sources of variation in high-throughput experiments (e.g., RNA-seq, microarrays) caused by technical differences such as processing date, technician, reagent lot, or sequencing platform — rather than true biological differences.
 
-These effects can obscure biological signals and lead to false conclusions if not properly addressed.
+These effects can obscure meaningful biological signals and lead to misleading conclusions if not properly addressed.
 
-> **Why it matters:** Uncorrected batch effects can inflate variance, bias downstream analysis (e.g., differential expression, clustering), and reduce the reproducibility and generalizability of results.
+> **Why it matters:** Uncorrected batch effects can inflate variance, bias downstream analyses (e.g., differential expression, clustering), and reduce the reproducibility and generalizability of findings.
+
+---
+
+## Technical Batches in Multi-Center Studies
+
+In multi-center or multi-institutional studies, batch effects can arise due to:
+- Differences in **sample processing protocols**
+- **Sequencing platforms** or vendors used at each site
+- Center-specific **technical pipelines** or lab personnel
+
+When available, **center ID** or **platform ID** can be included as a batch variable. If unknown, statistical methods like **svaseq** or **RUVSeq** can help identify latent factors related to these center-specific technical artifacts.
 
 ---
 
 ## Known vs. Unknown Batches
 
-- **Known batch variables** (e.g., platform, date, plate) are recorded in metadata and can be directly modeled.
-- **Unknown (latent) batch effects** need to be estimated from the data using statistical methods such as **SVA**.
+- **Known batch variables** (e.g., center, platform, plate) are explicitly recorded in metadata and can be modeled directly.
+- **Unknown (latent) batch effects** must be inferred from the data using statistical techniques such as **SVA** or **RUV**.
 
 ---
 
-## Common Methods for Batch Correction
+## Common Methods for Batch Estimation and/or Correction
 
-| Method       | Type           | Key Tool/Package       | Notes |
-|--------------|----------------|------------------------|-------|
-| **ComBat**   | Known batches  | `sva::ComBat`          | Empirical Bayes; works well for microarray and log-transformed RNA-seq |
-| **ComBat-seq** | Known batches | `sva::ComBat_seq`      | Designed for raw RNA-seq counts |
-| **SVA**      | Unknown batches| `sva::sva`             | Surrogate Variable Analysis estimates hidden sources of variation |
-| **RUV**      | Unknown batches| `RUVSeq`, `RUVnormalize` | Uses control genes or replicate samples |
-| **Linear model** | Known batches | `limma::removeBatchEffect` | Simple and effective for design-aware modeling |
-| **PCA**      | Diagnostic     | `prcomp`, `PCAtools`   | Not a correction method, but helpful for visualizing batch effects |
+| Method         | Type              | Key Tool/Package         | Notes                                                                 |
+|----------------|-------------------|---------------------------|-----------------------------------------------------------------------|
+| **ComBat**     | Known batches     | `sva::ComBat`             | Empirical Bayes method; widely used for microarray or log-transformed RNA-seq data |
+| **ComBat-seq** | Known batches     | `sva::ComBat_seq`         | Variant of ComBat for **RNA-seq count data**                      |
+| **svaseq**     | Unknown batches   | `sva::svaseq`             | RNA-seq-specific extension of SVA; models logCPM or transformed counts |
+| **RUVSeq**     | Unknown batches   | `RUVSeq::RUVg`, `RUVs`    | Designed for RNA-seq counts using control genes or replicates         |
+| **Linear Model** | Known batches   | `limma::removeBatchEffect` | Simple, design-aware batch removal approach for log-scale data        |
+| **PCA**        | Diagnostic tool   | `prcomp`, `PCAtools`      | Visualization tool to detect batch structure; not a correction method |
 
 ---
 
 ## General Workflow
 
 1. **Explore batch effects**
-   - PCA, boxplots, clustering by batch variables
+   - Use PCA, boxplots, or sample clustering by known batch variables
 
-2. **Choose method**
-   - Known batch: try **ComBat** or **limma** 
-   - Unknown batch: try **SVA** or **RUV**
+2. **Choose a method**
+   - **Known batch**: Use **ComBat**, **ComBat-seq**, or **limma**
+   - **Unknown batch**: Use **SVAseq** or **RUVseq** for RNA-seq data
 
 3. **Apply correction**
-   - Use relevant R functions from `sva`, `limma`, or `RUVSeq`
+   - Use appropriate functions from `sva`, `limma`, or `RUVSeq` depending on your data type
 
-4. **Re-assess**
-   - Re-run PCA or clustering to verify that batch effect is reduced without removing biological signal
-
----
-
-## Note
-
-- Always inspect data **before and after** correction.
-- Don’t over-correct: ensure biological variation remains.
-- For multi-center or multi-platform studies, combine batch correction with **meta-analysis** strategies.
+4. **Re-assess the data**
+   - Visualize again (e.g., PCA, clustering) to confirm batch effects are minimized and biological signals preserved
 
 ---
 
-**Key references:**
-- Leek et al., *Bioinformatics*, 2010: [The sva package for removing batch effects and other unwanted variation in high-throughput experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC3307112/)
-- Risso et al., *Nat Biotechnol*, 2016: [Normalization of RNA-seq data using factor analysis of control genes or samples](https://pubmed.ncbi.nlm.nih.gov/25150836/)
+## Best Practices
+
+- Always inspect the data **before and after** batch correction
+- Avoid overcorrection: ensure relevant biological variation is retained
+- In multi-platform or multi-center studies, consider combining batch correction with **meta-analysis** approaches
+
+---
+
+## Note 
+
+The choice of batch **estimation** and **correction** methods depends on the underlying **data distribution** and the **statistical assumptions** of each method.
+
+- For example, **ComBat** assumes normally distributed log-transformed data, while **ComBat-seq** is specifically designed for raw count data.
+- **svaseq** and **RUVSeq** also make different assumptions about latent variation and require careful selection of controls or models.
+
+> **Recommendation:** Always assess your data type (e.g., log-transformed vs. raw counts) and the assumptions of each method before applying batch correction. Where possible, review relevant studies or perform simulations to justify your approach.
 
 ```
+
+## References
+
+- Leek JT et al., *Bioinformatics*, 2012.  
+  [The sva package for removing batch effects and other unwanted variation in high-throughput experiments](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3307112/)
+
+- Risso D et al., *Nature Biotechnology*, 2014.  
+  [Normalization of RNA-seq data using factor analysis of control genes or samples](https://pubmed.ncbi.nlm.nih.gov/25150836/)
+
+---
