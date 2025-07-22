@@ -12,6 +12,13 @@ Covidence enables researchers and teams to:
 
 ## Workflow
 
+### 0. Setup
+
+- To use Covidence, you should first prepare a list of studies you want to include in your systematic review.
+- You can either manually add a list of studies you want to review, or bulk-add a list from a query.
+- One way to collect many studies programmatically is to use the PubMed API and export the results in a format that Covidence can import such as EndNote XML.
+- Some example code of doing so using Biopython and MeSH queries is seen in [PredictRx](https://github.com/bhklab/PredictRx/tree/main/archive/modules/query_papers) (Note: You must be logged into GitHub and have access to BHKLAB organization).
+
 ### 1. Abstract Screening
 
 - Covidence first presents all study abstracts for initial screening.
