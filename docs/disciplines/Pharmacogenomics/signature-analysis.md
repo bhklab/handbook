@@ -83,7 +83,7 @@ To assess similarity or redundancy between gene signatures:
 | Clustering             | `apcluster`, `hclust`                               |
 | Enrichment analysis    | `enrichR`, `clusterProfiler`, `fgsea`               |
 | Visualization          | `corrplot`, `ComplexHeatmap`, `pheatmap`, `ggplot2` |
-| Association modeling   | `glm`, `survival` (includes `coxph`), `caret`       |
+| Association modeling   | `glm`, `survival` (includes `coxph`), `survcomp`, `caret`       |
 
 > **Note:** The choice of packages or pipelines may vary based on the specific research question and analysis goals.
 
@@ -96,3 +96,13 @@ While **signature analysis** focuses on scoring samples based on predefined gene
 Pathway analysis is often used alongside or after signature analysis to interpret what broader biological processes the gene sets represent.
 
 > Use pathway analysis when your research question involves uncovering **mechanisms** or **biological context**; use signature analysis when focusing on **prediction**, **classification**, or **phenotypic scoring**. The choice of packages or pipelines may vary based on the specific research question and analysis goals.
+
+---
+
+## Example
+
+For a step-by-step example of signature score computation, refer to the following guide:  
+-  [GSVA](https://drive.google.com/file/d/1PF5ehiVjCD_X04Wos57jV7Bq4q-xOjs9/view?usp=sharing)  
+-  [ssGSEA](https://drive.google.com/file/d/1dKwxrZRZcVES82Ob47EyxNhd-nlxbFyj/view?usp=sharing)
+
+---
