@@ -12,10 +12,6 @@ These effects can obscure biological signals and lead to false conclusions if no
 
 > **Why it matters:** Uncorrected batch effects can inflate variance, bias downstream analysis (e.g., differential expression, clustering), and reduce the reproducibility and generalizability of results.
 
-**Key references:**
-- Leek et al., *Nat Rev Genet*, 2010: [https://doi.org/10.1038/nrg2825](https://doi.org/10.1038/nrg2825)
-- Nygaard et al., *Brief Bioinform*, 2016: [https://doi.org/10.1093/bib/bbw001](https://doi.org/10.1093/bib/bbw001)
-
 ---
 
 ## Known vs. Unknown Batches
@@ -63,3 +59,8 @@ These effects can obscure biological signals and lead to false conclusions if no
 
 ---
 
+**Key references:**
+- Leek et al., *Bioinformatics*, 2010: [The sva package for removing batch effects and other unwanted variation in high-throughput experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC3307112/)
+- Risso et al., *Nat Biotechnol*, 2016: [Normalization of RNA-seq data using factor analysis of control genes or samples](https://pubmed.ncbi.nlm.nih.gov/25150836/)
+
+```
