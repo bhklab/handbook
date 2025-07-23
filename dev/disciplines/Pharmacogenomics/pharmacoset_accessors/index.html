@@ -8,28 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://bhklab.github.io/handbook/dev/software_development/Languages/R/MultiAssayExperiment/">
+        <link rel="canonical" href="https://bhklab.github.io/handbook/dev/disciplines/Pharmacogenomics/pharmacoset_accessors/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../Navigating_PSets/">
       
       
-        <link rel="next" href="../Tidyverse/">
+        <link rel="next" href="../../Imaging/">
       
       
-      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
     
     
       
-        <title>MultiAssayExperiment - BHKLab Handbook</title>
+        <title>Accessing Data in a PharmacoSet - BHKLab Handbook</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.a40c8224.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.a40c8224.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -54,11 +54,11 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/css/stylesheet.css">
+      <link rel="stylesheet" href="../../../assets/css/stylesheet.css">
     
       <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
-    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#multiassayexperiment" class="md-skip">
+        <a href="#accessing-data-in-a-pharmacoset" class="md-skip">
           Skip to content
         </a>
       
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              MultiAssayExperiment
+              Accessing Data in a PharmacoSet
             
           </span>
         </div>
@@ -238,32 +238,12 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../General/" class="md-tabs__link">
+        <a href="../../../General/" class="md-tabs__link">
           
   
     
   
   General
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../../../disciplines/" class="md-tabs__link">
-          
-  
-    
-  
-  Disciplines
 
         </a>
       </li>
@@ -280,7 +260,27 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../../" class="md-tabs__link">
+        <a href="../../" class="md-tabs__link">
+          
+  
+    
+  
+  Disciplines
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../software_development/" class="md-tabs__link">
           
   
     
@@ -300,7 +300,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../grants/" class="md-tabs__link">
+        <a href="../../../grants/" class="md-tabs__link">
           
   
     
@@ -326,7 +326,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../onboarding_offboarding/Onboarding/" class="md-tabs__link">
+        <a href="../../../onboarding_offboarding/Onboarding/" class="md-tabs__link">
           
   
     
@@ -349,7 +349,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../resources/" class="md-tabs__link">
+        <a href="../../../resources/" class="md-tabs__link">
           
   
     
@@ -369,7 +369,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../contributing/" class="md-tabs__link">
+        <a href="../../../contributing/" class="md-tabs__link">
           
   
     
@@ -473,7 +473,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../General/" class="md-nav__link ">
+            <a href="../../../General/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -506,7 +506,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/lab_mission/" class="md-nav__link">
+      <a href="../../../General/lab_mission/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -548,7 +548,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../General/Lab_Space/" class="md-nav__link ">
+            <a href="../../../General/Lab_Space/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -607,7 +607,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../General/Summary_Of_Work/" class="md-nav__link ">
+            <a href="../../../General/Summary_Of_Work/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -640,7 +640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Summary_Of_Work/old_confluence_instructions/" class="md-nav__link">
+      <a href="../../../General/Summary_Of_Work/old_confluence_instructions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -715,7 +715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Communications/bhklab_calendar/" class="md-nav__link">
+      <a href="../../../General/Communications/bhklab_calendar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -736,7 +736,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Communications/bhklab_gmail/" class="md-nav__link">
+      <a href="../../../General/Communications/bhklab_gmail/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -757,7 +757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Communications/slack/" class="md-nav__link">
+      <a href="../../../General/Communications/slack/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -819,7 +819,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../General/Meetings/" class="md-nav__link ">
+            <a href="../../../General/Meetings/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -852,7 +852,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Meetings/lab_meeting/" class="md-nav__link">
+      <a href="../../../General/Meetings/lab_meeting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -873,7 +873,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Meetings/journal_club/" class="md-nav__link">
+      <a href="../../../General/Meetings/journal_club/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -894,7 +894,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Meetings/pgx_meeting/" class="md-nav__link">
+      <a href="../../../General/Meetings/pgx_meeting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -915,7 +915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Meetings/Radiomics_meeting/" class="md-nav__link">
+      <a href="../../../General/Meetings/Radiomics_meeting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -936,7 +936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Meetings/Software_dev_meeting/" class="md-nav__link">
+      <a href="../../../General/Meetings/Software_dev_meeting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -957,7 +957,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Meetings/owl_basics/" class="md-nav__link">
+      <a href="../../../General/Meetings/owl_basics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1011,7 +1011,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../General/Presentations/" class="md-nav__link ">
+            <a href="../../../General/Presentations/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1044,7 +1044,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Presentations/database/" class="md-nav__link">
+      <a href="../../../General/Presentations/database/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1065,7 +1065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Presentations/tools/" class="md-nav__link">
+      <a href="../../../General/Presentations/tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1121,7 +1121,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../General/Manuscripts/" class="md-nav__link ">
+            <a href="../../../General/Manuscripts/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1154,7 +1154,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Manuscripts/cover_letter/" class="md-nav__link">
+      <a href="../../../General/Manuscripts/cover_letter/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1175,7 +1175,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Manuscripts/response_to_reviewers/" class="md-nav__link">
+      <a href="../../../General/Manuscripts/response_to_reviewers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1196,7 +1196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../General/Manuscripts/manuscript_review_presentations/" class="md-nav__link">
+      <a href="../../../General/Manuscripts/manuscript_review_presentations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1246,7 +1246,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../General/Projects/" class="md-nav__link ">
+            <a href="../../../General/Projects/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1303,7 +1303,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../General/Awards_Achievements_Tracking/" class="md-nav__link ">
+            <a href="../../../General/Awards_Achievements_Tracking/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1343,6 +1343,8 @@
       
   
   
+    
+  
   
   
     
@@ -1365,19 +1367,22 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1388,13 +1393,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Disciplines
@@ -1435,7 +1440,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Data_Science/" class="md-nav__link ">
+            <a href="../../Data_Science/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1493,7 +1498,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Data_Science/Data_Curation/" class="md-nav__link ">
+            <a href="../../Data_Science/Data_Curation/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1547,7 +1552,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Data_Science/Data_Curation/IO_Clinical_Trial_Curation/" class="md-nav__link ">
+            <a href="../../Data_Science/Data_Curation/IO_Clinical_Trial_Curation/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1604,7 +1609,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Data_Science/Data_Curation/Non_IO_Clinical_Trial_Curation/" class="md-nav__link ">
+            <a href="../../Data_Science/Data_Curation/Non_IO_Clinical_Trial_Curation/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1671,7 +1676,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Data_Science/Visualization/" class="md-nav__link ">
+            <a href="../../Data_Science/Visualization/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1704,7 +1709,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Data_Science/Visualization/sankey/" class="md-nav__link">
+      <a href="../../Data_Science/Visualization/sankey/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1770,7 +1775,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Machine_Learning/" class="md-nav__link ">
+            <a href="../../Machine_Learning/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1803,7 +1808,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Machine_Learning/learning_resources/" class="md-nav__link">
+      <a href="../../Machine_Learning/learning_resources/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1824,7 +1829,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Machine_Learning/tools/" class="md-nav__link">
+      <a href="../../Machine_Learning/tools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1866,7 +1871,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Machine_Learning/Supervised_Learning/" class="md-nav__link ">
+            <a href="../../Machine_Learning/Supervised_Learning/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1929,7 +1934,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/" class="md-nav__link ">
+            <a href="../../Machine_Learning/Unsupervised_Learning/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1989,7 +1994,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/Clustering/" class="md-nav__link ">
+            <a href="../../Machine_Learning/Unsupervised_Learning/Clustering/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2022,7 +2027,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/Clustering/GMM/" class="md-nav__link">
+      <a href="../../Machine_Learning/Unsupervised_Learning/Clustering/GMM/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2043,7 +2048,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/Clustering/K_Means/" class="md-nav__link">
+      <a href="../../Machine_Learning/Unsupervised_Learning/Clustering/K_Means/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2064,7 +2069,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/Clustering/Spectral_Clustering/" class="md-nav__link">
+      <a href="../../Machine_Learning/Unsupervised_Learning/Clustering/Spectral_Clustering/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2126,7 +2131,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/" class="md-nav__link ">
+            <a href="../../Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2159,7 +2164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/Laplacian_Eigenmaps/" class="md-nav__link">
+      <a href="../../Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/Laplacian_Eigenmaps/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2180,7 +2185,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/Locally_Linear_Embeddings/" class="md-nav__link">
+      <a href="../../Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/Locally_Linear_Embeddings/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2201,7 +2206,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/PCA/" class="md-nav__link">
+      <a href="../../Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/PCA/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2222,7 +2227,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/Random_Projections/" class="md-nav__link">
+      <a href="../../Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/Random_Projections/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2243,7 +2248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/TSNE/" class="md-nav__link">
+      <a href="../../Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/TSNE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2264,7 +2269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/UMAP/" class="md-nav__link">
+      <a href="../../Machine_Learning/Unsupervised_Learning/Dimensionality_Reduction/UMAP/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2316,7 +2321,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/Generative_Modeling/" class="md-nav__link ">
+            <a href="../../Machine_Learning/Unsupervised_Learning/Generative_Modeling/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2349,7 +2354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Machine_Learning/Unsupervised_Learning/Generative_Modeling/VAE/" class="md-nav__link">
+      <a href="../../Machine_Learning/Unsupervised_Learning/Generative_Modeling/VAE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2419,7 +2424,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Bioinformatics/" class="md-nav__link ">
+            <a href="../../Bioinformatics/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2494,7 +2499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Bioinformatics/Data_Types/rnaseq/" class="md-nav__link">
+      <a href="../../Bioinformatics/Data_Types/rnaseq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2611,7 +2616,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Bioinformatics/Tools/RNAseq_Pipelines/deseq/" class="md-nav__link">
+      <a href="../../Bioinformatics/Tools/RNAseq_Pipelines/deseq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2632,7 +2637,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Bioinformatics/Tools/RNAseq_Pipelines/kallisto/" class="md-nav__link">
+      <a href="../../Bioinformatics/Tools/RNAseq_Pipelines/kallisto/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2653,7 +2658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Bioinformatics/Tools/RNAseq_Pipelines/STAR/" class="md-nav__link">
+      <a href="../../Bioinformatics/Tools/RNAseq_Pipelines/STAR/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2695,6 +2700,8 @@
                 
   
   
+    
+  
   
   
     
@@ -2716,16 +2723,16 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Pharmacogenomics/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2742,7 +2749,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
             Pharmacogenomics
@@ -2758,7 +2765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Pharmacogenomics/Cell_Viability_Screens/" class="md-nav__link">
+      <a href="../Cell_Viability_Screens/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2779,7 +2786,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Pharmacogenomics/Navigating_PSets/" class="md-nav__link">
+      <a href="../Navigating_PSets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2797,10 +2804,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../../disciplines/Pharmacogenomics/pharmacoset_accessors/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Accessing Data in a PharmacoSet
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -2809,6 +2836,80 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quick-start-tutorial-load-a-tiny-demo-pset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick start tutorial: Load a tiny demo PSet
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#treatments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Treatments
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#samples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Samples
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#molecular-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Molecular profiles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#treatment-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      Treatment Response
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAQ
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2858,7 +2959,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Imaging/" class="md-nav__link ">
+            <a href="../../Imaging/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2912,7 +3013,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Imaging/Data_Sources/" class="md-nav__link ">
+            <a href="../../Imaging/Data_Sources/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2992,7 +3093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Imaging/Data_Types/DICOM/" class="md-nav__link">
+      <a href="../../Imaging/Data_Types/DICOM/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3013,7 +3114,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Imaging/Data_Types/nifti/" class="md-nav__link">
+      <a href="../../Imaging/Data_Types/nifti/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3063,7 +3164,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Imaging/Radiomics/" class="md-nav__link ">
+            <a href="../../Imaging/Radiomics/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3122,7 +3223,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Imaging/Tools/" class="md-nav__link ">
+            <a href="../../Imaging/Tools/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3178,7 +3279,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../disciplines/Imaging/Tools/QIPCM/" class="md-nav__link ">
+            <a href="../../Imaging/Tools/QIPCM/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3211,7 +3312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../disciplines/Imaging/Tools/QIPCM/querying_data/" class="md-nav__link">
+      <a href="../../Imaging/Tools/QIPCM/querying_data/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3260,8 +3361,6 @@
       
   
   
-    
-  
   
   
     
@@ -3282,22 +3381,19 @@
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../" class="md-nav__link ">
+            <a href="../../../software_development/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3308,13 +3404,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Software Development
@@ -3361,7 +3457,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../Development_Environment/" class="md-nav__link ">
+            <a href="../../../software_development/Development_Environment/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3417,7 +3513,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../Development_Environment/Shells/" class="md-nav__link ">
+            <a href="../../../software_development/Development_Environment/Shells/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3450,7 +3546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Development_Environment/Shells/wsl/" class="md-nav__link">
+      <a href="../../../software_development/Development_Environment/Shells/wsl/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3504,7 +3600,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../Development_Environment/Integrated_Development_Environments/" class="md-nav__link ">
+            <a href="../../../software_development/Development_Environment/Integrated_Development_Environments/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3537,7 +3633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Development_Environment/Integrated_Development_Environments/r_studio/" class="md-nav__link">
+      <a href="../../../software_development/Development_Environment/Integrated_Development_Environments/r_studio/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3558,7 +3654,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Development_Environment/Integrated_Development_Environments/visual_studio_code/" class="md-nav__link">
+      <a href="../../../software_development/Development_Environment/Integrated_Development_Environments/visual_studio_code/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3610,7 +3706,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../Development_Environment/Package_Managers/" class="md-nav__link ">
+            <a href="../../../software_development/Development_Environment/Package_Managers/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3643,7 +3739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Development_Environment/Package_Managers/pixi/" class="md-nav__link">
+      <a href="../../../software_development/Development_Environment/Package_Managers/pixi/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3693,7 +3789,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../Development_Environment/CLI_Tools/" class="md-nav__link ">
+            <a href="../../../software_development/Development_Environment/CLI_Tools/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3750,7 +3846,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../Development_Environment/Containerization/" class="md-nav__link ">
+            <a href="../../../software_development/Development_Environment/Containerization/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3791,8 +3887,6 @@
                 
   
   
-    
-  
   
   
     
@@ -3820,16 +3914,16 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../" class="md-nav__link ">
+            <a href="../../../software_development/Languages/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3846,7 +3940,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             Languages
@@ -3885,7 +3979,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Javascript_Typescript/" class="md-nav__link ">
+            <a href="../../../software_development/Languages/Javascript_Typescript/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3918,7 +4012,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Javascript_Typescript/learning_resources/" class="md-nav__link">
+      <a href="../../../software_development/Languages/Javascript_Typescript/learning_resources/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3970,7 +4064,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Markdown/" class="md-nav__link ">
+            <a href="../../../software_development/Languages/Markdown/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4026,7 +4120,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Markdown/mkdocs/" class="md-nav__link ">
+            <a href="../../../software_development/Languages/Markdown/mkdocs/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4059,7 +4153,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Markdown/mkdocs/examples/" class="md-nav__link">
+      <a href="../../../software_development/Languages/Markdown/mkdocs/examples/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4117,7 +4211,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Python/" class="md-nav__link ">
+            <a href="../../../software_development/Languages/Python/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4150,8 +4244,6 @@
                 
   
   
-    
-  
   
   
     
@@ -4173,16 +4265,16 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_5" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../../software_development/Languages/R/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4199,7 +4291,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_3_5">
             <span class="md-nav__icon md-icon"></span>
             R
@@ -4212,28 +4304,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    MultiAssayExperiment
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../software_development/Languages/R/MultiAssayExperiment/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4242,78 +4316,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#multiassayexperiment" class="md-nav__link">
-    <span class="md-ellipsis">
-      MultiAssayExperiment
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#structure-of-a-mae-object" class="md-nav__link">
-    <span class="md-ellipsis">
-      Structure of a MAE Object
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installation-requirement" class="md-nav__link">
-    <span class="md-ellipsis">
-      Installation requirement
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#build-a-mae-object" class="md-nav__link">
-    <span class="md-ellipsis">
-      Build a MAE Object
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#work-with-a-mae" class="md-nav__link">
-    <span class="md-ellipsis">
-      Work with a MAE
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#additional-references" class="md-nav__link">
-    <span class="md-ellipsis">
-      Additional References
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -4349,7 +4351,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../Tidyverse/" class="md-nav__link ">
+            <a href="../../../software_development/Languages/R/Tidyverse/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4382,7 +4384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Tidyverse/ggplot2/" class="md-nav__link">
+      <a href="../../../software_development/Languages/R/Tidyverse/ggplot2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4434,7 +4436,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../networkD3/" class="md-nav__link ">
+            <a href="../../../software_development/Languages/R/networkD3/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4467,7 +4469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../networkD3/sankey/" class="md-nav__link">
+      <a href="../../../software_development/Languages/R/networkD3/sankey/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4525,7 +4527,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Rust/" class="md-nav__link ">
+            <a href="../../../software_development/Languages/Rust/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4582,7 +4584,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../SQL/" class="md-nav__link ">
+            <a href="../../../software_development/Languages/SQL/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -4716,7 +4718,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Version_Control/git/introduction/" class="md-nav__link">
+      <a href="../../../software_development/Version_Control/git/introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4737,7 +4739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Version_Control/git/quick_git/" class="md-nav__link">
+      <a href="../../../software_development/Version_Control/git/quick_git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4816,7 +4818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Version_Control/code_reviews/introduction/" class="md-nav__link">
+      <a href="../../../software_development/Version_Control/code_reviews/introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4837,7 +4839,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Version_Control/code_reviews/mindsets/" class="md-nav__link">
+      <a href="../../../software_development/Version_Control/code_reviews/mindsets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4858,7 +4860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Version_Control/code_reviews/challenges_solutions/" class="md-nav__link">
+      <a href="../../../software_development/Version_Control/code_reviews/challenges_solutions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4879,7 +4881,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Version_Control/code_reviews/conducting_a_review/" class="md-nav__link">
+      <a href="../../../software_development/Version_Control/code_reviews/conducting_a_review/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4900,7 +4902,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Version_Control/code_reviews/presentation/" class="md-nav__link">
+      <a href="../../../software_development/Version_Control/code_reviews/presentation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4929,7 +4931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Version_Control/orcestra_vc/" class="md-nav__link">
+      <a href="../../../software_development/Version_Control/orcestra_vc/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5064,7 +5066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Remote_Development/Google_Cloud_Platform/introduction/" class="md-nav__link">
+      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5085,7 +5087,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Remote_Development/Google_Cloud_Platform/vertexai/" class="md-nav__link">
+      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/vertexai/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5106,7 +5108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Remote_Development/Google_Cloud_Platform/artifact_registry/" class="md-nav__link">
+      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/artifact_registry/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5127,7 +5129,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Remote_Development/Google_Cloud_Platform/bigquery/" class="md-nav__link">
+      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/bigquery/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5148,7 +5150,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Remote_Development/Google_Cloud_Platform/cloud_sql/" class="md-nav__link">
+      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/cloud_sql/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5169,7 +5171,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Remote_Development/Google_Cloud_Platform/compute_engine/" class="md-nav__link">
+      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/compute_engine/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5190,7 +5192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Remote_Development/Google_Cloud_Platform/gcs/" class="md-nav__link">
+      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/gcs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5211,7 +5213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Remote_Development/Google_Cloud_Platform/serving_images_and_videos/" class="md-nav__link">
+      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/serving_images_and_videos/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5232,7 +5234,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Remote_Development/Google_Cloud_Platform/virtual_machines/" class="md-nav__link">
+      <a href="../../../software_development/Remote_Development/Google_Cloud_Platform/virtual_machines/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5284,7 +5286,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../Remote_Development/High_Performance_Computing_for_Health/" class="md-nav__link ">
+            <a href="../../../software_development/Remote_Development/High_Performance_Computing_for_Health/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -5317,7 +5319,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Remote_Development/High_Performance_Computing_for_Health/quick_start/" class="md-nav__link">
+      <a href="../../../software_development/Remote_Development/High_Performance_Computing_for_Health/quick_start/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5369,7 +5371,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../Remote_Development/Lab_Server/" class="md-nav__link ">
+            <a href="../../../software_development/Remote_Development/Lab_Server/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -5402,7 +5404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Remote_Development/Lab_Server/github_access/" class="md-nav__link">
+      <a href="../../../software_development/Remote_Development/Lab_Server/github_access/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5452,7 +5454,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../Remote_Development/Compute_Canada_Cloud/" class="md-nav__link ">
+            <a href="../../../software_development/Remote_Development/Compute_Canada_Cloud/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -5534,7 +5536,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../grants/" class="md-nav__link ">
+            <a href="../../../grants/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -5567,7 +5569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../grants/Identifying_Suitable_Grants/" class="md-nav__link">
+      <a href="../../../grants/Identifying_Suitable_Grants/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5611,7 +5613,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../grants/Preparing_for_Submission/" class="md-nav__link ">
+            <a href="../../../grants/Preparing_for_Submission/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -5644,7 +5646,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../grants/Preparing_for_Submission/UHN_budget_process/" class="md-nav__link">
+      <a href="../../../grants/Preparing_for_Submission/UHN_budget_process/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5673,7 +5675,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../grants/Writing_a_Strong_Grant_Proposal/" class="md-nav__link">
+      <a href="../../../grants/Writing_a_Strong_Grant_Proposal/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5694,7 +5696,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../grants/Submission_Process/" class="md-nav__link">
+      <a href="../../../grants/Submission_Process/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5715,7 +5717,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../grants/Templates_%26_Resources/" class="md-nav__link">
+      <a href="../../../grants/Templates_%26_Resources/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5820,7 +5822,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../onboarding_offboarding/Onboarding/" class="md-nav__link ">
+            <a href="../../../onboarding_offboarding/Onboarding/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -5853,7 +5855,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../onboarding_offboarding/Onboarding/uhn_onboarding/" class="md-nav__link">
+      <a href="../../../onboarding_offboarding/Onboarding/uhn_onboarding/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5874,7 +5876,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../onboarding_offboarding/Onboarding/bhklab_onboarding/" class="md-nav__link">
+      <a href="../../../onboarding_offboarding/Onboarding/bhklab_onboarding/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5895,7 +5897,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../onboarding_offboarding/Onboarding/vpn/" class="md-nav__link">
+      <a href="../../../onboarding_offboarding/Onboarding/vpn/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5916,7 +5918,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../onboarding_offboarding/Onboarding/mbp_rotation/" class="md-nav__link">
+      <a href="../../../onboarding_offboarding/Onboarding/mbp_rotation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5937,7 +5939,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../onboarding_offboarding/Onboarding/lab_member_expertise/" class="md-nav__link">
+      <a href="../../../onboarding_offboarding/Onboarding/lab_member_expertise/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5958,7 +5960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../onboarding_offboarding/Onboarding/admin_checklist/" class="md-nav__link">
+      <a href="../../../onboarding_offboarding/Onboarding/admin_checklist/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6010,7 +6012,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../onboarding_offboarding/Offboarding/" class="md-nav__link ">
+            <a href="../../../onboarding_offboarding/Offboarding/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -6043,7 +6045,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../onboarding_offboarding/Offboarding/admin_checklist/" class="md-nav__link">
+      <a href="../../../onboarding_offboarding/Offboarding/admin_checklist/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6104,7 +6106,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../resources/" class="md-nav__link ">
+            <a href="../../../resources/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -6137,7 +6139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../resources/Undergraduate_award_opportunities/" class="md-nav__link">
+      <a href="../../../resources/Undergraduate_award_opportunities/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6158,7 +6160,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../resources/Guide_to_mentors/" class="md-nav__link">
+      <a href="../../../resources/Guide_to_mentors/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6223,7 +6225,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../contributing/" class="md-nav__link ">
+            <a href="../../../contributing/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -6256,7 +6258,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../contributing/prerequisites/" class="md-nav__link">
+      <a href="../../../contributing/prerequisites/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6277,7 +6279,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../contributing/submitting_issues/" class="md-nav__link">
+      <a href="../../../contributing/submitting_issues/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6298,7 +6300,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../contributing/adding_content/" class="md-nav__link">
+      <a href="../../../contributing/adding_content/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6319,7 +6321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../contributing/reviews/" class="md-nav__link">
+      <a href="../../../contributing/reviews/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6340,7 +6342,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../contributing/merging_pr/" class="md-nav__link">
+      <a href="../../../contributing/merging_pr/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6361,7 +6363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../contributing/conventional_commits/" class="md-nav__link">
+      <a href="../../../contributing/conventional_commits/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6382,7 +6384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../contributing/release_deployment/" class="md-nav__link">
+      <a href="../../../contributing/release_deployment/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6403,7 +6405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../contributing/changelog/" class="md-nav__link">
+      <a href="../../../contributing/changelog/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6441,6 +6443,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -6449,54 +6453,54 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#multiassayexperiment" class="md-nav__link">
+  <a href="#quick-start-tutorial-load-a-tiny-demo-pset" class="md-nav__link">
     <span class="md-ellipsis">
-      MultiAssayExperiment
+      Quick start tutorial: Load a tiny demo PSet
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#structure-of-a-mae-object" class="md-nav__link">
+  <a href="#treatments" class="md-nav__link">
     <span class="md-ellipsis">
-      Structure of a MAE Object
+      Treatments
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation-requirement" class="md-nav__link">
+  <a href="#samples" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation requirement
+      Samples
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#build-a-mae-object" class="md-nav__link">
+  <a href="#molecular-profiles" class="md-nav__link">
     <span class="md-ellipsis">
-      Build a MAE Object
+      Molecular profiles
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#work-with-a-mae" class="md-nav__link">
+  <a href="#treatment-response" class="md-nav__link">
     <span class="md-ellipsis">
-      Work with a MAE
+      Treatment Response
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-references" class="md-nav__link">
+  <a href="#faq" class="md-nav__link">
     <span class="md-ellipsis">
-      Additional References
+      FAQ
     </span>
   </a>
   
@@ -6520,87 +6524,166 @@
   
 
 
-  <h1>MultiAssayExperiment</h1>
-
-<h2 id="multiassayexperiment">MultiAssayExperiment<a class="headerlink" href="#multiassayexperiment" title="Anchor link to this section for reference">#</a></h2>
-<p><a href="https://www.bioconductor.org/packages/devel/bioc/vignettes/MultiAssayExperiment/inst/doc/MultiAssayExperiment.html">MultiAssayExperiment</a> (MAE) is an R package used to harmonize data management of multiple experimental assays performed on an overlapping set of specimens. It is designed to manage and integrate multiple types of omics or experimental data (e.g., RNA-seq, mutation data, methylation, proteomics) into a single, structured object. The object stores different data modalities (assays) together, keep track of which samples have which data types, with a goal to facilitate joint analysis, visualization, and subsetting across multiple experiments.</p>
-<p>You can create a MultiAssayExperiment object if you have a multiomics dataset (RNA-seq, mutation, proteomics data) for the same or overlapping sets of samples, and if you want to apply multi-omics integration methods, ML models, or visualizations that require synchronized datasets.</p>
-<blockquote>
-<p>"It provides a familiar Bioconductor user experience by extending concepts from SummarizedExperiment,
-supporting an open-ended mix of standard data classes for individual assays,
-and allowing subsetting by genomic ranges or rownames. 
-Facilities are provided for reshaping data into wide and long
-formats for adaptability to graphing and downstream analysis."</p>
-</blockquote>
-<p><strong>Citation</strong></p>
-<p>Ramos M, Schiffer L, Re A, Azhar R, Basunia A, Rodriguez Cabrera C, Chan T, Chapman P, Davis S, Gomez-Cabrero D, Culhane A, Haibe-Kains B, Hansen K, Kodali H, Louis M, Mer A, Reister M, Morgan M, Carey V, Waldron L (2017). “Software For The Integration Of Multi-Omics Experiments In Bioconductor.” Cancer Research, 77(21), e39-42. doi:10.1158/0008-5472.CAN-17-0344, https://cancerres.aacrjournals.org/content/77/21/e39. </p>
-<h2 id="structure-of-a-mae-object">Structure of a MAE Object<a class="headerlink" href="#structure-of-a-mae-object" title="Anchor link to this section for reference">#</a></h2>
+<h1 id="accessing-data-in-a-pharmacoset">Accessing Data in a <em>PharmacoSet</em><a class="headerlink" href="#accessing-data-in-a-pharmacoset" title="Anchor link to this section for reference">#</a></h1>
+<div class="admonition tip">
+<p class="admonition-title">Quick Reference</p>
+<p>For a more detailed introduction to PharmacoSet, see the
+<em>Vignettes</em> and <em>Reference Manual</em> in the
+<a href="https://bioconductor.org/packages/PharmacoGx/"><em>PharmacoGx</em> package</a>.</p>
+</div>
+<h2 id="quick-start-tutorial-load-a-tiny-demo-pset">Quick start tutorial: Load a tiny demo PSet<a class="headerlink" href="#quick-start-tutorial-load-a-tiny-demo-pset" title="Anchor link to this section for reference">#</a></h2>
+<p>Accessor functions give you a clean, read‑only (or read‑write) gateway to
+each slot. Use them instead of poking the S4 object directly.</p>
+<div class="language-r highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># Get started by setting up PharmacoGx</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nf">library</span><span class="p">(</span><span class="n">PharmacoGx</span><span class="p">)</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="nf">data</span><span class="p">(</span><span class="n">CCLEsmall</span><span class="p">)</span><span class="w">             </span><span class="c1"># ships with the package</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="nf">treatmentInfo</span><span class="p">(</span><span class="n">CCLEsmall</span><span class="p">)</span><span class="w">    </span><span class="c1"># peek at treatment metadata</span>
+</span></code></pre></div>
+<details class="info">
+<summary>What <em>is</em> an accessor?</summary>
+<p>Accessors are S4 methods whose names read like plain English:</p>
 <ul>
-<li><strong><code>ExperimentList</code></strong>: A list of assays (i.e. SummarizedExperiment, matrix).</li>
-<li><strong><code>colData</code></strong>: Metadata about the primary samples (patients/cell lines), such as age, treatment, outcome.</li>
-<li><strong><code>sampleMap</code></strong>: A table mapping how each assay's sample IDs relate to the primary colData sample IDs (handles cases where IDs differ across experiments).<div class="language-text highlight"><pre><span></span><code>MultiAssayExperiment
-|-- ExperimentList
-        |-- RNA-seq matrix
-        |-- Mutation calls (binary matrix)
-        |-- Proteomics data
-|-- colData (patient-level metadata)
-|-- sampleMap (which patient → which sample in each assay)
-</code></pre></div>
-</li>
+<li><code>treatmentInfo()</code> returns (or sets) the <code>TreatmentResponse</code></li>
+<li><code>molecularProfiles()</code> returns (or sets) the <code>MultiAssayExperiment</code></li>
 </ul>
-<h2 id="installation-requirement">Installation requirement<a class="headerlink" href="#installation-requirement" title="Anchor link to this section for reference">#</a></h2>
-<p>R (version "4.5") </p>
-<div class="language-text highlight"><pre><span></span><code>    if (!require(&quot;BiocManager&quot;, quietly = TRUE))
-        install.packages(&quot;BiocManager&quot;)
-
-    BiocManager::install(&quot;MultiAssayExperiment&quot;)
-</code></pre></div>
-<h2 id="build-a-mae-object">Build a MAE Object<a class="headerlink" href="#build-a-mae-object" title="Anchor link to this section for reference">#</a></h2>
-<div class="language-text highlight"><pre><span></span><code>    library(MultiAssayExperiment)
-
-    # Suppose you have rna, mutation data and patient information
-    rna &lt;- SummarizedExperiment(assays = list(counts = matrix(rnorm(1000), ncol = 10)))
-    snv &lt;- matrix(sample(0:1, 100, replace = TRUE), ncol = 10)
-    patient_info &lt;- as.data.frame(
-    PatientID = paste0(&quot;Patient&quot;, 1:10),
-    Age = sample(40:80, 10)
-    )
-
-    # Create the MultiAssayExperiment object with function
-    mae &lt;- MultiAssayExperiment(
-    experiments = ExperimentList(rna = rna, mutations = mutations),
-    colData = patient_info
-    )
-</code></pre></div>
-<h2 id="work-with-a-mae">Work with a MAE<a class="headerlink" href="#work-with-a-mae" title="Anchor link to this section for reference">#</a></h2>
-<p>We will give an example Using Immune Checkpoint Blockade Dataset. Suppose you have downloaded a Immune Checkpoint Blockade Dataset from <a href="https://www.orcestra.ca/">ORCESTRA</a></p>
-<div class="language-text highlight"><pre><span></span><code>    library(MultiAssayExperiment)
-
-    # Load dataset
-    icb_mae &lt;- readRDS(icb_file)
-
-    # Extract clinical data (patient information, treatment, disease etc.)
-    clinical_data &lt;- colData(icb_mae) %&gt;% as.data.frame()
-
-    # view RNA
-    rna_se &lt;- experiments(icb_mae)[[&quot;expr&quot;]]
-    rna_sample &lt;- colnames(rna_se) # Sample names inside RNA assay
-    rna_expr &lt;- assay(rna_se) # save the rna expression with sample to a matrix
-
-    # view mutation data
-    snv_se &lt;- experiments(icb_mae)[[&quot;snv&quot;]]
-    snv_matrix &lt;- assay(snv_se)
-
-    # Mapping between assays and primary samples
-    sample_map &lt;- sampleMap(icb_mae)
-
-    # View metadata if available, this include any extra information about the experiment (i.e. batch info, project details)
-    meta_data &lt;- metadata(icb_mae)
-</code></pre></div>
-<h2 id="additional-references">Additional References<a class="headerlink" href="#additional-references" title="Anchor link to this section for reference">#</a></h2>
+<p>They shield you from slot names, so your code keeps working even if the
+class internals change.</p>
+</details>
+<hr />
+<h2 id="treatments">Treatments<a class="headerlink" href="#treatments" title="Anchor link to this section for reference">#</a></h2>
+<p>Retrieve or update treatment metadata in a single call.</p>
+<details class="note">
+<summary>Migration to Pharmacoset v2.0</summary>
+<p>The <code>drugInfo</code> and <code>drugNames</code> slots are deprecated in Pharmacoset v2.0.
+Use the new accessors below instead.
+- <code>treatmentInfo()</code> replaces <code>drugInfo()</code>
+- <code>treatmentNames()</code> replaces <code>drugNames()</code></p>
+<p>Similarly, <code>sampleInfo</code> and <code>sampleNames</code> are now used for sample metadata,
+instead of <code>cellInfo</code> and <code>cellNames</code>.</p>
+</details>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">treatmentInfo</label><label for="__tabbed_1_2">treatmentNames</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>One‑row‑per‑treatment <code>data‑frame</code> holding IDs, names, targets, etc.
+<div class="language-r highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># Getter</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">info</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">treatmentInfo</span><span class="p">(</span><span class="n">pSet</span><span class="p">)</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="c1"># Setter</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="nf">treatmentInfo</span><span class="p">(</span><span class="n">pSet</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">info</span>
+</span></code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<p>Character vector of treatment IDs.
+<div class="language-r highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">names</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">treatmentNames</span><span class="p">(</span><span class="n">pSet</span><span class="p">)</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nf">treatmentNames</span><span class="p">(</span><span class="n">pSet</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">names</span>
+</span></code></pre></div></p>
+</div>
+</div>
+</div>
+<h2 id="samples">Samples<a class="headerlink" href="#samples" title="Anchor link to this section for reference">#</a></h2>
+<p>Keep track of cell‑line annotations without wrangling rows
+manually.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">sampleInfo</label><label for="__tabbed_2_2">sampleNames</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Per‑sample metadata table (cell‑line, tissue, etc.).
+<div class="language-r highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nf">sampleInfo</span><span class="p">(</span><span class="n">pSet</span><span class="p">)</span>
+</span></code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<p>Character vector of sample IDs.
+<div class="language-r highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nf">sampleNames</span><span class="p">(</span><span class="n">pSet</span><span class="p">)</span>
+</span></code></pre></div></p>
+</div>
+</div>
+</div>
+<h2 id="molecular-profiles">Molecular profiles<a class="headerlink" href="#molecular-profiles" title="Anchor link to this section for reference">#</a></h2>
+<p>Treat multi‑omics data like a tidy list of matrices plus
+metadata.</p>
+<p>First, we need to know what data types are available, then we can
+dive into the actual data.</p>
+<details class="info">
+<summary>Migration to Pharmacoset v2.0</summary>
+<p>The <code>molecularProfiles</code> slot is now a <code>MultiAssayExperiment</code> (MAE) object
+from <strong>SummarizedExperiment</strong>. It holds multiple assays (e.g. RNA, CNV)
+with their own metadata.</p>
+<p>The old approach was just a list of <code>SummarizedExperiment</code> objects,
+which is less flexible and harder to subset/filter.</p>
+</details>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Get available data types</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>List available omics layers (<code>"rna"</code>, <code>"cnv"</code>, …).
+<div class="language-r highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nf">mDataNames</span><span class="p">(</span><span class="n">pSet</span><span class="p">)</span>
+</span></code></pre></div></p>
+</div>
+</div>
+</div>
+<details class="example">
+<summary>Why two steps?</summary>
+<p>First ask <em>what</em> data types exist (<code>mDataNames</code>), then dive
+into a matrix with <code>molecularProfiles</code>.</p>
+</details>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:3"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><input id="__tabbed_4_3" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">molecularProfiles</label><label for="__tabbed_4_2">featureInfo</label><label for="__tabbed_4_3">phenoInfo</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Grab an assay matrix for a chosen layer.
+<div class="language-r highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">expr</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">molecularProfiles</span><span class="p">(</span><span class="n">pSet</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;rna&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;exprs&quot;</span><span class="p">)</span>
+</span></code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<p>Row‑level feature metadata (<code>rowData</code>).
+<div class="language-r highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="nf">featureInfo</span><span class="p">(</span><span class="n">pSet</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;rna&quot;</span><span class="p">)</span>
+</span></code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<p>Column‑level sample metadata (<code>colData</code>).
+<div class="language-r highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="nf">phenoInfo</span><span class="p">(</span><span class="n">pSet</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;rna&quot;</span><span class="p">)</span>
+</span></code></pre></div></p>
+</div>
+</div>
+</div>
+<h2 id="treatment-response">Treatment Response<a class="headerlink" href="#treatment-response" title="Anchor link to this section for reference">#</a></h2>
+<details class="info">
+<summary>Migration to PharmacoSet v2.0</summary>
+<p>The <code>treatmentResponse(pSet)</code> accessor now returns a
+<strong>TreatmentResponseExperiment</strong> (TRE) object from <strong>CoreGx</strong>—a
+<code>SummarizedExperiment</code>‑derived container with assays (e.g. viability)
+plus <code>rowData</code> (samples) and <code>colData</code> (treatments).</p>
+<p>A TRE supports multi‑drug screens and high‑dimensional synergy analyses
+introduced in PharmacoGx 3.0.</p>
+<p>It replaces the old list‑based sensitivity slot, though legacy getters
+still work for stability.</p>
+</details>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1"><code>TreatmentResponseExperiment</code> accessors</label><label for="__tabbed_5_2">legacy accessors</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Modern workflow using a <code>TreatmentResponseExperiment</code> (TRE).
+<div class="language-r highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="n">tre</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">treatmentResponse</span><span class="p">(</span><span class="n">pSet</span><span class="p">)</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="c1"># Get the names of the assays</span>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="nf">assayNames</span><span class="p">(</span><span class="n">tre</span><span class="p">)</span>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>
+</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a><span class="c1"># Access any assay (i.e &#39;viability&#39;, &#39;computed_profiles&#39;, &#39;published_profiles&#39;)</span>
+</span><span id="__span-9-7"><a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a><span class="nf">head</span><span class="p">(</span><span class="nf">assay</span><span class="p">(</span><span class="n">tre</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;viability&quot;</span><span class="p">))</span>
+</span><span id="__span-9-8"><a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="nf">rowData</span><span class="p">(</span><span class="n">tre</span><span class="p">)</span><span class="w">    </span><span class="c1"># sample metadata</span>
+</span><span id="__span-9-9"><a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a><span class="nf">colData</span><span class="p">(</span><span class="n">tre</span><span class="p">)</span><span class="w">    </span><span class="c1"># treatment metadata</span>
+</span></code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<p>Old functions remain for backward compatibility.
+<div class="language-r highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="nf">sensitivityInfo</span><span class="p">(</span><span class="n">pSet</span><span class="p">)</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="nf">sensitivityProfiles</span><span class="p">(</span><span class="n">pSet</span><span class="p">)</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="nf">sensitivityRaw</span><span class="p">(</span><span class="n">pSet</span><span class="p">)</span>
+</span></code></pre></div></p>
+</div>
+</div>
+</div>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section for reference">#</a></h2>
 <ul>
-<li>Bioconductor <a href="https://www.bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html">MultiAssayExperiment</a></li>
-<li>User reference manual <a href="https://www.bioconductor.org/packages/release/bioc/manuals/MultiAssayExperiment/man/MultiAssayExperiment.pdf">PDF</a></li>
+<li><strong>Missing assay name?</strong> If you skip the <code>assay</code> arg, <code>molecularProfiles</code>
+  defaults to the first assay in that SummarizedExperiment.</li>
+<li><strong>Deprecated slots?</strong> <code>datasetType</code> and <code>perturbation</code> remain for
+  backward compatibility; lean on <em>accessors</em> instead.</li>
 </ul>
 
 
@@ -6624,7 +6707,7 @@ formats for adaptability to graphing and downstream analysis."</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 10, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 23, 2025</span>
   </span>
 
     
@@ -6634,7 +6717,7 @@ formats for adaptability to graphing and downstream analysis."</p>
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 10, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 23, 2025</span>
   </span>
 
     
@@ -6649,8 +6732,8 @@ formats for adaptability to graphing and downstream analysis."</p>
     </span>
     <nav>
       
+        <a href="mailto:44614774+jjjermiah@users.noreply.github.com">Jermiah Joseph</a>, 
         <a href="mailto:k.l.scott16@gmail.com">Katy Scott</a>, 
-        <a href="mailto:83898473+nicole9801@users.noreply.github.com">Kewei Ni</a>, 
         <a href="mailto:mtran256@uwo.ca">mtran</a>
     </nav>
   </span>
@@ -6688,7 +6771,7 @@ formats for adaptability to graphing and downstream analysis."</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: R">
+          <a href="../Navigating_PSets/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Navigating PSets">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -6698,20 +6781,20 @@ formats for adaptability to graphing and downstream analysis."</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                R
+                Navigating PSets
               </div>
             </div>
           </a>
         
         
           
-          <a href="../Tidyverse/" class="md-footer__link md-footer__link--next" aria-label="Next: Tidyverse">
+          <a href="../../Imaging/" class="md-footer__link md-footer__link--next" aria-label="Next: Medical Image Formats">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Tidyverse
+                Medical Image Formats
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -6760,22 +6843,22 @@ formats for adaptability to graphing and downstream analysis."</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["header.autohide", "content.code.annotate", "content.code.copy", "content.code.select", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.path", "navigation.tabs", "navigation.top", "navigation.tracking", "navigation.footer", "search.highlight", "search.suggest", "search.share", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["header.autohide", "content.code.annotate", "content.code.copy", "content.code.select", "content.tabs.link", "content.tooltips", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.path", "navigation.tabs", "navigation.top", "navigation.tracking", "navigation.footer", "search.highlight", "search.suggest", "search.share", "toc.follow"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.60a45f97.min.js"></script>
       
         <script src="https://www.googletagmanager.com/gtag/js?id=G-GW7GQT08LM"></script>
       
-        <script src="../../../../assets/js/ga4.js"></script>
+        <script src="../../../assets/js/ga4.js"></script>
       
-        <script src="../../../../assets/js/extra.js"></script>
+        <script src="../../../assets/js/extra.js"></script>
       
         <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       
-        <script src="../../../../assets/js/tablesort.js"></script>
+        <script src="../../../assets/js/tablesort.js"></script>
       
-        <script src="../../../../assets/js/katex.js"></script>
+        <script src="../../../assets/js/katex.js"></script>
       
         <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
       
