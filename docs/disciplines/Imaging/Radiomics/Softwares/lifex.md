@@ -53,7 +53,7 @@ To generate a LIFEx script, you can run a Python script. This Python sample code
 |           `-- {ROI_name}.nii.gz
 ```
 
-```sh
+```python
 import os
 
 # Path to output script to feed into LIFEx
@@ -75,7 +75,7 @@ with open(output_script, "w") as f:
     patient_index = 0
     for patient in patient_ids:
         patient_path = os.path.join(dataset, patient)
-        if os.path.isdir(folder_path):
+        if os.path.isdir(patient_path):
             inner_folders = os.listdir(patient_path)
             for image in inner_folders:
                 if image.startswith({ImageModality}):
@@ -90,7 +90,7 @@ with open(output_script, "w") as f:
             f.write(f"LIFEx.Patient{patient_index}.Series0={series_path}\n")
 
             # There can be multiple Operations or ROIs
-            f.write(f"LIFEx.Patient{patient_index}.Series0.Operation0=Texture,true,false,false,1,3d,Absolute, 10.0,400.0,-1000.0,3000.0,1.0,1.0,1.0\n")
+            f.write(f"LIFEx.Patient{patient_index}.Series0.Operation0=Texture,true,false,false,1,3d,Absolute,10.0,400.0,-1000.0,3000.0,1.0,1.0,1.0\n")
             f.write(f"LIFEx.Patient{patient_index}.Roi0={roi_path}\n\n")
             f.write("##_________________________________________________________________________________\n\n")
             patient_index += 1
