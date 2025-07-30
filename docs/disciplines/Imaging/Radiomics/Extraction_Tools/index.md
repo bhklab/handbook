@@ -22,7 +22,7 @@
 
 [MatRadiomics](https://pasinigiovanni.com/blog/matradiomics/2022-12-28-matRadiomics-a-Novel-radiomics-freeware/): radiomics freeware written in MATLAB and Python
 
-[pyCERR](https://github.com/cerr/pyCERR):  Utilities are provided to to extract, transform, organize metadata
+[pyCERR](https://github.com/cerr/pyCERR):  Utilities are provided to extract, transform, organize metadata
 
 [CaPTk](https://github.com/CBICA/CaPTk):  for analysis of radiographic images of cancer
 
