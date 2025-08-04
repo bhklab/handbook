@@ -11,7 +11,7 @@ To work with batch data, you can upload a .txt format script to the software. Th
 
 This script will perform feature extraction with the same configuration as the LIFEx GUI picture below, but on a batch of two series:
 
-<img src="../images/lifex_feature_extraction.png" width="200" height="400">
+![img](../images/lifex_feature_extraction.png){width="200" height="400"}
 
 ```sh
 ## Lines with ## are comments
