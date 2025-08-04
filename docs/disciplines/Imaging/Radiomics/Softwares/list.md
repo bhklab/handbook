@@ -32,12 +32,3 @@
 
 [DeepWise](https://www.deepwise.com/product-research): Electronic medical record structuring, image annotation, AI lesion segmentation, automated feature extraction, automated deep learning tools
 
-
-
-### Image Management:
-
-[3D Slicer](https://www.slicer.org): image computing platform
-
-[Judi](https://www.judi.io/solutions/imaging): Medical Imaging Workflow Solutions
-
-
