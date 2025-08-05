@@ -2,7 +2,7 @@
 
 _**Radiomics**_ is the high-throughput extraction of quantiative features from medical images for textural analysis that spatially characterises regions/volumes of interest and may provide insight into the underlying pathophysiology to support diagnosis, prognosis, and treatment planning [(Barry et al., 2025)](https://link.springer.com/article/10.1007/s00330-024-11341-y#Abs1). It bridges radiology and data science, allowing for a more detailed understanding of disease characteristics.
 
-![](../images/RadiomicsAnalysisWorkflow.png)
+![](./images/RadiomicsAnalysisWorkflow.png)
 /// caption
 Radiomics analysis workflow ([Source](https://www.itnonline.com/content/new-radiomics-model-uses-immunohistochemistry-predict-thyroid-nodules))
 ///
