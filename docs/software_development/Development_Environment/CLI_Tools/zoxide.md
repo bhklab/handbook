@@ -1,6 +1,6 @@
 # zoxide
 
-[zoxide](https://github.com/ajeetdsouza/zoxide) is a fast, smarter alternative to `cd`. It keeps track of your most-used directories and lets you jump to them instantly with short commands and fuzzy matching. zoxide works across shells (Bash, Zsh, Fish, PowerShell) and is designed to speed up navigation in the terminal.
+[zoxide](https://github.com/ajeetdsouza/zoxide) is a fast, smarter alternative to `cd`. It keeps track of your most-used directories and lets you jump to them instantly with short commands and fuzzy matching. `zoxide` works across shells (Bash, Zsh, Fish, PowerShell) and is designed to speed up navigation in the terminal.
 
 Find the installation instructions [here](https://github.com/ajeetdsouza/zoxide#installation).
 
