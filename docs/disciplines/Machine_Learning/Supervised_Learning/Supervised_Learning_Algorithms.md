@@ -1,4 +1,4 @@
-## Supervised Learning Algorithms
+# Supervised Learning Algorithms
 
 
 - **Linear Models**
@@ -26,7 +26,7 @@
   - K-Nearest Neighbors (KNN)  
 
 	
-- **Decision Tree–Based Models**
+- **Decision Tree-Based Models**
 
   - Decision Trees  
 	
