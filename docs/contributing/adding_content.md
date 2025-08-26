@@ -136,7 +136,7 @@ You should see your changes appear at `http://127.0.0.1:8001/handbook/onboarding
 ```sh
 git add .
 git commit -m "Add new getting started page"
-git push --set-upstream origin jjjermiah/adding-getting-started-page
+git push 
 ```
 
 ### 5. Create a PR
