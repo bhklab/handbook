@@ -1,16 +1,18 @@
-Subject:
-Thread-Index:
-Date: 
+Subject: Off-boarding Initialization - <FIRST NAME>
+Thread-Topic: Off-boarding Initialization - <FIRST NAME>
+Thread-Index: AQHbuR2I/nGJcU2+Rk61Ih7E/upjng==
+Date: Tue, 29 Apr 2025 15:44:03 +0000
 Message-ID:
+	<YQXPR01MB48899D30D9AEE5990832522AF3802@YQXPR01MB4889.CANPRD01.PROD.OUTLOOK.COM>
 Content-Language: en-CA
 X-MS-Has-Attach:
 X-MS-TNEF-Correlator:
 X-MS-Exchange-Organization-RecordReviewCfmType: 0
 Content-Type: multipart/alternative;
-	boundary="_000_YQXPR01MB48894989A00B6A404041D53BF3BC2YQXPR01MB4889CANP_"
+	boundary="_000_YQXPR01MB48899D30D9AEE5990832522AF3802YQXPR01MB4889CANP_"
 MIME-Version: 1.0
 
---_000_YQXPR01MB48894989A00B6A404041D53BF3BC2YQXPR01MB4889CANP_
+--_000_YQXPR01MB48899D30D9AEE5990832522AF3802YQXPR01MB4889CANP_
 Content-Type: text/plain; charset="Windows-1252"
 Content-Transfer-Encoding: quoted-printable
 
@@ -23,9 +25,9 @@ he off-boarding procedure. There are two meetings we need to set up:
 
 Initialization Meeting
 
-To get you started, we will meet and go through the Offboarding Policy (you=
- can find this on the BHKLab Handbook: https://bhklab.github.io/handbook/de=
-v/onboarding_offboarding/Offboarding/)
+To get you started, we will meet and go through the BHKLab Offboarding Poli=
+cy<https://bhklab.github.io/handbook/dev/onboarding_offboarding/Offboarding=
+/>. Feel free to read through it prior to our meeting.
 
 
 For this meeting, I have shared two documents:
@@ -45,6 +47,11 @@ This will be scheduled for the day prior to your official last day (or near=
  that, based on your availability). We will confirm what we discussed in th=
 e initialization meeting and ensure all lab assets have been returned.
 
+You will also be expected to complete the Exit Interview Form<https://docs.=
+google.com/forms/d/e/1FAIpQLSdnpTBRTcUmjQ0cnfP9MrN455Oy7tnW1JyRA4cgarvCs56p=
+mQ/viewform?usp=3Dsharing>. Please do this before the Exit Interview meetin=
+g.
+
 
 
 Let me know of your availability for these proposed times:
@@ -56,7 +63,7 @@ Let me know of your availability for these proposed times:
 If you have any questions leading up to our meeting, let me know.
 
 
---_000_YQXPR01MB48894989A00B6A404041D53BF3BC2YQXPR01MB4889CANP_
+--_000_YQXPR01MB48899D30D9AEE5990832522AF3802YQXPR01MB4889CANP_
 Content-Type: text/html; charset="Windows-1252"
 Content-Transfer-Encoding: quoted-printable
 
@@ -69,7 +76,7 @@ fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
 <meta name=3D"ProgId" content=3D"Word.Document">
 <meta name=3D"Generator" content=3D"Microsoft Word 15">
 <meta name=3D"Originator" content=3D"Microsoft Word 15">
-<link rel=3D"File-List" href=3D"cid:filelist.xml@01DBAFA3.CC4C63D0"><!--[if=
+<link rel=3D"File-List" href=3D"cid:filelist.xml@01DBB8FC.75ADDEC0"><!--[if=
  gte mso 9]><xml>
 <o:OfficeDocumentSettings>
 <o:AllowPNG/>
@@ -96,6 +103,7 @@ fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
 <w:SplitPgBreakAndParaMark/>
 <w:EnableOpenTypeKerning/>
 </w:Compatibility>
+<w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
 <m:mathPr>
 <m:mathFont m:val=3D"Cambria Math"/>
 <m:brkBin m:val=3D"before"/>
@@ -881,9 +889,7 @@ p.MsoNormal, li.MsoNormal, div.MsoNormal
 	mso-pagination:widow-orphan;
 	font-size:12.0pt;
 	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
 	mso-fareast-font-family:Aptos;
-	mso-hansi-font-family:Aptos;
 	mso-bidi-font-family:"Times New Roman";
 	mso-font-kerning:1.0pt;
 	mso-ligatures:standardcontextual;}
@@ -898,8 +904,20 @@ a:visited, span.MsoHyperlinkFollowed
 	color:#96607D;
 	text-decoration:underline;
 	text-underline:single;}
-span.EmailStyle17
-	{mso-style-type:personal-compose;
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-fareast-font-family:Aptos;
+	mso-bidi-font-family:Aptos;}
+span.EmailStyle18
+	{mso-style-type:personal;
 	mso-style-noshow:yes;
 	mso-style-unhide:no;
 	mso-ansi-font-size:11.0pt;
@@ -913,10 +931,14 @@ span.EmailStyle17
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
 	mso-ascii-font-family:Aptos;
 	mso-fareast-font-family:Aptos;
 	mso-hansi-font-family:Aptos;
-	mso-bidi-font-family:"Times New Roman";}
+	mso-font-kerning:0pt;
+	mso-ligatures:none;}
 @page WordSection1
 	{size:612.0pt 792.0pt;
 	margin:72.0pt 72.0pt 72.0pt 72.0pt;
@@ -927,8 +949,8 @@ div.WordSection1
 	{page:WordSection1;}
 /* List Definitions */
 @list l0
-	{mso-list-id:446117700;
-	mso-list-template-ids:-526860826;}
+	{mso-list-id:431780328;
+	mso-list-template-ids:1561909816;}
 @list l0:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7 ;
@@ -939,6 +961,81 @@ div.WordSection1
 	font-family:Symbol;}
 @list l0:level2
 	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7 ;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7 ;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7 ;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7 ;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7 ;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7 ;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7 ;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7 ;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:446117700;
+	mso-list-template-ids:-526860826;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7 ;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
 	mso-level-text:o;
 	mso-level-tab-stop:72.0pt;
 	mso-level-number-position:left;
@@ -946,7 +1043,7 @@ div.WordSection1
 	mso-ansi-font-size:10.0pt;
 	font-family:"Courier New";
 	mso-bidi-font-family:"Times New Roman";}
-@list l0:level3
+@list l1:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7 ;
 	mso-level-tab-stop:108.0pt;
@@ -954,7 +1051,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l0:level4
+@list l1:level4
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7 ;
 	mso-level-tab-stop:144.0pt;
@@ -962,7 +1059,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l0:level5
+@list l1:level5
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7 ;
 	mso-level-tab-stop:180.0pt;
@@ -970,7 +1067,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l0:level6
+@list l1:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7 ;
 	mso-level-tab-stop:216.0pt;
@@ -978,7 +1075,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l0:level7
+@list l1:level7
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7 ;
 	mso-level-tab-stop:252.0pt;
@@ -986,7 +1083,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l0:level8
+@list l1:level8
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7 ;
 	mso-level-tab-stop:288.0pt;
@@ -994,7 +1091,7 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l0:level9
+@list l1:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7 ;
 	mso-level-tab-stop:324.0pt;
@@ -1002,9 +1099,48 @@ div.WordSection1
 	text-indent:-18.0pt;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
-@list l1
+@list l2
 	{mso-list-id:467742283;
 	mso-list-template-ids:1568851556;}
+@list l2:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3
+	{mso-list-id:1295256647;
+	mso-list-template-ids:1641324328;}
 ol
 	{margin-bottom:0cm;}
 ul
@@ -1020,109 +1156,89 @@ table.MsoNormalTable
 	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
 	mso-para-margin:0cm;
 	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-hansi-font-family:Aptos;
-	mso-font-kerning:1.0pt;
-	mso-ligatures:standardcontextual;}
+	font-size:10.0pt;
+	font-family:"Aptos",sans-serif;}
 </style><![endif]-->
 </head>
 <body lang=3D"EN-CA" link=3D"#467886" vlink=3D"#96607D" style=3D"tab-interv=
 al:36.0pt;word-wrap:break-word">
 <div class=3D"WordSection1">
-<p style=3D"margin:0cm"><span style=3D"mso-ascii-font-family:Aptos;mso-hans=
-i-font-family:Aptos;mso-bidi-font-family:&quot;Noto Sans&quot;;color:#21212=
-1">Hi [LAB MEMBER],</span><span style=3D"mso-ascii-font-family:Aptos;mso-ha=
-nsi-font-family:Aptos"><o:p></o:p></span></p>
+<p style=3D"margin:0cm"><span style=3D"mso-bidi-font-family:&quot;Noto Sans=
+&quot;;color:#212121">Hi [LAB MEMBER],</span></p>
 <p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
-<p style=3D"margin:0cm"><span style=3D"mso-ascii-font-family:Aptos;mso-hans=
-i-font-family:Aptos;mso-bidi-font-family:&quot;Noto Sans&quot;;color:#21212=
-1">As we are now approaching your last day with the BHKLab, we need to begi=
-n the off-boarding procedure. There are two meetings
- we need to set up:</span><span style=3D"mso-ascii-font-family:Aptos;mso-ha=
-nsi-font-family:Aptos"><o:p></o:p></span></p>
+<p style=3D"margin:0cm"><span style=3D"mso-bidi-font-family:&quot;Noto Sans=
+&quot;;color:#212121">As we are now approaching your last day with the BHKL=
+ab, we need to begin the off-boarding procedure. There are two meetings we =
+need to set up:</span></p>
 <p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
-<p style=3D"margin:0cm"><b><span style=3D"mso-ascii-font-family:Aptos;mso-h=
-ansi-font-family:Aptos;mso-bidi-font-family:&quot;Noto Sans&quot;;color:#21=
-2121">Initialization Meeting</span></b><span style=3D"mso-ascii-font-family=
-:Aptos;mso-hansi-font-family:Aptos"><o:p></o:p></span></p>
-<p style=3D"margin:0cm"><span style=3D"mso-ascii-font-family:Aptos;mso-hans=
-i-font-family:Aptos;mso-bidi-font-family:&quot;Noto Sans&quot;;color:#21212=
-1">To get you started, we will meet and go through the Offboarding Policy (=
-you can find this on the BHKLab Handbook:
-</span><span style=3D"mso-ascii-font-family:Aptos;mso-hansi-font-family:Apt=
-os"><a href=3D"https://bhklab.github.io/handbook/dev/onboarding_offboarding=
-/Offboarding/"><span style=3D"mso-fareast-font-family:Aptos;mso-bidi-font-f=
-amily:&quot;Noto Sans&quot;;color:#1155CC">https://bhklab.github.io/handboo=
-k/dev/onboarding_offboarding/Offboarding/</span></a></span><span style=3D"m=
-so-ascii-font-family:Aptos;mso-hansi-font-family:Aptos;mso-bidi-font-family=
-:&quot;Noto Sans&quot;;color:#212121">)</span><span style=3D"mso-ascii-font=
--family:Aptos;mso-hansi-font-family:Aptos"><o:p></o:p></span></p>
+<p style=3D"margin:0cm"><b><span style=3D"mso-bidi-font-family:&quot;Noto S=
+ans&quot;;color:#212121">Initialization Meeting</span></b></p>
+<p style=3D"margin:0cm"><span style=3D"mso-bidi-font-family:&quot;Noto Sans=
+&quot;;color:#212121">To get you started, we will meet and go through the
+</span><a href=3D"https://bhklab.github.io/handbook/dev/onboarding_offboard=
+ing/Offboarding/"><span style=3D"mso-fareast-font-family:Aptos;mso-bidi-fon=
+t-family:&quot;Noto Sans&quot;;color:#1155CC">BHKLab Offboarding Policy</sp=
+an></a><span style=3D"mso-bidi-font-family:&quot;Noto Sans&quot;;color:#212=
+121">.
+ Feel free to read through it prior to our meeting.</span></p>
 <p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
-<p style=3D"margin:0cm"><span style=3D"mso-ascii-font-family:Aptos;mso-hans=
-i-font-family:Aptos;mso-bidi-font-family:&quot;Noto Sans&quot;;color:#21212=
-1">For this meeting, I have shared two documents:</span><span style=3D"mso-=
-ascii-font-family:Aptos;mso-hansi-font-family:Aptos"><o:p></o:p></span></p>
+<p style=3D"margin:0cm"><span style=3D"mso-bidi-font-family:&quot;Noto Sans=
+&quot;;color:#212121">For this meeting, I have shared two documents:</span>=
+<o:p></o:p></p>
 <ol style=3D"margin-top:0cm;padding-inline-start:48px" start=3D"1" type=3D"=
 1">
-<li style=3D"color:#212121;margin-top:0cm;margin-bottom:0cm;mso-list:l1 lev=
-el1 lfo1;tab-stops:list 36.0pt;vertical-align:baseline">
-<span style=3D"mso-ascii-font-family:Aptos;mso-hansi-font-family:Aptos;mso-=
-bidi-font-family:&quot;Noto Sans&quot;">Your Off-boarding report folder: [I=
-NSERT LINK]<o:p></o:p></span></li><li style=3D"color:#212121;margin-top:0cm=
-;margin-bottom:0cm;mso-list:l1 level1 lfo1;tab-stops:list 36.0pt;vertical-a=
-lign:baseline">
-<span style=3D"mso-ascii-font-family:Aptos;mso-hansi-font-family:Aptos;mso-=
-bidi-font-family:&quot;Noto Sans&quot;"><a href=3D"https://docs.google.com/=
-document/d/1KhnDPSIPqvjw7__1ACFVlBg7tS21bKxaR5AdPV6voUs/edit?usp=3Dsharing"=
->The Lab Off-boarding Information Template</a>&nbsp;<o:p></o:p></span></li>=
-</ol>
+<li class=3D"MsoNormal" style=3D"color:#212121;mso-list:l2 level1 lfo3;tab-=
+stops:list 36.0pt;vertical-align:baseline">
+<span style=3D"mso-bidi-font-family:&quot;Noto Sans&quot;;mso-font-kerning:=
+0pt;mso-ligatures:none">Your Off-boarding report folder: [INSERT LINK]<o:p>=
+</o:p></span></li><li class=3D"MsoNormal" style=3D"color:#212121;mso-list:l=
+2 level1 lfo3;tab-stops:list 36.0pt;vertical-align:baseline">
+<span style=3D"mso-bidi-font-family:&quot;Noto Sans&quot;;mso-font-kerning:=
+0pt;mso-ligatures:none"><a href=3D"https://docs.google.com/document/d/1KhnD=
+PSIPqvjw7__1ACFVlBg7tS21bKxaR5AdPV6voUs/edit?usp=3Dsharing">The Lab Off-boa=
+rding Information Template</a>&nbsp;<o:p></o:p></span></li></ol>
 <p class=3D"MsoNormal"><span style=3D"mso-bidi-font-family:Aptos"><o:p>&nbs=
 p;</o:p></span></p>
-<p style=3D"margin:0cm"><span style=3D"mso-ascii-font-family:Aptos;mso-hans=
-i-font-family:Aptos;mso-bidi-font-family:&quot;Noto Sans&quot;;color:#21212=
-1">I=92ll explain what these are for when we meet. Please confirm you can a=
-ccess them both.</span><span style=3D"mso-ascii-font-family:Aptos;mso-hansi=
--font-family:Aptos"><o:p></o:p></span></p>
+<p style=3D"margin:0cm"><span style=3D"mso-bidi-font-family:&quot;Noto Sans=
+&quot;;color:#212121">I=92ll explain what these are for when we meet. Pleas=
+e confirm you can access them both.</span></p>
 <p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
-<p style=3D"margin:0cm"><b><span style=3D"mso-ascii-font-family:Aptos;mso-h=
-ansi-font-family:Aptos;mso-bidi-font-family:&quot;Noto Sans&quot;;color:#21=
-2121">Exit Interview</span></b><span style=3D"mso-ascii-font-family:Aptos;m=
-so-hansi-font-family:Aptos"><o:p></o:p></span></p>
-<p style=3D"margin:0cm"><span style=3D"mso-ascii-font-family:Aptos;mso-hans=
-i-font-family:Aptos;mso-bidi-font-family:&quot;Noto Sans&quot;;color:#21212=
-1">This will be scheduled for the day prior to your official last day (or n=
-ear that, based on your availability). We will
- confirm what we discussed in the initialization meeting and ensure all lab=
- assets have been returned.&nbsp;</span><span style=3D"mso-ascii-font-famil=
-y:Aptos;mso-hansi-font-family:Aptos"><o:p></o:p></span></p>
-<p style=3D"margin:0cm"><span style=3D"mso-ascii-font-family:Aptos;mso-hans=
-i-font-family:Aptos;mso-bidi-font-family:&quot;Noto Sans&quot;;color:#21212=
-1">Let me know of your availability for these proposed times:</span><span s=
-tyle=3D"mso-ascii-font-family:Aptos;mso-hansi-font-family:Aptos"><o:p></o:p=
-></span></p>
+<p style=3D"margin:0cm"><b><span style=3D"mso-bidi-font-family:&quot;Noto S=
+ans&quot;;color:#212121">Exit Interview</span></b></p>
+<p style=3D"margin:0cm"><span style=3D"mso-bidi-font-family:&quot;Noto Sans=
+&quot;;color:#212121">This will be scheduled for the day prior to your offi=
+cial last day (or near that, based on your availability). We will confirm w=
+hat we discussed in the initialization meeting
+ and ensure all lab assets have been returned.&nbsp;<o:p></o:p></span></p>
+<p style=3D"margin:0cm"><span style=3D"mso-bidi-font-family:&quot;Noto Sans=
+&quot;;color:#212121">You will also be expected to complete the
+<a href=3D"https://docs.google.com/forms/d/e/1FAIpQLSdnpTBRTcUmjQ0cnfP9MrN4=
+55Oy7tnW1JyRA4cgarvCs56pmQ/viewform?usp=3Dsharing">
+Exit Interview Form</a>. Please do this before the Exit Interview meeting.<=
+o:p></o:p></span></p>
+<p style=3D"margin:0cm"><o:p>&nbsp;</o:p></p>
+<p style=3D"margin:0cm"><span style=3D"mso-bidi-font-family:&quot;Noto Sans=
+&quot;;color:#212121">Let me know of your availability for these proposed t=
+imes:</span><o:p></o:p></p>
 <ul style=3D"margin-top:0cm;padding-inline-start:48px" type=3D"disc">
-<li style=3D"color:#212121;margin-top:0cm;margin-bottom:0cm;mso-list:l0 lev=
-el1 lfo2;tab-stops:list 36.0pt;vertical-align:baseline">
-<span style=3D"mso-ascii-font-family:Aptos;mso-hansi-font-family:Aptos;mso-=
-bidi-font-family:&quot;Noto Sans&quot;">Initialization Meeting:
-<b><u>[DATE] @ [TIME]</u></b><o:p></o:p></span></li><li style=3D"color:#212=
-121;margin-top:0cm;margin-bottom:0cm;mso-list:l0 level1 lfo2;tab-stops:list=
- 36.0pt;vertical-align:baseline">
-<span style=3D"mso-ascii-font-family:Aptos;mso-hansi-font-family:Aptos;mso-=
-bidi-font-family:&quot;Noto Sans&quot;">Exit Interview:&nbsp;
+<li class=3D"MsoNormal" style=3D"color:#212121;mso-list:l1 level1 lfo6;tab-=
+stops:list 36.0pt;vertical-align:baseline">
+<span style=3D"mso-bidi-font-family:&quot;Noto Sans&quot;;mso-font-kerning:=
+0pt;mso-ligatures:none">Initialization Meeting:
+<b><u>[DATE] @ [TIME]</u></b><o:p></o:p></span></li><li class=3D"MsoNormal"=
+ style=3D"color:#212121;mso-list:l1 level1 lfo6;tab-stops:list 36.0pt;verti=
+cal-align:baseline">
+<span style=3D"mso-bidi-font-family:&quot;Noto Sans&quot;;mso-font-kerning:=
+0pt;mso-ligatures:none">Exit Interview:&nbsp;
 <b><u>[DATE] @ [TIME]</u></b><o:p></o:p></span></li></ul>
 <p class=3D"MsoNormal"><span style=3D"mso-bidi-font-family:Aptos"><o:p>&nbs=
 p;</o:p></span></p>
-<p style=3D"margin:0cm"><span style=3D"mso-ascii-font-family:Aptos;mso-hans=
-i-font-family:Aptos;mso-bidi-font-family:&quot;Noto Sans&quot;;color:#21212=
-1">If you have any questions leading up to our meeting, let me know.</span>=
-<span style=3D"mso-ascii-font-family:Aptos;mso-hansi-font-family:Aptos"><o:=
-p></o:p></span></p>
+<p style=3D"margin:0cm"><span style=3D"mso-bidi-font-family:&quot;Noto Sans=
+&quot;;color:#212121">If you have any questions leading up to our meeting, =
+let me know.</span></p>
 <p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
 </div>
 </body>
 </html>
 
---_000_YQXPR01MB48894989A00B6A404041D53BF3BC2YQXPR01MB4889CANP_--
+--_000_YQXPR01MB48899D30D9AEE5990832522AF3802YQXPR01MB4889CANP_--

@@ -49,7 +49,7 @@ NSERC has several programs for both Professors and Students/Fellows. Please chec
 
 [Open funding opportunities for Researchers](https://cancer.ca/en/research/for-researchers)
 
-[Application portal](EGrAMS)
+[Application portal (EGRaMS)](https://applyforfunds.cancer.ca/egrams_ccs/user/home.aspx)
 
 !!! note
     Benjamin will have an account on EGrAMS. Please reach out directly or contact Sisira at <sisira.nair@uhn.ca> for questions regarding submission portal for the lab.
