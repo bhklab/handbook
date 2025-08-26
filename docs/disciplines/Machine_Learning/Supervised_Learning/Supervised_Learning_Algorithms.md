@@ -4,13 +4,9 @@
 ### **Linear Models**
 
   - Linear Regression  
-
-  - Logistic Regression
-	
-  - Ridge Regression (L2 regularization)  
-	
-  - Lasso Regression (L1 regularization)  
-	
+  - Logistic Regression	
+  - Ridge Regression (L2 regularization)	
+  - Lasso Regression (L1 regularization)	
   - Elastic Net  
 
 	
