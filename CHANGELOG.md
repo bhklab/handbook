@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.9.0](https://github.com/bhklab/handbook/compare/v0.8.0...v0.9.0) (2025-08-26)
+
+
+### Features
+
+* add How to Read a Paper resource to literature review ([#272](https://github.com/bhklab/handbook/issues/272)) ([ec1bb9f](https://github.com/bhklab/handbook/commit/ec1bb9f2d62f84b7bbe102487b5420426a33cb27))
+* add Rich python tool page. ([#279](https://github.com/bhklab/handbook/issues/279)) ([3bc6d41](https://github.com/bhklab/handbook/commit/3bc6d413bf0b5ca17ca733017f04088e69947102))
+* add zoxide to CLI Tools ([#274](https://github.com/bhklab/handbook/issues/274)) ([2e1fdcb](https://github.com/bhklab/handbook/commit/2e1fdcb0790c2eec6ea47eff611d2cf137190721))
+
+
+### Bug Fixes
+
+* address minor mkdocs build warnings ([#283](https://github.com/bhklab/handbook/issues/283)) ([2a8c801](https://github.com/bhklab/handbook/commit/2a8c801a1f4e4bd3deef290fa7614e2cf96f0760))
+
 ## [0.8.0](https://github.com/bhklab/handbook/compare/v0.7.0...v0.8.0) (2025-08-05)
 
 
