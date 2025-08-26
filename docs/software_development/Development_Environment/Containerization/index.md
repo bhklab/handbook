@@ -12,7 +12,7 @@ Containerization is a technology that allows you to package an application with 
 
 ## Docker as an Example
 
-`Docker` is the most popular container platform. It lets developers:
+[Docker](https://docs.docker.com/get-started/) is the most popular container platform. It lets developers:
 
 - Build container images with all dependencies included.
 
