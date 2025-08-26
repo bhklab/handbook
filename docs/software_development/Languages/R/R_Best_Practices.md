@@ -8,8 +8,8 @@
 - Variable names can be **lower_snake_case** or **camelCase**, but be consistent within your project.
 - Private (non-exported) functions should be prepended with a dot (e.g., `.myPrivateFunction`).
 - Never use dots in your function, class, or variable names (e.g., never `my.class`, `my.function`, or `my.variable`).
-  - Dots have a special meaning in R and are used to define S3 methods.
-  - For generic function `f` and object `x` of S3 class `A`, `f(x)` calls the method `f.A(x)`.
+    - Dots have a special meaning in R and are used to define S3 methods.
+    - For generic function `f` and object `x` of S3 class `A`, `f(x)` calls the method `f.A(x)`.
 - Dots are discouraged but acceptable in list, column, or function parameter names.
 
 ### Formatting
