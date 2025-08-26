@@ -18,7 +18,16 @@ The documentation is written in Markdown and can be found in the `docs` director
 
 Here are the steps to add new content to the documentation:
 
-### 1. Create a branch for your changes
+### 1. Select or create an issue
+Navigate to the [Issues](https://github.com/bhklab/handbook/issues) section of the repo and select an existing issue or continue on from the Issue you created in the [Submitting Issues](submitting_issues.md) section. 
+
+Assign yourself to the issue if it's not already assigned.
+
+### 2. Create a branch for your changes
+
+Open the issue and click on the "Create a branch" link under Development on the right side of the page.
+
+Name your branch following the format: `<author-ID>/<purpose-of-branch>`
 
 ??? note "Note: Naming your branch"
     A branch is a way to work on a new feature or bug fix without affecting the main branch.
@@ -42,19 +51,10 @@ Here are the steps to add new content to the documentation:
     $ jjjermiah/13-docs-finish-tutorial-for-page-review
     ```
 
-To **create a new branch and switch to it**, run the following command:
+In your the terminal in the handbook directory, run the lines of code provided (git fetch, git checkout branchname).
 
-```console
-git checkout -b <branch-name>
-$ git checkout -b jjjermiah/adding-getting-started-page
-```
+You will now be on the branch associated with the issue and can beging making your changes.
 
-If you already have a named branch, you can switch to it with the following command:
-
-```console
-git switch <branch-name>
-$ git switch jjjermiah/adding-getting-started-page
-```
 
 ### 2. Add your new content to the `docs` directory
 
