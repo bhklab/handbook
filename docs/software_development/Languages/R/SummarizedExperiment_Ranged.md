@@ -1,13 +1,14 @@
-# SummarizedExperiment and RangedSummarizedExperiment
+# SummarizedExperiment and Ranged
 
 When working with lab datasets in R, you’ll often see **SummarizedExperiment (SE)** and **RangedSummarizedExperiment (RSE)** objects.
 These are standard **Bioconductor containers** for storing assay data together with metadata.
 They form the foundation for more advanced containers like **MultiAssayExperiment (MAE)**.
 
 
-## 1. SummarizedExperiment (SE)
+### 1. SummarizedExperiment (SE)
 
 🔹 **What it is**
+
 A table-like container with:
 
 * Rows = *features* (genes, proteins, probes)
@@ -18,6 +19,7 @@ A table-like container with:
   * `colData`: sample info (patient, treatment, outcome)
 
 🔹 **Why it matters**
+
 Instead of managing separate expression and metadata files, SE bundles them together so analyses stay consistent.
 
 ```r
@@ -35,12 +37,14 @@ se
 For detailed explanations and examples, refer to the Bioconductor documentation:  [SummarizedExperiment vignette](https://www.bioconductor.org/packages/devel/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html)*
 
 
-## 2. RangedSummarizedExperiment (RSE)
+### 2. RangedSummarizedExperiment (RSE)
 
 🔹 **What it is**
+
 A specialized SE where each row corresponds to a **genomic range** (chromosome, start, end), stored as a `GRanges` object.
 
 🔹 **Why it matters**
+
 Many assays (RNA-seq, ChIP-seq, variant calls) produce data tied to coordinates. RSE makes it easy to query or subset by genomic location.
 
 ```r
