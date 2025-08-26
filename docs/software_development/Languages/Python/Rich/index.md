@@ -7,9 +7,12 @@
     [Rich](https://github.com/Textualize/rich) is a python package for making command-line tools look better. Rich contains a drop in replacement of python's default `print` method which adds additional funcitonality such as pretty-printing lists and dictionaries; colouring and styling text; custom progress bars; and much more.
 
     *Installation*
-
     ```
-    pixi add rich
+    pip install rich
+    ```
+    Alternatively if using Pixi:
+    ```
+    pixi add rich --pypi
     ```
 
     *Usage*
