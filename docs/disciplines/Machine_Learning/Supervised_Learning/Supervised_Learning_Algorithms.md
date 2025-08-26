@@ -12,8 +12,7 @@
 	
 ### **Support Vector Machines (SVMs)**
 
-  - Support Vector Classifier  
-	
+  - Support Vector Classifier  	
   - Support Vector Regressor  
 
 	
@@ -24,35 +23,25 @@
 	
 ### **Decision Tree Based Models**
 
-  - Decision Trees  
-	
-  - Random Forests  
-	
-  - Gradient Boosted Trees (e.g., XGBoost, LightGBM, CatBoost)  
-	
-  - AdaBoost  
-	
+  - Decision Trees	
+  - Random Forests	
+  - Gradient Boosted Trees (e.g., XGBoost, LightGBM, CatBoost)	
+  - AdaBoost	
   - Bagging  
 
 	
 ### **Probabilistic Models**
 
-  - Naive Bayes  
-	
-  - Gaussian Processes  
-	
-  - Linear Discriminant Analysis (LDA)  
-	
+  - Naive Bayes	
+  - Gaussian Processes	
+  - Linear Discriminant Analysis (LDA)	
   - Quadratic Discriminant Analysis (QDA)  
 
 
 ### **Neural Network Models**
 
-  - Multi-Layer Perceptrons (MLPs)  
-	
-  - Convolutional Neural Networks (CNNs) 
-
-  - Recurrent Neural Networks (RNNs) / LSTMs  
-	
+  - Multi-Layer Perceptrons (MLPs)	
+  - Convolutional Neural Networks (CNNs)
+  - Recurrent Neural Networks (RNNs) / LSTMs	
   - Transformers  
 	
