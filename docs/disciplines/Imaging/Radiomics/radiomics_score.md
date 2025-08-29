@@ -9,10 +9,15 @@ A radiomics score is a quality assessment tool designed to evaluate the methodol
 - **METhodological RadiomICs Score (METRICS)**: A newer, more comprehensive scoring tool endorsed by the European Society of Medical Imaging Informatics (EuSoMII) that provides detailed assessment criteria for radiomics research quality.
 
 These scoring systems assess key methodological components such as:
+
 - Image acquisition and reconstruction protocols
+
 - Segmentation methodology and validation
+
 - Feature extraction and selection processes
+
 - Statistical analysis and model validation
+
 - Open science practices and reproducibility measures
 
 ## Calculators
@@ -48,6 +53,6 @@ Radiomics scoring systems are essential for several critical reasons:
 
 
 ## Sources
-- [RQS](https://www.nature.com/articles/nrclinonc.2017.141)
+- [Radiomics: the bridge between medical imaging and personalized medicine](https://www.nature.com/articles/nrclinonc.2017.141)
 - [Evaluating the impact of the Radiomics Quality Score: a systematic review and meta-analysis](https://link.springer.com/article/10.1007/s00330-024-11341-y)
 - [METhodological RadiomICs Score (METRICS): a quality scoring tool for radiomics research endorsed by EuSoMII](https://link.springer.com/article/10.1186/s13244-023-01572-w#Sec13)
