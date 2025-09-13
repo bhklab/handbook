@@ -15,6 +15,12 @@ Focus on elements such as:
 
 We know your rotation time will fly by, so make sure to keep that timeline in mind when planning out your work.
 
+## Scheduling Meetings
+
+Rotation students will meet with their assigned lab mentor weekly, though this will be dependent on the nature of the project. It is recommended to schedule these meetings on your first day with your mentor.
+
+Rotation students will typically meet with Ben twice throughout the rotation, once half-way through the rotation and once after the rotation presentation (See below). We recommend reaching out to Ben to schedule your first meeting early on during your rotation. 
+
 ## Presentation to the Lab
 
 In your final week with the lab, you will be presenting the work you have completed during the weekly [lab meeting](../../General/Meetings/lab_meeting.md) OR at a time that Ben is available that week. If you are not able to attend the lab meeting, you will need to present your work at a time that Ben is available that week.
