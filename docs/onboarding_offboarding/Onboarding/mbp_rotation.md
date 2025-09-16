@@ -19,7 +19,7 @@ We know your rotation time will fly by, so make sure to keep that timeline in mi
 
 Rotation students will meet with their assigned lab mentor weekly, though this will be dependent on the nature of the project. It is recommended to schedule these meetings on your first day with your mentor.
 
-Rotation students will typically meet with Ben twice throughout the rotation, once half-way through the rotation and once after the rotation presentation (See below). We recommend reaching out to Ben to schedule your first meeting early on during your rotation. 
+Rotation students will typically meet with Ben twice throughout the rotation, once half-way through the rotation and once after the rotation presentation (See below). We recommend reaching out to Ben to schedule your first meeting in the first week of your rotation. 
 
 ## Presentation to the Lab
 
