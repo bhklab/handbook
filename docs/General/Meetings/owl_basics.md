@@ -4,8 +4,9 @@ The Owl is a device that works as video and audio input for all meetings conduct
 
 ## How to find/obtain the Owl
 
-1. Open the drawer labelled 'OWL' on the filing cabinet under the right end of the whiteboards and pull out the green Owl duffle bag.
-    a. If the drawer tower is locked, go to W06 and ask Katy for the key.  
+Open the drawer labelled 'OWL' on the filing cabinet under the right end of the whiteboards and pull out the green Owl duffle bag.
+
+If the drawer tower is locked, go to W06 and ask Katy for the key.  
 
 ## How to use the Owl
 
