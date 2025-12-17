@@ -12,11 +12,12 @@ To install Apptainer on H4H, it is **important** to use the instructions [here](
 
 ### Suggested Workflow
 
-1. Create a Dockerfile for your project on your local machine. To learn how to create a Dockerfile, you can refer to the [Dockerfile](https://docs.docker.com/build/concepts/dockerfile/) section of the Docker documentation.
-2. Build the container with Docker and push it to Docker Hub on your local machine.
-3. Pull the container from Docker Hub using `apptainer pull` on H4H.
-4. Run the container using `apptainer run` on H4H.
+1.  Create a Dockerfile for your project on your local machine. To learn how to create a Dockerfile, you can refer to the [Dockerfile](https://docs.docker.com/build/concepts/dockerfile/) section of the Docker documentation.
+2.  Build the container with Docker and push it to Docker Hub on your local machine.
 
+    !!! note
 
+         To push to Docker Hub, you will need to create an account on [Docker Hub](https://hub.docker.com/). It is a good idea to use your BHKLab email for this account.
 
-
+3.  Pull the container from Docker Hub using `apptainer pull` on H4H.
+4.  Run the container using `apptainer run` on H4H.
