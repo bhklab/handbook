@@ -1,16 +1,12 @@
 # Radiomics Meeting
 
-## Details
+## When and Where?
 
-**Day**: Tuesdays
+**Day**: Tuesdays, bi-weekly
 
 **Time**: 2:00–3:00 PM
 
 **Venue**: PMCRT 11-710.
-
-<!-- ## Time and Room
-
-Radiomics meeting happens every 2 weeks on Tuesday, 2:00 - 3:00pm at PMCRT 11-710. -->
 
 ## Agenda
 

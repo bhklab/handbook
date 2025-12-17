@@ -1,6 +1,6 @@
 # Lab Meeting
 
-## Details
+## When and Where?
 
 **Day**: Tuesdays
 
