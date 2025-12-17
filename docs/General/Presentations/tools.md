@@ -2,20 +2,18 @@
 
 This page describes standards, tools, and resources for creating presentations for the lab.
 
-## Google Sheets
+## Google Slides
 
-All external presentations (conferences, workshops, external working groups), should be created on Google Sheets directly by or shared to the `bhklab.research@gmail.com` account.
+All external presentations (conferences, workshops, external working groups), should be created on Google Slides directly by or shared to the `bhklab.research@gmail.com` account.
 
-Internal presentations, such as [lab meetings](../Meetings/lab_meeting.md) and [journal clubs](../Meetings/journal_club.md), should also be created on Google Sheets.
+Internal presentations, such as [lab meetings](../Meetings/lab_meeting.md) and [journal clubs](../Meetings/journal_club.md), should also be created on Google Slides.
 
 
 ## Templates  
 
-Several slide templates have already been developed for the lab: 
+As of December 2025, BHK lab is adapting slides to reflect the UHN rebranding. Please use this template: 
 
-- [BHKLab Internal Presentations Template](https://docs.google.com/presentation/d/1GRdR3ExBVbXwgmjkHBp82i3x_mdQZPzJNHsEz1LiYWk/edit)
-- [BHKLab External Presentations Template](https://docs.google.com/presentation/d/1B-iTfzHvVSOD9fW80NZz14ct6HENHWOgTxU8C673TmY/edit)
-
+- [BHKLab Presentations Template](https://docs.google.com/presentation/d/1cNsokaMk3Y_gvuf0uNRVztzbS0qPKnYi8Zc2Fy12j18/edit?usp=sharing)
 
 
 ## Miro 
