@@ -2,7 +2,7 @@
 
 **Welcome to Journal Club!**  
 
-Whether you’re new to the lab or looking for a refresher, this guide will help you navigate **Journal Club (JC)**—our weekly session to explore research papers, exchange ideas, and grow as scientists. Let’s dive in!  
+Whether you’re new to the lab or looking for a refresher, this guide will help you navigate **Journal Club (JC)** — our bi-weekly session to explore research papers, exchange ideas, and grow as scientists. Let’s dive in!  
 
 ## When and Where?
 
@@ -14,6 +14,8 @@ Whether you’re new to the lab or looking for a refresher, this guide will help
 
 **Format**: Two presenters (30 minutes each)
 
+---
+
 ## What Is Journal Club?
 
 Journal Club is a bi-weekly session designed to:
@@ -24,6 +26,8 @@ Journal Club is a bi-weekly session designed to:
 - **Apply**: Optionally consider incorporating the findings or methods into your projects.
 
 It’s all about **learning**, **critiquing**, and **getting inspired**.
+
+---
 
 ## How Journal Club Works?
 
@@ -61,7 +65,7 @@ It’s all about **learning**, **critiquing**, and **getting inspired**.
         If you are planning on presenting remotely, please connect with someone **onsite** to ensure the [Meeting Owl](owl_basics.md) is set up for you. 
 ---
 
-## **Audience Role**
+## Audience Role
 
 Even if you’re not presenting, your participation is essential!
 
