@@ -21,7 +21,7 @@ Assay data contains genomic profiles of the patients. The data is usually proces
 #### Clinical metadata
 Any data pertaining to the samples or clinical response can be included in the Phenodata object. This is either fetched from public platforms like GEO if the data is public or upon request in case of confidentiality. Metadata sections in the SE objects include a few mandatory columns which are populated either by information from the other columns or the original published paper. NA is used to fill out columns for which no information is found. Each SE object includes additional metadata that may or may not be available in other SE objects.
 
-Mandatory columns are the same as immunotherapy `colData` (see [above](#processing-clinical-metadata)).
+Mandatory columns are the same as immunotherapy `colData` (see [here](../IO_Clinical_Trial_Curation/index.md#3-process-clinical-data)).
 
 ### Gene metadata
 Similar to immunotherapy datasets, gene metadata for non-immunotherapy datasets is also obtained from [Gencode](https://www.gencodegenes.org/human/releases.html) annotations. "Ensembl.v99.annotation.RData" from "Gencode.v33.annotation.RData" is used for curating `rowData` of the SE object in non-immunotherapy datasets. Annotation data are available in BHKLab-Pachyderm's [Annotation repository](https://github.com/BHKLAB-DataProcessing/Annotations).
