@@ -2,7 +2,7 @@
 
 While there are common sections, each grant agency has specific requirements. Before submitting a grant application, ensure you have all necessary documents and have addressed key requirements.
 
-Use this guide to navigate each stage of the grant application process, from initial registration to final submission. ![Grant Submission Process](images/Grant_Submission_Process.png)
+Use this guide to navigate each stage of the grant application process, from initial registration to final submission. ![Grant Submission Process](../images/Grant_Submission_Process.png)
 ## Prerequisites
 
 1. Create a folder under BHKLab Manage Google drive. General access is restricted to Benjamin, Soleil and Sisira, hence reach out to Sisira to create folders.
