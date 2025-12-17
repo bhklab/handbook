@@ -44,7 +44,7 @@ When available, **center ID** or **platform ID** can be included as a batch vari
 | **RUVSeq**     | Unknown batches   | `RUVSeq::RUVg`, `RUVs`    | Designed for RNA-seq counts using control genes or replicates         |
 | **Linear Model** | Known batches   | `limma::removeBatchEffect` | Simple, design-aware batch removal approach for log-scale data        |
 | **PCA**        | Diagnostic tool   | `prcomp`, `PCAtools`      | Visualization tool to detect batch structure; not a correction method |
-
+| **PCA**        | Known batches in scRNA-seq data  | `harmony:RunHarmony`   | Alters the PCA embeddings using the batch information, but doesn't change the counts matrix|
 ---
 
 ## General Workflow
