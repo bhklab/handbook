@@ -60,6 +60,7 @@ my_fun <- function(x)
   - This linter is included with the R VSCode extension and can be added to RStudio.
 - By default, the linter enforces the **Tidyverse Style Guide**, which differs slightly from Bioconductor (and BHKLab) conventions.
 - The [`styler`](https://github.com/r-lib/styler/releases/tag/v1.0.0) package can be used to automatically format R files to follow your `lintr` settings, but be careful as it can mangle your code. Integration is easiest with RStudio.
+- The [`air`](https://posit-dev.github.io/air/) tool is a modern formatter and language server for R, developed primarily to integrate with Tidyverse style conventions.
 
 ## References
 
