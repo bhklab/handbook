@@ -2,7 +2,19 @@
 
 **Welcome to Journal Club!**  
 
-Whether you’re new to the lab or looking for a refresher, this guide will help you navigate **Journal Club (JC)**—our weekly session to explore research papers, exchange ideas, and grow as scientists. Let’s dive in!  
+Whether you’re new to the lab or looking for a refresher, this guide will help you navigate **Journal Club (JC)** — our bi-weekly session to explore research papers, exchange ideas, and grow as scientists. Let’s dive in!  
+
+## When and Where?
+
+**Day**: Wednesdays, usually the first and third week of the month 
+
+**Time**: 12:00–1:00 PM
+
+**Location**: PMCRT 11-710
+
+**Format**: Two presenters (30 minutes each)
+
+---
 
 ## What Is Journal Club?
 
@@ -17,21 +29,12 @@ It’s all about **learning**, **critiquing**, and **getting inspired**.
 
 ---
 
-## When and Where?
-
-- **Day**: Wednesdays, usually the first and third week of the month  
-- **Time**: 12:00–1:00 PM  
-- **Location**: PMCRT 11-710  
-- **Format**: Two presenters (30 minutes each)  
-
----
-
 ## How Journal Club Works?
 
 - **Presenters**:
     - **Option 1**: Each presenter discusses a different paper.
     - **Option 2**: Both presenters focus on the same paper, with one highlighting its strengths and the other critiquing its weaknesses.
-  
+
 - **Interactive Elements**:
     - **Dumb Questioner**: A participant is randomly chosen to ask a “dumb” question, encouraging open and fun discussions.
     - **Audience Poll**: For shared papers, attendees vote on whether the positive or critical perspective was more compelling.
@@ -62,13 +65,13 @@ It’s all about **learning**, **critiquing**, and **getting inspired**.
         If you are planning on presenting remotely, please connect with someone **onsite** to ensure the [Meeting Owl](owl_basics.md) is set up for you. 
 ---
 
-## Audience Role  
+## Audience Role
 
-Even if you’re not presenting, your participation is essential!  
+Even if you’re not presenting, your participation is essential!
 
-- **Read the paper** beforehand, if possible.  
-- **Engage**: Ask questions and share your insights.  
-- **Be Open**: Every perspective adds value.  
+- **Read the paper** beforehand, if possible.
+- **Engage**: Ask questions and share your insights.
+- **Be Open**: Every perspective adds value.
 
 ---
 
@@ -78,4 +81,4 @@ Even if you’re not presenting, your participation is essential!
 
  ---
 
-Journal Club is a great way to stay curious, collaborate, and learn together. We look forward to seeing you there! 
+Journal Club is a great way to stay curious, collaborate, and learn together. We look forward to seeing you there!
