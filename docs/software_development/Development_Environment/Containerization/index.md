@@ -15,9 +15,7 @@ Containerization is a technology that allows you to package an application with 
 [Docker](https://docs.docker.com/get-started/) is the most popular container platform. It lets developers:
 
 - Build container images with all dependencies included.
-
 - Ship these images anywhere (laptop, server, or cloud).
-
 - Run them consistently, avoiding the “works on my machine” problem.
 
 ## Resources

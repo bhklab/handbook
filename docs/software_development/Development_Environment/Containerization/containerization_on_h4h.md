@@ -1,6 +1,6 @@
 # Containerization on H4H
 
-Containerization is especially useful for H4H projects because it allows us to not have to build our enviromnents on H4H. 
+Containerization is especially useful for H4H projects because it allows us to not have to build our enviromnents on H4H.
 
 ## Apptainer
 
