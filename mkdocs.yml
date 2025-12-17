@@ -34,6 +34,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.caret
 
 plugins:
   - redirects:                        # handles URL redirects for moved pages
