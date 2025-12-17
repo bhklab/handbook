@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.9.0](https://github.com/bhklab/handbook/compare/v0.8.0...v0.9.0) (2025-12-17)
+
+
+### Features
+
+* add containerization introduction and usage on H4H ([#271](https://github.com/bhklab/handbook/issues/271)) ([f4a229a](https://github.com/bhklab/handbook/commit/f4a229a2818578066e14da62ebf1944c7fa4b8ce))
+* add How to Read a Paper resource to literature review ([#272](https://github.com/bhklab/handbook/issues/272)) ([ec1bb9f](https://github.com/bhklab/handbook/commit/ec1bb9f2d62f84b7bbe102487b5420426a33cb27))
+* add info for scheduling meetings for mbp rotation students ([#292](https://github.com/bhklab/handbook/issues/292)) ([1dc19dd](https://github.com/bhklab/handbook/commit/1dc19dd2bdbe90d608be9f2e573dd021c4b886b4))
+* Add ORCESTRA and Snakemake general pages ([#275](https://github.com/bhklab/handbook/issues/275)) ([a2c9a80](https://github.com/bhklab/handbook/commit/a2c9a80ba27a002503cda027bbf6ad9209280b81))
+* add radiomics score ([#286](https://github.com/bhklab/handbook/issues/286)) ([9901553](https://github.com/bhklab/handbook/commit/9901553a5b9e38c53657bcea952ff615b8bc8df3))
+* add Rich python tool page. ([#279](https://github.com/bhklab/handbook/issues/279)) ([3bc6d41](https://github.com/bhklab/handbook/commit/3bc6d413bf0b5ca17ca733017f04088e69947102))
+* add UHN onboarding information ([#287](https://github.com/bhklab/handbook/issues/287)) ([7109af2](https://github.com/bhklab/handbook/commit/7109af2c3fc551ebccf0f1c6bf6c0167b0084006))
+* add zoxide to CLI Tools ([#274](https://github.com/bhklab/handbook/issues/274)) ([2e1fdcb](https://github.com/bhklab/handbook/commit/2e1fdcb0790c2eec6ea47eff611d2cf137190721))
+* added survival analysis under disciplines/pharmacogenomics ([#281](https://github.com/bhklab/handbook/issues/281)) ([22896e5](https://github.com/bhklab/handbook/commit/22896e572db30032a9c7071295ad17bebc6a16d1))
+* Nasim/adding summarized e and ranged ([#280](https://github.com/bhklab/handbook/issues/280)) ([0693925](https://github.com/bhklab/handbook/commit/0693925fc65217b80c2f71b897bcdae8eb300c6a))
+* Sisiranair/adding general pages ([#290](https://github.com/bhklab/handbook/issues/290)) ([319e79e](https://github.com/bhklab/handbook/commit/319e79ed4c4755dce02d72e490edc9141ae7596a))
+* Transfer over R best practices ([#288](https://github.com/bhklab/handbook/issues/288)) ([860c779](https://github.com/bhklab/handbook/commit/860c7798b15d69d4e99fb57d9160f9724f7b2849))
+
+
+### Bug Fixes
+
+* address minor mkdocs build warnings ([#283](https://github.com/bhklab/handbook/issues/283)) ([2a8c801](https://github.com/bhklab/handbook/commit/2a8c801a1f4e4bd3deef290fa7614e2cf96f0760))
+
 ## [0.8.0](https://github.com/bhklab/handbook/compare/v0.7.0...v0.8.0) (2025-08-05)
 
 
