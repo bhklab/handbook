@@ -1,5 +1,94 @@
 # Changelog
 
+## [0.8.0](https://github.com/bhklab/handbook/compare/v0.7.0...v0.8.0) (2025-08-05)
+
+
+### Features
+
+* add about the lab space info to General ([#199](https://github.com/bhklab/handbook/issues/199)) ([24f53e0](https://github.com/bhklab/handbook/commit/24f53e087d3648b7f3cbc01ad012fe3c786f0b88))
+* add admonition describing how to deal with failing bioconductor packages ([#238](https://github.com/bhklab/handbook/issues/238)) ([562a689](https://github.com/bhklab/handbook/commit/562a689d5f92c92781434002364ec0f3d807b8a3))
+* add basic and advanced resources to R page ([#210](https://github.com/bhklab/handbook/issues/210)) ([9dd401c](https://github.com/bhklab/handbook/commit/9dd401c1dfe007fd356270ac9245f2ef67db765e))
+* add imaging data sources ([#177](https://github.com/bhklab/handbook/issues/177)) ([da89d88](https://github.com/bhklab/handbook/commit/da89d88c88d3bd503a88c8a0ab4f97c073db51e6))
+* add instructions on submitting budget to the UHN Grants office ([#179](https://github.com/bhklab/handbook/issues/179)) ([931c279](https://github.com/bhklab/handbook/commit/931c279ede8a4c3cad984f732db97e7251f3c12f))
+* add lab off-boarding policy and admin instructions ([#178](https://github.com/bhklab/handbook/issues/178)) ([fd8d383](https://github.com/bhklab/handbook/commit/fd8d383ce9721914d682306e6fe98f1245a3ce5a))
+* add Med-ImageTools to Disciplines/Imaging/Tools index page ([#157](https://github.com/bhklab/handbook/issues/157)) ([ff05b2c](https://github.com/bhklab/handbook/commit/ff05b2c7d30111264ea63a01022a67a72a8aed50))
+* add ML learning resources and tools links ([#215](https://github.com/bhklab/handbook/issues/215)) ([1835dec](https://github.com/bhklab/handbook/commit/1835dec2684d8c572f6cde4cffce7d48716d8418))
+* add MOLAB dataset to imaging data sources ([#266](https://github.com/bhklab/handbook/issues/266)) ([ab41c19](https://github.com/bhklab/handbook/commit/ab41c19bb33921976353adc90a3e14970c110584))
+* Add MultiAssayExperiment document ([#196](https://github.com/bhklab/handbook/issues/196)) ([b291012](https://github.com/bhklab/handbook/commit/b291012833f9b460fae78e26e8f4c010eb21801b))
+* add onboarding admin checklist ([#223](https://github.com/bhklab/handbook/issues/223)) ([e6cc0a3](https://github.com/bhklab/handbook/commit/e6cc0a3aef64d64293792c7c8e708f8dab2fe3f6))
+* add page for quickstart on H4H ([#259](https://github.com/bhklab/handbook/issues/259)) ([7aeb9bd](https://github.com/bhklab/handbook/commit/7aeb9bd3c982cfaf8da8154e4bde10873eb7d95a))
+* add page of resource links for JavaScript web dev ([#214](https://github.com/bhklab/handbook/issues/214)) ([1ab2cf1](https://github.com/bhklab/handbook/commit/1ab2cf1dd8d33bffd4b317749d0605f3dc38979b))
+* add pixi package manager page ([#234](https://github.com/bhklab/handbook/issues/234)) ([27a85b8](https://github.com/bhklab/handbook/commit/27a85b8c4b4f47e8e72b6d6810a76bdd2bc4b265))
+* add Plots section and Sankey page ([#254](https://github.com/bhklab/handbook/issues/254)) ([163c171](https://github.com/bhklab/handbook/commit/163c171e67c0a6c6a0dedf200dcd0d18b847f351))
+* add quick links and pointers for new members to homepage ([#190](https://github.com/bhklab/handbook/issues/190)) ([77d074b](https://github.com/bhklab/handbook/commit/77d074b1e9e36e990aefe888655335022d455038))
+* add section about Mac specific step for SSH forwarding setup for lab server ([#152](https://github.com/bhklab/handbook/issues/152)) ([14e532d](https://github.com/bhklab/handbook/commit/14e532ddf66ce0c82400f8eeef33bd5e0fd89015))
+* add steps to after exit interview section ([#239](https://github.com/bhklab/handbook/issues/239)) ([5e8834d](https://github.com/bhklab/handbook/commit/5e8834dc9a31754cf2d45a195c6571a105051081))
+* add TreatmentResponseExperiment tutorial with diagrams ([#250](https://github.com/bhklab/handbook/issues/250)) ([9d84ad6](https://github.com/bhklab/handbook/commit/9d84ad6a14839b7cb648a09555f87866a5e9988b))
+* add walkthrough for accessing PSet Data ([#253](https://github.com/bhklab/handbook/issues/253)) ([1424ebc](https://github.com/bhklab/handbook/commit/1424ebce7b9f6dbda2f9c899d2f720306843d955))
+* added awards and achievements tracking under general ([#194](https://github.com/bhklab/handbook/issues/194)) ([5bacb4c](https://github.com/bhklab/handbook/commit/5bacb4cdf98aa8645bca1c63ae1dd9d78d42c5fc))
+* Added compute engine page ([#258](https://github.com/bhklab/handbook/issues/258)) ([6c77dd5](https://github.com/bhklab/handbook/commit/6c77dd5114d26b62a7eecab0d7bae47d90f4b2d7))
+* Added guide for lab mentors ([#252](https://github.com/bhklab/handbook/issues/252)) ([90a1ce7](https://github.com/bhklab/handbook/commit/90a1ce75c81761c43165695d32be6bdbedccec03))
+* added literature review tools section ([#235](https://github.com/bhklab/handbook/issues/235)) ([e7e5a0e](https://github.com/bhklab/handbook/commit/e7e5a0eefbb4aeba36df86e442705ce4af2b8034))
+* added page to explain orcestra version controlling ([#195](https://github.com/bhklab/handbook/issues/195)) ([1770998](https://github.com/bhklab/handbook/commit/1770998184faa0f7c590496eefe37b085c5e3d27))
+* Added pages from med-imagenet to disciplines/Imaging ([#86](https://github.com/bhklab/handbook/issues/86)) ([0c3a226](https://github.com/bhklab/handbook/commit/0c3a22607ffb3d45db279ec6156f49bca492e628))
+* Added pages on PSets, Dimensionality Reduction, PCA, and Clustering.  ([#251](https://github.com/bhklab/handbook/issues/251)) ([c5a2e10](https://github.com/bhklab/handbook/commit/c5a2e1049633ec7371882239f75d6d002cdc8bff))
+* added pgx meeting info ([#188](https://github.com/bhklab/handbook/issues/188)) ([e820a40](https://github.com/bhklab/handbook/commit/e820a40a0b522c8d285235e986b60442e084e35d))
+* Added Resources tab ([#153](https://github.com/bhklab/handbook/issues/153)) ([ef6ea07](https://github.com/bhklab/handbook/commit/ef6ea070bb36f52150ecbb419f0b7bc98244dd70))
+* Added vertex ai introduction ([#198](https://github.com/bhklab/handbook/issues/198)) ([5104ff3](https://github.com/bhklab/handbook/commit/5104ff3561684f0fcc869b964a05f0a2d5478a84))
+* Adding content to the JavaScript/TypeScript page to provide a general understanding and usage in the lab ([#154](https://github.com/bhklab/handbook/issues/154)) ([bb81a74](https://github.com/bhklab/handbook/commit/bb81a74cd9f90e571b4b12d76b0fd0718fb693c3))
+* adding grants section ([#176](https://github.com/bhklab/handbook/issues/176)) ([1a27101](https://github.com/bhklab/handbook/commit/1a27101a5685d25160f39a0445b1145d58889ad0))
+* adding manuscript guideline ([#208](https://github.com/bhklab/handbook/issues/208)) ([659158a](https://github.com/bhklab/handbook/commit/659158a9509c801aeae5f3409d0f325285a590b9))
+* Adding Slack page to communications tab ([#197](https://github.com/bhklab/handbook/issues/197)) ([52ed882](https://github.com/bhklab/handbook/commit/52ed882e0e225d0293e36f56b5f6e79bd87be30b))
+* Addition of google analytics for usage tracking ([#183](https://github.com/bhklab/handbook/issues/183)) ([f3be6a1](https://github.com/bhklab/handbook/commit/f3be6a190f468d967e24440b042b0ae2b5985dc8))
+* address documentation build warnings and errors ([#205](https://github.com/bhklab/handbook/issues/205)) ([d7546ae](https://github.com/bhklab/handbook/commit/d7546aebf606fa2cd35b283c1c6edaddbc7756ad))
+* Guanqiaofeng/adding kallistso pipeline page ([#193](https://github.com/bhklab/handbook/issues/193)) ([8b5953f](https://github.com/bhklab/handbook/commit/8b5953f0ba004f8d9a7fb21d4c22c48cdb46867d))
+* migrate bioinformatics and SQL education resources ([#216](https://github.com/bhklab/handbook/issues/216)) ([0d3e5dd](https://github.com/bhklab/handbook/commit/0d3e5dd035801658f8f9952bd61e82dcd21e457a))
+* migrate Software Development educational resources ([#212](https://github.com/bhklab/handbook/issues/212)) ([2341357](https://github.com/bhklab/handbook/commit/23413575d2b345cbc7ff24d19ac5bcf99664147d))
+* radiomics software pages ([#265](https://github.com/bhklab/handbook/issues/265)) ([74d04ce](https://github.com/bhklab/handbook/commit/74d04ce5b073192951804c3435fa25c3e80a142e))
+* rewrite clinical trial curation pages ([#206](https://github.com/bhklab/handbook/issues/206)) ([5505e4a](https://github.com/bhklab/handbook/commit/5505e4a282266db9d30de13395932b5597cf06d8))
+* Sisiranair/adding resources section ([#226](https://github.com/bhklab/handbook/issues/226)) ([9e0f56a](https://github.com/bhklab/handbook/commit/9e0f56a9ac987b1dbff74fa8b066761f48411ad4))
+* software development meeting page ([#191](https://github.com/bhklab/handbook/issues/191)) ([1242693](https://github.com/bhklab/handbook/commit/12426932cb4f585301a8455fa3665d1ba717c2b9))
+* update radiomics page ([#189](https://github.com/bhklab/handbook/issues/189)) ([9bc4670](https://github.com/bhklab/handbook/commit/9bc467099ddf34e5c1eaeb24629763cf6e6cf2cf))
+* When to use buckets for serving images/videos page ([#175](https://github.com/bhklab/handbook/issues/175)) ([8942145](https://github.com/bhklab/handbook/commit/89421455882cf80e6f6a71e47000340d13686f13))
+
+
+### Bug Fixes
+
+* correct example sbatch file by removing partition specification and changing mail-type START to BEGIN ([#261](https://github.com/bhklab/handbook/issues/261)) ([4600a38](https://github.com/bhklab/handbook/commit/4600a382fd9bd0461d65c4ba607c5bf7d9cdae0f))
+* GCP Vertex AI for ml ([#201](https://github.com/bhklab/handbook/issues/201)) ([07e2f07](https://github.com/bhklab/handbook/commit/07e2f07deff58bcbe6b28fb593c4ec960805bbd9))
+* minor_fixes_for_onboarding ([#224](https://github.com/bhklab/handbook/issues/224)) ([91c4dc8](https://github.com/bhklab/handbook/commit/91c4dc8f483b6a03b541d420769d9f9f71d71356))
+* remove duplicate kallisto page, correct spelling errors ([#203](https://github.com/bhklab/handbook/issues/203)) ([a638c11](https://github.com/bhklab/handbook/commit/a638c1130727e3d348d9dc145b73869d8ef87065))
+* typo of bhklab.archive email, typo in Project Data ([84c1997](https://github.com/bhklab/handbook/commit/84c199722cbbb25e253dcef58104386823a6812d))
+* typos on Offboarding page ([#232](https://github.com/bhklab/handbook/issues/232)) ([84c1997](https://github.com/bhklab/handbook/commit/84c199722cbbb25e253dcef58104386823a6812d))
+
+## [0.7.0](https://github.com/bhklab/handbook/compare/v0.6.0...v0.7.0) (2025-02-14)
+
+
+### Features
+
+* Add "What is Machine Learning" page to the handbook ([#84](https://github.com/bhklab/handbook/issues/84)) ([34b3fab](https://github.com/bhklab/handbook/commit/34b3fab0c3fce38d56e8a265263cff44ef3958e2))
+* Add Communications section and BHKLab Gmail page ([#131](https://github.com/bhklab/handbook/issues/131)) ([648743d](https://github.com/bhklab/handbook/commit/648743d35c64bca06ab149ea03a1cdf4a5573ccb))
+* add Introduction to git slides to version control docs and fix up quick git tips ([#123](https://github.com/bhklab/handbook/issues/123)) ([8eb99fa](https://github.com/bhklab/handbook/commit/8eb99fa470c7b0f462ab9be47c0dbc9816830ad0))
+* add lab server page to Remote_Development ([#136](https://github.com/bhklab/handbook/issues/136)) ([142eaec](https://github.com/bhklab/handbook/commit/142eaec4b553a5929c438db6cccf6a57d58a15e0))
+* Add new lab expertise page ([#145](https://github.com/bhklab/handbook/issues/145)) ([bd3be40](https://github.com/bhklab/handbook/commit/bd3be40224a72955a7f37713ebdb65dfe03e8150))
+* added note about adding the BHKLab calendar to your BHKLab Gmail with the email ([aa72aa8](https://github.com/bhklab/handbook/commit/aa72aa876aadbb3c7f191d8ceaceb2d8d313fc3a))
+* Adding a new page for STAR alignment ([#93](https://github.com/bhklab/handbook/issues/93)) ([ed2e6de](https://github.com/bhklab/handbook/commit/ed2e6ded55f5b089cc4e0ffef4a03ec066bcd096))
+* Google Cloud Platform page added ([#92](https://github.com/bhklab/handbook/issues/92)) ([b2fea5c](https://github.com/bhklab/handbook/commit/b2fea5cfea0bfe1d4e6555f23ec201fa013a1e66))
+* make all tables sortable ([#147](https://github.com/bhklab/handbook/issues/147)) ([a89b5ae](https://github.com/bhklab/handbook/commit/a89b5ae1952e5d4f073b154c07079a118e962903))
+* migrate information from the Employee Onboarding Policy ([#127](https://github.com/bhklab/handbook/issues/127)) ([def834d](https://github.com/bhklab/handbook/commit/def834db30268c165a4d8c663e5dd416e1fb73f5))
+* update BHKLAB calendar setup ([#143](https://github.com/bhklab/handbook/issues/143)) ([35d1dff](https://github.com/bhklab/handbook/commit/35d1dff38b2782392b53c8484b92a960ec716231))
+* update BHKLab Gmail page ([#135](https://github.com/bhklab/handbook/issues/135)) ([0f2dddd](https://github.com/bhklab/handbook/commit/0f2dddddc97eca9a2f2032752c26385f55d582fa))
+* update-SOW-instructions ([#138](https://github.com/bhklab/handbook/issues/138)) ([b4cee1f](https://github.com/bhklab/handbook/commit/b4cee1fdbc75be5d0d0eb99cb9a4f8912fdaaf75))
+* updated BHKLab Calendar instructions ([#142](https://github.com/bhklab/handbook/issues/142)) ([aa72aa8](https://github.com/bhklab/handbook/commit/aa72aa876aadbb3c7f191d8ceaceb2d8d313fc3a))
+* updates to the journal club page ([#139](https://github.com/bhklab/handbook/issues/139)) ([de22192](https://github.com/bhklab/handbook/commit/de221926bd1a32b83b7e3c883b7873f08edc7102))
+
+
+### Bug Fixes
+
+* PGx meetings are biweekly ([#133](https://github.com/bhklab/handbook/issues/133)) ([4777bcd](https://github.com/bhklab/handbook/commit/4777bcd7eeb6788d404979d08df21d40c4b105fa))
+* update BHKLab Google group to be Members instead of Google Accou… ([#134](https://github.com/bhklab/handbook/issues/134)) ([51a7ec2](https://github.com/bhklab/handbook/commit/51a7ec2e4da6ccadf59726e63818fb807f0d916f))
+* update BHKLab Google group to be Members instead of Google Accounts and update hyperlink ([51a7ec2](https://github.com/bhklab/handbook/commit/51a7ec2e4da6ccadf59726e63818fb807f0d916f))
+
 ## [0.6.0](https://github.com/bhklab/handbook/compare/v0.5.0...v0.6.0) (2024-11-27)
 
 

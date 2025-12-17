@@ -18,7 +18,16 @@ The documentation is written in Markdown and can be found in the `docs` director
 
 Here are the steps to add new content to the documentation:
 
-### 1. Create a branch for your changes
+### 1. Select or create an issue
+Navigate to the [Issues](https://github.com/bhklab/handbook/issues) section of the repo and select an existing issue or continue on from the Issue you created in the [Submitting Issues](submitting_issues.md) section. 
+
+Assign yourself to the issue if it's not already assigned.
+
+### 2. Create a branch for your changes
+
+Open the issue and click on the "Create a branch" link under Development on the right side of the page.
+
+Name your branch following the format: `<author-ID>/<purpose-of-branch>`
 
 ??? note "Note: Naming your branch"
     A branch is a way to work on a new feature or bug fix without affecting the main branch.
@@ -42,35 +51,48 @@ Here are the steps to add new content to the documentation:
     $ jjjermiah/13-docs-finish-tutorial-for-page-review
     ```
 
-To **create a new branch and switch to it**, run the following command:
+In your the terminal in the handbook directory, run the lines of code provided (git fetch, git checkout branchname).
 
-```console
-git checkout -b <branch-name>
-$ git checkout -b jjjermiah/adding-getting-started-page
-```
+You will now be on the branch associated with the issue and can beging making your changes.
 
-If you already have a named branch, you can switch to it with the following command:
-
-```console
-git switch <branch-name>
-$ git switch jjjermiah/adding-getting-started-page
-```
 
 ### 2. Add your new content to the `docs` directory
 
 ??? question "How do I know where to create my file?"
 
-    The command below will create an empty Markdown file called `my_new_page.md` in the `docs/onboarding` directory.
+    The command below will create an empty Markdown file called `my_new_page.md` in the `docs/onboarding_offboarding` directory.
     The relative path to the `docs` directory, will be the link to your new page. <br>
-    i.e the link to your new page will be `<website-url>/handbook/onboarding/my_new_page/`
+    i.e the link to your new page will be `<website-url>/handbook/onboarding_offboarding/my_new_page/`
 
-Let's say you want to add a new page to the `Onboarding` section.
-You would add a new file to the `docs/onboarding` directory.
+Let's say you want to add a new page to the `Onboarding/Offboarding` section.
+You would add a new file to the `docs/onboarding_offboarding` directory.
 
 ```console
-$ touch docs/onboarding/my_new_page.md
-You should now see a new file at `docs/onboarding/my_new_page.md`.
+$ touch docs/onboarding_offboarding/my_new_page.md
+You should now see a new file at `docs/onboarding_offboarding/my_new_page.md`.
 ```
+
+!!! note "You may need to add your page to the `.pages` file"
+
+    If you are adding a new page to the handbook, you may need to add the new page to the `.pages` file
+    that lives in the same directory in which your new page is located.
+    This file is used to generate the navigation menu for the handbook.
+
+    To add your new page to the `.pages` file, open the file and add the relative path to your new page.
+    For example, if you added a new page to the `onboarding_offboarding` directory, you would add the following
+    line (highlighted in green)
+    to the `onboarding_offboarding/.pages` file:
+
+    ```diff
+    title: Onboarding / Offboarding
+
+    nav:
+        - Onboarding
+        - Offboarding
+    +   - onboarding_offboarding/my_new_page.md
+    ```
+
+    This will add a link to your new page in the navigation menu.
 
 To learn more about how to actually write content, see the [Handbook MkDocs Page][mkdocs] and
 [Handbook Markdown page][markdown].
@@ -114,7 +136,7 @@ You should see your changes appear at `http://127.0.0.1:8001/handbook/onboarding
 ```sh
 git add .
 git commit -m "Add new getting started page"
-git push --set-upstream origin jjjermiah/adding-getting-started-page
+git push 
 ```
 
 ### 5. Create a PR

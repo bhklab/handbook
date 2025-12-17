@@ -20,6 +20,11 @@ During lab meetings, you may present the research idea and feasibility, prelimin
 
 You will be sent an email notifying you of the date of presentation as per the lab schedule. If you want to (re)schedule a lab meeting, please contact the lab coordinator after finding a person to switch your presentation with.
 
+On the day of the meeting, you are responsible for retrieving the Meeting Owl and ensuring that it is set up for the meeting. See the [Meeting Owl Basics](owl_basics.md) page to learn more about how to use it.
+
+!!! warning
+    If you are planning on presenting remotely, please connect with someone **onsite** to ensure the [Meeting Owl](owl_basics.md) is set up for you. 
+
 ### Slides
 
 It is best to follow a standard slide format:

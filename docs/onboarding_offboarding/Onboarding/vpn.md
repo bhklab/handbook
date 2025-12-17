@@ -1,4 +1,4 @@
-# [Configuring UHN VPN](#configuring-vpn)
+# Configuring UHN VPN
 
 ## Quick introduction: why do we need a VPN?
 
