@@ -2,6 +2,12 @@
 
 ## Quick Start
 
+!!! note
+
+    There are two primary style guides for R code: the [Bioconductor Style Guide](https://contributions.bioconductor.org/r-code.html) and the [Tidyverse Style Guide](https://style.tidyverse.org/). There are differences between them, such as Tidyverse style preferring two spaces for indentation while Bioconductor prefers four spaces, or snake_case naming for functions in Tidyverse while Bioconductor prefers camelCase.
+
+    Because the BHKLab develops packages for Bioconductor, as a general rule **we prefer to follow the Bioconductor Style Guide**.
+
 ### Naming
 
 - All class names should use **PascalCase**.
