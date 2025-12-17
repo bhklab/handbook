@@ -20,6 +20,8 @@ mkdocs-redirects = ">=1.2.1,<2"
 
 [pypi-dependencies]
 mkdocs-awesome-pages-plugin = ">=2.9.3, <3"
+mkdocs-table-reader-plugin = ">=3.1.0, <4"
+openpyxl = ">=3.1.5, <4"
 
 [tasks]
 build.description = "Build the documentation using MkDocs"
@@ -41,7 +43,7 @@ taplo = ">=0.9.1,<0.10"
 typos = ">=1.23.1,<2"
 markdownlint-cli = ">=0.42.0,<0.43"
 
-[feature.lint.tasks]
+# [feature.lint.tasks]
 # pre-commit-install.description = "Install pre-commit hooks"
 # pre-commit-install.cmd = "pre-commit install --install-hooks -t=pre-commit -t=pre-push"
 # pre-commit-install.inputs = [".pre-commit-config.yaml"]
@@ -53,5 +55,5 @@ markdownlint-cli = ">=0.42.0,<0.43"
 [feature.lint.tasks.markdownlint]
 description = "Lint Markdown files"
 cmd = ["markdownlint","--ignore-path", ".markdownlintignore", "--config", ".markdownlint.json"]
-mkdocs-table-reader-plugin = ">=3.1.0, <4"
-openpyxl = ">=3.1.5, <4"
+
+
