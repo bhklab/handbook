@@ -3,6 +3,7 @@
   "no-inline-html": false,
   "reference-links-images": false,
   "link-fragments": false,
+  "no-alt-text": false,
   "MD007": { "indent": 4 },
   "code-block-style": false
 }
