@@ -4,10 +4,9 @@ The Owl is a device that works as video and audio input for all meetings conduct
 
 ## How to find/obtain the Owl
 
-1. Go to Jermiah's work station (W-16).
-2. Grab the key located on the bottom side of Jermiah's desk.
-3. Using the key open the top drawer of the filing cabinet under Jermiah's workstation and grab the key labelled "Owl key".
-4. Use this new key to open the drawer labelled 'OWL' on the filing cabinet under the right end of the whiteboards and pull out the green Owl duffle bag.
+Open the drawer labelled 'OWL' on the filing cabinet under the right end of the whiteboards and pull out the green Owl duffle bag.
+
+If the drawer tower is locked, go to W06 and ask Katy for the key.  
 
 ## How to use the Owl
 
