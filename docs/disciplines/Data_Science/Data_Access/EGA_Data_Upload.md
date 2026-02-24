@@ -151,6 +151,7 @@ file2.fastq.gz. Arrange your csv to map from sample ids to fastq file 1 and file
 
 !!! Pro tip
     Add / before the fastq file names like so - /file1.fastq.gz, /file2.fastq.gz
+
     Make sure the number of raw files (eg: fastq) matches exactly with your metadata. Else file upload fails.
 
 You can check with Zhibin to ensure the raw file numbers and MD5 checksums are uploaded.
@@ -158,3 +159,14 @@ You can check with Zhibin to ensure the raw file numbers and MD5 checksums are u
 ## Create Dataset
 
 You will need UHN Policy number for this. Email Natalie Stickle. Example - EGAP00001234567
+
+### Special Case
+
+If your data is bigger than 20TB, it has to be uploaded in batches of 10TB. Each batch has to be 'ingested' by EGA before you can delete it. How to check the ingestion status?
+ If you look at the “Files” drop down on top right hamburger menu, files that are uploaded will be in one of the three categories.  “Ingested Files” mean they are registered (and can be deleted from the inbox)
+
+![](images/image001.png){: align=left height=100% width=100% }
+
+[Extra help from external authors](https://github.com/Rafeed-bot/EGA_Tutorial/blob/main/Tutorial_Instructions.md)
+
+[Simple Steps to Submit Sequencing Data to EGA Database!](https://youtu.be/iriB3MbEKG8?si=YseELabHAZh1bb1H)
