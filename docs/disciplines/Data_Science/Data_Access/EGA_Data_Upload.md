@@ -11,8 +11,7 @@ You need:
 Ask Benjamin or lab coordinator who has access to 1Password
 
 !!! note
-
- This is different from a regular EGA account. Read more - [EGA Submitter Portal](https://share.google/uXjAgvE3r50QyFKvK)
+    This is different from a regular EGA account. Read more - [EGA Submitter Portal](https://share.google/uXjAgvE3r50QyFKvK)
 
 ## 2. UHN DAC number and DAC Policy number
 
@@ -118,7 +117,7 @@ The submitter (in this case, You) creates it.
 
 Alias is Not assigned by EGA, Not auto-generated.
 
-!!! Pro tip
+!!! tip "Pro tip"
     Add ascending numerical suffix to make the sample ids unique.
 
 
