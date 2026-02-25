@@ -66,7 +66,7 @@ Think of it like this:
 
 > Dataset = who is allowed to access it
 
-! Most errors happen when these are mixed up.
+Most errors happen when these are mixed up.
 
 **Gather data for the above entities before submission.**
 
