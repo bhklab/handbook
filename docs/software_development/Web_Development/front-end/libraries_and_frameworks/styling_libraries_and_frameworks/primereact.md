@@ -1,0 +1,7 @@
+# PrimeReact
+
+[PrimeReact](https://primereact.org/) is a component library. Unlike TailwindCSS that deals with only styling components, PrimeReact provides premade components right out of the box. It is used in several projects and versions vary quite significantly. All of the new lab projects use version 10.9.7.
+
+PrimeReact really comes in handy for components that would take many hours to manually build to perfect functionality. This includes the [virtual scrollers](https://primereact.org/virtualscroller/), [accordions (dropdowns)](https://primereact.org/accordion/), [Toasts (popups)](https://primereact.org/toast/), [Dialog popups (modals)](https://primereact.org/dialog/), [tooltips](https://primereact.org/tooltip/), [calendars](https://primereact.org/calendar/), and [text editors](https://primereact.org/editor/).
+
+It is very good to use PrimeReact components where the engineering feat would be high but something out of the box would provide a good base component to work with. However, I would be weary on getting carried away with using PrimeReact premade components for everything. PrimeReact components can sometimes be very tricky to edit to your styling needs, so creating raw components using [TailwindCSS](./tailwindcss.md) is usually better if the component is not too much of a feat (since you will have much more styling control with TailwindCSS).
