@@ -8,7 +8,7 @@
 
 **Statistical modeling & analysis**
 
-Farnoosh Abbas Aghababazadeh
+Farnoosh Abbas Aghababazadeh, James Bannon
 
 **Biomarker analysis**
 
@@ -92,7 +92,7 @@ Michael Tran, Nicholas Messere
 
 **High Performance Computing (HPC) on H4H**
 
-Katy Scott, Michael Tran, Julia Nguyen
+Katy Scott, Michael Tran, Julia Nguyen, Sejin Kim
 
 **Version Control (Git & GitHub)**
 
@@ -120,13 +120,13 @@ Sisira Kadambat Nair, Katy Scott
 
 **Hiring**
 
-*Sisira Kadambat Nair*
+Sisira Kadambat Nair
 
 Includes preparing job posting, interviewing, coordinate decision making of projects and placements.
 
  **Admin**
 
-* Soleil Miron*
+Soleil Miron
 
 Includes Payroll, grant budgets, meeting room scheduling, purchases, international work permits, legal onboarding to UHN (e-learning, Health records, access card, Photo ID, VPN request)
 
