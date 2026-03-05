@@ -42,6 +42,14 @@ Almas Khan
 
 Katy Scott, Soolmaz Abbasi, Ruiyan Ni, Sejin Kim, Joshua Siraj
 
+**Medical Image Segmentation**  
+
+Joshua Siraj, Ruiyan Ni, Sejin Kim, Kaitlyn Kobayashi, Soolmaz Abbasi
+
+**Radiomic Analysis**  
+
+Katy Scott, Kaitlyn Kobayashi, Sejin Kim
+
 **Machine-learning (ML) models**
 
 Katy Scott, Ruiyan Ni, James Bannon, Farnoosh Abbas Aghababazadeh, Nabin Bagale, Shaghayegh Reza, Kewei Ni, Soolmaz Abbasi, Joshua Siraj
