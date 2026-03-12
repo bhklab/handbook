@@ -1,4 +1,4 @@
-# Basics of Cloud Build and Cloud Run on Google Cloud Platform (GCP)
+# Basics of Cloud Build and Cloud Run
 
 ## Introduction
 
