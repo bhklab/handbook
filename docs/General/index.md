@@ -9,11 +9,14 @@ If you are new to the lab, make sure you start by reviewing all pages in this se
 ## Quick Links
 
 ### Lab Trackers
-*(BHKLab account required for access)*
 
-* [To Do and Deadlines](https://docs.google.com/spreadsheets/d/1gnfwpzSho3ePF1WhFLZC8aGuDp9IG-mM6GMHbURjy8A/edit?gid=0#gid=0)
-* [Manuscript Tracking](https://docs.google.com/spreadsheets/d/1vgoZJ7W-xOMpxllDVn6bcspOpG6yJRzXIH25gdLsk3c/edit?gid=673495392#gid=673495392)
-* [Grants and Awards](https://docs.google.com/spreadsheets/d/1EuFaUxtk2kPueZwmjTopyRvnFduuSbp5Byf0gEWA7kw/edit?gid=575753371#gid=575753371)
+In your BHKLab Google Drive, search for `BHK Lab Spreadsheets` to get access to:  
+
+* To Do and Deadlines
+* Manuscript Tracking
+* Grants and Awards
+
+and other tracking spreadsheets. 
 
 ### FAQ  
 Below are some frequently accessed resources on the handbook that you may find helpful:
