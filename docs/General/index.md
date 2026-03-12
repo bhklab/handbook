@@ -10,7 +10,7 @@ If you are new to the lab, make sure you start by reviewing all pages in this se
 
 ### Lab Trackers
 
-In your BHKLab Google Drive, search for `BHK Lab Spreadsheets` to get access to:  
+In your BHKLab [Google Drive](https://drive.google.com/drive), search for `BHK Lab Spreadsheets` to get access to:  
 
 * To Do and Deadlines
 * Manuscript Tracking
