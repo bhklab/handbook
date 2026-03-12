@@ -2,7 +2,7 @@
 
 ## General Use
 
-Occasionally in a web application there are images and/or videos that need to be frequently added or updated. This tends to be the case when the images served in an application are attached to a database with entries that are continously being added to or changing. Typically when serving images in the front-end from a database entry, we would need to add an image to the code repository every time we want to add a new database entry. However, serving images from a GCS Buckets can help speed up the process of adding images for new entries in a database collection to your project by removing the step of pushing new images to your code repository.
+Occasionally in a web application there are images and/or videos that need to be frequently added or updated. This tends to be the case when the images served in an application are attached to a database with entries that are continously being added to or changing. Typically when serving images in the front-end from a database entry, we would need to add an image to the code repository every time we want to add a new database entry. However, serving images from a [Google Cloud Storage (GCS)](./cloud_storage) Bucket can help speed up the process of adding images for new entries in a database collection to your project by removing the step of pushing new images to your code repository.
 
 ## Example
 
