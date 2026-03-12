@@ -68,11 +68,10 @@ Cloud Build and Cloud Run complement each other and form a simple **build-and-de
 ### Typical Workflow
 
 1. A developer pushes code to a repository
-2. Cloud Build automatically:
-
-   * Builds a container image
-   * Runs tests or validation steps
-   * Stores the image in a artifact registry
+2. Cloud Build automatically:  
+      1. Builds a container image  
+      2. Runs tests or validation steps
+      3. Stores the image in a artifact registry
 3. The built image is deployed to Cloud Run
 4. Cloud Run serves the application to users
 
