@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://bhklab.github.io/handbook/dev/software_development/Remote_Development/Google_Cloud_Platform/gcs/">
+        <link rel="canonical" href="https://bhklab.github.io/handbook/dev/software_development/Remote_Development/Google_Cloud_Platform/cloud_storage/">
       
       
-        <link rel="prev" href="../compute_engine/">
+        <link rel="prev" href="../cloud_sql/">
       
       
-        <link rel="next" href="../serving_images_and_videos/">
+        <link rel="next" href="../compute_engine/">
       
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Google Cloud Storage (GCS) - BHKLab Handbook</title>
+        <title>Cloud Storage - BHKLab Handbook</title>
       
     
     
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Google Cloud Storage (GCS)
+              Cloud Storage
             
           </span>
         </div>
@@ -5431,6 +5431,14 @@
     
       
         
+          
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -5461,16 +5469,24 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_1" checked>
         
           
-          <label class="md-nav__link" for="__nav_3_5_1" id="__nav_3_5_1_label" tabindex="0">
-            
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   <span class="md-ellipsis">
     Google Cloud Platform
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_5_1" id="__nav_3_5_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_5_1">
@@ -5480,17 +5496,19 @@
           <ul class="md-nav__list" data-md-scrollfix>
             
               
+            
+              
                 
   
   
   
   
     <li class="md-nav__item">
-      <a href="../introduction/" class="md-nav__link">
+      <a href="../project_proposal/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Introduction to Google Cloud Platform (GCP)
+    Project Proposal
   </span>
   
 
@@ -5507,11 +5525,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../vertexai/" class="md-nav__link">
+      <a href="../gcp_billing_report/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Google Cloud Vertex AI
+    Monthly Billing Reports
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../serving_images_and_videos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Serving Images and Videos
   </span>
   
 
@@ -5532,7 +5571,7 @@
         
   
   <span class="md-ellipsis">
-    Google Cloud Artifact Registry
+    Artifact Registry
   </span>
   
 
@@ -5553,7 +5592,28 @@
         
   
   <span class="md-ellipsis">
-    BigQuery
+    Big Query
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud_build_run/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cloud Build/Run
   </span>
   
 
@@ -5574,28 +5634,7 @@
         
   
   <span class="md-ellipsis">
-    Cloud SQL for MySQL, PostgreSQL, and Microsoft SQL Server
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../compute_engine/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Compute Engine
+    Cloud SQL
   </span>
   
 
@@ -5625,7 +5664,7 @@
           
   
   <span class="md-ellipsis">
-    Google Cloud Storage (GCS)
+    Cloud Storage
   </span>
   
 
@@ -5636,7 +5675,7 @@
         
   
   <span class="md-ellipsis">
-    Google Cloud Storage (GCS)
+    Cloud Storage
   </span>
   
 
@@ -5724,11 +5763,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../serving_images_and_videos/" class="md-nav__link">
+      <a href="../compute_engine/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Serving Images and Videos From A Bucket
+    Compute Engine
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vertexai/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vertex AI
   </span>
   
 
@@ -5749,7 +5809,7 @@
         
   
   <span class="md-ellipsis">
-    GCP Virtual Machines (VMs)
+    Virtual Machines (VMs)
   </span>
   
 
@@ -7973,8 +8033,7 @@
 
 
 <h1 id="google-cloud-storage-gcs">Google Cloud Storage (GCS)<a class="headerlink" href="#google-cloud-storage-gcs" title="Anchor link to this section for reference">#</a></h1>
-<p>GCS is a scalable and secure object storage for data files, datasets, and
-ML-ready data.</p>
+<p>Google Cloud Storage (GCS) is a scalable and secure object storage for data files, datasets, and machine learning-ready data.</p>
 <h2 id="why-use-gcs">Why Use GCS?<a class="headerlink" href="#why-use-gcs" title="Anchor link to this section for reference">#</a></h2>
 <ul>
 <li>Centralized storage for raw and processed datasets.</li>
@@ -7982,30 +8041,27 @@ ML-ready data.</p>
 <li>Integration with other GCP services like BigQuery and AI/ML tools.</li>
 </ul>
 <h2 id="setting-up-and-using-gcs">Setting Up and Using GCS<a class="headerlink" href="#setting-up-and-using-gcs" title="Anchor link to this section for reference">#</a></h2>
-<blockquote>
-<p>Ensure that you have completed <a href="../introduction/#how-to-use-gcp">How to Use GCP</a>
-before starting this process.</p>
-</blockquote>
-<p>Use the GCP console, gcloud CLI, or API to create a bucket:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Ensure that you have completed <a href="../#how-to-use-gcp">How to Use GCP</a> before starting this process.</p>
+</div>
+<p>Use the GCP console, <a href="https://cloud.google.com/cli">gcloud CLI</a>, or API to create a bucket:</p>
 <h3 id="creating-a-gcs-bucket-via-cloud-console">Creating a GCS Bucket via Cloud Console<a class="headerlink" href="#creating-a-gcs-bucket-via-cloud-console" title="Anchor link to this section for reference">#</a></h3>
 <ul>
-<li>Follow the instructions in this <a href="https://cloud.google.com/storage/docs/creating-buckets#console">documentation</a>
-    to create buckets.</li>
+<li>Follow the instructions in this <a href="https://cloud.google.com/storage/docs/creating-buckets#console">documentation</a> to create buckets.</li>
 </ul>
 <h3 id="creating-a-gcs-bucket-via-terminal">Creating a GCS Bucket via Terminal<a class="headerlink" href="#creating-a-gcs-bucket-via-terminal" title="Anchor link to this section for reference">#</a></h3>
 <ul>
 <li>
-<p>In your development environment, run the <code>gcloud storage buckets create</code>
-    command:</p>
+<p>In your development environment, run the <code>gcloud storage buckets create</code> command:</p>
 <div class="language-sh highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>gcloud<span class="w"> </span>storage<span class="w"> </span>buckets<span class="w"> </span>create<span class="w"> </span>gs://&lt;BUCKET_NAME&gt;<span class="w"> </span>--location<span class="o">=</span>&lt;BUCKET_LOCATION&gt;
 </span></code></pre></div>
 <p>Where:
-- <code>&lt;BUCKET_NAME&gt;</code> is the name you want to give your bucket, subject to
-    naming requirement. For example, <code>my-bucket</code>.
-- <code>&lt;BUCKET_LOCATION&gt;</code> is the location of your bucket. For example,
-    <code>us-east1</code>.
-- If the request is successful, the command returns the following
-message:</p>
+- <code>&lt;BUCKET_NAME&gt;</code> is the name you want to give your bucket, subject to naming requirement. For example, <code>my-bucket</code>.
+- <code>&lt;BUCKET_LOCATION&gt;</code> is the location of your bucket. For example, <code>us-east1</code>.</p>
+</li>
+<li>
+<p>If the request is successful, the command returns the following message:</p>
 <div class="language-console highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="go">Creating gs://BUCKET_NAME/...</span>
 </span></code></pre></div>
 </li>
@@ -8045,7 +8101,7 @@ message:</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 31, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 12, 2026</span>
   </span>
 
     
@@ -8065,12 +8121,14 @@ message:</p>
   <span class="md-source-file__fact">
     <span class="md-icon" title="Contributors">
       
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9 3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3 3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65 2.56.34 4.45 1.51 4.45 2.9z"/></svg>
       
     </span>
     <nav>
       
-        <a href="mailto:44614774+jjjermiah@users.noreply.github.com">Jermiah Joseph</a>
+        <a href="mailto:44614774+jjjermiah@users.noreply.github.com">Jermiah Joseph</a>, 
+        <a href="mailto:k.l.scott16@gmail.com">Katy Scott</a>, 
+        <a href="mailto:31931184+nabinelnino@users.noreply.github.com">Nabin Bagale</a>
     </nav>
   </span>
 
@@ -8107,7 +8165,7 @@ message:</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../compute_engine/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Compute Engine">
+          <a href="../cloud_sql/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Cloud SQL">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -8117,20 +8175,20 @@ message:</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Compute Engine
+                Cloud SQL
               </div>
             </div>
           </a>
         
         
           
-          <a href="../serving_images_and_videos/" class="md-footer__link md-footer__link--next" aria-label="Next: Serving Images and Videos From A Bucket">
+          <a href="../compute_engine/" class="md-footer__link md-footer__link--next" aria-label="Next: Compute Engine">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Serving Images and Videos From A Bucket
+                Compute Engine
               </div>
             </div>
             <div class="md-footer__button md-icon">
