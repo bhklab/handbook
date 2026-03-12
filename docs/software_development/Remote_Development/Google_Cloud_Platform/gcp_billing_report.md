@@ -29,7 +29,7 @@ Before you start, make sure you have:
 
 ## Step 1 — Open the Billing Reports Page
 
-1.  Go to **GCP Console**
+1.  Go to [**GCP Console**](https://console.cloud.google.com/)
     
 2.  Click the **menu (☰)** in the top-left corner.
     
