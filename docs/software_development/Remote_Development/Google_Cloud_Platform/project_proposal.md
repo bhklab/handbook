@@ -1,15 +1,15 @@
 
-# **GCP Project Proposal**
+# GCP Project Proposal
 
 ----------
 
-## **1. Introduction**
+## Introduction
 
 This proposal outlines the process of **creating a new GCP project**, selecting the **required services**, and **estimating costs**. The document will also provide **official GCP links** for each service to help project members explore details and pricing.
 
 ----------
 
-## **2. Project Objectives**
+## Project Objectives
 
 -   Set up a **scalable GCP environment** to support data processing, ML training, and web deployment.
     
@@ -22,7 +22,7 @@ This proposal outlines the process of **creating a new GCP project**, selecting 
 
 ----------
 
-## **3. Getting Started with GCP Project**
+## Getting Started with GCP Project
 
 To create a new project in GCP:
 
@@ -48,11 +48,11 @@ To create a new project in GCP:
 ----------
 
 
-## **4. Estimating GCP Costs**
+## Estimating GCP Costs
 
 GCP provides a **Pricing Calculator** to estimate project costs based on resource usage.
 
-### **Steps to Estimate Costs**
+### Steps to Estimate Costs
 
 1.  Open **[GCP Pricing Calculator](https://cloud.google.com/products/calculator)**
     
@@ -86,7 +86,7 @@ GCP provides a **Pricing Calculator** to estimate project costs based on resourc
 | **Total** | — | **$585** | **$7,020** |
 ----------
 
-## **5. Service Selection Strategy**
+## Service Selection Strategy
 
 Before selecting GCP services, follow these steps:
 
@@ -103,7 +103,7 @@ Before selecting GCP services, follow these steps:
 
 ----------
 
-## **6. Useful References**
+## Useful References
 
 -   [GCP Free Tier](https://cloud.google.com/free)
     
@@ -118,7 +118,7 @@ Before selecting GCP services, follow these steps:
 
 ----------
 
-## **7. Next Steps**
+## Next Steps
 
 -   Finalize required GCP services based on the project architecture.
     
