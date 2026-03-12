@@ -7,7 +7,7 @@ nav:
   - Serving Images and Videos: serving_images_and_videos.md
   - Artifact Registry: artifact_registry.md
   - Big Query: bigquery.md
-  - Cloud Build: cloud_build.md
+  - Cloud Build/Run: cloud_build_run.md
   - Cloud SQL: cloud_sql.md
   - Cloud Storage: cloud_storage.md
   - Compute Engine: compute_engine.md
