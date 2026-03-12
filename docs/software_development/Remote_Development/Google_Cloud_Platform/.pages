@@ -6,10 +6,10 @@ nav:
   - Monthly Billing Reports: gcp_billing_report.md
   - Serving Images and Videos: serving_images_and_videos.md
   - Artifact Registry: artifact_registry.md
-  - Big Query: big_query.md
+  - Big Query: bigquery.md
   - Cloud Build: cloud_build.md
   - Cloud SQL: cloud_sql.md
-  - Cloud Storage: gcs.md
+  - Cloud Storage: cloud_storage.md
   - Compute Engine: compute_engine.md
   - Vertex AI: vertexai.md
   - Virtual Machines (VMs): virtual_machines.md
