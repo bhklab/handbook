@@ -1,4 +1,4 @@
-# Google Cloud Vertex AI
+# Vertex AI
 
 Vertex AI is Google Cloud's end-to-end platform for building, training, deploying, and managing machine learning models.
 
@@ -67,5 +67,6 @@ To create a pipeline:
 - Upload and run the pipeline through **Vertex AI Pipelines**.
 - Monitor executions directly in the console.
 
+!!! info "More Info"
   You can find detailed information and tutorials about Vertex AI in the official: <https://cloud.google.com/vertex-ai/docs>
   
