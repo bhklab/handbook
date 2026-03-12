@@ -26,7 +26,7 @@ This proposal outlines the process of **creating a new GCP project**, selecting 
 
 To create a new project in GCP:
 
-1.  Go to **GCP Console**
+1.  Go to [**GCP Console**](https://console.cloud.google.com/)
     
 2.  Click **“Select a Project”** → **“New Project”**
     
