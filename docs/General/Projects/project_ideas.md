@@ -1,5 +1,4 @@
-# Project Ideas
-
-To view or add to the project ideas list, see [BHKLab Project Ideas](https://docs.google.com/spreadsheets/d/1lCYb-FtZTe0ihC5boZ_I-WMFLRATtg9W3g0DGAOuHvI/edit?gid=1431550662#gid=1431550662)
+# Student Project Ideas  
+In the BHK Lab Spreadsheets folder on Google Drive, the **BHKLab Project Ideas** sheet lists project ideas suitable for short-term student placements (internships, co-ops, thesis project classes). Lab members can add project ideas here for upcoming terms if they would like to mentor a student.
 
 !!! warning "BHKLab Account required for access"
