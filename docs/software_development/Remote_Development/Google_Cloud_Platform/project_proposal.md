@@ -1,8 +1,6 @@
 
 # GCP Project Proposal
 
-----------
-
 ## Introduction
 
 This proposal outlines the process of **creating a new Google Cloud Platform (GCP) project**, selecting the **required services**, and **estimating costs**. The document will also provide **official GCP links** for each service to help project members explore details and pricing.
@@ -42,11 +40,10 @@ To create a new project in GCP:
     
 5.  Set up **IAM roles** for team members.
     
-
-**Please refer this for detail information:** [GCP Create Project Documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects)
+!!! info "Detailed GCP Documentation"
+    Please refer to the official documentation for detailed information: [GCP Create Project Documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects)
 
 ----------
-
 
 ## Estimating GCP Costs
 
@@ -72,18 +69,16 @@ GCP provides a **Pricing Calculator** to estimate project costs based on resourc
  5. You can add additional services by clicking **“Add to Estimate”** and selecting   		the required services.    
 4.  Download the cost estimate as a **PDF** for reporting.
     
+!!! example "Example Cost Estimation"
+    | Service | Resource Type | Monthly Estimate | Annual Estimate |
+    |---------|---------------|:----------------:|:---------------:|
+    | Vertex AI | 4 vCPUs, 16GB RAM, 50 hrs | **$200** | **$2,400** |
+    | Dataproc | 3 nodes, 4 vCPUs each | **$300** | **$3,600** |
+    | BigQuery | 1 TB storage, 50GB queries | **$50** | **$600** |
+    | GCS | 500GB storage | **$20** | **$240** |
+    | Cloud Run | 1 instance, 10k requests | **$15** | **$180** |
+    | **Total** | — | **$585** | **$7,020** |
 
-**Example Cost Estimation:**
-
-
-| Service | Resource Type | Monthly Estimate | Annual Estimate |
-|---------|---------------|:----------------:|:---------------:|
-| Vertex AI | 4 vCPUs, 16GB RAM, 50 hrs | **$200** | **$2,400** |
-| Dataproc | 3 nodes, 4 vCPUs each | **$300** | **$3,600** |
-| BigQuery | 1 TB storage, 50GB queries | **$50** | **$600** |
-| GCS | 500GB storage | **$20** | **$240** |
-| Cloud Run | 1 instance, 10k requests | **$15** | **$180** |
-| **Total** | — | **$585** | **$7,020** |
 ----------
 
 ## Service Selection Strategy
