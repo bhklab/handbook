@@ -1,15 +1,15 @@
-# **Google Cloud Vertex AI**
+# Vertex AI
 
 Vertex AI is Google Cloud's end-to-end platform for building, training, deploying, and managing machine learning models.
 
-## **Why Use Vertex AI?**
+## Why Use Vertex AI?
 
 - Unified platform for ML workflows: training, tuning, deploying, and monitoring models.
 - Integrated with other GCP services like GCS and BigQuery.
 - Supports custom models, AutoML, and pre-trained models.
 - Built-in MLOps tools for tracking experiments, model versions, and pipelines.
 
-## **Main Features of Vertex AI**
+## Main Features of Vertex AI
 
 ### **Training**: Train custom models with Vertex AI
 Vertex AI enables you to train machine learning models using pre-built containers (for frameworks like TensorFlow, PyTorch, XGBoost) or your custom containers. You can configure distributed training, use accelerators (GPUs/TPUs), and tune hyperparameters automatically.  
@@ -67,5 +67,6 @@ To create a pipeline:
 - Upload and run the pipeline through **Vertex AI Pipelines**.
 - Monitor executions directly in the console.
 
+!!! info "More Info"
   You can find detailed information and tutorials about Vertex AI in the official: <https://cloud.google.com/vertex-ai/docs>
   

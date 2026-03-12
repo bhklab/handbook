@@ -1,9 +1,6 @@
 # Cloud SQL for MySQL, PostgreSQL, and Microsoft SQL Server
 
-Google Cloud SQL is a fully-managed relational database service for MySQL,
-PostgreSQL, and Microsoft SQL Server. It eliminates the need for database
-maintenance while offering high availability, scalability, and security. Below
-is a comprehensive guide to using Cloud SQL effectively for your projects.
+Google Cloud SQL is a fully-managed relational database service for MySQL, PostgreSQL, and Microsoft SQL Server. It eliminates the need for database maintenance while offering high availability, scalability, and security. Below is a comprehensive guide to using Cloud SQL effectively for your projects.
 
 ## Why Use Cloud SQL?
 
@@ -17,8 +14,8 @@ is a comprehensive guide to using Cloud SQL effectively for your projects.
 
 ## Setting Up and Using Cloud SQL
 
-> Ensure that you have completed [How to Use GCP](introduction.md#how-to-use-gcp)
-> before starting this process.
+!!! note
+    Ensure that you have completed [How to Use GCP](index.md#how-to-use-gcp) before starting this process.
 
 ### Enabling the Cloud SQL API
 
@@ -69,5 +66,5 @@ Using the same `INSTANCE_NAME` as configured in the previous step:
     gcloud sql users create [USERNAME] --password=[PASSWORD] --instance=[INSTANCE_NAME]
     ```
 
-> For a detailed guide on using client services, please refer to this
-> [link](https://cloud.google.com/sql/docs)
+!!! info "More Info"  
+    For a detailed guide on using client services, please refer to this [page](https://cloud.google.com/sql/docs)
