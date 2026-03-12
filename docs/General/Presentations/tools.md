@@ -15,6 +15,14 @@ As of December 2025, BHK lab is adapting slides to reflect the UHN rebranding. P
 
 - [BHKLab Presentations Template](https://docs.google.com/presentation/d/1cNsokaMk3Y_gvuf0uNRVztzbS0qPKnYi8Zc2Fy12j18/edit?usp=sharing)
 
+For lab meeting, put the pre-lab meeting catchup slide at the start of your presentation:
+
+- [Pre Lab meeting catchup](https://docs.google.com/presentation/d/1Gk5uMTpn8XCMvXmoP8AWjW3x-QM0mHfPB1BfteBfqK8/edit?slide=id.g2684830fade_0_0#slide=id.g2684830fade_0_0)
+
+For more UHN brand resources (logos, brand colours, etc.):
+
+- [UHN Brand Book](https://universityhealthnetwork.sharepoint.com/sites/CaBS/Shared%20Documents/Brand/UHN_Brand_Book.pdf?CID=92c75b93-eaf5-4689-a6e6-4839e7a0f7ef)
+- [Communications and Brand Resource Hub](https://universityhealthnetwork.sharepoint.com/sites/CaBS)
 
 ## Miro 
 
@@ -28,7 +36,6 @@ The following are open-source biological imaging databases and platforms. The BH
 - [Flaticon](https://www.flaticon.com/)
 - [Biorender](https://www.biorender.com/)
 - [BioArt](https://bioart.niaid.nih.gov/)
-
 
 
 ## Slido 
