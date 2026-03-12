@@ -12,6 +12,7 @@
 * Radiogenomics  
 * Liquid biopsy  
 * Unraveling targetable hub proteins in pancreatic cancer
+* Uncovering pancreatic cancer vulnerabilities via high-throughput drug screening
 
 ### Trial Matching
 * PMATCH
@@ -23,6 +24,7 @@
 ### Assessment of Therapy Response
 * AI-Augmented Response Assessment (AAuRA)
 * Lesion radiomics (MIRV)
+
 
 ## Drug Discovery  
 * AIRCHECK
