@@ -1,8 +1,9 @@
 # Projects
 
 ## Pre-clinical Biomarker Discovery  
-* Cell Lines
-* Xeva DB
+* DeepCINET
+* PharmacoGx
+* XevaDB
 
 ## Clinical Trial Efficiency
 
@@ -16,7 +17,6 @@
 
 ### Trial Matching
 * PMATCH
-* PRIORITIZER
 
 ### Drug Taxonomy  
 * Drug Foundation Model
