@@ -22,6 +22,7 @@ For lab meeting, put the pre-lab meeting catchup slide at the start of your pres
 For more UHN brand resources (logos, brand colours, etc.):
 
 - [UHN Brand Book](https://universityhealthnetwork.sharepoint.com/sites/CaBS/Shared%20Documents/Brand/UHN_Brand_Book.pdf?CID=92c75b93-eaf5-4689-a6e6-4839e7a0f7ef)
+- [Communications and Brand Resource Hub](https://universityhealthnetwork.sharepoint.com/sites/CaBS)
 
 ## Miro 
 
