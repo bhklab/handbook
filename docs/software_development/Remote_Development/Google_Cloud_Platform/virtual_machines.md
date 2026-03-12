@@ -1,10 +1,7 @@
 # GCP Virtual Machines (VMs)
 
-A Cloud VM is a scalable, on-demand virtual machine hosted in the cloud. It
-functions like a physical computer, providing compute power, memory, storage,
-and network connectivity. Cloud VMs are versatile and can be used for a variety
-of tasks, from running applications and hosting websites to managing databases
-and performing intensive data processing.
+A Cloud VM is a scalable, on-demand virtual machine hosted in the cloud. It functions like a physical computer, providing compute power, memory, storage,
+and network connectivity. Cloud VMs are versatile and can be used for a variety of tasks, from running applications and hosting websites to managing databases and performing intensive data processing.
 
 In summary, VMs offer flexible compute instances to run custom ML experiments,
 manage pipelines, or host applications.
@@ -19,8 +16,8 @@ manage pipelines, or host applications.
 
 ## Setting Up and Using GCP VMs
 
-> Ensure that you have completed [How to Use GCP](introduction.md#how-to-use-gcp)
-> before starting this process.
+!!! note
+    Ensure that you have completed [How to Use GCP](index.md#how-to-use-gcp) before starting this process.
 
 ### Creating a GPU-Enabled VM for Model Training
 
