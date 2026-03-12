@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This proposal outlines the process of **creating a new GCP project**, selecting the **required services**, and **estimating costs**. The document will also provide **official GCP links** for each service to help project members explore details and pricing.
+This proposal outlines the process of **creating a new Google Cloud Platform (GCP) project**, selecting the **required services**, and **estimating costs**. The document will also provide **official GCP links** for each service to help project members explore details and pricing.
 
 ----------
 
