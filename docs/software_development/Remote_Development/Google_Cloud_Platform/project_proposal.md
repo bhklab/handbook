@@ -1,15 +1,13 @@
 
-# **GCP Project Proposal**
+# GCP Project Proposal
+
+## Introduction
+
+This proposal outlines the process of **creating a new Google Cloud Platform (GCP) project**, selecting the **required services**, and **estimating costs**. The document will also provide **official GCP links** for each service to help project members explore details and pricing.
 
 ----------
 
-## **1. Introduction**
-
-This proposal outlines the process of **creating a new GCP project**, selecting the **required services**, and **estimating costs**. The document will also provide **official GCP links** for each service to help project members explore details and pricing.
-
-----------
-
-## **2. Project Objectives**
+## Project Objectives
 
 -   Set up a **scalable GCP environment** to support data processing, ML training, and web deployment.
     
@@ -22,11 +20,11 @@ This proposal outlines the process of **creating a new GCP project**, selecting 
 
 ----------
 
-## **3. Getting Started with GCP Project**
+## Getting Started with GCP Project
 
 To create a new project in GCP:
 
-1.  Go to **GCP Console**
+1.  Go to [**GCP Console**](https://console.cloud.google.com/)
     
 2.  Click **“Select a Project”** → **“New Project”**
     
@@ -42,17 +40,16 @@ To create a new project in GCP:
     
 5.  Set up **IAM roles** for team members.
     
-
-**Please refer this for detail information:** [GCP Create Project Documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects)
+!!! info "Detailed GCP Documentation"
+    Please refer to the official documentation for detailed information: [GCP Create Project Documentation](https://cloud.google.com/resource-manager/docs/creating-managing-projects)
 
 ----------
 
-
-## **4. Estimating GCP Costs**
+## Estimating GCP Costs
 
 GCP provides a **Pricing Calculator** to estimate project costs based on resource usage.
 
-### **Steps to Estimate Costs**
+### Steps to Estimate Costs
 
 1.  Open **[GCP Pricing Calculator](https://cloud.google.com/products/calculator)**
     
@@ -72,21 +69,19 @@ GCP provides a **Pricing Calculator** to estimate project costs based on resourc
  5. You can add additional services by clicking **“Add to Estimate”** and selecting   		the required services.    
 4.  Download the cost estimate as a **PDF** for reporting.
     
+!!! example "Example Cost Estimation"
+    | Service | Resource Type | Monthly Estimate | Annual Estimate |
+    |---------|---------------|:----------------:|:---------------:|
+    | Vertex AI | 4 vCPUs, 16GB RAM, 50 hrs | **$200** | **$2,400** |
+    | Dataproc | 3 nodes, 4 vCPUs each | **$300** | **$3,600** |
+    | BigQuery | 1 TB storage, 50GB queries | **$50** | **$600** |
+    | GCS | 500GB storage | **$20** | **$240** |
+    | Cloud Run | 1 instance, 10k requests | **$15** | **$180** |
+    | **Total** | — | **$585** | **$7,020** |
 
-**Example Cost Estimation:**
-
-
-| Service | Resource Type | Monthly Estimate | Annual Estimate |
-|---------|---------------|:----------------:|:---------------:|
-| Vertex AI | 4 vCPUs, 16GB RAM, 50 hrs | **$200** | **$2,400** |
-| Dataproc | 3 nodes, 4 vCPUs each | **$300** | **$3,600** |
-| BigQuery | 1 TB storage, 50GB queries | **$50** | **$600** |
-| GCS | 500GB storage | **$20** | **$240** |
-| Cloud Run | 1 instance, 10k requests | **$15** | **$180** |
-| **Total** | — | **$585** | **$7,020** |
 ----------
 
-## **5. Service Selection Strategy**
+## Service Selection Strategy
 
 Before selecting GCP services, follow these steps:
 
@@ -103,7 +98,7 @@ Before selecting GCP services, follow these steps:
 
 ----------
 
-## **6. Useful References**
+## Useful References
 
 -   [GCP Free Tier](https://cloud.google.com/free)
     
@@ -118,7 +113,7 @@ Before selecting GCP services, follow these steps:
 
 ----------
 
-## **7. Next Steps**
+## Next Steps
 
 -   Finalize required GCP services based on the project architecture.
     

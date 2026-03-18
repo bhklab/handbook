@@ -1,6 +1,6 @@
 # Monthly Reports from GCP Project
 
-## **1. Overview**
+## Overview
 
 This document explains how to **generate monthly billing reports** from **Google Cloud Platform (GCP)**.  
 These reports help us track **cloud costs per service**, **resource usage trends**, and **budget planning** for the AIRCHECK project.
@@ -17,7 +17,7 @@ The final output will include:
     
 ----------
 
-## **2. Prerequisites**
+## Prerequisites
 
 Before you start, make sure you have:
 
@@ -27,9 +27,9 @@ Before you start, make sure you have:
  
 ----------
 
-### **Step 1 — Open the Billing Reports Page**
+## Step 1 — Open the Billing Reports Page
 
-1.  Go to **GCP Console**
+1.  Go to [**GCP Console**](https://console.cloud.google.com/)
     
 2.  Click the **menu (☰)** in the top-left corner.
     
@@ -38,7 +38,7 @@ Before you start, make sure you have:
 
 ----------
 
-### **Step 2 — Select Time Range**
+## Step 2 — Select Time Range
 
 -   Choose **Current Month** to see **this month’s costs** so far.
     
@@ -49,7 +49,7 @@ Before you start, make sure you have:
 
 ----------
 
-### **Step 3 — Group Costs by Service and SKU**
+## Step 3 — Group Costs by Service and SKU
 
 In the **Billing Reports** page, there’s a **“Group By”** dropdown.  
 Select:
@@ -72,7 +72,7 @@ You can also **combine** grouping:
 
 ----------
 
-### **Step 4 — Understanding What You See**
+## Step 4 — Understanding What You See
 
 When you group **by Service**:
 
@@ -108,7 +108,7 @@ When you **group by Service + SKU**:
 ----------
 
 
-### **Step 5 — Download the Report**
+## Step 5 — Download the Report
 
 You can export the billing report directly:
 

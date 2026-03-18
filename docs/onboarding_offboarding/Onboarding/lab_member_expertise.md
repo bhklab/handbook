@@ -2,34 +2,138 @@
 
 **This document outlines various expertise of lab members. Helpful for new recruits, writing personnel skills for funding, and clear communication of individual roles.**
 
-## Expertise Table
+## Expertise
 
-| Expertise                          | Names                                                                                     |
-|-------------------------------------|-------------------------------------------------------------------------------------------|
-| **Statistical modeling & analysis** | Farnoosh Abbas Aghababazadeh                                                              |
-| **Biomarker analysis**              | Farnoosh Abbas Aghababazadeh, Julia Nguyen, Sisira Kadambat Nair, Nikta Feizi, Nasim BondarSahebi |
-| **RNAseq processing**               | Julia Nguyen, Nasim BondarSahebi                                                          |
-| **Microarray processing**           | Sisira Kadambat Nair                                                                      |
-| **ATACseq processing**              | Julia Nguyen                                                                             |
-| **circRNA analysis**                | Julia Nguyen, Peter Her                                                                  |
-| **Exploratory Data Analysis in R**   | Julia Nguyen, Farnoosh Abbas Aghababazadeh, Kevin Wang, Sisira Kadambat Nair, Nikta Feizi, Michael Tran, Yash Patel, Nasim BondarSahebi |
-| **Single cell processing**          | TBA                                                                                      |
-| **Single cell analysis**            | TBA                                                                                      |
-| **Quantitative imaging**            | Caryn Geady, Katy Scott, Ruiyan Ni, Sejin Kim                                           |
-| **ML models**                       | Katy Scott, Caryn Geady, Ruiyan Ni, James Bannon, Farnoosh Abbas Aghababazadeh, Nabin Bagale, Shaghayegh Reza, Kewei Ni |
-| **ML analysis**                     | Katy Scott, Caryn Geady, James Bannon, Ruiyan Ni, Sejin Kim, Nabin Bagale, Shaghayegh Reza, Kewei Ni |
-| **Deep learning**                   | James Bannon, Katy Scott, Sejin Kim, Ruiyan Ni, Joshua Siraj, Nabin Bagale, Shaghayegh Reza |
-| **Cancer subtype analysis**         | Foram Vyas, Nikta Feizi                                                                  |
-| **R packages**                      | Jermiah Joseph                                                                          |
-| **Clinical oncology**               | Kevin Wang                                                                              |
-| **Full stack web development**      | Matthew Boccalon                                                                        |
-| **Immunotherapy**                   | Farnoosh Abbas Aghababazadeh, Kevin Wang                                                |
-| **Python packages**                 | Jermiah Joseph, Katy Scott, Sejin Kim                                                  |
-| **Cloud services (GCP)**            | Jermiah Joseph, Matthew Boccalon, Nabin Bagale, Shaghayegh Reza                         |
-| **Grant & Award proposals**         | Sisira Kadambat Nair                                                                    |
-| **LabOps**                           | Sisira Kadambat Nair, Katy Scott                                                        |
-| **Hiring**                           | Sisira Kadambat Nair                                                                    |
-| **Payroll, grant budgets, meeting room scheduling, purchases** | Soleil Miron                                       |
-| **Pipelines (Snakemake)**            | Jermiah Joseph                                                                         |
-| **High Performance Computing (HPC) on H4H** | Jermiah Joseph                                                                         |
-| **Version Control (Git & GitHub)**   | Jermiah Joseph                                                                         |
+### Scientific things
+
+**Statistical modeling & analysis**
+
+Farnoosh Abbas Aghababazadeh, James Bannon
+
+**Biomarker analysis**
+
+Farnoosh Abbas Aghababazadeh, Julia Nguyen, Sisira Kadambat Nair, Nikta Feizi, Nasim BondarSahebi
+
+**RNAseq processing**
+
+Julia Nguyen, Nasim BondarSahebi
+
+**Microarray processing**
+
+Sisira Kadambat Nair
+
+**ATACseq processing**
+
+Julia Nguyen
+
+**Circular RNA analysis**
+
+Julia Nguyen, Peter Her
+
+**Exploratory Data Analysis in R**
+
+Julia Nguyen, Farnoosh Abbas Aghababazadeh, Kevin Wang, Sisira Kadambat Nair, Nikta Feizi, Michael Tran, Nasim BondarSahebi
+
+**Single cell processing**
+
+Almas Khan
+
+**Quantitative imaging**
+
+Katy Scott, Soolmaz Abbasi, Ruiyan Ni, Sejin Kim, Joshua Siraj
+
+**Medical Image Segmentation**  
+
+Joshua Siraj, Ruiyan Ni, Sejin Kim, Kaitlyn Kobayashi, Soolmaz Abbasi
+
+**Radiomic Analysis**  
+
+Katy Scott, Kaitlyn Kobayashi, Sejin Kim
+
+**Machine-learning (ML) models**
+
+Katy Scott, Ruiyan Ni, James Bannon, Farnoosh Abbas Aghababazadeh, Nabin Bagale, Shaghayegh Reza, Kewei Ni, Soolmaz Abbasi, Joshua Siraj
+
+**Deep learning**
+
+James Bannon, Katy Scott, Sejin Kim, Ruiyan Ni, Joshua Siraj, Nabin Bagale, Shaghayegh Reza
+
+**Cancer subtype analysis**
+
+Foram Vyas, Nikta Feizi
+
+**R packages**
+
+Michael Tran, Sisira Kadambat Nair
+
+**Clinical oncology**
+
+Kevin Wang
+
+**Full stack web development**
+
+Matthew Boccalon, Nicholas Messere
+
+**Immunotherapy**
+
+Farnoosh Abbas Aghababazadeh, Kevin Wang
+
+**Python packages**
+
+Joshua Siraj, Katy Scott, Sejin Kim
+
+**Cloud services (GCP)**
+
+Matthew Boccalon, Nabin Bagale, Shaghayegh Reza
+
+**ETL Pipelines (Snakemake)**
+
+Michael Tran, Nicholas Messere
+
+**High Performance Computing (HPC) on H4H**
+
+Katy Scott, Michael Tran, Julia Nguyen, Sejin Kim
+
+**Version Control (Git & GitHub)**
+
+Katy Scott, Michael Tran, Matthew Boccalon
+
+### Lab Operations
+
+**Grant & Award proposals**
+
+*Sisira Kadambat Nair*
+
+Includes grant writing such as scientific text, gantt charts, knowledge dissemination review and scientific reporting.
+
+*Soleil Miron*
+
+Help with submission of grants through agency platforms, Collating documents - CV, Summary of Progress, Submit through Business Hub at UHN, Assist with creating budget for smaller grants (Exception - corporate grants such as Genome Canada, CFI), BUdget Justification, Financial reports
+
+**Lab Onboarding and Offboarding**
+
+Katy Scott
+ 
+**Lab Inventory**
+
+Sisira Kadambat Nair, Katy Scott
+
+**Hiring**
+
+Sisira Kadambat Nair
+
+Includes preparing job posting, interviewing, coordinate decision making of projects and placements.
+
+ **Admin**
+
+Soleil Miron
+
+Includes Payroll, grant budgets, meeting room scheduling, purchases, international work permits, legal onboarding to UHN (e-learning, Health records, access card, Photo ID, VPN request)
+
+### Project Management
+
+Sisira Kadambat Nair (ARPA-H ADAPT), Paul Brogee (PMATCH), Kiana Jenabidehkrodi (AIRCHECK)
+
+### AI tools (Blue Vest Initiative)
+
+Paresh Sharma

@@ -1,10 +1,6 @@
-# Google Cloud Artifact Registry
+# Artifact Registry
 
-Google Cloud Artifact Registry is a fully-managed service for storing and
-managing container images, as well as other software artifacts like Maven, npm,
-and Python packages. It is designed to integrate seamlessly with GCP, providing
-enhanced security, authentication, and efficiency over external services like
-Docker Hub.
+Google Cloud Artifact Registry is a fully-managed service for storing and managing container images, as well as other software artifacts like Maven, npm, and Python packages. It is designed to integrate seamlessly with GCP, providing enhanced security, authentication, and efficiency over external services like Docker Hub.
 
 ## Why Use Artifact Registry Instead of Docker Hub?
 
@@ -18,8 +14,8 @@ Docker Hub.
 
 ## Setting Up and Using Artifact Registry
 
-> Ensure that you have completed [How to Use GCP](introduction.md#how-to-use-gcp)
-> before starting this process.
+!!! note
+    Ensure that you have completed [How to Use GCP](index.md#how-to-use-gcp) before starting this process.
 
 ### Enabling the Artifact Registry API
 
@@ -38,8 +34,7 @@ gcloud artifacts repositories create [REPOSITORY_NAME] \
 
 ### Authenticating Docker with Artifact Registry
 
-Run the following command to configure Docker to authenticate with your Artifact
-Registry:
+Run the following command to configure Docker to authenticate with your Artifact Registry:
 
 ```sh
 gcloud auth configure-docker [REGION]-docker.pkg.dev
