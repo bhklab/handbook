@@ -17,10 +17,9 @@ infrastructure.
 
 ## How to Use GCP
 
-> Prerequisites:
->
-> - Ensure you have an active Google account.
-> - Confirm that your account has been added to the relevant GCP project.
+!!! info "Prerequisites"
+    - Ensure you have an active Google account.
+    - Confirm that your account has been added to the relevant GCP project.
 
 To access and use Google Cloud Platform (GCP), follow these steps:
 
@@ -76,7 +75,7 @@ To interact with GCP directly from your terminal:
 Below are some key Google Cloud Platform (GCP) services that can be used for
 your project:
 
-- [Google Cloud Storage (GCS)](gcs.md) - Scalable and secure object storage for data files, datasets, and ML-ready data
+- [Google Cloud Storage (GCS)](cloud_storage.md) - Scalable and secure object storage for data files, datasets, and ML-ready data
 - [BigQuery](bigquery.md) - SQL-based data warehouse for processing and analyzing large datasets
 - [Cloud SQL](cloud_sql.md) - Fully-managed relational database service for MySQL, PostgreSQL, and Microsoft SQL Server
 - [Virtual Machines (VMs)](virtual_machines.md) - Scalable, on-demand virtual machines for running custom ML experiments
