@@ -1,0 +1,3 @@
+# Web Development
+
+This section of the handbook will focus on the core web development concepts, libraries, frameworks, and tools used in the lab. It is broken up into two main sections **back-end** and **front-end**. Back-end will discuss primarily API development, heavily focusing on frameworks, libraries, and tools used across the lab. Front-end cover UI development in the lab, also  primarily focusing on frameworks, libraries, and tools needed and used.
