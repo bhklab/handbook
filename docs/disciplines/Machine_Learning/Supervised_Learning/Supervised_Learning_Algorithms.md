@@ -1,7 +1,7 @@
 # Supervised Learning Algorithms
 
 
-### **Linear Models**
+## Linear Models
 
   - Linear Regression  
   - Logistic Regression	
@@ -10,18 +10,18 @@
   - Elastic Net  
 
 	
-### **Support Vector Machines (SVMs)**
+## Support Vector Machines (SVMs)
 
   - Support Vector Classifier  	
   - Support Vector Regressor  
 
 	
-### **Nearest Neighbor Models**
+## Nearest Neighbor Models
 
   - K-Nearest Neighbors (KNN)  
 
 	
-### **Decision Tree Based Models**
+## Decision Tree Based Models
 
   - Decision Trees	
   - Random Forests	
@@ -30,7 +30,7 @@
   - Bagging  
 
 	
-### **Probabilistic Models**
+## Probabilistic Models
 
   - Naive Bayes	
   - Gaussian Processes	
@@ -38,7 +38,7 @@
   - Quadratic Discriminant Analysis (QDA)  
 
 
-### **Neural Network Models**
+## Neural Network Models
 
   - Multi-Layer Perceptrons (MLPs)	
   - Convolutional Neural Networks (CNNs)
