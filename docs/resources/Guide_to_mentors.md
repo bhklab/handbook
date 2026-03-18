@@ -28,3 +28,9 @@
 - ###Advocate and support###
 
     Encourage them to present, apply for [awards](https://bhklab.github.io/handbook/dev/resources/Undergraduate_award_opportunities/), or explore professional development opportunities.
+
+
+## Student Project Ideas
+--8<--
+docs/General/Projects/project_ideas.md:2:4
+--8<--
