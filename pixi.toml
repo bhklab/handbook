@@ -1,4 +1,4 @@
-[project]
+[workspace]
 name = "bhklab-handbook"
 version = "0.1.0"
 description = "Add a short description here"
