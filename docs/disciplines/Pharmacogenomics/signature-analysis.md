@@ -15,11 +15,11 @@ A **gene signature** is a defined set of genes whose collective expression patte
 You can find gene signatures from:
 
 - **MSigDB** (Molecular Signatures Database) – curated gene sets for enrichment analysis  
-  → [https://www.gsea-msigdb.org/gsea/msigdb](https://www.gsea-msigdb.org/gsea/msigdb)
+    → [https://www.gsea-msigdb.org/gsea/msigdb](https://www.gsea-msigdb.org/gsea/msigdb)
 
 - **SignatureSets R package** – curated gene sets manually annotated and versioned  
-  - Annotated with **GENCODE v40** [bhklab/SignatureSets](https://github.com/bhklab/SignatureSets)
-  - Uses **HUGO gene symbols** linked to **Entrez** and **Ensembl** IDs
+    - Annotated with **GENCODE v40** [bhklab/SignatureSets](https://github.com/bhklab/SignatureSets)
+    - Uses **HUGO gene symbols** linked to **Entrez** and **Ensembl** IDs
 
 ---
 
@@ -27,15 +27,15 @@ You can find gene signatures from:
 
 Depending on the type of signature, different scoring strategies are used:
 
-### ▸ Unweighted Signatures
+### ▸ Unweighted Signatures  
 - Methods: **GSVA**, **ssGSEA**
 - Description: Compute enrichment scores across samples without gene-level weights
 
-### ▸ Weighted Signatures
+### ▸ Weighted Signatures  
 - Method: Weighted mean expression
 - Weights: +1 (upregulated), –1 (downregulated)
 
-### ▸ Signature-Specific Algorithms
+### ▸ Signature-Specific Algorithms  
 - Some signatures require custom computation as defined in their original publication  
   → e.g., [bhklab/PredictioR](https://github.com/bhklab/PredictioR)
 
@@ -56,22 +56,24 @@ Depending on the type of signature, different scoring strategies are used:
 To assess similarity or redundancy between gene signatures:
 
 - **Compute Spearman and/or Pearson correlation coefficients** between signature scores across samples.
-  - *Spearman* is rank-based, captures monotonic relationships, and is robust to outliers and non-linear patterns.
-  - *Pearson* assumes linear relationships and is sensitive to the scale and magnitude of values.
+    - *Spearman* is rank-based, captures monotonic relationships, and is robust to outliers and non-linear patterns.
+    - *Pearson* assumes linear relationships and is sensitive to the scale and magnitude of values.
 - Use the `cor()` function in R with `method = "spearman"` or `"pearson"` as appropriate.
 
-- - **Visualize** the correlation matrix using the `corrplot` R package or a heatmap (e.g., `pheatmap` or `ComplexHeatmap`) to identify clusters or patterns among signatures.
+- **Visualize** the correlation matrix using the `corrplot` R package or a heatmap (e.g., `pheatmap` or `ComplexHeatmap`) to identify clusters or patterns among signatures.
 
 ### 🔹 Association Analysis
 
-#### Clinical Associations
+#### Clinical Associations  
 - **Binary outcomes** (e.g., response vs. no response): Logistic regression
 - **Time-to-event data** (e.g., progression-free survival): Cox proportional hazards model
 
-#### Preclinical Associations
+#### Preclinical Associations  
 - **Drug response metrics** (e.g., IC50, AUC): Spearman or Pearson correlation
 
-> Apply **multiple testing correction** (e.g., Benjamini-Hochberg FDR, Bonferroni) where appropriate.
+!!! tip
+
+    Apply **multiple testing correction** (e.g., Benjamini-Hochberg FDR, Bonferroni) where appropriate.
 
 ---
 
@@ -85,7 +87,9 @@ To assess similarity or redundancy between gene signatures:
 | Visualization          | `corrplot`, `ComplexHeatmap`, `pheatmap`, `ggplot2` |
 | Association modeling   | `glm`, `survival` (includes `coxph`), `caret`       |
 
-> **Note:** The choice of packages or pipelines may vary based on the specific research question and analysis goals.
+!!! note
+
+    The choice of packages or pipelines may vary based on the specific research question and analysis goals.
 
 ---
 
@@ -95,4 +99,6 @@ While **signature analysis** focuses on scoring samples based on predefined gene
 
 Pathway analysis is often used alongside or after signature analysis to interpret what broader biological processes the gene sets represent.
 
-> Use pathway analysis when your research question involves uncovering **mechanisms** or **biological context**; use signature analysis when focusing on **prediction**, **classification**, or **phenotypic scoring**. The choice of packages or pipelines may vary based on the specific research question and analysis goals. 
+!!! tip
+
+    Use pathway analysis when your research question involves uncovering **mechanisms** or **biological context**; use signature analysis when focusing on **prediction**, **classification**, or **phenotypic scoring**. The choice of packages or pipelines may vary based on the specific research question and analysis goals. 
