@@ -13,7 +13,12 @@ The following meetings are specific to disciplines in the lab and are mandatory 
 | Discipline-specific Meetings                    | Frequency           | Date and time           | Slack channel      |
 |-------------------------------------------------|---------------------|-------------------------|--------------------|
 | [Radiomics team meeting](Radiomics_meeting.md)  | Biweekly            | Tuesdays, 2-3 p.m.      | #radiomics         |
-| [PGx team meeting](pgx_meeting.md)              | Biweekly            | Tuesdays, 2-3 p.m.      | #pharmacogenomics  |
 | [Software Developer team meeting](Software_dev_meeting.md)| Monthly   | Mondays, 12-1 p.m.      | #software-developer|
+
+
+## 1-1 Meetings with Benjamin
+
+Starting March 2026, the 1-1 slots are available on a first come first serve basis. Slots will be labeled as '1-1 BHKLAB meeting slot 1'. To block your slot, please select your preferred slot, make sure it is not booked by anyone else. Add your name/BHK and save. Do not save the slot as a recurring meeting, as these slots are rolling.
+
 
 We use The Meeting Owl for our meetings so they can be ran hybridly. See the [Meeting Owl Basics](owl_basics.md) page to learn more about how to use it.
