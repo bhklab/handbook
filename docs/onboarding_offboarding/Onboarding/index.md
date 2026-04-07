@@ -28,7 +28,10 @@ If you are an MBP student completing a rotation in the BHKLab, please see the [M
 
 ## Setting up a new BHK Lab GitHub repository
 
-Please check with your supervisor/mentor/lead before you create a new repository. The permissions to create new repos in bhklab organization is restricted. Please contact Sisira Kadambat Nair or Katy Scott to create the new repository with the name and readme. A new repo cannot be created without a well-defined readme. Example readme - [bhklab-project-template](https://github.com/bhklab/bhklab-project-template)
+Please check with your supervisor/mentor/lead before you create a new repository. The permissions to create new repos in bhklab organization is restricted. Please contact Sisira Kadambat Nair or Katy Scott to create the new repository with the name and README. A new repo cannot be created without a well-defined README. 
+
+!!!example "Example README"
+    See an example README in the [bhklab-project-template](https://github.com/bhklab/bhklab-project-template) on GitHub.
 
 ## Best Practices and Templates
 BHK Lab has developed a series of data storage guidelines to ensure that files can be found with ease by all members of the lab. All members, including new employees, are expected to maintain files in agreement with the current lab standards. You can find these around the BHKLab Handbook. We'll highlight a few below:
