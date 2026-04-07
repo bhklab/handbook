@@ -14,6 +14,13 @@
 
 Every lab meeting begins with a 15-20 minute status update. See [pre lab meeting catchup slides](https://docs.google.com/presentation/d/1Gk5uMTpn8XCMvXmoP8AWjW3x-QM0mHfPB1BfteBfqK8/edit#slide=id.g2684830fade_0_0) for a list of status update materials.
 
+# Pharmacogenomics Meeting (Deprecated)
+
+Starting March 2026, the lab has moved to project-specific meetings considering the stand-alone nature of PGx projects. Group PGx meetings will no longer happen.
+
+## Meeting frequency of project-specific meetings
+Once or twice a month or as required by project leads.
+
 ## Meeting Objectives
 
 During lab meetings, you may present the research idea and feasibility, preliminary analyses, progress of your work, or any topics that require feedback from the lab.

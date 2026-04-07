@@ -98,10 +98,6 @@ Katy Scott, Michael Tran, Julia Nguyen, Sejin Kim
 
 Katy Scott, Michael Tran, Matthew Boccalon
 
-**R packages**
-
-Michael Tran
-
 ### Lab Operations
 
 **Grant & Award proposals**
