@@ -1,0 +1,169 @@
+---
+title: "Introduction to Code Review"
+subtitle: "Understanding the importance and objectives of code reviews in software development."
+format:
+  revealjs: 
+    navigation-mode: vertical
+    controls: true
+    slide-number: true
+    center: true
+    preview-links: auto
+    scroll-view: true
+    incremental: true
+embed-resources: true
+---
+
+# What are Code Reviews?
+
+Code reviews are a critical practice in software development where developers:
+
+- **collaboratively examine** each other’s code to **identify issues**;
+- **ensure adherence to coding standards**;
+- **improve overall quality** ***before*** changes are integrated into the main codebase.
+
+## Terminology
+
+- **Author**: The individual who submitted the contribution.
+- **Reviewer**: The individual reviewing the contribution.
+- **Maintainer**: The person responsible for merging the contribution after review.
+
+# Objectives of a Code Review
+
+## **Ensure Code Quality**
+
+- Identify and fix bugs early.
+- Maintain consistent coding standards.
+- Improve code readability and maintainability.
+
+## **Facilitate Knowledge Sharing**
+
+- Expose team members to different parts of the codebase.
+- Share insights on best practices and new techniques.
+- Encourage collaboration and mentoring.
+
+## **Enhance Team Productivity**
+
+- Reduce technical debt through proactive feedback.
+- Enable informed decision-making with diverse perspectives.
+- Prevent knowledge silos by decentralizing expertise.
+
+## **Support Team Collaboration**
+
+- Build trust and positive relationships among team members.
+- Encourage open communication and constructive feedback.
+- Foster a culture of continuous improvement.
+
+# Common Challenges in Code Reviews
+
+## Time Constraints {.smaller}
+
+**Problem**: Developers often feel overwhelmed with their workload, making it difficult to dedicate enough
+time for thorough code reviews.  
+
+**Impact**: Reviews may be rushed, resulting in overlooked issues and suboptimal feedback.  
+
+. . .
+
+**Solution**:
+
+- Encourage small, focused pull requests to make reviews more manageable.  
+- Allocate dedicated time for reviews during the workday to prioritize them effectively.  
+- Use automation tools to handle repetitive checks (e.g., style or formatting issues).  
+
+## Adversarial Dynamics {.smaller}
+
+**Problem**: Code reviews can sometimes feel confrontational, with reviewers focusing on criticizing rather
+than improving the code.  
+
+**Impact**: Creates tension within the team and discourages collaboration.  
+
+. . .
+
+**Solution**:
+
+- Promote a positive mindset by framing feedback as an opportunity for learning and improvement.  
+- Encourage respectful, constructive comments that focus on the code, not the person.  
+- Provide training on effective communication for both authors and reviewers.  
+
+## Large or Complex Changes {.smaller}
+
+**Problem**: Reviews of extensive or overly complex changes can be overwhelming and time-consuming.  
+
+**Impact**: Leads to fatigue, reduced attention to detail, and delays in the review process.  
+
+. . .
+
+**Solution**:
+
+- Request authors to split large changes into smaller, self-contained pull requests.  
+- Use feature flags or staged development to integrate large changes incrementally.  
+
+## Lack of Clear Standards {.smaller}
+
+**Problem**: Without a defined set of coding standards, reviews can become subjective and inconsistent.  
+
+**Impact**: Results in confusion and inefficiency, with different reviewers providing conflicting feedback.  
+
+. . .
+
+**Solution**:  
+
+- Develop and document coding standards for the team, including style, architecture, and testing.  
+- Leverage linters and automated tools to enforce standards consistently.  
+- Regularly review and update standards to align with team goals and best practices.  
+
+## Inadequate Feedback {.smaller}
+
+**Problem**: Reviewers may provide vague or unhelpful comments, leaving the author unsure of how to proceed.  
+
+**Impact**: Reduces the effectiveness of the review and prolongs the process.  
+
+. . .
+
+**Solution**:  
+
+- Ensure feedback is specific, actionable, and concise.  
+- Use examples or links to documentation to clarify points.  
+- Balance feedback by highlighting both strengths and areas for improvement.  
+
+
+# Reviewing a Contribution
+
+## Understanding a Review
+
+- Anyone can review a PR, including non-maintainers!
+- If you see a PR from another author and have suggestions for improvement, feel free to leave a review.
+
+## Review Statuses
+
+When submitting a review, you can select from three statuses:
+
+::: {.incremental}
+
+1. **Comment**: Provide general feedback without explicitly approving or requesting changes.
+2. **Approve**: Indicate that the changes are acceptable, and approve merging the PR.
+3. **Request Changes**: Highlight issues that need to be addressed before the PR can be merged.
+
+::: 
+
+## Requesting a Review for a Pull Request
+
+After creating a PR, you can request specific individuals or teams to review it.
+
+- Only members of the BHK Lab organization can request reviews from other members.
+
+# Conclusion
+
+Code Review >> Peer Review
+
+
+## 
+::: {style="text-align:center;"}
+![](images/code-review-art.png){.center height="50%" width="50%"}
+:::
+
+
+::: {style="text-align:center;"}
+## Tutorial Review Time!
+![](images/tutorial-review-assignments.png){.center height="70%" width="70%"}
+:::
