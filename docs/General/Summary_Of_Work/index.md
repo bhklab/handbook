@@ -1,4 +1,4 @@
-# [Summary of Work Tutorial](#summary-of-work-tutorial)
+# [Summary of Work (SOW) Tutorial](#summary-of-work-tutorial)
 
 Every week, you are required to fill out a Summary of Work (SOW) document that will be reviewed by Ben. This is especially important when Ben is away from the lab, so he can stay up to date on your project progress.
 

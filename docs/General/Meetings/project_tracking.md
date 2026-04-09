@@ -9,7 +9,7 @@ We use four different spreadsheets to track updates. Each of them will be linked
 
 ### To Dos & Deadlines for BHK
 
-If there are any upcoming tasks or deadlines that you need Ben to address, [this spreadsheet](https://docs.google.com/spreadsheets/d/1gnfwpzSho3ePF1WhFLZC8aGuDp9IG-mM6GMHbURjy8A/edit?gid=0#gid=0) is where you add your requests.
+If there are any upcoming tasks or deadlines that you need Ben to address, see 'To Do and Deadlines for BHK -  Tracker' in your BHKLab [Google Drive](https://drive.google.com/drive), search for `BHK Lab Spreadsheets` to get access is where you add your requests.
 The following are the columns in the spreadsheet:
 
 - **Task**: Add a general descriptive title for the task.
@@ -21,7 +21,7 @@ The following are the columns in the spreadsheet:
 
 ### Manuscript Progress
 
-If you have any updates on the progress of your manuscript, [this spreadsheet](https://docs.google.com/spreadsheets/d/1dZcNEmIGCdFthwj5cskuATfDTJ-7Mup8D5gO_HrmIPE/edit?usp=sharing) is where you add your updates.
+If you have any updates on the progress of your manuscript,  'List Ongoing Papers BHKLab - Tracker' in your BHKLab [Google Drive](https://drive.google.com/drive), search for `BHK Lab Spreadsheets` is where you add your updates.
 The following are the columns in the spreadsheet:
 
 - **Lead Author (Mandatory)**: Add the name of the lead author of the manuscript. There can be multiple names if there are multiple lead authors working on this manuscript.
@@ -32,7 +32,7 @@ The following are the columns in the spreadsheet:
 
 ### Grants & Award Applications
 
-Information and updates regarding any grants or awards the lab is applying for can be found in [this spreadsheet](https://docs.google.com/spreadsheets/d/1EuFaUxtk2kPueZwmjTopyRvnFduuSbp5Byf0gEWA7kw/edit?usp=sharing).
+Information and updates regarding any grants or awards the lab is applying for can be found in 'Grants & Awards application - Tracker' in your BHKLab [Google Drive](https://drive.google.com/drive), search for `BHK Lab Spreadsheets` to get access.
 The following are the columns in the spreadsheet:
 
 - **Proposed project/idea**: Add a general descriptive title for the project or idea.
@@ -52,7 +52,7 @@ The following are the columns in the spreadsheet:
 
 ### Data Access Status
 
-Throughout your time in the lab, you may want to request access to additional datasets. [This spreadsheet](https://docs.google.com/spreadsheets/d/1j4umcD30PE8DM6LPCrkTUeKV3jUgaaPSUBis964FdrQ/edit?usp=sharing) is where you can track the status of your data access requests.
+Throughout your time in the lab, you may want to request access to additional datasets. 'List of dataset Requests & Renewals - Tracker' is where you can track the status of your data access requests.
 The following are the columns in the spreadsheet:
 
 - **Dataset Name**: Add the name of the dataset you are requesting access to.

@@ -22,7 +22,7 @@ We have four rows of workspaces available in the lab. You will be assigned a wor
 ## Lab Equipment Inventory
 In the lab, each workspace is typically equipped with a monitor, keyboard, and a mouse. Unless otherwise specified, you are expected to bring in your own laptop. We utilize cloud-based services for computing and data storage, so your project work shouldn't take up too much space on your laptop.
 
-To keep track of the lab hardware, we use a [Lab Equipment Inventory](https://docs.google.com/spreadsheets/d/1zFbTAdv5DT6tnajDMeXwoWP65VzjcD9PxynnXzholwE/edit?gid=212760015#gid=212760015&fvid=1883342253) spreadsheet. Each piece of equipment in the lab is labelled with a circular sticker, numbered, and logged in the spreadsheet. You can review the spreadsheet to confirm which pieces of equipment you have access to. 
+To keep track of the lab hardware, we use a Lab Equipment Inventory spreadsheet. In your BHKLab [Google Drive](https://drive.google.com/drive), search for `BHK Lab Spreadsheets` to get access to this sheet. Each piece of equipment in the lab is labelled with a circular sticker, numbered, and logged in the spreadsheet. You can review the spreadsheet to confirm which pieces of equipment you have access to. 
 
 ??? "Note: Accessing the Lab Equipment Inventory"
     This spreadsheet is only accessible to BHKLab members via their [BHKLab Gmail](../Communications/bhklab_gmail.md) account. Please contact your lab coordinator if you need access.

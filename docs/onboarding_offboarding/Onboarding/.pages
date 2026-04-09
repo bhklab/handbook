@@ -2,6 +2,7 @@ nav:
     - index.md
     - uhn_onboarding.md
     - bhklab_onboarding.md
+    - Attendance: Attendance.md
     - vpn.md
     - mbp_rotation.md
     - lab_member_expertise.md

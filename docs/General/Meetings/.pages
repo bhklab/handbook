@@ -2,10 +2,11 @@ title: Meetings
 
 nav:
     - index.md
+    - owl_basics.md
     - lab_meeting.md
     - journal_club.md
-    - pgx_meeting.md
+    - ben_1_on_1.md
+    - project_tracking.md
     - Radiomics_meeting.md
     - Software_dev_meeting.md
-    - owl_basics.md
     

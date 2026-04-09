@@ -18,4 +18,4 @@ Attendance is mandatory for all software developers in the lab
 
 ## Resources
 
-The meeting notes need to be filled out for every meeting in the [Software dev meeting - coverage](https://docs.google.com/document/d/1EC3GJx7WcrEdct6AUfx8TQ0_j9Ynp7xL_VhRKR6gdzo/edit?tab=t.0#heading=h.cb36cmtrnmi0) document.
+The meeting notes need to be filled out for every meeting in the Software dev meeting - coverage document. Please contact one of the developers to access this document.

@@ -13,7 +13,22 @@ The following meetings are specific to disciplines in the lab and are mandatory 
 | Discipline-specific Meetings                    | Frequency           | Date and time           | Slack channel      |
 |-------------------------------------------------|---------------------|-------------------------|--------------------|
 | [Radiomics team meeting](Radiomics_meeting.md)  | Biweekly            | Tuesdays, 2-3 p.m.      | #radiomics         |
-| [PGx team meeting](pgx_meeting.md)              | Biweekly            | Tuesdays, 2-3 p.m.      | #pharmacogenomics  |
 | [Software Developer team meeting](Software_dev_meeting.md)| Monthly   | Mondays, 12-1 p.m.      | #software-developer|
 
+
 We use The Meeting Owl for our meetings so they can be ran hybridly. See the [Meeting Owl Basics](owl_basics.md) page to learn more about how to use it.
+
+
+## 1-1 Meetings with Benjamin
+
+--8<--
+docs/General/Meetings/ben_1_on_1.md:2:12
+--8<--
+
+---
+## Pharmacogenomics Meeting (Deprecated)
+
+Starting March 2026, the lab has moved to project-specific meetings considering the stand-alone nature of PGx projects. Group PGx meetings will no longer happen.
+
+## Meeting frequency of project-specific meetings
+Once or twice a month or as required by project leads.

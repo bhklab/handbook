@@ -14,6 +14,7 @@
 
 Every lab meeting begins with a 15-20 minute status update. See [pre lab meeting catchup slides](https://docs.google.com/presentation/d/1Gk5uMTpn8XCMvXmoP8AWjW3x-QM0mHfPB1BfteBfqK8/edit#slide=id.g2684830fade_0_0) for a list of status update materials.
 
+
 ## Meeting Objectives
 
 During lab meetings, you may present the research idea and feasibility, preliminary analyses, progress of your work, or any topics that require feedback from the lab.
