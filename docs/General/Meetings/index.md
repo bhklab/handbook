@@ -21,13 +21,9 @@ We use The Meeting Owl for our meetings so they can be ran hybridly. See the [Me
 
 ## 1-1 Meetings with Benjamin
 
-Starting March 2026, the 1-1 slots are available on a first come first serve basis. 
-
-In the [BHKLab Calendar](../Communications/bhklab_calendar.md), slots will be labeled as '1-1 BHKLAB meeting slot #'. To book your meeting with Ben:
-
-1. Edit your preferred slot, making sure it is not booked by anyone else. 
-2. Change the event title to 'your name/BHK'
-3. Click Save. In the "Edit recurring event" popup, select 'This event'. Do not save the slot as a recurring meeting, as these slots are rolling.
+--8<--
+docs/General/Meetings/ben_1_on_1.md:2:12
+--8<--
 
 ---
 ## Pharmacogenomics Meeting (Deprecated)
