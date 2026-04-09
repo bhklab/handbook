@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.10.0](https://github.com/bhklab/handbook/compare/v0.9.0...v0.10.0) (2026-04-09)
+
+
+### Features
+
+* add instructions for new VPN client (Netskope) setup ([#320](https://github.com/bhklab/handbook/issues/320)) ([cd53872](https://github.com/bhklab/handbook/commit/cd53872b7d87b97418e9e043ed84ae832a834a85))
+* Updated from labgpt testing ([#319](https://github.com/bhklab/handbook/issues/319)) ([8922a01](https://github.com/bhklab/handbook/commit/8922a01a12c1b603f475ce489a2bad6343c0d5e3))
+
 ## [0.9.0](https://github.com/bhklab/handbook/compare/v0.8.0...v0.9.0) (2026-03-18)
 
 
