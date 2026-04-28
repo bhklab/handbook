@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.11.0](https://github.com/bhklab/handbook/compare/v0.10.0...v0.11.0) (2026-04-28)
+
+
+### Features
+
+* update admin and index onboarding pages ([#324](https://github.com/bhklab/handbook/issues/324)) ([bd52bc2](https://github.com/bhklab/handbook/commit/bd52bc20f5c810e5842eecd4413d2b8ba7a5c878))
+
 ## [0.10.0](https://github.com/bhklab/handbook/compare/v0.9.0...v0.10.0) (2026-04-09)
 
 
