@@ -36,6 +36,15 @@ Upon successful completion of UHN onboarding, Soleil will send an email (Subject
 
 Respond to the email with the following template: [Email Template](bhklab_onboarding_email_template.emltpl)
 
+Make sure to include:  
+
+* The BHKLab Onboarding Form link
+* Their workspace allocation
+* A date and time for an on-site/virtual onboarding meeting
+
+!!! tip "UHN Onboarding Meeting"
+    The UHN Onboarding sessions are typically a virutal meeting held on Mondays from 9am-12pm. Try to schedule the BHKLab Onboarding meeting on Tuesday to accomodate this.
+
 ---
 
 ## Onboarding Form Completion
@@ -45,28 +54,33 @@ You can start setting up their lab access now.
 
 ### 1. [BHKLab Member Tracking sheet](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=168762825#gid=168762825)
 
-1. Set their `ACTIVE STATUS` to `Onboarding`
-1. Add their bhklab gmail to the [BHKLab Members Google Group](https://groups.google.com/g/bhklab-members)
-1. Check off the boxes for lab resource access as they have been set up following the instructions below.
+1. In the `BHKLab_Onboaring_Form_Response` tab, set their `ACTIVE STATUS` to `Onboarding`
+1. Add their BHKLab gmail to the [BHKLab Members Google Group](https://groups.google.com/g/bhklab-members)
+1. In the `Transit Member Data` tab:
+    1. Copy their Name, Start Date, and Assigned Workspace from the `Student Hiring` table to `Onboarding Data`
+    1. Fill in information and check off the boxes for lab resource access as they have been set up following the instructions below.
 
 ---
 
 ### 2. BHKLab Slack
 Invite them to the BHKLab Slack with their provided Slack email address
+
 1. On Slack, click on the `BHKLab` workspace title.
 1. Click `Invite people to BHKLab`
 1. Enter the provided email address
 1. Select if this user is a member or guest
 1. Click `Send Request`
 !!! note
-    Slackbot will send a request in the `#admin` channel that must be approved by the lab coordinator for the user to be added to the `BHKLab` workspace.
+    If you are not an administrator, Slackbot will send a request in the `#admin` channel that must be approved by the lab coordinator for the user to be added to the `BHKLab` workspace.
 
 --- 
 
 ### 3. [BHKLAB GitHub organization](https://github.com/orgs/bhklab)
+
 Invite them to the BHKLAB GitHub organization with their provided GitHub email address.
 !!! warning "GitHub Admin Requirement"
     To add users to the BHKLAB GitHub organization, you must be an owner in the BHKLAB GitHub organization. If you are not an owner, check the [People tab](https://github.com/orgs/bhklab/people?query=role%3Aowner) of the organization to see who to contact to add this user.
+
 1. Go to the [BHKLAB GitHub organization](https://github.com/orgs/bhklab)
 1. Navigate to the `People` tab
 1. Click the 'Invite member' button
@@ -77,7 +91,7 @@ Invite them to the BHKLAB GitHub organization with their provided GitHub email a
 ### 4. (Optional) H4H Access
 If the new lab member requires access to H4H for their project, they need an account to be created for them and granted access to the lab project directories.
 
-1. Ask the new member to send an email to Zhibin Liu (zhibin.liu@uhn.ca) and CC Ben, Sisira, and you. Include the following information:
+1. Ask the new member to send an email to Zhibin Liu (zhibin.liu@uhn.ca) and CC Ben, Sisira, and yourself. Include the following information:
     - Their UHN email address or TID
     - What directories they need access to: `bhklab` if project is in PGx and `radiomics` if project is in Radiomics
 1. Ben will reply to approve the request.
@@ -91,8 +105,19 @@ If the new lab member requires access to H4H for their project, they need an acc
 * Brief about working mode (onsite vs. virtual days)
 * Lab meeting and JC scheduling
     - Mention Julia is in charge of scheduling
-* Confirm they can see the Google Calendar
-* Confirm they are in Slack
+* Confirm they can see the [BHKLab Google Calendar](../../General/Communications/bhklab_calendar.md)
+    - They must be looking at it with their bhklab Gmail. Typically recommend they make a new Google Chrome profile with this to make access easier. 
+* Confirm they have access to the BHKLab [Slack](../../General/Communications/slack.md)
 * Confirm they accepted the GitHub invite
 * When meeting is complete, get them to set up their [Summary of Work document](../../General/Summary_Of_Work/index.md)
 * Connect them with their mentors
+
+
+---
+
+## Final Steps
+
+1. In the `BHKLab_Onboaring_Form_Response` tab of the BHKLab Member Tracking sheet, set the new students `ACTIVE STATUS` to `Active`  
+    - Confirm that they show up on the `Active Members` tab now.
+1. In the `Transit Member Data` tab, make sure all of the tools have been checked off, then remove the data from the `Onboarding Data` table.
+1. Notify the Admin team on Slack that the BHKLab Onboarding is complete. 

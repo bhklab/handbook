@@ -40,6 +40,5 @@ BHK Lab has developed a series of data storage guidelines to ensure that files c
 - [Lab Meeting best practices](../../General/Meetings/lab_meeting.md)
 - [Journal club best practices](../../General/Meetings/journal_club.md)
 - [HPC4Health help](https://bhklab.github.io/HPC4Health/)
-- [R Coding](https://collaborate.uhnresearch.ca/confluence/display/BHKLabPRC/Coding+Style)
-- [Scientific Software Best Practices](https://collaborate.uhnresearch.ca/confluence/display/BHKLabPRC/Scientific+Software+Best+Practices)
+- [R Coding](../../software_development/Languages/R/index.md)
 
