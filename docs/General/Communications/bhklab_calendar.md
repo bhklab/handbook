@@ -13,3 +13,15 @@ Your BHKLab Gmail account will be added to the BHKLab Calendar as part of your O
     You should see an email like the one below including the link to add the calendar to your Google Calendar.
 
     ![](img/bhklab_calendar_invite_email.png){width=90%}
+
+## Event Availability (Free/Busy)
+
+When creating or updating events in the BHKLab Calendar:
+
+* Mark any BHKLab events that BHK is not attending as **"Free"** rather than **"Busy"**.
+* Mark away-time events (e.g., vacation, conference travel, or other absences) as **"Free"**.
+
+These settings keep everyone's availability accurate and avoid scheduling conflicts.
+
+To set this in Google Calendar: open the event → change availability from
+**Busy** to **Free** → **Save**.
