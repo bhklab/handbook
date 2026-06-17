@@ -32,3 +32,9 @@ Starting March 2026, the lab has moved to project-specific meetings considering 
 
 ## Meeting frequency of project-specific meetings
 Once or twice a month or as required by project leads.
+
+
+
+--8<--
+docs/General/Communications/bhklab_calendar.md:17:27
+--8<--
