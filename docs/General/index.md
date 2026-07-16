@@ -6,6 +6,10 @@ The handbook is a collection of resources for the BHK Lab. It is intended to be 
 
 If you are new to the lab, make sure you start by reviewing all pages in this section (see the left sidebar) and in the [Onboarding][onboarding] section.
 
+Not finding what you're looking for?
+
+Ask labGPT, our AI assistant. From your Slack, type `/ask <your question>`
+
 ## Quick Links
 
 ### Lab Trackers

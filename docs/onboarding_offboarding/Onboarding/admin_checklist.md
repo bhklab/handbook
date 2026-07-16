@@ -112,7 +112,8 @@ If the new lab member requires access to H4H for their project, they need an acc
 * When meeting is complete, get them to set up their [Summary of Work document](../../General/Summary_Of_Work/index.md)
 * Connect them with their mentors
 
-
+!!! note
+    Introduce labGPT as a Slack tool for further onboarding questions and existing scientific resources.  
 ---
 
 ## Final Steps
