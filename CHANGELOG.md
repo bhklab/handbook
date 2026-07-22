@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.11.0](https://github.com/bhklab/handbook/compare/v0.10.0...v0.11.0) (2026-07-22)
+
+
+### Features
+
+* update admin and index onboarding pages ([#324](https://github.com/bhklab/handbook/issues/324)) ([bd52bc2](https://github.com/bhklab/handbook/commit/bd52bc20f5c810e5842eecd4413d2b8ba7a5c878))
+
+
+### Bug Fixes
+
+* correct ben's email as a link on 1-on-1 meeting page ([93c22c4](https://github.com/bhklab/handbook/commit/93c22c42f61925e24392886ea97e0afa07ae9392))
+* correct links to lab meeting and journal club on attendance page ([26b0804](https://github.com/bhklab/handbook/commit/26b0804d886e28283414ad3ad026559290fde0e6))
+* handle warnings for links and anchors during build ([#336](https://github.com/bhklab/handbook/issues/336)) ([f1869b6](https://github.com/bhklab/handbook/commit/f1869b6cc5ad22749d7784f9de21910bcea2341c))
+* updated meetings, labgpt ([#330](https://github.com/bhklab/handbook/issues/330)) ([bb021dc](https://github.com/bhklab/handbook/commit/bb021dcffe6afe2bef3c4d94ecb917d7b5b1b3a5))
+
 ## [0.10.0](https://github.com/bhklab/handbook/compare/v0.9.0...v0.10.0) (2026-04-09)
 
 
