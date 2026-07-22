@@ -19,10 +19,14 @@ The following meetings are specific to disciplines in the lab and are mandatory 
 We use The Meeting Owl for our meetings so they can be ran hybridly. See the [Meeting Owl Basics](owl_basics.md) page to learn more about how to use it.
 
 
-## 1-1 Meetings with Benjamin
-
+## Meetings with Benjamin  
 --8<--
-docs/General/Meetings/ben_1_on_1.md:2:12
+docs/General/Meetings/ben_1_on_1.md:2:19
+--8<--
+
+---
+--8<--
+docs/General/Communications/bhklab_calendar.md:17:27
 --8<--
 
 ---
@@ -35,6 +39,4 @@ Once or twice a month or as required by project leads.
 
 
 
---8<--
-docs/General/Communications/bhklab_calendar.md:17:27
---8<--
+

@@ -1,5 +1,4 @@
-# Meetings with Benjamin
-
+# Meetings with Benjamin  
 ## 1-1 meetings
 
 Starting March 2026, 1-1 meeting slots with Benjamin are available on a first come first serve basis. 
@@ -16,4 +15,4 @@ To book your meeting with Ben:
 
 Please check Benjamin's availabilities using [Outlook calendar](https://outlook.office.com/book/MeetwithBenjaminHaibeKains@uhn.ca/)
 
-**Starting June 2026, Use Benjamin's UHN emails for all communications. When booking a slot in the BHKLAB calendar, make sure you always add his [UHN email](benjamin.haibe-kains@uhn.ca) as invitee.**
+**Starting June 2026, use Benjamin's UHN emails for all communications. When booking a slot in the BHKLAB calendar, make sure you always add his UHN email (benjamin.haibe-kains@uhn.ca) as invitee.**
