@@ -62,9 +62,9 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/bhklab/
       name: Connect with us on LinkedIn!
-  version:
-    provider: mike
-    default: latest
+  # version:
+  #   provider: mike
+  #   default: stable
   generator: false                     # disable 'built with MkDocs' footer
 
 extra_javascript:
