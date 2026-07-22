@@ -1,7 +1,7 @@
 # Lab attendance requirements and vacation days  
 ## How many days do I have to be in-person?
 
-At BHK Lab, we encourage all members to be in-person for lab meetings and journal clubs on Tuesdays and Wednesdays respectively. See the [lab meeting](../../General/Meetings/lab_meeting.md) and [journal club](../../General/Meetings/journal_club.md) pages to learn more.
+At BHK Lab, we encourage all members to be in-person for lab meetings and journal clubs on Tuesdays and Wednesdays respectively. See the [lab meeting](lab_meeting.md) and [journal club](journal_club.md) pages to learn more.
 
 Note - You will need to be onsite for project specific meetings or as required by your leads.
 
