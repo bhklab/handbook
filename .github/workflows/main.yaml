@@ -49,4 +49,4 @@ jobs:
 
       - name: Build and deploy documentation (only on push to main)
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        run: pixi run mike deploy --push dev devel
+        run: pixi run mkdocs gh-deploy --force
