@@ -48,7 +48,6 @@ plugins:
   - git-revision-date-localized:      # adds a date to the bottom of each page
       enable_creation_date: true
   - include-markdown                  # allows for including Markdown files into another Markdown file
-  - mike                              # mike handles versioned documentation
   - table-reader                      # allows to directly insert various table formats into a page
 
 extra:
@@ -62,9 +61,9 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/bhklab/
       name: Connect with us on LinkedIn!
-  version:
-    provider: mike
-    default: latest
+  # version:                          # note: removed mike fully via commit 885cf06cc86094a9d5b593da03af77f6bdb49071 
+  #   provider: mike                  # this was because we have no need to keep older versions accessible
+  #   default: stable
   generator: false                     # disable 'built with MkDocs' footer
 
 extra_javascript:

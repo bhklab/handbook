@@ -12,7 +12,6 @@ mkdocs-material = ">=9.5.24,<9.6"
 mkdocs-macros-plugin = ">=1.0.5,<1.1"
 mkdocs-glightbox = ">=0.4.0,<0.5"
 mkdocs-autorefs = ">=1.2.0,<2"
-mike = ">=2.1.2,<2.2"
 mkdocs-git-revision-date-localized-plugin = ">=1.2.9,<2"
 mkdocs-include-markdown-plugin = ">=7.0.0,<8"
 mkdocs-redirects = ">=1.2.1,<2"
@@ -54,6 +53,10 @@ markdownlint-cli = ">=0.42.0,<0.43"
 
 [feature.lint.tasks.markdownlint]
 description = "Lint Markdown files"
-cmd = ["markdownlint","--ignore-path", ".markdownlintignore", "--config", ".markdownlint.json"]
-
-
+cmd = [
+    "markdownlint",
+    "--ignore-path",
+    ".markdownlintignore",
+    "--config",
+    ".markdownlint.json",
+]
