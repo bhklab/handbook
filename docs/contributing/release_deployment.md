@@ -74,9 +74,9 @@ users to access documentation relevant to any specific version of the project.
 
 If you need to release a new version of the documentation manually, you can follow these steps:
 
-1. Pull either the `main` branch or a specific release branch (e.g., `v0.1.0`) to your local machine.
+1. Pull the `main` branch to your local machine.
 
-=== "Releasing a `main` branch as `dev`"
+=== "Releasing a `main` branch"
 
       ```console
       $ git pull origin main
@@ -85,26 +85,10 @@ If you need to release a new version of the documentation manually, you can foll
       Already up to date.
       ```
 
-=== "Release a specific version branch"
+2. Use the `mkdocs` command to deploy the documentation to the `gh-pages` branch.
+
+=== "Releasing a `main` branch"
 
       ```console
-      $ VERSION=v0.1.0
-      $ git pull origin v$VERSION
-      From https://github.com/bhklab/handbook
-      * branch            v0.1.0     -> FETCH_HEAD
-      Already up to date.
-      ```
-
-2. Use the `mike` command to deploy the documentation to the `gh-pages` branch.
-
-=== "Releasing a `main` branch as `dev`"
-
-      ```console
-      $ pixi run mike deploy --push dev devel
-      ```
-
-=== "Release a specific version branch"
-
-      ```console
-      $ pixi run mike deploy --push --update-aliases $VERSION latest
+      $ pixi run mkdocs gh-deploy --force
       ```
