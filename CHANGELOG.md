@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.12.0](https://github.com/bhklab/handbook/compare/v0.11.0...v0.12.0) (2026-07-23)
+
+
+### Features
+
+* remove versioning drop down from header ([#337](https://github.com/bhklab/handbook/issues/337)) ([9e0b7f9](https://github.com/bhklab/handbook/commit/9e0b7f966cab97b34448a9e6c4b066e07bbd7908))
+
+
+### Bug Fixes
+
+* update deployment function and documentation to reflect removal of mike ([#339](https://github.com/bhklab/handbook/issues/339)) ([4f05857](https://github.com/bhklab/handbook/commit/4f05857f49a25abc9176ec878a50d961e1c45a0a))
+
 ## [0.11.0](https://github.com/bhklab/handbook/compare/v0.10.0...v0.11.0) (2026-07-22)
 
 
