@@ -11,4 +11,7 @@ Once you have accepted a role in the BHKLab, you will be contacted by Soleil Mir
 
 You will be invited to a mandatory New Employee Orientation webinar on the Monday of your first week at UHN. Soleil will let you know when your UHN Photo ID and PMCRT access card are ready for pick-up. 
 
+!!! warning "Photo ID Pickup Days"
+    Photo ID cannot be picked up from Toronto General Hospital (TGH) on Thursdays.
+
 Once the UHN Onboarding is done, you will be connected with Katy Scott for [BHKLab Onboarding](bhklab_onboarding.md).
