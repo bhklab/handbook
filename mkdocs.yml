@@ -51,7 +51,7 @@ plugins:
   - table-reader                      # allows to directly insert various table formats into a page
 
 extra:
-  homepage: https://bhklab.github.io/handbook/latest
+  homepage: https://bhklab.github.io/handbook/General/
   social:
     #######################################################################################
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
