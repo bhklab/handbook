@@ -3,24 +3,25 @@
 This checklist is for the assigned lab staff running the offboarding process.
 
 ## Before the Offboarding Initialization Meeting
-1. Create a folder in the **bhklab.archive** drive under [Offboarding Reports](https://drive.google.com/open?id=1QfFFfN4sKITbvyqEB_9QrdgW6ETulWk9) with the name of the lab member.
+1. Create a folder in the **bhklab.archive** drive under [Offboarding Reports](https://drive.google.com/open?id=1QfFFfN4sKITbvyqEB_9QrdgW6ETulWk9) in the current year directory with the name of the lab member.
     1. Confirm this folder is owned by bhklab.archive@gmail.com. Transfer ownership if necessary.
     1. Share this folder to the lab member's BHKLab Gmail (e.g. bhklab.johndoe@gmail.com).
+    1. Make a copy of the [Lab Off-boarding Information template](https://docs.google.com/document/d/1KhnDPSIPqvjw7__1ACFVlBg7tS21bKxaR5AdPV6voUs/edit?tab=t.0#heading=h.j2hjmkdukzsc) in this folder and rename to Lab Off-boarding Information - First Name Last Name
 
-1. Create a folder in the **bhklab.archive** drive under [Personal Folders](https://drive.google.com/drive/folders/1pkE9wPP4j8oDp2yocw4STB3EAj4BUfJh) with the name of the lab member.
+1. Create a folder in the **bhklab.archive** drive under [Personal Folders](https://drive.google.com/drive/folders/1pkE9wPP4j8oDp2yocw4STB3EAj4BUfJh) in the current year directory with the name of the lab member.
     1. All contents of the lab member's BHKLab Google Drive will be transferred to this folder.
 
 
 ### Offboarding Initialization Email Template
-Send the following email to the lab member to schedule the two meetings: [Email Template](offboarding_initialization.emltpl)
+Send the following email to the lab member to schedule the two meetings: [Email Template](offboarding_template_v2026.emltpl)
 
 CC the lab member's mentor/supervisor on this email. They are not required to attend the meetings, but should be aware of the offboarding process, including their requirement to review the Lab Off-boarding Information document. This review is mandatory to ensure the work is backed up properly and with the correct access permissions.
 
 The email must includes links to:
 
 * The [Offboarding Policy](index.md)
-* The [Lab Off-boarding Information template](https://docs.google.com/document/d/1KhnDPSIPqvjw7__1ACFVlBg7tS21bKxaR5AdPV6voUs/edit?tab=t.0)
-* The lab member's Offboarding Report folder
+* The lab member's Offboarding Report folder in the BHKLab Archive Drive
+* The lab member's Personal Folder folder in the BHKLab Archive Drive
 * The [Exit Interview Form](https://docs.google.com/forms/d/e/1FAIpQLSdnpTBRTcUmjQ0cnfP9MrN455Oy7tnW1JyRA4cgarvCs56pmQ/viewform?usp=sf_link)
     
 
