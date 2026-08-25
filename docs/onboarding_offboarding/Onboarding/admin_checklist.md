@@ -10,7 +10,7 @@ These instructions are for the assigned lab staff running the offboarding proces
     - An owner in the [BHKLAB GitHub organization](https://github.com/orgs/bhklab)
 
 ??? info "Pages to Have Open"
-    - [BHKLab Member Tracking sheet](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=168762825#gid=168762825)
+    - BHKLab Member Tracking sheet
     - [BHKLab Project Ideas sheet](https://docs.google.com/spreadsheets/d/1lCYb-FtZTe0ihC5boZ_I-WMFLRATtg9W3g0DGAOuHvI/edit?gid=0#gid=0)
     - [Lab workspace](https://docs.google.com/spreadsheets/d/1LOKDkhRi4wDBf5Cg5Cjzzdeh0frhG4YZ5h11d835Qa0/edit?gid=0#gid=0)
     - [Email Template](bhklab_onboarding_email_template.emltpl)
@@ -26,7 +26,7 @@ Exceptions are rotation students as we will be informed a few days before they j
 ## Upon Hiring
 Once a new lab member has been hired, the following steps should be taken:
 
-1. Add the new lab member to the [Incoming Member Data](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=168762825#gid=168762825) sheet in the BHKLab Member Tracking sheet.
+1. Add the new lab member to the **Onboarding Data** table in the **Transit Member Data** sheet in the BHKLab Member Tracking sheet.
 1. Determine what workspace the new lab member will be assigned to in the [Lab workspace](https://docs.google.com/spreadsheets/d/1LOKDkhRi4wDBf5Cg5Cjzzdeh0frhG4YZ5h11d835Qa0/edit?gid=0#gid=0) document. You may need to create a new tab to rearrange the seating. Consult with the lab coordinator about this.
 
 ---
@@ -52,7 +52,7 @@ Once they have completed the onboarding form their information will show up in t
 
 You can start setting up their lab access now.
 
-### 1. [BHKLab Member Tracking sheet](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=168762825#gid=168762825)
+### 1. BHKLab Member Tracking sheet
 
 1. In the `BHKLab_Onboaring_Form_Response` tab, set their `ACTIVE STATUS` to `Onboarding`
 1. Add their BHKLab gmail to the [BHKLab Members Google Group](https://groups.google.com/g/bhklab-members)
@@ -74,8 +74,18 @@ Invite them to the BHKLab Slack with their provided Slack email address
     If you are not an administrator, Slackbot will send a request in the `#admin` channel that must be approved by the lab coordinator for the user to be added to the `BHKLab` workspace.
 
 --- 
+### 3. BHKLab Members Google Group
+Add them directly to the BHKLab Members Google Group with their BHKLab Gmail.
 
-### 3. [BHKLAB GitHub organization](https://github.com/orgs/bhklab)
+1. With the BHKLab Research account, go to https://groups.google.com/my-groups
+1. Open the BHKLab Members group
+1. On the left navigation panel, select Members
+1. At the top of the page, click on the Add members button
+1. Enter the new lab member's BHKLab Gmail (e.g. bhklab.johnsmith@gmail.com)
+1. Check the box for Directly add members. This bypasses the need for the lab member to accept anything and grants them immediate access.
+
+---
+### 4. [BHKLAB GitHub organization](https://github.com/orgs/bhklab)
 
 Invite them to the BHKLAB GitHub organization with their provided GitHub email address.
 !!! warning "GitHub Admin Requirement"
@@ -88,7 +98,8 @@ Invite them to the BHKLAB GitHub organization with their provided GitHub email a
 1. Click `Invite`
 1. The new user will receive an email invitation to join the BHKLAB GitHub organization. They will need to accept the invitation within a week of receiving it.
 
-### 4. (Optional) H4H Access
+---
+### 5. (Optional) H4H Access
 If the new lab member requires access to H4H for their project, they need an account to be created for them and granted access to the lab project directories.
 
 1. Ask the new member to send an email to Zhibin Liu (zhibin.liu@uhn.ca) and CC Ben, Sisira, and yourself. Include the following information:
