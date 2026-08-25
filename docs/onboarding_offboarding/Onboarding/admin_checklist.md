@@ -74,8 +74,18 @@ Invite them to the BHKLab Slack with their provided Slack email address
     If you are not an administrator, Slackbot will send a request in the `#admin` channel that must be approved by the lab coordinator for the user to be added to the `BHKLab` workspace.
 
 --- 
+### 3. BHKLab Members Google Group
+Add them directly to the BHKLab Members Google Group with their BHKLab Gmail.
 
-### 3. [BHKLAB GitHub organization](https://github.com/orgs/bhklab)
+1. With the BHKLab Research account, go to https://groups.google.com/my-groups
+1. Open the BHKLab Members group
+1. On the left navigation panel, select Members
+1. At the top of the page, click on the Add members button
+1. Enter the new lab member's BHKLab Gmail (e.g. bhklab.johnsmith@gmail.com)
+1. Check the box for Directly add members. This bypasses the need for the lab member to accept anything and grants them immediate access.
+
+---
+### 4. [BHKLAB GitHub organization](https://github.com/orgs/bhklab)
 
 Invite them to the BHKLAB GitHub organization with their provided GitHub email address.
 !!! warning "GitHub Admin Requirement"
@@ -88,7 +98,8 @@ Invite them to the BHKLAB GitHub organization with their provided GitHub email a
 1. Click `Invite`
 1. The new user will receive an email invitation to join the BHKLAB GitHub organization. They will need to accept the invitation within a week of receiving it.
 
-### 4. (Optional) H4H Access
+---
+### 5. (Optional) H4H Access
 If the new lab member requires access to H4H for their project, they need an account to be created for them and granted access to the lab project directories.
 
 1. Ask the new member to send an email to Zhibin Liu (zhibin.liu@uhn.ca) and CC Ben, Sisira, and yourself. Include the following information:
