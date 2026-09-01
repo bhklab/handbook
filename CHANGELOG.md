@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.0](https://github.com/bhklab/handbook/compare/v0.12.0...v0.13.0) (2026-09-01)
+
+
+### Features
+
+* note about Personal Folder for rotation students in on-/off-boarding ([#345](https://github.com/bhklab/handbook/issues/345)) ([67e0dba](https://github.com/bhklab/handbook/commit/67e0dba7b648adb67e17102022187742ce28b5f7))
+
 ## [0.12.0](https://github.com/bhklab/handbook/compare/v0.11.0...v0.12.0) (2026-07-27)
 
 
