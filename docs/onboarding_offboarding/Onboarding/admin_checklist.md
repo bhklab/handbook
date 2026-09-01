@@ -52,6 +52,12 @@ Once they have completed the onboarding form their information will show up in t
 
 You can start setting up their lab access now.
 
+!!! abstract "Rotation Students"
+    If the new lab member is an MBP Rotation student, **they will not make a BHKLab Gmail** since they are only with the lab for three weeks. Instead, they will provide their personal Gmail for you to add to the [BHKLab Members Google Group](https://groups.google.com/g/bhklab-members).
+
+    For their lab work, create a folder for them in the BHKLab Archive Drive in `Personal Folders/[current year]` folder. Share this with the rotation student and their supervisor. This will also help make off-boarding quicker.
+
+
 ### 1. BHKLab Member Tracking sheet
 
 1. In the `BHKLab_Onboaring_Form_Response` tab, set their `ACTIVE STATUS` to `Onboarding`
