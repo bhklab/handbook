@@ -11,6 +11,9 @@ This checklist is for the assigned lab staff running the offboarding process.
 1. Create a folder in the **bhklab.archive** drive under [Personal Folders](https://drive.google.com/drive/folders/1pkE9wPP4j8oDp2yocw4STB3EAj4BUfJh) in the current year directory with the name of the lab member.
     1. All contents of the lab member's BHKLab Google Drive will be transferred to this folder.
 
+!!! tip Rotation Students
+    Rotation students should already have a Personal Folder that was made for them during onboarding. They only need to do the Offboarding Report and to transfer ownership of files to BHKLab Archive.
+
 
 ### Offboarding Initialization Email Template
 Send the following email to the lab member to schedule the two meetings: [Email Template](offboarding_template_v2026.emltpl)
