@@ -67,7 +67,20 @@ To ensure continued access to all lab work related documents, we ask that the em
     !!! warning
         This should not include code or internal datasets. Please store these in the appropriate locations (e.g. GitHub, H4H, etc.).
 
-1. Transfer ownership of **all contents** of your BHKLab Google Drive to <bhklab.archive@gmail.com>. This can be done from the top level of the drive by selecting all contents and clicking the share button.
+1. Transfer ownership of **all contents** of your BHKLab Google Drive to <bhklab.archive@gmail.com>.
+    1. This is easiest to do in sections, but can be done from the top level if there aren't many files. 
+    1. Under the name of the folder at the top of the page, click on the `People` dropdown.
+        1. Hover over your name to bring up a side menu. 
+        1. Click the `Owner` option.
+    1. All the files and shortcuts you own will be listed.
+        1. Shortcuts are items you created an alias for in your drive but are actually owned by others. If you want to include these in your off-boarding, link them in your off-boarding document.
+    1. Select all of the files that have your name under the Owner column (you can use Shift-click or Ctrl/Cmd-Click to select multiple).
+    1. Right click on a selected file and select Share.
+        1. Add bhklab.archive@gmail.com as an `Editor`. 
+        1. Close the Share menu. *Don't unselect the list of files yet!*
+    1. Right click on a selected file **again** and select Share.
+        1. In the dropdown next to Benjamin Haibe-Kains (the name for the bhklab.archive account), select `Transfer Ownership`. Click `Send Invitation` in the pop-up that appears.
+
 
 If there are private documents you wish to keep private, please move these to your personal storage. 
 
