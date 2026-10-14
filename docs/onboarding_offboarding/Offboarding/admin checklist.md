@@ -2,9 +2,9 @@
 
 For the assigned lab staff running the offboarding. Source: [Admin Offboarding Instructions](https://bhklab.github.io/handbook/onboarding_offboarding/Offboarding/admin_checklist/). 
 
-Departing member: \_\_\_\_\_\_\_\_\_\_\_\_  
+**Departing member:** \_\_\_\_\_\_\_\_\_\_\_\_
 
-Last working day: \_\_\_\_\_\_\_\_\_\_\_\_
+**Last official working day:** \_\_\_\_\_\_\_\_\_\_\_\_
 
 ## 1. Before the Offboarding Initialization Meeting
 

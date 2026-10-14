@@ -2,8 +2,9 @@
 
 For anyone leaving BHKLab. Source: [Offboarding Policy](https://bhklab.github.io/handbook/onboarding_offboarding/Offboarding/). 
 
-Name: \_\_\_\_\_\_\_\_\_\_\_\_  
-Last official working day: \_\_\_\_\_\_\_\_\_\_\_\_
+**Departing member:** \_\_\_\_\_\_\_\_\_\_\_\_
+
+**Last official working day:** \_\_\_\_\_\_\_\_\_\_\_\_
 
 ## 1. Meetings
 
