@@ -68,6 +68,5 @@ One parent folder containing all ongoing and completed project work, renamed to 
 
 - [ ] Emailed Dr. Benjamin Haibe-Kains from your non-UHN email, mentors in cc, stating the purpose of the letter
 
-## Note
-
-If lab assets are not returned, you may be subject to collection agency pursuit and/or legal action, and letters of recommendation will not be issued.
+!!! warning "Unreturned lab assets"
+    If lab assets are not returned, you may be subject to collection agency pursuit and/or legal action, and letters of recommendation will not be issued.

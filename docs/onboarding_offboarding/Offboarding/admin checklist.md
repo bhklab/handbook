@@ -12,7 +12,11 @@ For the assigned lab staff running the offboarding. Source: [Admin Offboarding I
     - [ ] Confirmed the folder is owned by bhklab.archive@gmail.com (transfer ownership if not)
     - [ ] Shared the folder with the member's BHKLab Gmail
     - [ ] Copied the [Lab Off-boarding Information template](https://docs.google.com/document/d/1KhnDPSIPqvjw7__1ACFVlBg7tS21bKxaR5AdPV6voUs/edit?tab=t.0#heading=h.j2hjmkdukzsc) into the folder, renamed "Lab Off-boarding Information - First Name Last Name"
-- [ ] Created a folder in the bhklab.archive drive under [Personal Folders](https://drive.google.com/drive/folders/1pkE9wPP4j8oDp2yocw4STB3EAj4BUfJh), in the current year directory, named for the member (rotation students already have one from onboarding; they only need the Offboarding Report and the ownership transfer)
+- [ ] Created a folder in the bhklab.archive drive under [Personal Folders](https://drive.google.com/drive/folders/1pkE9wPP4j8oDp2yocw4STB3EAj4BUfJh), in the current year directory, named for the member
+
+    !!! tip "Rotation students"
+        Rotation students already have a Personal Folder from onboarding; they only need the Offboarding Report and the ownership transfer.
+
 - [ ] Sent the [initialization email](https://bhklab.github.io/handbook/onboarding_offboarding/Offboarding/offboarding_template_v2026.emltpl) to schedule both meetings, with the mentor/supervisor in cc (not required to attend, but must review the Off-boarding Information document)
 - [ ] Email includes links to:
     - [ ] The [Offboarding Policy](https://bhklab.github.io/handbook/onboarding_offboarding/Offboarding/)
