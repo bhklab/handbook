@@ -1,0 +1,6 @@
+nav:
+    - Offboarding Policy: index.md
+    - Admin Instructions: readme_for_admin.md
+    - Checklists:
+        - Departing Staff: leaving staff checklist.md
+        - Admin: admin checklist.md
