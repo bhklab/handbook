@@ -46,7 +46,7 @@ Last working day: \_\_\_\_\_\_\_\_\_\_\_\_
 ## 4. After the Exit Interview
 
 - [ ] Updated member status to "Alumni" in the [BHKLab Member Tracking](https://docs.google.com/spreadsheets/d/1chXQ5U3NL4EZ1ALw7JxmRCmrT0W4SVTt_gT8LUfBHmQ/edit?gid=1405839011#gid=1405839011) sheet
-  - [ ] Updated the Offboarding Data table in "Transit Member Data" with the resource access expiry date and which tools were deactivated
+    - [ ] Updated the Offboarding Data table in "Transit Member Data" with the resource access expiry date and which tools were deactivated
 - [ ] Updated member status on the [BHKLab website](https://www.bhklab.ca/)
 - [ ] Removed the member from the [Lab Member Expertise](https://bhklab.github.io/handbook/onboarding_offboarding/Onboarding/lab_member_expertise/) page
 - [ ] In the bhklab.archive Drive, accepted ownership of the member's Drive contents and moved them into their Personal Folder
